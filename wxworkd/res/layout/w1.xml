@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:id="@id/edh" android:background="@color/atc" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/ffb" android:background="@color/a47" android:layout_width="fill_parent" android:layout_height="0.30000007dip" android:layout_alignParentTop="true" />
+    <RelativeLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="16.0dip">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/dmw" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentLeft="true" android:foregroundGravity="center_vertical" />
+        <com.tencent.wework.common.views.ConfigurableEditText android:textSize="@dimen/s4" android:textColorHint="@color/a4_" android:gravity="center_vertical" android:id="@id/bab" android:background="@drawable/kh" android:paddingLeft="12.0dip" android:paddingTop="12.0dip" android:paddingRight="12.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="0.30000007dip" android:hint="@string/ckk" android:singleLine="true" android:layout_toRightOf="@id/dmw" app:inputLimit="32" />
+        <LinearLayout android:gravity="center|right" android:layout_gravity="center|right" android:orientation="horizontal" android:id="@id/bks" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="20.0dip" android:layout_toRightOf="@id/bab">
+            <com.tencent.wework.common.views.ConfigurableTextView android:textColor="@color/xh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cky" />
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:src="@drawable/c5m" />
+        </LinearLayout>
+    </RelativeLayout>
+    <View android:id="@id/a01" android:background="@color/a47" android:layout_width="fill_parent" android:layout_height="0.30000007dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

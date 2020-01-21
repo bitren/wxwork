@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="2.0">
+        <com.tencent.wework.common.views.CommonItemView android:id="@id/ayq" android:layout_width="fill_parent" android:layout_height="30.0dip" app:leftTitle="模拟位置" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.tencent.wework.common.views.ConfigurableTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="经纬度步长 x（度）" />
+            <RadioGroup android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="30.0dip">
+                <RadioButton android:textSize="10.0sp" android:textColor="@color/jf" android:gravity="center" android:id="@id/cnu" android:background="@drawable/a3o" android:layout_width="0.0dip" android:layout_height="fill_parent" android:button="@null" android:text="5" android:layout_weight="1.0" />
+                <RadioButton android:textSize="10.0sp" android:textColor="@color/jf" android:gravity="center" android:id="@id/cnv" android:background="@drawable/a3o" android:layout_width="0.0dip" android:layout_height="fill_parent" android:button="@null" android:text="1" android:layout_weight="1.0" />
+                <RadioButton android:textSize="10.0sp" android:textColor="@color/jf" android:gravity="center" android:id="@id/cnw" android:background="@drawable/a3o" android:layout_width="0.0dip" android:layout_height="fill_parent" android:button="@null" android:text="0.1" android:layout_weight="1.0" />
+                <RadioButton android:textSize="10.0sp" android:textColor="@color/jf" android:gravity="center" android:id="@id/cnx" android:background="@drawable/a3o" android:layout_width="0.0dip" android:layout_height="fill_parent" android:button="@null" android:text="0.01" android:layout_weight="1.0" />
+                <RadioButton android:textSize="10.0sp" android:textColor="@color/jf" android:gravity="center" android:id="@id/cny" android:background="@drawable/a3o" android:layout_width="0.0dip" android:layout_height="fill_parent" android:button="@null" android:text="0.001" android:layout_weight="1.0" />
+                <RadioButton android:textSize="10.0sp" android:textColor="@color/jf" android:gravity="center" android:id="@id/cnz" android:background="@drawable/a3o" android:layout_width="0.0dip" android:layout_height="fill_parent" android:button="@null" android:text="0.0001" android:layout_weight="1.0" />
+            </RadioGroup>
+            <com.tencent.wework.common.views.ConfigurableTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="定位精度（米）" />
+            <RadioGroup android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="30.0dip">
+                <RadioButton android:textSize="10.0sp" android:textColor="@color/jf" android:gravity="center" android:id="@id/ap" android:background="@drawable/a3o" android:layout_width="0.0dip" android:layout_height="fill_parent" android:button="@null" android:text="50" android:layout_weight="1.0" />
+                <RadioButton android:textSize="10.0sp" android:textColor="@color/jf" android:gravity="center" android:id="@id/aq" android:background="@drawable/a3o" android:layout_width="0.0dip" android:layout_height="fill_parent" android:button="@null" android:text="100" android:layout_weight="1.0" />
+                <RadioButton android:textSize="10.0sp" android:textColor="@color/jf" android:gravity="center" android:id="@id/ar" android:background="@drawable/a3o" android:layout_width="0.0dip" android:layout_height="fill_parent" android:button="@null" android:text="200" android:layout_weight="1.0" />
+                <RadioButton android:textSize="10.0sp" android:textColor="@color/jf" android:gravity="center" android:id="@id/as" android:background="@drawable/a3o" android:layout_width="0.0dip" android:layout_height="fill_parent" android:button="@null" android:text="400" android:layout_weight="1.0" />
+                <RadioButton android:textSize="10.0sp" android:textColor="@color/jf" android:gravity="center" android:id="@id/at" android:background="@drawable/a3o" android:layout_width="0.0dip" android:layout_height="fill_parent" android:button="@null" android:text="800" android:layout_weight="1.0" />
+                <RadioButton android:textSize="10.0sp" android:textColor="@color/jf" android:gravity="center" android:id="@id/au" android:background="@drawable/a3o" android:layout_width="0.0dip" android:layout_height="fill_parent" android:button="@null" android:text="1k6" android:layout_weight="1.0" />
+            </RadioGroup>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="45.0dip">
+                    <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+                    <Button android:textSize="10.0sp" android:id="@id/dfq" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="向北移动x度" android:layout_weight="1.0" />
+                    <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="45.0dip">
+                    <Button android:textSize="10.0sp" android:id="@id/dfs" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="向西移动x度" android:layout_weight="1.0" />
+                    <Button android:textSize="10.0sp" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="重置" android:layout_weight="1.0" />
+                    <Button android:textSize="10.0sp" android:id="@id/dfp" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="向东移动x度" android:layout_weight="1.0" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="45.0dip">
+                    <View android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                    <Button android:textSize="10.0sp" android:id="@id/dfr" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="向南移动x度" android:layout_weight="1.0" />
+                    <View android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

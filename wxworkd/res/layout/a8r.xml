@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="3.0">
+        <ImageView android:id="@id/bet" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="30.0dip" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="18.0sp" android:textColor="@color/jf" android:gravity="center_horizontal" android:id="@id/y5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="240.0dip" android:lineSpacingExtra="8.0dip" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0sp" android:textColor="@color/a4h" android:gravity="center_horizontal" android:id="@id/c1u" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:maxWidth="240.0dip" android:lineSpacingExtra="8.0dip" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <Button android:textSize="16.0sp" android:id="@id/bex" android:layout_width="wrap_content" android:layout_height="44.0dip" android:minWidth="228.0dip" style="@style/xr" />
+    </LinearLayout>
+</LinearLayout>

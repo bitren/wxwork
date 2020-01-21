@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="#ffe5e5e5" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ag9" android:layout_width="fill_parent" android:layout_height="@dimen/alo" android:layout_alignParentTop="true" />
+    <LinearLayout android:gravity="center" android:id="@id/bl1" android:background="@drawable/lq" android:layout_width="fill_parent" android:layout_height="@dimen/tt" android:layout_alignParentBottom="true">
+        <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:src="@drawable/ayx" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3f" android:textColor="@color/a6d" android:gravity="center" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="@dimen/tt" android:text="@string/bke" />
+    </LinearLayout>
+    <com.tencent.wework.common.views.WwWebView android:id="@id/dwq" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/bl1" android:layout_below="@id/ag9" />
+</RelativeLayout>

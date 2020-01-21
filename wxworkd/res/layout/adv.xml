@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/frb" android:background="@color/ah" android:paddingRight="@dimen/ff" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/frc" android:background="@color/ar4" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" android:src="@raw/voicepost_beginicon" />
+    <TextView android:textColor="#ff353535" android:id="@id/frd" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00" />
+    <FrameLayout android:id="@id/frf" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <View android:layout_gravity="center_vertical" android:background="#66000000" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <LinearLayout android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="0.0dip" android:layout_gravity="center_vertical" android:id="@id/fre" android:background="#ff1aad19" android:layout_width="wrap_content" android:layout_height="3.0px" android:lines="0" />
+            <TextView android:textSize="0.0dip" android:layout_gravity="center_vertical" android:background="@drawable/rs" android:layout_width="wrap_content" android:layout_height="8.0dip" android:lines="0" />
+        </LinearLayout>
+    </FrameLayout>
+    <TextView android:textColor="#ff353535" android:id="@id/frg" android:paddingLeft="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00" />
+</LinearLayout>

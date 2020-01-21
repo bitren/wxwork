@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" android:layout_width="fill_parent" android:layout_height="@dimen/alo" android:layout_alignParentTop="true" />
+    <com.tencent.wework.common.views.ScrollListView android:id="@id/cxq" android:background="@color/afk" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" android:layout_above="@id/dnw" android:layout_below="@id/ff6" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/dnw" android:background="#fffafbfc" android:layout_width="fill_parent" android:layout_height="53.0dip" android:layout_alignParentBottom="true">
+        <View android:layout_width="2.0dip" android:layout_height="fill_parent" />
+        <ImageButton android:id="@id/by0" android:background="@drawable/abf" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/u_" android:layout_weight="1.0" />
+        <View android:layout_width="2.0dip" android:layout_height="fill_parent" />
+        <ImageButton android:id="@id/e_b" android:background="@drawable/abf" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/ub" android:layout_weight="1.0" />
+        <View android:layout_width="2.0dip" android:layout_height="fill_parent" />
+        <ImageButton android:id="@id/b0h" android:background="@drawable/abf" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/u9" android:layout_weight="1.0" />
+        <View android:layout_width="2.0dip" android:layout_height="fill_parent" />
+        <ImageButton android:id="@id/det" android:background="@drawable/abf" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/ua" android:layout_weight="1.0" />
+        <View android:layout_width="2.0dip" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <View android:background="#ffc0c1c2" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignTop="@id/dnw" />
+    <ProgressBar android:id="@id/dym" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" android:indeterminateDrawable="@drawable/a1s" android:layout_centerInParent="true" />
+</RelativeLayout>

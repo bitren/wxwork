@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ff000000" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/egj" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="28.0dip">
+        <com.tencent.pb.paintpad.PaintToolItemView android:id="@id/eg4" android:background="@drawable/a8x" android:layout_width="38.0dip" android:layout_height="38.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/a8k" android:scaleType="center" app:pt_type="TYPE_MOSAIC" />
+        <ImageView android:id="@id/eg9" android:background="@drawable/a8x" android:layout_width="38.0dip" android:layout_height="38.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/a8i" android:scaleType="center" />
+        <ImageView android:id="@id/eg6" android:background="@drawable/a8x" android:layout_width="38.0dip" android:layout_height="38.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/a8m" android:scaleType="center" />
+        <com.tencent.pb.paintpad.PaintToolItemView android:id="@id/eg3" android:background="@drawable/a8x" android:layout_width="38.0dip" android:layout_height="38.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" app:pt_style="STYLE_BORDER" app:pt_type="TYPE_OVAL" />
+        <ImageView android:id="@id/eg2" android:background="@drawable/a8x" android:layout_width="38.0dip" android:layout_height="38.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/a8g" android:scaleType="center" />
+        <ImageView android:id="@id/eg8" android:background="@drawable/a8x" android:visibility="gone" android:layout_width="38.0dip" android:layout_height="38.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/a8n" android:scaleType="center" />
+    </LinearLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="28.0dip">
+        <RelativeLayout android:id="@id/efq" android:layout_width="fill_parent" android:layout_height="38.0dip" android:layout_marginBottom="113.0dip" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true">
+            <View android:id="@id/ega" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+            <com.tencent.pb.paintpad.PaintToolItemView android:id="@id/egh" android:layout_width="@dimen/aik" android:layout_height="@dimen/aik" android:layout_marginRight="75.0dip" android:layout_toLeftOf="@id/ega" android:layout_alignParentRight="true" app:pt_color="@color/ang" app:pt_type="TYPE_COLOR" />
+            <com.tencent.pb.paintpad.PaintToolItemView android:id="@id/egy" android:layout_width="@dimen/aik" android:layout_height="@dimen/aik" android:layout_marginRight="75.0dip" android:layout_toLeftOf="@id/ega" app:pt_color="@color/ann" app:pt_fillcolor="#ff000000" app:pt_type="TYPE_COLOR" />
+            <com.tencent.pb.paintpad.PaintToolItemView android:id="@id/egi" android:layout_width="@dimen/aik" android:layout_height="@dimen/aik" android:layout_marginRight="75.0dip" android:layout_toLeftOf="@id/ega" app:pt_color="@color/anh" app:pt_type="TYPE_COLOR" />
+            <com.tencent.pb.paintpad.PaintToolItemView android:id="@id/egm" android:visibility="gone" android:layout_width="@dimen/aik" android:layout_height="@dimen/aik" android:layout_marginRight="75.0dip" android:layout_toLeftOf="@id/ega" app:pt_color="@color/ank" app:pt_type="TYPE_COLOR" />
+            <com.tencent.pb.paintpad.PaintToolItemView android:id="@id/egz" android:layout_width="@dimen/aik" android:layout_height="@dimen/aik" android:layout_marginRight="75.0dip" android:layout_toLeftOf="@id/ega" app:pt_color="@color/ano" app:pt_fillcolor="#ff000000" app:pt_type="TYPE_COLOR" />
+            <com.tencent.pb.paintpad.PaintToolItemView android:id="@id/egq" android:visibility="gone" android:layout_width="@dimen/aik" android:layout_height="@dimen/aik" android:layout_marginRight="75.0dip" android:layout_toLeftOf="@id/ega" app:pt_color="@color/anl" app:pt_type="TYPE_COLOR" />
+            <com.tencent.pb.paintpad.PaintToolItemView android:id="@id/egu" android:layout_width="@dimen/aik" android:layout_height="@dimen/aik" android:layout_marginRight="75.0dip" android:layout_toLeftOf="@id/ega" app:pt_color="@color/anm" app:pt_type="TYPE_COLOR" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/ege" android:layout_width="fill_parent" android:layout_height="38.0dip" android:layout_marginBottom="113.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+            <View android:id="@id/egb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+            <com.tencent.pb.paintpad.PaintToolItemView android:id="@id/egw" android:background="@drawable/a8y" android:layout_width="@dimen/aim" android:layout_height="@dimen/aim" android:layout_marginLeft="75.0dip" android:layout_toRightOf="@id/egb" app:pt_size="SMALL" app:pt_type="TYPE_STROKE_SIZE" />
+            <com.tencent.pb.paintpad.PaintToolItemView android:id="@id/egp" android:background="@drawable/a8y" android:layout_width="@dimen/aim" android:layout_height="@dimen/aim" android:layout_marginLeft="75.0dip" android:layout_toRightOf="@id/egb" app:pt_size="NORMAL" app:pt_type="TYPE_STROKE_SIZE" />
+            <com.tencent.pb.paintpad.PaintToolItemView android:id="@id/egg" android:background="@drawable/a8y" android:layout_width="@dimen/aim" android:layout_height="@dimen/aim" android:layout_marginLeft="75.0dip" android:layout_toRightOf="@id/egb" app:pt_size="BIG" app:pt_type="TYPE_STROKE_SIZE" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="24.0dip">
+        <ImageView android:id="@id/egs" android:background="@drawable/a90" android:layout_width="60.0dip" android:layout_height="60.0dip" android:src="@drawable/csm" android:scaleType="center" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </LinearLayout>
+</LinearLayout>

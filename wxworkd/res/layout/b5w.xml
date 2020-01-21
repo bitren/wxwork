@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/czb" android:paddingLeft="@dimen/aiv" android:paddingRight="@dimen/aiv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/aiv" android:layout_marginBottom="14.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true">
+        <com.rockerhieu.emojicon.EmojiconTextView android:textSize="@dimen/a3h" android:textColor="@color/aq3" android:id="@id/fj5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="@string/jbk" android:singleLine="true" app:configurable="false" />
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip">
+            <com.tencent.wework.common.views.MultiPhotoImageView android:id="@id/r" android:duplicateParentState="true" android:layout_width="40.0dip" android:layout_height="40.0dip" android:scaleType="center" android:layout_alignParentLeft="true" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3g" android:textColor="@color/aat" android:ellipsize="middle" android:id="@id/fje" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/aiy" android:singleLine="true" android:layout_toRightOf="@id/r" android:layout_centerVertical="true" app:maxLevelIncrement="@dimen/aar" />
+        </RelativeLayout>
+        <View android:background="@color/a8u" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="6.0dip" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3g" android:textColor="@color/aat" android:ellipsize="middle" android:id="@id/fii" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_toRightOf="@id/r" android:layout_centerVertical="true" app:maxLevelIncrement="@dimen/aar" />
+    </LinearLayout>
+</RelativeLayout>

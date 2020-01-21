@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/m1" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.rockerhieu.emojicon.EmojiconTextView android:textSize="14.0sp" android:textColor="#7f000000" android:gravity="center_vertical" android:id="@id/f8r" android:layout_width="wrap_content" android:layout_height="42.0dip" android:layout_marginLeft="20.0dip" android:text="@string/b61" android:singleLine="false" />
+    <View android:id="@id/fe2" android:background="@color/ada" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:layout_below="@id/f8r" />
+    <com.tencent.wework.common.views.ScrollListView android:id="@id/axi" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@null" android:layout_below="@id/fe2" app:maxHeight="260.0dip" />
+    <View android:id="@id/yu" android:background="@color/ada" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:layout_below="@id/axi" />
+    <LinearLayout android:id="@id/a1k" android:layout_width="fill_parent" android:layout_height="49.5dip" android:layout_below="@id/yu">
+        <com.rockerhieu.emojicon.EmojiconTextView android:textSize="16.0sp" android:textColor="@color/a3q" android:gravity="center" android:id="@id/f87" android:layout_width="0.0dip" android:layout_height="43.0dip" android:text="@string/b1p" android:layout_weight="1.0" android:layout_below="@id/axi" android:layout_alignParentLeft="true" />
+        <View android:id="@id/dai" android:background="@color/ada" android:layout_width="0.5dip" android:layout_height="fill_parent" android:layout_centerHorizontal="true" />
+        <com.rockerhieu.emojicon.EmojiconTextView android:textSize="16.0sp" android:textColor="@color/a3q" android:gravity="center" android:id="@id/f8h" android:layout_width="0.0dip" android:layout_height="43.0dip" android:text="@string/bv9" android:layout_weight="1.0" android:layout_below="@id/axi" android:layout_alignParentRight="true" />
+    </LinearLayout>
+</RelativeLayout>

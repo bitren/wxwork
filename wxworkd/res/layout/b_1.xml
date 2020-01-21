@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/eh9" android:background="@color/aau" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" android:layout_width="fill_parent" android:layout_height="@dimen/alo" android:layout_alignParentTop="true" />
+    <com.tencent.wework.common.views.ScrollListView android:id="@id/dhb" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@color/ar4" android:dividerHeight="5.0dip" android:layout_below="@id/ff6" />
+    <View android:id="@id/agg" android:background="@color/ar4" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/ff6" />
+    <RelativeLayout android:orientation="vertical" android:id="@id/cru" android:background="@color/anr" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/ff6">
+        <ImageView android:id="@id/d0i" android:layout_width="75.0dip" android:layout_height="75.0dip" android:src="@drawable/bum" android:scaleType="center" android:layout_above="@id/d0k" android:layout_centerHorizontal="true" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3f" android:textColor="#ff78808a" android:id="@id/d0k" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/ghy" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</RelativeLayout>

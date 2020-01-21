@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ed8" android:background="@drawable/a_a" android:paddingLeft="@dimen/bx" android:layout_width="fill_parent" android:layout_height="@dimen/b7" android:minWidth="170.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/cb1" android:layout_width="@dimen/e_" android:layout_height="@dimen/e_" android:layout_marginRight="@dimen/c7" />
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingRight="@dimen/bx" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/el" android:textColor="@color/atc" android:id="@id/faj" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:id="@id/dj0" android:visibility="gone" android:layout_marginLeft="@dimen/ff" style="@style/m0" />
+            <ImageView android:id="@id/dim" android:visibility="gone" android:layout_marginLeft="@dimen/ff" style="@style/tk" />
+            <TextView android:id="@id/fls" android:visibility="gone" android:layout_marginLeft="@dimen/ff" style="@style/tj" />
+        </LinearLayout>
+        <ImageView android:id="@id/b71" android:background="@color/a7y" android:layout_width="fill_parent" android:layout_height="@dimen/bj" />
+    </LinearLayout>
+</LinearLayout>

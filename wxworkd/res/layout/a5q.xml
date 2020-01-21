@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.BaseLinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.tencent.wework.msg.views.MessageItemTextView android:gravity="center" android:id="@id/b14" android:background="@color/atc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:minHeight="45.0dip" android:text="上分隔线" app:topDividerSize="1.0dip" />
+        <com.tencent.wework.msg.views.MessageItemTextView android:gravity="center" android:id="@id/b15" android:background="@color/atc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:minHeight="45.0dip" android:text="下分隔线" app:bottomDividerSize="1.0dip" />
+        <com.tencent.wework.msg.views.MessageItemTextView android:gravity="center" android:autoLink="all" android:id="@id/b16" android:background="@color/atc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:minHeight="45.0dip" android:text="12345678\n\nhttp://www.qq.com\n\n1243234@qq.com" app:bottomDividerSize="0.5dip" app:topDividerSize="0.5dip" />
+        <com.tencent.wework.msg.views.MessageItemTextView android:gravity="center" android:id="@id/b17" android:background="@color/atc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:minHeight="45.0dip" android:text="12345678\n\nhttp://www.qq.com\n\n1243234@qq.com" app:bottomDividerSize="0.5dip" app:topDividerSize="0.5dip" />
+        <com.tencent.wework.msg.views.MessageItemTextView android:gravity="center" android:id="@id/b18" android:background="@color/atc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:minHeight="45.0dip" />
+        <com.tencent.wework.msg.views.MessageItemTextView android:gravity="center" android:id="@id/b19" android:background="@color/atc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:minHeight="45.0dip" />
+    </com.tencent.wework.common.views.BaseLinearLayout>
+</ScrollView>

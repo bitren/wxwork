@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+    <title>音乐播放按钮按压 3x</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="音乐／视频／小视频／图片" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="音乐播放按钮按压-3x">
+            <circle id="Oval-154" fill-opacity="0.1" fill="#000000" cx="36" cy="36" r="34.5"></circle>
+            <path d="M36,72 C55.882251,72 72,55.882251 72,36 C72,16.117749 55.882251,0 36,0 C16.117749,0 0,16.117749 0,36 C0,55.882251 16.117749,72 36,72 Z M36,67.5 C53.3969696,67.5 67.5,53.3969696 67.5,36 C67.5,18.6030304 53.3969696,4.5 36,4.5 C18.6030304,4.5 4.5,18.6030304 4.5,36 C4.5,53.3969696 18.6030304,67.5 36,67.5 Z M27,48.2230138 C27,49.8787685 28.1775176,50.5702896 29.6257082,49.7699737 L51.3742918,37.7510196 C52.8244304,36.9496273 52.8224824,35.6492369 51.3742918,34.8489211 L29.6257082,22.829967 C28.1755696,22.0285746 27,22.7191451 27,24.3769269 L27,48.2230138 Z" id="Oval-41-Copy-2" fill="#E5E5E5"></path>
+        </g>
+    </g>
+</svg>

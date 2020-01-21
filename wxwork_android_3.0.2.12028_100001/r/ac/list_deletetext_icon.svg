@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="96px" height="96px" viewBox="0 0 96 96" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12072) - http://www.bohemiancoding.com/sketch -->
+    <title>list_deletetext_icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="list_deletetext_icon" sketch:type="MSLayerGroup" transform="translate(8.000000, 8.000000)" fill-opacity="0.25" fill="#000000">
+            <g id="Page-1" sketch:type="MSShapeGroup">
+                <g id="actionbar_deletetext_icon_pressed">
+                    <g id="Page-1">
+                        <g id="actionbar_deletetext_icon">
+                            <path d="M37,37 L37,12.995752 C37,12.4507688 37.4435864,12 37.990778,12 L42.009222,12 C42.5490248,12 43,12.4458134 43,12.995752 L43,37 L67.004248,37 C67.5492312,37 68,37.4435864 68,37.990778 L68,42.009222 C68,42.5490248 67.5541866,43 67.004248,43 L43,43 L43,67.004248 C43,67.5492312 42.5564136,68 42.009222,68 L37.990778,68 C37.4509752,68 37,67.5541866 37,67.004248 L37,43 L12.995752,43 C12.4507688,43 12,42.5564136 12,42.009222 L12,37.990778 C12,37.4509752 12.4458134,37 12.995752,37 L37,37 L37,37 Z" id="path-1" transform="translate(40.000000, 40.000000) rotate(-45.000000) translate(-40.000000, -40.000000) "></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="168px" height="168px" viewBox="0 0 168 168" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.2 (33826) - http://www.bohemiancoding.com/sketch -->
+    <title>Panel_icon_video</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Panel" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Panel_icon_video" fill="#7C8186">
+            <g id="app_panel_video_icon" transform="translate(40.000000, 50.000000)">
+                <path d="M1.7979208,0 C0.8049566,0 0,0.8110437 0,1.8013198 L0,66.19868 C0,67.193522 0.8120969,68 1.8074489,68 L75.140468,68 C76.138694,68 76.947916,67.19573 76.947916,66.197609 C76.947916,66.197609 76.947911,56.104858 76.947917,49.866667 C76.94792,40.745547 88.999998,34.3771875 89,29.0133333 C88.999998,23.6964062 89,1.8062787 89,1.8062787 C89,0.8086985 88.203404,0 87.202079,0 L1.7979208,0 L1.7979208,0 Z M6,6 L6,12 L16,12 L16,6 L6,6 L6,6 Z M6,56 L6,62 L16,62 L16,56 L6,56 L6,56 Z M22,6 L22,12 L32,12 L32,6 L22,6 L22,6 Z M22,56 L22,62 L32,62 L32,56 L22,56 L22,56 Z M38,6 L38,12 L48,12 L48,6 L38,6 L38,6 Z M38,56 L38,62 L48,62 L48,56 L38,56 L38,56 Z M54,6 L54,12 L64,12 L64,6 L54,6 L54,6 Z M54,56 L54,62 L64,62 L64,56 L54,56 L54,56 Z M70,6 L70,12 L80,12 L80,6 L70,6 L70,6 Z" id="Rectangle-57"></path>
+            </g>
+        </g>
+    </g>
+</svg>

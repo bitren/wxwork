@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/f9u" android:layout_width="59.0dip" android:layout_height="wrap_content" android:layout_centerVertical="true">
+        <TextView android:textSize="19.0sp" android:textColor="#ff5a8bd9" android:gravity="center" android:id="@id/ew9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" />
+        <TextView android:textSize="10.0sp" android:textColor="#ff5a8bd9" android:gravity="center" android:id="@id/g2f" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" android:maxLines="1" android:includeFontPadding="false" />
+    </LinearLayout>
+    <com.tencent.wework.enterprise.todo.calendar.views.KickBackLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toRightOf="@id/f9u">
+        <android.support.v7.widget.RecyclerView android:id="@id/e68" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" />
+    </com.tencent.wework.enterprise.todo.calendar.views.KickBackLayout>
+    <LinearLayout android:gravity="center" android:id="@id/cp4" android:background="@color/atc" android:visibility="gone" android:clickable="true" android:layout_width="24.0dip" android:layout_height="fill_parent" android:layout_toRightOf="@id/f9u">
+        <ImageView android:id="@id/cp3" android:background="@drawable/ax8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerCrop" android:rotation="180.0" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:id="@id/eb_" android:background="@color/atc" android:visibility="visible" android:clickable="true" android:layout_width="24.0dip" android:layout_height="fill_parent" android:layout_alignParentRight="true">
+        <ImageView android:id="@id/eb9" android:background="@drawable/ax8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerCrop" android:layout_centerInParent="true" />
+    </LinearLayout>
+    <View android:id="@id/fe2" android:background="@color/ada" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentTop="true" />
+    <TextView android:textSize="12.0sp" android:textColor="#fff0a120" android:ellipsize="end" android:gravity="center" android:id="@id/dep" android:background="@color/atc" android:visibility="gone" android:layout_width="30.0dip" android:layout_height="17.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="-7.0dip" android:maxLines="1" android:includeFontPadding="false" android:layout_below="@id/fe2" android:layout_alignParentTop="true" />
+</merge>

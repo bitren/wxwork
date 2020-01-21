@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="#fff5f5f5" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" android:layout_width="fill_parent" android:layout_height="@dimen/alo" />
+        <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.tencent.wework.common.views.CommonItemView android:id="@id/ht" android:layout_width="fill_parent" android:layout_height="@dimen/rx" android:layout_marginTop="20.0dip" app:hasTopLine="true" app:leftTitle="@string/ab_" app:topLineType="g34" />
+                <com.tencent.wework.common.views.CommonItemView android:id="@id/bwh" android:layout_width="fill_parent" android:layout_height="@dimen/rx" app:bottomLineType="dkj" app:hasBottomLine="false" app:hasTopLine="true" app:leftTitle="@string/ahq" app:rightIconType="re" app:topLineType="cdq" />
+                <com.tencent.wework.common.views.CommonItemView android:id="@id/bwi" android:layout_width="fill_parent" android:layout_height="@dimen/rx" app:bottomLineType="g34" app:hasBottomLine="true" app:hasTopLine="true" app:leftTitle="@string/ahr" app:rightIconType="re" app:topLineType="cdq" />
+                <com.tencent.wework.common.views.CommonItemView android:id="@id/cns" android:layout_width="fill_parent" android:layout_height="@dimen/rx" android:layout_marginTop="20.0dip" app:bottomLineType="g34" app:hasTopLine="true" app:leftTitle="@string/aic" app:topLineType="g34" />
+                <com.tencent.wework.common.views.CommonItemView android:id="@id/cnr" android:layout_width="fill_parent" android:layout_height="@dimen/rx" app:bottomLineType="dkj" app:hasBottomLine="false" app:hasTopLine="true" app:leftTitle="@string/aib" app:rightIconType="re" app:topLineType="cdq" />
+                <com.tencent.wework.common.views.CommonItemView android:id="@id/cnq" android:layout_width="fill_parent" android:layout_height="@dimen/rx" app:hasTopLine="true" app:leftTitle="@string/aia" app:rightIconType="re" app:topLineType="cdq" />
+                <com.tencent.wework.common.views.CommonItemView android:id="@id/ac6" android:layout_width="fill_parent" android:layout_height="@dimen/rx" android:layout_marginTop="20.0dip" app:hasTopLine="true" app:leftTitle="@string/acv" app:rightIconType="re" app:topLineType="g34" />
+                <com.tencent.wework.common.views.CommonItemView android:id="@id/dm2" android:layout_width="fill_parent" android:layout_height="@dimen/rx" app:hasTopLine="true" app:leftTitle="@string/acx" app:rightIconType="re" app:topLineType="g34" />
+                <com.tencent.wework.common.views.CommonItemView android:id="@id/dkv" android:layout_width="fill_parent" android:layout_height="@dimen/rx" android:layout_marginTop="20.0dip" app:hasTopLine="true" app:leftTitle="@string/akb" app:rightIconType="dkj" app:topLineType="g34" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <com.tencent.wework.enterprise.attendance.view.AttendancePickerView android:id="@id/du0" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

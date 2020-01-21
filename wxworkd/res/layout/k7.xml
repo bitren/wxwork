@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/jk" android:layout_width="wrap_content" android:layout_height="46.0dip" android:layout_centerInParent="true">
+        <ProgressBar android:id="@id/ct1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="false" android:indeterminateDrawable="@drawable/hc" android:indeterminateDuration="500" style="@android:style/Widget.ProgressBar.Small" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="12.0sp" android:textColor="@color/yl" android:gravity="center" android:id="@id/csx" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/g6n" android:maxLines="1" android:singleLine="true" android:drawablePadding="10.0dip" />
+    </LinearLayout>
+</merge>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <RelativeLayout android:id="@id/cmf" android:background="@color/a_n" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <RelativeLayout android:id="@id/aom" android:background="@color/a_l" android:paddingLeft="48.0dip" android:paddingRight="48.0dip" android:paddingBottom="@dimen/do" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/fa7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="100.0dip" android:src="@drawable/cmc" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="18.0dip" android:textColor="@color/atc" android:gravity="center_horizontal" android:id="@id/fac" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/eq" android:text="@string/dst" android:layout_below="@id/fa7" android:layout_centerHorizontal="true" style="@style/kz" />
+            <TextView android:textSize="18.0dip" android:textColor="@color/atc" android:gravity="left" android:id="@id/fkd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/fac" android:layout_alignTop="@id/fac" style="@style/kz" />
+            <Button android:textColor="@color/k_" android:id="@id/f14" android:background="@null" android:visibility="invisible" android:layout_marginTop="40.0dip" android:text="@string/dsu" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/jt" />
+            <Button android:textSize="@dimen/e3" android:textColor="@color/k_" android:id="@id/dj6" android:visibility="invisible" android:text="@string/dsu" android:layout_above="@id/f14" android:layout_centerHorizontal="true" style="@style/lo" />
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/fn" android:textColor="@color/atj" android:id="@id/btk" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dl" android:text="@string/dsb" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        <Button android:id="@id/cmd" android:visibility="gone" style="@style/hf" />
+    </RelativeLayout>
+</merge>

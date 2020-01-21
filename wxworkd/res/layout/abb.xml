@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.wework.common.views.BaseLinearLayout android:orientation="vertical" android:background="@color/a3a" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.BaseFrameLayout android:background="@drawable/kh" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ajd" app:bottomDividerSize="@dimen/rw" app:topDividerSize="@dimen/rw">
+        <com.tencent.wework.common.views.CommonSummaryView android:id="@id/bm4" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/yd" />
+    </com.tencent.wework.common.views.BaseFrameLayout>
+    <com.tencent.wework.common.views.CommonItemView android:id="@id/bm3" android:layout_width="fill_parent" android:layout_height="@dimen/rx" android:layout_marginTop="@dimen/ajd" app:hasTopLine="true" app:leftContent="@string/dpc" app:rightIconType="dkj" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:id="@id/bm2" android:layout_width="fill_parent" android:layout_height="@dimen/a70" android:layout_marginLeft="@dimen/s2" android:layout_marginTop="@dimen/ajd" android:layout_marginRight="@dimen/s2" android:text="@string/hp0" style="@style/xr" />
+</com.tencent.wework.common.views.BaseLinearLayout>

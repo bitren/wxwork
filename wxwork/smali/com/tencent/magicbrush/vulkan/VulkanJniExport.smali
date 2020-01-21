@@ -1,0 +1,28 @@
+.class public Lcom/tencent/magicbrush/vulkan/VulkanJniExport;
+.super Ljava/lang/Object;
+.source "VulkanJniExport.java"
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    const-string/jumbo v0, "mmvulkan"
+
+    .line 11
+    invoke-static {v0}, Lbun;->loadLibrary(Ljava/lang/String;)V
+
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 0
+
+    .line 9
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method public static native isSupportVulkan()Z
+.end method

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="right" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:pb="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/fr7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true">
+        <com.tencent.wework.common.views.BaseRelativeLayout android:id="@id/fr9" android:background="@drawable/y4" android:duplicateParentState="true" android:layout_width="@dimen/ac5" android:layout_height="wrap_content" pb:clipType="eb7">
+            <com.tencent.wework.common.views.ConfigurableTextView android:id="@id/d4r" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/xx" android:layout_marginRight="@dimen/a9o" android:layout_toLeftOf="@id/fr2" android:layout_alignParentLeft="true" style="@style/zl" />
+            <TextView android:gravity="center" android:id="@id/fr8" android:layout_width="fill_parent" android:layout_height="@dimen/ac6" android:maxWidth="@dimen/ac7" android:singleLine="true" />
+            <com.tencent.wework.msg.views.VoiceAnimComponetView android:id="@id/fr2" android:layout_width="wrap_content" android:layout_height="@dimen/ac6" android:layout_marginRight="17.0dip" android:layout_alignRight="@id/fr8" android:layout_centerVertical="true" pb:choose="right" />
+        </com.tencent.wework.common.views.BaseRelativeLayout>
+    </RelativeLayout>
+    <ViewStub android:id="@id/fze" android:layout="@layout/bhd" android:inflatedId="@id/fs1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginRight="@dimen/a5a" android:layout_below="@id/fr7" android:layout_alignParentRight="true" />
+</LinearLayout>

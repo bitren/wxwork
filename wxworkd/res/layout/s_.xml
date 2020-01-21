@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/kb" android:layout_width="fill_parent" android:layout_height="66.5dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/eza" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="24.0dip">
+        <View android:id="@id/flv" android:background="@color/j1" android:layout_width="3.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <ImageView android:id="@id/cb1" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginTop="2.0dip" android:layout_marginBottom="2.0dip" />
+        <View android:id="@id/b9r" android:background="@color/j1" android:layout_width="3.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/f89" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_toRightOf="@id/eza" android:layout_centerVertical="true">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="18.0sp" android:id="@id/czi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="10:00" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="12.0sp" android:id="@id/f0q" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginRight="@dimen/nj" android:text="上班打卡xxxxxxxxxxxxxxx" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/agr" android:visibility="visible" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_marginRight="@dimen/nj" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="10.0sp" android:textColor="#ffababab" android:id="@id/ago" android:background="@drawable/dj" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="" android:maxLines="3" />
+        <com.tencent.wework.common.views.PhotoImageView android:id="@id/ccf" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <View android:id="@id/esu" android:background="@color/j0" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="60.0dip" android:layout_alignParentBottom="true" />
+    <View android:id="@id/cwt" android:background="@color/j0" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="24.0dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

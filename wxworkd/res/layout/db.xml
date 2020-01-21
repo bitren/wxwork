@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/jf" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.JZVideoPlayerStandard2 android:id="@id/foq" android:background="@color/jf" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.tencent.wework.msg.views.seekbar.EditVideoSeekBarView android:id="@id/bb1" android:background="@color/ar4" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="95.0dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

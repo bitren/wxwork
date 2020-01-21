@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/czb" android:paddingLeft="@dimen/aiv" android:paddingTop="@dimen/aiy" android:paddingRight="@dimen/aiv" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:pb="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/c6k" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="14.0dip" android:layout_alignParentTop="true">
+        <com.tencent.wework.common.views.MultiPhotoImageView android:id="@id/c6p" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginRight="10.0dip" />
+        <com.tencent.wework.msg.views.MessageItemTextView android:textSize="@dimen/a3g" android:layout_gravity="center_vertical" android:id="@id/c6w" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/dz_" />
+    </LinearLayout>
+    <com.tencent.wework.common.views.PhotoImageView android:id="@id/duz" android:layout_width="@dimen/aix" android:layout_height="@dimen/aix" android:scaleType="center" android:layout_below="@id/c6k" android:layout_alignParentLeft="true" pb:maskType="dkj" style="@style/zh" />
+    <com.tencent.wework.msg.views.MessageItemTextView android:textSize="@dimen/a3g" android:textColor="@color/aat" android:ellipsize="end" android:id="@id/fow" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/aiy" android:layout_marginTop="@dimen/a2r" android:text="@string/dza" android:singleLine="true" android:layout_toRightOf="@id/duz" android:layout_below="@id/c6k" />
+    <com.tencent.wework.msg.views.MessageItemTextView android:textSize="@dimen/a3b" android:textColor="@color/aaq" android:id="@id/fph" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/aiy" android:layout_marginTop="@dimen/aiz" android:layout_toRightOf="@id/duz" android:layout_below="@id/fow" />
+</RelativeLayout>

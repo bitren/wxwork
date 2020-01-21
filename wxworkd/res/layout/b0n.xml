@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ww="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/so" android:background="@drawable/zs" android:layout_width="@dimen/zc" android:layout_height="@dimen/zc" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:scaleType="center" android:layout_centerHorizontal="true" />
+    <ViewStub android:id="@id/fvw" android:layout="@layout/yq" android:inflatedId="@id/sr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginRight="4.0dip" android:layout_alignTop="@id/so" android:layout_alignRight="@id/so" />
+    <ViewStub android:id="@id/fvv" android:layout="@layout/yp" android:inflatedId="@id/sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:layout_marginRight="-4.0dip" android:layout_alignRight="@id/so" android:layout_alignParentTop="true" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/ac2" android:textColor="@color/ag6" android:gravity="center" android:id="@id/sq" android:paddingBottom="@dimen/ac1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/so" android:layout_centerHorizontal="true" ww:configurable="false" />
+</RelativeLayout>

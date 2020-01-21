@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/aam" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <ListView android:id="@id/bqn" android:background="@color/atc" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@color/aaa" android:dividerHeight="@dimen/ct" style="@style/jn" />
+        <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:gravity="center" android:id="@id/be9" android:padding="24.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dv8" android:drawableTop="@drawable/ak9" android:drawablePadding="10.0dip" />
+        </LinearLayout>
+        <ViewStub android:id="@id/bec" android:layout="@layout/a8p" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <include layout="@layout/aci" />
+</LinearLayout>

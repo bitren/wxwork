@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.pb.collectionfile.view.NoScrollGridView android:id="@id/c29" android:paddingLeft="@dimen/apm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:listSelector="@null" android:stretchMode="columnWidth" android:columnWidth="80.0dip" android:numColumns="4" android:layout_centerHorizontal="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

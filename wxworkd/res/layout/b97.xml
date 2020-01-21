@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:id="@id/czb" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3b" android:textColor="@color/a7d" android:ellipsize="end" android:id="@id/ab3" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.tencent.wework.msg.views.MessageItemTextView android:textSize="@dimen/a3f" android:textColor="@color/aax" android:ellipsize="end" android:id="@id/b3i" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:lineSpacingMultiplier="1.2" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3b" android:textColor="@color/a7d" android:ellipsize="end" android:id="@id/ab4" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" />
+        <com.tencent.wework.msg.views.MessageItemTextView android:textSize="@dimen/a3f" android:textColor="@color/aax" android:ellipsize="end" android:id="@id/b3j" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:lineSpacingMultiplier="1.2" />
+    </LinearLayout>
+</merge>

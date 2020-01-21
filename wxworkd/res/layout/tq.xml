@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingLeft="@dimen/ek" android:paddingRight="@dimen/ek" style="@style/k6"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/kg">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/ep0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/do" android:layout_marginBottom="@dimen/do" android:src="@drawable/al2" />
+            <TextView android:id="@id/eoz" android:padding="6.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ek" android:text="@string/bz3" android:singleLine="false" android:lineSpacingExtra="4.0dip" style="@style/in" />
+            <TextView android:gravity="center|left" android:id="@id/eoy" android:background="@drawable/id" android:paddingLeft="@dimen/ff" android:paddingTop="@dimen/ek" android:paddingBottom="@dimen/ek" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ek" android:text="@string/bz5" android:lineSpacingExtra="4.0dip" style="@style/iz" />
+            <LinearLayout android:gravity="center_vertical" android:id="@id/eu8" android:background="@drawable/id" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dl" android:baselineAligned="false" android:minHeight="@dimen/fe">
+                <TextView android:gravity="center|left" android:paddingLeft="@dimen/ff" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/bzh" android:singleLine="true" android:layout_weight="1.0" style="@style/iz" />
+                <com.tencent.mm.ui.widget.MMSwitchBtn android:gravity="center|right" android:id="@id/eu7" android:focusable="false" android:clickable="false" android:layout_width="@dimen/fu" android:layout_height="@dimen/fr" android:layout_marginRight="@dimen/ff" />
+            </LinearLayout>
+            <TextView android:textSize="@dimen/l" android:id="@id/x1" android:visibility="gone" android:layout_marginBottom="@dimen/dl" android:text="@string/bz9" style="@style/kn" />
+            <TextView android:textSize="@dimen/l" android:id="@id/fln" android:visibility="gone" android:layout_marginBottom="@dimen/dl" android:text="@string/bzk" style="@style/kq" />
+            <TextView android:textSize="@dimen/l" android:id="@id/a8y" android:visibility="gone" android:text="@string/bzc" style="@style/kt" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

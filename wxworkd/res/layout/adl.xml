@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/aa4" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/fpr" android:background="@color/ar4" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/c0r" android:background="@color/jf" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.tencent.mm.plugin.fav.ui.widget.FavVideoView android:id="@id/fps" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+        <include layout="@layout/ack" />
+    </RelativeLayout>
+</LinearLayout>

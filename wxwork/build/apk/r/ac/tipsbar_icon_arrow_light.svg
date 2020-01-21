@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="96px" height="96px" viewBox="0 0 96 96" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>tipsbar_icon_close_light copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Tipsbar" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="tipsbar_icon_close_light-copy">
+            <g id="tipsbar_icon_arrow_light">
+                <rect id="Rectangle" x="0" y="0" width="96" height="96"></rect>
+                <polygon id="Combined-Shape" fill="#FFFFFF" opacity="0.5" transform="translate(44.384776, 48.384776) rotate(-45.000000) translate(-44.384776, -48.384776) " points="57.3847763 35.3847763 53.3847763 35.3847763 53.3847763 57.3847763 31.3847763 57.3847763 31.3847763 61.3847763 57.3847763 61.3847763"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

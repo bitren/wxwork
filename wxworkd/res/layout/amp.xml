@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/nu" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="48.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.github.johnkil.print.PrintView android:id="@id/rk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerHorizontal="true" android:layout_centerVertical="true" app:iconColor="@color/nu" app:iconFont="fonts/material-icon-font.ttf" app:iconSize="20.0dip" app:iconText="@string/fc4" />
+    <com.github.johnkil.print.PrintView android:id="@id/cb1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/rk" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:layout_alignWithParentIfMissing="true" app:iconColor="@color/nu" app:iconFont="fonts/material-icon-font.ttf" app:iconSize="24.0dip" app:iconText="@string/fc0" />
+    <TextView android:textSize="16.0sp" android:id="@id/dkg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_toLeftOf="@id/a5h" android:layout_toRightOf="@id/cb1" android:layout_centerVertical="true" />
+    <LinearLayout android:id="@id/a5h" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <com.github.johnkil.print.PrintView android:id="@id/a2b" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" app:iconColor="#ff99cc00" app:iconFont="fonts/material-icon-font.ttf" app:iconSize="20.0dip" app:iconText="@string/fbw" />
+        <com.github.johnkil.print.PrintView android:id="@id/a2o" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" app:iconColor="#ffff4444" app:iconFont="fonts/material-icon-font.ttf" app:iconSize="20.0dip" app:iconText="@string/fbz" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="76.0dip" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:layout_weight="1.0">
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="18.0sp" android:textColor="@color/jf" android:ellipsize="end" android:id="@id/faj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:singleLine="true" />
+            <com.tencent.android.support.view.CageHorizontalLinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0sp" android:textColor="#ff757980" android:ellipsize="end" android:gravity="bottom" android:id="@id/b2f" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:singleLine="true" app:keepInParent="false" app:layout_gravity="aan" />
+                <ImageView android:id="@id/fob" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginLeft="8.0dip" android:src="@drawable/b_j" android:scaleType="center" app:keepInParent="true" app:layout_gravity="aan" />
+            </com.tencent.android.support.view.CageHorizontalLinearLayout>
+        </LinearLayout>
+        <com.tencent.wework.common.views.MultiPhotoImageView android:id="@id/cb1" android:layout_width="46.0dip" android:layout_height="46.0dip" />
+    </LinearLayout>
+    <View android:background="#fff0f0f4" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="15.0dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

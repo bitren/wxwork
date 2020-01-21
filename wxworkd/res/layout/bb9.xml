@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/a3a" android:descendantFocusability="afterDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" android:layout_width="fill_parent" android:layout_height="@dimen/alo" android:layout_alignParentTop="true" />
+    <View android:id="@id/ai2" android:background="@color/a4s" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/rw" android:layout_marginTop="@dimen/s8" android:layout_below="@id/ff6" />
+    <com.tencent.wework.common.views.CommonItemView android:id="@id/eom" android:clickable="true" android:layout_width="wrap_content" android:layout_height="@dimen/rx" android:layout_below="@id/ai2" />
+    <com.tencent.wework.common.views.CommonItemView android:id="@id/eok" android:clickable="true" android:layout_width="wrap_content" android:layout_height="@dimen/rx" android:layout_below="@id/eom" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:id="@id/ay" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/hrw" android:layout_below="@id/eok" style="@style/y6" />
+</RelativeLayout>

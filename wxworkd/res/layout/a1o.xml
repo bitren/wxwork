@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.wework.common.views.ConfigurableTextView android:textSize="13.0sp" android:textColor="@color/lw" android:ellipsize="end" android:gravity="center" android:id="@id/aki" android:background="@drawable/a62" android:paddingLeft="14.0dip" android:paddingRight="19.0dip" android:focusable="true" android:layout_width="wrap_content" android:layout_height="36.0dip" android:maxWidth="150.0dip" android:minWidth="0.0dip" android:singleLine="true" android:textAllCaps="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.wework.common.views.BaseLinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.msg.views.MessageListTaskCardView android:id="@id/d9k" android:background="@drawable/bop" android:layout_width="@dimen/a_h" android:layout_height="wrap_content" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3c" android:textColor="@color/a3l" android:id="@id/d9j" android:background="@drawable/ks" android:paddingLeft="8.0dip" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bn8" android:drawableLeft="@drawable/bp7" android:drawablePadding="4.0dip" />
+</com.tencent.wework.common.views.BaseLinearLayout>

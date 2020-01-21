@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/a45" android:layout_width="fill_parent" android:layout_height="@dimen/sm" />
+    <com.tencent.wework.common.views.PhotoImageView android:id="@id/bld" android:layout_width="@dimen/a22" android:layout_height="@dimen/a22" android:layout_marginLeft="@dimen/a24" android:layout_centerVertical="true" />
+    <Button android:textSize="@dimen/a3d" android:textColor="@color/a3c" android:gravity="center" android:id="@id/blc" android:background="@drawable/ae0" android:layout_width="60.0dip" android:layout_height="wrap_content" android:layout_marginRight="@dimen/a24" android:text="@string/bok" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3d" android:textColor="@color/a3c" android:id="@id/ble" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:text="@string/ib_" android:singleLine="true" android:layout_toLeftOf="@id/blc" android:layout_toRightOf="@id/bld" android:layout_centerVertical="true" />
+</merge>

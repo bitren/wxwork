@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/edh" android:background="@color/a9t" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/ce_" android:background="@drawable/m4" android:layout_width="302.0dip" android:layout_height="wrap_content">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3f" android:textColor="@color/jf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="26.0dip" android:layout_marginTop="26.0dip" android:text="@string/e_c" />
+        <View android:background="@color/a47" android:visibility="visible" android:layout_width="48.0dip" android:layout_height="@dimen/a61" android:layout_marginLeft="26.0dip" android:layout_marginTop="14.0dip" />
+        <RelativeLayout android:id="@id/c0k" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="26.0dip" android:layout_marginTop="14.0dip" android:layout_marginRight="26.0dip" android:layout_marginBottom="21.0dip">
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3b" android:textColor="@color/a4h" android:id="@id/c0j" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" android:text="@string/e_b" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3f" android:textColor="@color/jf" android:layout_gravity="center_vertical" android:id="@id/bif" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="5.0dip" android:layout_below="@id/c0j" android:lineSpacingExtra="2.0dip" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3a" android:textColor="#ff03c77b" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/eye" android:background="@drawable/b_a" android:visibility="gone" android:layout_width="38.0dip" android:layout_height="16.0dip" android:layout_marginLeft="6.0dip" android:layout_marginTop="2.0dip" android:layout_marginRight="10.0dip" android:layout_toRightOf="@id/bif" android:layout_below="@id/c0j" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="26.0dip" android:layout_marginRight="26.0dip" android:layout_marginBottom="14.0dip">
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3b" android:textColor="@color/a4h" android:id="@id/et2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/e_i" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3f" android:textColor="@color/jf" android:id="@id/bjd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_below="@id/et2" android:lineSpacingExtra="2.0dip" />
+        </RelativeLayout>
+        <View android:background="@color/a47" android:visibility="visible" android:layout_width="48.0dip" android:layout_height="@dimen/a61" android:layout_marginLeft="26.0dip" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="26.0dip" android:layout_marginTop="14.0dip" android:layout_marginRight="26.0dip" android:layout_marginBottom="26.0dip">
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3b" android:textColor="@color/a4h" android:id="@id/cem" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/e_d" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3c" android:textColor="@color/a4h" android:id="@id/bip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:drawablePadding="7.0dip" android:layout_below="@id/cem" android:lineSpacingExtra="2.0dip" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

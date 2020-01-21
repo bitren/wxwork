@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:id="@id/ed8" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.CommonItemView android:id="@id/ela" android:layout_width="fill_parent" android:layout_height="@dimen/rx" android:layout_marginTop="18.0dip" app:bottomLineType="cdq" app:hasBottomLine="true" app:hasTopLine="true" app:leftTitle="@string/aa9" app:rightIconType="re" app:topLineType="g34" />
+    <com.tencent.wework.common.views.CommonItemView android:id="@id/cmp" android:layout_width="fill_parent" android:layout_height="@dimen/rx" android:layout_below="@id/ela" app:bottomLineType="g34" app:hasBottomLine="true" app:leftTitle="@string/ack" app:rightIconType="re" />
+</RelativeLayout>

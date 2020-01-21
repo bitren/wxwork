@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/edh" android:background="@color/atc" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.SuperListView android:id="@id/amz" android:background="@color/atc" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@color/ar4" android:dividerHeight="@dimen/r4" android:layout_alignParentTop="true" android:layout_alignWithParentIfMissing="true" />
+    <com.tencent.wework.common.views.EmptyViewStub android:id="@id/c2l" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true" />
+    <TextView android:textSize="@dimen/a5l" android:textColor="@color/atc" android:gravity="center" android:id="@id/cdv" android:background="@drawable/cjr" android:padding="0.0dip" android:visibility="gone" android:layout_width="@dimen/a5k" android:layout_height="@dimen/a5k" android:layout_centerInParent="true" />
+    <com.tencent.wework.common.views.ContactIndexTitleView android:id="@id/cdw" android:visibility="visible" android:layout_width="@dimen/a65" android:layout_height="fill_parent" android:layout_marginTop="0.0dip" android:layout_marginRight="@dimen/a63" android:layout_marginBottom="@dimen/a64" android:layout_alignParentRight="true" />
+</RelativeLayout>

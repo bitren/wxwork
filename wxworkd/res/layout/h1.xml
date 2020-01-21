@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/d0g" android:background="@color/a1h" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" android:layout_width="fill_parent" android:layout_height="@dimen/alw" />
+    <android.support.v7.widget.RecyclerView android:id="@id/cr7" android:paddingBottom="30.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/ff6" />
+    <com.tencent.wework.appstore.view.FloatAppInfoView android:id="@id/bwl" android:layout_width="fill_parent" android:layout_height="62.0dip" android:layout_below="@id/ff6" />
+    <RelativeLayout android:id="@id/ct3" android:background="@color/a38" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/ff6">
+        <ProgressBar android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <com.tencent.wework.common.views.EmptyViewStub android:id="@id/ben" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/ff6" />
+</RelativeLayout>

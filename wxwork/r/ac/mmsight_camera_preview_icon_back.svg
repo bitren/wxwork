@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="240px" height="240px" viewBox="0 0 240 240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>camera_preview_icon_back</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="1104" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.800000012">
+        <g id="camera_preview_icon_back" fill="#000000">
+            <g id="Group" transform="translate(83.000000, 91.000000)">
+                <path d="M32.8513973,18 L15,18 L15,30 L0,15 L15,0 L15,12 L52.5,12 C64.9264069,12 75,22.0735931 75,34.5 C75,46.9264069 64.9264069,57 52.5,57 L28,57 L28,51 L28.5,51 L32.8513973,51 L37.2027945,51 L52.5,51 C61.6126984,51 69,43.6126984 69,34.5 C69,25.3873016 61.6126984,18 52.5,18 L32.8513973,18 Z" id="Combined-Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

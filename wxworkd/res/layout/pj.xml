@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="13.0sp" android:textColor="@color/jf" android:layout_gravity="center_horizontal" android:id="@id/c6l" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="20.0dip" android:text="@string/a5m" />
+    <View android:id="@id/cqf" android:background="@color/zo" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="14.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="5.0dip" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/jf" android:id="@id/c6m" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="10.0dip" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0sp" android:textColor="@color/jf" android:id="@id/f7r" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="20.0dip" />
+</LinearLayout>

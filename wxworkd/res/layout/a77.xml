@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="@dimen/z0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/b8z" android:clickable="true" android:layout_width="@dimen/z1" android:layout_height="fill_parent" android:src="@drawable/icon_doc_preview_toolbar_keyboard_pressed" android:scaleType="center" />
+        <View android:id="@id/bvx" android:background="@color/zo" android:layout_width="@dimen/a61" android:layout_height="fill_parent" android:layout_marginTop="14.0dip" android:layout_marginBottom="14.0dip" />
+        <com.tencent.wework.docshare.view.ObservableHorizontalScrollView android:id="@id/efj" android:scrollbars="none" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <com.tencent.wework.docshare.view.DocToolLayout android:orientation="horizontal" android:id="@id/fd_" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <ImageView android:id="@id/b97" android:visibility="gone" android:clickable="true" android:layout_width="@dimen/xo" android:layout_height="fill_parent" android:src="@drawable/icon_doc_preview_toolbar_title_pressed" android:scaleType="center" android:layout_weight="1.0" />
+                <ImageView android:id="@id/b8u" android:clickable="true" android:layout_width="@dimen/xo" android:layout_height="fill_parent" android:src="@drawable/icon_doc_preview_toolbar_font_m_pressed" android:scaleType="center" android:layout_weight="1.0" />
+                <ImageView android:id="@id/b8m" android:clickable="true" android:layout_width="@dimen/xo" android:layout_height="fill_parent" android:src="@drawable/icon_doc_preview_toolbar_bold_pressed" android:scaleType="center" android:layout_weight="1.0" />
+                <ImageView android:id="@id/b8n" android:clickable="true" android:layout_width="@dimen/xo" android:layout_height="fill_parent" android:src="@drawable/icon_doc_preview_toolbar_color_pressed" android:scaleType="center" android:layout_weight="1.0" />
+                <ImageView android:id="@id/b8q" android:visibility="gone" android:clickable="true" android:layout_width="@dimen/xo" android:layout_height="fill_parent" android:src="@drawable/icon_doc_preview_toolbar_comment_pressed" android:scaleType="center" android:layout_weight="1.0" />
+                <ImageView android:id="@id/b90" android:clickable="true" android:layout_width="@dimen/xo" android:layout_height="fill_parent" android:src="@drawable/icon_doc_preview_toolbar_paragraph_spot_pressed" android:scaleType="center" android:layout_weight="1.0" />
+                <ImageView android:id="@id/b98" android:clickable="true" android:layout_width="@dimen/xo" android:layout_height="fill_parent" android:src="@drawable/icon_doc_preview_toolbar_todo_pressed" android:scaleType="center" android:layout_weight="1.0" />
+                <ImageView android:id="@id/b8x" android:clickable="true" android:layout_width="@dimen/xo" android:layout_height="fill_parent" android:src="@drawable/icon_doc_preview_toolbar_inline_pressed" android:scaleType="center" android:layout_weight="1.0" />
+                <ImageView android:id="@id/b8y" android:clickable="true" android:layout_width="@dimen/xo" android:layout_height="fill_parent" android:src="@drawable/icon_doc_preview_toolbar_table_pressed" android:scaleType="center" android:layout_weight="1.0" />
+                <View android:id="@id/eio" android:background="@color/zo" android:visibility="gone" android:layout_width="@dimen/a61" android:layout_height="fill_parent" android:layout_marginTop="14.0dip" android:layout_marginBottom="14.0dip" />
+                <ImageView android:id="@id/b99" android:visibility="gone" android:clickable="true" android:layout_width="@dimen/xo" android:layout_height="fill_parent" android:src="@drawable/icon_doc_preview_toolbar_undo_pressed" android:scaleType="center" android:layout_weight="1.0" />
+                <ImageView android:id="@id/b91" android:visibility="gone" android:clickable="true" android:layout_width="@dimen/xo" android:layout_height="fill_parent" android:src="@drawable/icon_doc_preview_toolbar_redo_pressed" android:scaleType="center" android:layout_weight="1.0" />
+            </com.tencent.wework.docshare.view.DocToolLayout>
+        </com.tencent.wework.docshare.view.ObservableHorizontalScrollView>
+    </LinearLayout>
+    <View android:id="@id/c0o" android:background="@color/zo" android:visibility="gone" android:layout_width="@dimen/a61" android:layout_height="fill_parent" android:layout_marginLeft="4.0dip" android:layout_marginTop="14.0dip" android:layout_marginRight="4.0dip" android:layout_marginBottom="14.0dip" />
+</merge>

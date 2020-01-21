@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.pb.emoji.ui.EmojiGifView android:id="@id/d67" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="@dimen/vd" />
+    <ViewStub android:id="@id/fxk" android:layout="@layout/arh" android:inflatedId="@id/d66" android:layout_width="@dimen/vf" android:layout_height="@dimen/vf" android:layout_marginRight="@dimen/vd" android:layout_centerInParent="true" />
+    <com.tencent.wework.common.views.PhotoImageView android:id="@id/d65" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="@dimen/vd" />
+    <com.tencent.wework.common.views.RoundProgressBarThreeCircle android:id="@id/b_0" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginRight="@dimen/vd" android:layout_centerInParent="true" />
+    <ImageView android:id="@id/b_w" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/vd" android:src="@drawable/c2j" android:layout_centerInParent="true" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3_" android:textColor="@color/atf" android:id="@id/bdx" android:paddingLeft="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/vd" android:layout_marginBottom="4.0dip" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+</merge>

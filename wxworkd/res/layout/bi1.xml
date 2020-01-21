@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/edh" android:background="@drawable/kb" android:layout_width="fill_parent" android:layout_height="56.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.PhotoImageView android:id="@id/uj" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginLeft="12.0dip" android:src="@drawable/b0q" android:layout_centerVertical="true" app:maskType="edm" app:radius="2.0dip" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="12.0dip" android:layout_toLeftOf="@id/d28" android:layout_toRightOf="@id/uj" android:layout_centerVertical="true">
+        <com.tencent.wework.common.views.WeightHLinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="17.0dip" android:textColor="@color/jf" android:ellipsize="end" android:id="@id/dhc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:drawablePadding="8.0dip" android:layout_weight="2.0" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0dip" android:textColor="@color/a54" android:ellipsize="end" android:id="@id/aqc" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:drawablePadding="8.0dip" android:layout_weight="1.0" />
+        </com.tencent.wework.common.views.WeightHLinearLayout>
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0dip" android:textColor="#ff9ba1a8" android:ellipsize="end" android:id="@id/faj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" />
+    </LinearLayout>
+    <View android:background="@color/a47" android:layout_width="fill_parent" android:layout_height="@dimen/t0" android:layout_marginLeft="12.0dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

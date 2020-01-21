@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/erb" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ww="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" style="@style/a13" />
+    <com.tencent.wework.common.views.SwitchTab android:id="@id/era" android:background="@color/a3v" android:layout_width="fill_parent" android:layout_height="wrap_content" ww:dividerColor="@color/a45" ww:hDividerWidth="@dimen/sm" ww:vDividerHeight="@dimen/sm" ww:verticalDividerPadding="@dimen/ajn" />
+    <include layout="@layout/aev" />
+</LinearLayout>

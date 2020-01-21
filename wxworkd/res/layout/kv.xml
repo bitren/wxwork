@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/pw" android:background="@color/g7" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/kk" android:layout_width="fill_parent" android:layout_height="170.0dip">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@raw/multitask_bar_miniprogram_logo" />
+        <TextView android:textSize="12.0dip" android:textColor="@color/ga" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ek" android:text="@string/in" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/kj" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="@dimen/ek">
+        <com.tencent.mm.plugin.appbrand.widget.desktop.half.AppBrandDesktopHalfItemView android:id="@id/kq" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ff" android:layout_marginBottom="@dimen/ff" />
+        <com.tencent.mm.plugin.appbrand.widget.desktop.half.AppBrandDesktopHalfItemView android:id="@id/kp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ff" android:layout_marginBottom="@dimen/ff" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/edd" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="center_horizontal" android:background="@color/atc" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" android:layout_width="fill_parent" android:layout_height="@dimen/alo" android:layout_alignParentTop="true" />
+        <ImageView android:id="@id/aex" android:paddingLeft="20.0dip" android:paddingTop="20.0dip" android:paddingRight="20.0dip" android:paddingBottom="20.0dip" android:visibility="gone" android:layout_width="60.0dip" android:layout_height="60.0dip" android:src="@drawable/bef" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+        <TextView android:textSize="18.0dip" android:textStyle="bold" android:textColor="@color/ar2" android:gravity="center" android:id="@id/ff5" android:paddingTop="18.0dip" android:paddingBottom="18.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="60.0dip" android:layout_toRightOf="@id/aex" android:layout_alignParentTop="true" />
+        <View android:id="@id/aao" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_centerInParent="true" />
+        <com.tencent.wework.common.views.EnterpriseImageView android:id="@id/aqt" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="170.0dip" android:src="@drawable/c4c" android:scaleType="fitXY" android:adjustViewBounds="true" android:maxHeight="60.0dip" android:layout_above="@id/aao" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <com.tencent.wework.login.views.fingerprint.QMGesturePasswordView android:layout_gravity="bottom" android:id="@id/c1a" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="240.0dip" />
+</FrameLayout>

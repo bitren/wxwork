@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/atc" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/f2y" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="36.0dip">
+        <com.tencent.wework.common.views.SwitchTab android:id="@id/f2x" android:layout_width="wrap_content" android:layout_height="36.0dip">
+            <com.tencent.wework.common.views.CommonTabView2 android:gravity="center" android:id="@id/f2s" android:layout_width="fill_parent" android:layout_height="36.0dip">
+                <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip">
+                    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3d" android:textColor="@color/wu" android:gravity="center" android:layout_gravity="center|left" android:id="@id/f2t" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/i6h" android:drawableRight="@drawable/aty" android:drawablePadding="8.0dip" />
+                </FrameLayout>
+            </com.tencent.wework.common.views.CommonTabView2>
+        </com.tencent.wework.common.views.SwitchTab>
+        <View android:layout_gravity="bottom" android:id="@id/ffb" android:background="@color/zt" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    </FrameLayout>
+    <com.tencent.wework.setting.views.SettingStorageCleanBottomBar android:id="@id/ezv" android:background="@color/a3v" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_alignParentBottom="true" />
+    <ViewStub android:id="@id/fyv" android:inflatedId="@id/er7" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/ezv" android:layout_below="@id/f2y" />
+    <ViewStub android:id="@id/fyu" android:layout="@layout/a0n" android:inflatedId="@id/er4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+</RelativeLayout>

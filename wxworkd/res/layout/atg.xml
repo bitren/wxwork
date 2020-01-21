@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a_0" android:textColor="@color/a4h" android:ellipsize="end" android:id="@id/d7a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/a9w" android:layout_marginTop="@dimen/a9z" android:layout_marginRight="@dimen/a9w" android:layout_marginBottom="@dimen/a9z" android:singleLine="true" />
+    <View android:id="@id/d74" android:background="@drawable/xk" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginRight="@dimen/a9w" android:layout_below="@id/d7a" android:layout_alignLeft="@id/d7a" />
+    <RelativeLayout android:id="@id/d77" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/d74">
+        <com.tencent.wework.common.views.PhotoImageView android:id="@id/d79" android:layout_width="@dimen/a9x" android:layout_height="@dimen/a9x" android:layout_marginLeft="@dimen/a9w" android:layout_marginTop="@dimen/a9u" android:layout_marginBottom="@dimen/a9t" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/a9w" android:layout_marginRight="@dimen/a9w" android:layout_toRightOf="@id/d79" android:layout_alignTop="@id/d79" android:layout_alignBottom="@id/d79" android:layout_centerVertical="true">
+            <com.rockerhieu.emojicon.EmojiconTextView android:textSize="@dimen/a9y" android:textColor="@color/a3c" android:ellipsize="end" android:id="@id/d78" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="false" />
+            <com.rockerhieu.emojicon.EmojiconTextView android:textSize="11.0sp" android:textColor="@color/atc" android:ellipsize="end" android:id="@id/d7_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        </LinearLayout>
+    </RelativeLayout>
+    <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginTop="@dimen/a9u" android:layout_marginBottom="@dimen/a9t" android:layout_below="@id/d77" />
+</RelativeLayout>

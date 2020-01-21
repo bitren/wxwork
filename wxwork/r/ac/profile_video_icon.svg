@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>profile_video_icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="profile_video_icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons/Outlined/chats" transform="translate(6.000000, 12.000000)" fill="#1AAD19" fill-rule="nonzero">
+            <path d="M3.6,8.1 L3.6,39.9 L41.4,39.9 L41.4,8.1 L3.6,8.1 Z M3,4.5 L42,4.5 C43.6568542,4.5 45,5.84314575 45,7.5 L45,40.5 C45,42.1568542 43.6568542,43.5 42,43.5 L3,43.5 C1.34314575,43.5 0,42.1568542 0,40.5 L0,7.5 C0,5.84314575 1.34314575,4.5 3,4.5 Z M51.6,28.2697505 L59.4,34.5097505 L59.4,13.4902495 L51.6,19.7302495 L51.6,28.2697505 Z M48,18 L58.1259149,9.89926811 C59.4197007,8.86423947 61.3075778,9.07400359 62.3426064,10.3677894 C62.7681577,10.8997285 63,11.5606601 63,12.2418745 L63,35.7581255 C63,37.4149797 61.6568542,38.7581255 60,38.7581255 C59.3187855,38.7581255 58.657854,38.5262832 58.1259149,38.1007319 L48,30 L48,18 Z" id="Combined-Shape"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/anw" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/b7"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/fbp" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:gravity="center|left" android:layout_gravity="center_vertical" android:id="@android:id/title" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dv" android:minWidth="@dimen/cz" android:singleLine="true" style="@style/iz" />
+        <LinearLayout android:orientation="vertical" android:id="@id/f1x" android:paddingTop="@dimen/bx" android:paddingBottom="@dimen/bx" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <LinearLayout android:gravity="center|left" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/cd0" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginRight="@dimen/bp" android:scaleType="centerCrop" />
+                <TextView android:ellipsize="end" android:gravity="center|left" android:id="@android:id/summary" android:layout_width="@dimen/bt" android:singleLine="false" android:layout_weight="1.0" style="@style/j2" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,67 @@
+.class Lcom/tencent/wework/setting/controller/FaceVideoRecoderWXLocal$5;
+.super Ljava/lang/Object;
+.source "FaceVideoRecoderWXLocal.java"
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/tencent/wework/setting/controller/FaceVideoRecoderWXLocal;->overrideFps(F)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic mXA:Lcom/tencent/wework/setting/controller/FaceVideoRecoderWXLocal;
+
+.field final synthetic val$fps:F
+
+
+# direct methods
+.method constructor <init>(Lcom/tencent/wework/setting/controller/FaceVideoRecoderWXLocal;F)V
+    .locals 0
+
+    .line 241
+    iput-object p1, p0, Lcom/tencent/wework/setting/controller/FaceVideoRecoderWXLocal$5;->mXA:Lcom/tencent/wework/setting/controller/FaceVideoRecoderWXLocal;
+
+    iput p2, p0, Lcom/tencent/wework/setting/controller/FaceVideoRecoderWXLocal$5;->val$fps:F
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public run()V
+    .locals 2
+
+    .line 243
+    iget-object v0, p0, Lcom/tencent/wework/setting/controller/FaceVideoRecoderWXLocal$5;->mXA:Lcom/tencent/wework/setting/controller/FaceVideoRecoderWXLocal;
+
+    invoke-static {v0}, Lcom/tencent/wework/setting/controller/FaceVideoRecoderWXLocal;->a(Lcom/tencent/wework/setting/controller/FaceVideoRecoderWXLocal;)Lgrh;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_0
+
+    .line 244
+    iget-object v0, p0, Lcom/tencent/wework/setting/controller/FaceVideoRecoderWXLocal$5;->mXA:Lcom/tencent/wework/setting/controller/FaceVideoRecoderWXLocal;
+
+    invoke-static {v0}, Lcom/tencent/wework/setting/controller/FaceVideoRecoderWXLocal;->a(Lcom/tencent/wework/setting/controller/FaceVideoRecoderWXLocal;)Lgrh;
+
+    move-result-object v0
+
+    iget v1, p0, Lcom/tencent/wework/setting/controller/FaceVideoRecoderWXLocal$5;->val$fps:F
+
+    invoke-virtual {v0, v1}, Lgrh;->overrideFps(F)V
+
+    :cond_0
+    return-void
+.end method

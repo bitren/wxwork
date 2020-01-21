@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/atc" android:paddingTop="@dimen/yp" android:layout_width="fill_parent" android:layout_height="@dimen/xu" android:layout_below="@id/cu6"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textSize="@dimen/a3e" android:textStyle="bold" android:textColor="@drawable/w3" android:layout_gravity="center_horizontal" android:id="@id/cu4" android:background="@drawable/w2" android:layout_width="@dimen/xw" android:layout_height="@dimen/yu" android:text="@string/j5r" android:letterSpacing="0.2" />
+</FrameLayout>

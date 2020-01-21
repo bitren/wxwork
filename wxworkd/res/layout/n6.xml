@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/a3a" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" android:layout_alignParentTop="true" style="@style/a13" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:orientation="vertical" android:id="@id/cnd" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/cb1" android:layout_width="80.0dip" android:layout_height="80.0dip" android:layout_marginTop="80.0dip" android:src="@drawable/are" android:layout_centerHorizontal="true" />
+                <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3h" android:textStyle="bold" android:textColor="@color/jf" android:gravity="center_horizontal" android:id="@id/cnc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="30.0dip" android:text="@string/a3x" android:layout_below="@id/cb1" android:layout_centerHorizontal="true" />
+                <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3e" android:textColor="#ff5b636b" android:gravity="center_horizontal" android:id="@id/cne" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="30.0dip" android:text="@string/a3y" android:layout_below="@id/cnc" android:layout_centerHorizontal="true" />
+                <Button android:textSize="@dimen/a3h" android:id="@id/a2u" android:layout_width="fill_parent" android:layout_height="46.0dip" android:layout_marginLeft="64.0dip" android:layout_marginTop="174.0dip" android:layout_marginRight="64.0dip" android:text="@string/a3z" android:layout_below="@id/cne" android:layout_centerHorizontal="true" style="@style/xr" />
+            </RelativeLayout>
+            <com.tencent.wework.appstore.view.AppServerRecommendInfoView2 android:id="@id/e5n" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="96px" height="96px" viewBox="0 0 96 96" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>download 3x</title>
+    <desc>Created with Sketch.</desc>
+    <g id="download-3x" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group">
+            <g id="icon34" fill="#000000" fill-opacity="0.5">
+                <rect id="Rectangle-11" x="0" y="0" width="96" height="96" rx="9.6"></rect>
+            </g>
+            <path d="M50.0103007,25.9205872 L50.0103007,54.9914944 L46.9880029,54.9897357 L46.9880029,25.9222903 L41.2800001,31.6526315 L39,29.3637085 L46.5870868,21.7469295 C47.6394412,20.6904567 49.3489834,20.6871181 50.4054561,21.7394724 C50.4079467,21.7419533 50.4104324,21.7444389 50.4129132,21.7469295 L50.7800001,22.115453 L58,29.3637085 L55.7199999,31.6526315 L50.0103007,25.9205872 Z" id="Combined-Shape" fill="#FFFFFF" fill-rule="nonzero" transform="translate(48.500000, 37.971940) scale(1, -1) translate(-48.500000, -37.971940) "></path>
+            <path d="M66.9971541,35.0431943 L59.003366,35.0395147 L59.003366,32 L67.3153042,32 C68.7929623,32 70,33.2186257 70,34.7218766 L70,68.2781234 C70,69.7729514 68.8018086,71 67.3237646,71 L29.6762354,71 C28.2064731,71 27,69.7813743 27,68.2781234 L27,34.7218766 C27,33.2270486 28.2019792,32 29.6846958,32 L37.9947749,32 L37.9947749,35.0450477 L29.9993297,35.0450477 L29.9993297,67.9292374 L66.9971541,67.932917 L66.9971541,35.0431943 Z" id="Combined-Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

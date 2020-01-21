@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/ed8" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <moai.ocr.view.camera.ROICameraPreview android:id="@id/ecw" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <TextView android:layout_gravity="center" android:id="@id/a8n" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/a0e" />
+    <moai.ocr.view.common.OcrAlphaImageButton android:layout_gravity="start|center|top" android:id="@id/aes" android:layout_width="@dimen/aly" android:layout_height="@dimen/aly" android:layout_margin="@dimen/alx" android:src="@drawable/icon_topbar_finish" android:scaleType="fitCenter" android:adjustViewBounds="true" />
+    <moai.ocr.view.common.OcrAlphaImageButton android:layout_gravity="end|center|top" android:id="@id/bwf" android:layout_width="@dimen/aly" android:layout_height="@dimen/aly" android:layout_margin="@dimen/alx" android:src="@drawable/icon_s_topbar_flash" android:scaleType="fitCenter" android:adjustViewBounds="true" />
+</FrameLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout android:orientation="vertical" android:id="@id/b_h" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/byi" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/f3k" />
+        <com.tencent.wework.enterprise.todo.calendar.views.SyncCalendarLayout android:id="@id/f3s" android:layout_width="fill_parent" android:layout_height="41.0dip" android:layout_marginLeft="@dimen/y5" android:layout_marginRight="@dimen/y5" android:layout_marginBottom="@dimen/y1" android:layout_above="@id/f3k" />
+        <com.tencent.wework.common.views.SwitchTab android:id="@id/f3k" android:background="@drawable/iu" android:layout_width="fill_parent" android:layout_height="@dimen/a7t" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <com.tencent.wework.enterprise.todo.calendar.views.WeekMonthSwitchView android:layout_gravity="end" android:id="@id/f2w" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</android.support.v4.widget.DrawerLayout>

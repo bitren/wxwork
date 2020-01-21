@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/a02" android:paddingLeft="10.0dip" android:paddingTop="4.0dip" android:paddingRight="10.0dip" android:paddingBottom="7.0dip" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:layout_centerInParent="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.PhotoImageView android:id="@id/b1s" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginRight="2.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3b" android:textColor="@color/atc" android:gravity="center_vertical" android:id="@id/b1t" android:paddingTop="@dimen/u6" android:paddingRight="5.0dip" android:paddingBottom="@dimen/u6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="WXG" android:layout_toRightOf="@id/b1s" android:layout_centerVertical="true" />
+    <ImageView android:gravity="center_vertical" android:id="@id/dgg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_multi_department_selected_remove" android:layout_toRightOf="@id/b1t" android:layout_centerVertical="true" />
+</RelativeLayout>

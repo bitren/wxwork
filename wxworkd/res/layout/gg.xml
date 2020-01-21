@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.tencent.wework.common.views.SwitchTab android:id="@id/cus" android:background="@color/atc" android:layout_width="fill_parent" android:layout_height="@dimen/z0" app:dividerColor="@color/jf" app:verticalDividerPadding="7.0dip">
+            <com.tencent.wework.common.views.CommonTabView2 android:gravity="center" android:id="@id/cuo" android:layout_width="fill_parent" android:layout_height="36.0dip">
+                <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3e" android:textColor="@drawable/w0" android:ellipsize="middle" android:gravity="center" android:id="@id/cup" android:clickable="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/zb" android:text="@string/j83" android:singleLine="true" android:drawableRight="@drawable/w1" android:drawablePadding="8.0dip" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+            </com.tencent.wework.common.views.CommonTabView2>
+            <com.tencent.wework.common.views.CommonTabView2 android:gravity="center" android:id="@id/cum" android:layout_width="fill_parent" android:layout_height="36.0dip">
+                <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3e" android:textColor="@drawable/w0" android:ellipsize="middle" android:gravity="center" android:id="@id/cun" android:clickable="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/j84" android:singleLine="true" android:drawableRight="@drawable/w1" android:drawablePadding="8.0dip" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+            </com.tencent.wework.common.views.CommonTabView2>
+            <com.tencent.wework.common.views.CommonTabView2 android:gravity="center" android:id="@id/cuq" android:layout_width="fill_parent" android:layout_height="36.0dip">
+                <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3e" android:textColor="@drawable/w0" android:gravity="center" android:id="@id/cur" android:clickable="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="@dimen/zb" android:text="@string/j82" android:drawableRight="@drawable/w1" android:drawablePadding="8.0dip" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+            </com.tencent.wework.common.views.CommonTabView2>
+        </com.tencent.wework.common.views.SwitchTab>
+        <View android:id="@id/cug" android:background="#66d9d9d9" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_below="@id/cus" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/cug" android:layout_alignWithParentIfMissing="true">
+            <android.support.v7.widget.RecyclerView android:id="@id/cr7" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <include android:id="@id/axp" android:visibility="invisible" layout="@layout/anj" />
+            <com.tencent.wework.common.views.EmptyViewStub android:id="@id/bek" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </FrameLayout>
+        <RelativeLayout android:id="@id/ct3" android:background="@color/atc" android:paddingBottom="200.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/csv" android:background="@color/atc" android:paddingBottom="200.0dip" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/e9k" android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_marginTop="147.0dip" android:src="@drawable/cc5" android:layout_centerHorizontal="true" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="16.0sp" android:textColor="@color/a4h" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.5dip" android:text="@string/j8w" android:layout_below="@id/e9k" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <View android:id="@id/ars" android:background="#55000000" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="vertical" android:id="@id/a68" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="18.0sp" android:textColor="@color/atc" android:gravity="center" android:id="@id/des" android:background="@color/a3u" android:layout_width="fill_parent" android:layout_height="@dimen/apg" />
+        <include layout="@layout/v3" />
+        <FrameLayout android:id="@id/a6_" android:layout_width="fill_parent" android:layout_height="252.0dip">
+            <com.tencent.mail.calendar.view.CalendarScrollView android:id="@id/a7v" android:background="@color/hz" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </FrameLayout>
+    </LinearLayout>
+    <RelativeLayout android:layout_gravity="bottom" android:id="@id/cul" android:background="#55000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/cuk" android:background="@color/atc" android:layout_width="fill_parent" android:layout_height="@dimen/yh" android:layout_alignParentBottom="true">
+            <com.tencent.mail.calendar.view.NumberPicker android:layout_gravity="center" android:id="@id/cuh" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </FrameLayout>
+        <RelativeLayout android:id="@id/cuf" android:background="#fff6f6f8" android:layout_width="fill_parent" android:layout_height="@dimen/z3" android:layout_above="@id/cuk">
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="17.0sp" android:textColor="#ff456c99" android:id="@id/cui" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:text="@string/pv" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="17.0sp" android:textColor="#ff456c99" android:gravity="center_vertical" android:id="@id/cuj" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="20.0dip" android:text="@string/t5" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            <View android:background="#66d9d9d9" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</FrameLayout>

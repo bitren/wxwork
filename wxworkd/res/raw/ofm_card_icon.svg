@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="96px" height="96px" viewBox="0 0 96 96" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>ofm_card_icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="#ffffffff" sketch:type="MSLayerGroup" transform="translate(19.000000, 21.000000)" fill="#FFFFFF">
+            <path d="M3,6 C19.673404,4.21891498 36.3568948,2.13253596 53,-3.55271368e-15 C54.5634854,-0.266295952 56.3992746,0.398926343 57,2 C57.1557812,5.3276188 56.8834388,8.67388853 57,12 C38.9794508,10.1152035 20.9947688,8.16993224 3,6 L3,6 Z" id="Shape" sketch:type="MSShapeGroup"></path>
+            <path d="M1,10 C2.8582107,9.65256351 4.54715339,10.3034786 6,10 C22.7257732,12.3463504 39.3653565,14.0887999 56,16 C57.3341077,16.161714 58.0836384,17.6437975 58,19 C58.0036885,29.6006062 57.9936948,40.3256834 58,51 C58.2535321,52.7231115 56.7644643,54.3754343 55,54 C37.66642,51.9720557 20.3072872,49.9592261 3,48 C1.28919294,48.0765795 -0.209868618,46.7947775 -3.55271368e-15,45 C-0.0399749748,34.6577154 0.069956206,24.2631028 -3.55271368e-15,14 C0.0799499497,12.6167305 -0.149906156,10.8242106 1,10 L1,10 Z" id="Shape" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

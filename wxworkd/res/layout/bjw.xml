@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ww="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/e9d" android:background="@color/atv" android:layout_width="fill_parent" android:layout_height="43.0dip">
+        <LinearLayout android:orientation="horizontal" android:id="@id/e9e" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/e9g" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/a7e" android:layout_marginRight="@dimen/a7e" android:src="@drawable/c0q" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="15.0sp" android:textColor="@color/atw" android:layout_gravity="center_vertical" android:id="@id/e9h" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/c5b" ww:drawableConfigurable="true" />
+        </LinearLayout>
+        <View android:background="@color/atx" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</RelativeLayout>

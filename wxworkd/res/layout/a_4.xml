@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.BaseRelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.tencent.wework.common.views.PhotoImageView android:id="@id/bgu" android:layout_width="18.0dip" android:layout_height="18.0dip" app:maskType="edm" app:radius="1.0dip" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="12.0sp" android:textColor="@color/yr" android:id="@id/bgx" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="@string/bu2" android:maxLines="1" android:drawablePadding="5.0dip" android:layout_weight="1.0" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0sp" android:textColor="@color/x2" android:ellipsize="middle" android:id="@id/bgv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:maxLines="1" android:layout_toLeftOf="@id/bgx" android:layout_toRightOf="@id/bgu" android:layout_centerVertical="true" />
+    </com.tencent.wework.common.views.BaseRelativeLayout>
+    <ViewStub android:id="@id/fwk" android:inflatedId="@id/bgt" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="12.0sp" android:textColor="#ff59636c" android:id="@id/bgw" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/bu2" android:maxLines="1" android:drawableLeft="@drawable/aqc" android:drawablePadding="5.0dip" />
+</merge>

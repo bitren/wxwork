@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/eug" android:background="@drawable/tx" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/z_" android:layout_marginLeft="@dimen/yd" android:layout_marginTop="@dimen/xx" android:layout_marginRight="@dimen/yd">
+        <TextView android:textSize="@dimen/a3g" android:textColor="@color/jf" android:id="@id/eiv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/y5" android:singleLine="true" android:layout_centerVertical="true" />
+        <RadioButton android:id="@id/eue" android:paddingRight="@dimen/zb" android:focusable="false" android:visibility="visible" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/xt" android:button="@drawable/a78" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/exi" android:background="@drawable/ty" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/z_" android:layout_marginLeft="@dimen/yd" android:layout_marginTop="@dimen/xx" android:layout_marginRight="@dimen/yd">
+        <TextView android:textSize="@dimen/a3g" android:textColor="@color/jf" android:id="@id/eiw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/y5" android:singleLine="true" android:layout_centerVertical="true" />
+        <RadioButton android:id="@id/exh" android:paddingRight="@dimen/zb" android:focusable="true" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/xt" android:checked="false" android:button="@drawable/a78" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/exg" android:background="@drawable/tw" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/yd" android:layout_marginRight="@dimen/yd">
+        <com.tencent.wework.homeschool.views.HomeSchoolAmountView android:id="@id/c1o" android:paddingLeft="@dimen/yl" android:paddingRight="@dimen/y5" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <View android:background="@color/a47" android:layout_width="fill_parent" android:layout_height="@dimen/t0" android:layout_marginLeft="@dimen/yl" android:layout_marginRight="@dimen/y5" />
+        <com.tencent.wework.homeschool.views.HomeSchoolAmountView android:id="@id/adt" android:paddingLeft="@dimen/yl" android:paddingRight="@dimen/y5" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

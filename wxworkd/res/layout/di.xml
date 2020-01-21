@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="@color/aj4" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <moai.ocr.view.edit.PhotoViewPager android:id="@id/fqk" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <moai.ocr.view.edit.BitmapEditTopBar android:id="@id/fgh" android:background="@color/aj3" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_gravity="top" android:layout_width="fill_parent" android:layout_height="@dimen/alw">
+            <moai.ocr.view.common.OcrAlphaImageButton android:id="@id/vm" android:src="@drawable/icon_topbar_backwhite" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/a0g" />
+            <TextView android:id="@id/baz" android:text="" android:layout_centerInParent="true" style="@style/a0e" />
+            <moai.ocr.view.common.OcrAlphaTextView android:id="@id/ejh" android:text="@string/cvr" android:layout_alignParentRight="true" style="@style/a0e" />
+        </RelativeLayout>
+    </moai.ocr.view.edit.BitmapEditTopBar>
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/a1r" android:background="@color/aj3" android:layout_width="fill_parent" android:layout_height="@dimen/oc" android:divider="@drawable/aax" android:showDividers="middle">
+        <moai.ocr.view.common.OcrAlphaTextView android:id="@id/dj_" android:paddingLeft="0.0dip" android:paddingRight="0.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/hhz" android:layout_weight="1.0" style="@style/a0e" />
+        <moai.ocr.view.common.OcrAlphaTextView android:id="@id/es2" android:paddingLeft="0.0dip" android:paddingRight="0.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/gnp" android:layout_weight="1.0" style="@style/a0e" />
+    </LinearLayout>
+</FrameLayout>

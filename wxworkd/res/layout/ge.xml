@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/atc" android:layout_width="fill_parent" android:layout_height="fill_parent" app:emojiButton="@id/fds" app:inputText="@id/aos" app:isEmojiPanelDrawTopLine="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" android:layout_width="fill_parent" android:layout_height="@dimen/alo" android:layout_alignParentTop="true" />
+    <RelativeLayout android:id="@id/aon" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <com.tencent.wework.common.views.TouchInterruptLayout android:id="@id/aot" android:background="@null" android:paddingBottom="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/dtp" android:layout_alignParentTop="true">
+            <com.tencent.qmui.richeditor.QMUIRichEditor android:id="@id/aos" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true" android:textCursorDrawable="@drawable/x7" />
+        </com.tencent.wework.common.views.TouchInterruptLayout>
+        <android.support.v7.widget.RecyclerView android:id="@id/dtp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ra" android:layout_marginRight="@dimen/ra" android:layout_marginBottom="12.0dip" android:layout_above="@id/z6" android:overScrollMode="never" />
+        <View android:id="@id/z6" android:background="@color/a47" android:layout_width="fill_parent" android:layout_height="@dimen/rw" android:layout_above="@id/z5" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/z5" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_alignParentBottom="true">
+            <ImageView android:id="@id/eb1" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/a72" android:scaleType="centerInside" android:minWidth="50.0dip" />
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <com.tencent.wework.common.views.EllipsizeHLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/aah" android:layout_width="fill_parent" android:layout_height="fill_parent" app:ellipsizeId="@id/aak">
+                    <ImageView android:id="@id/fdt" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/a70" android:scaleType="centerInside" android:minWidth="50.0dip" />
+                    <View android:background="@color/a68" android:layout_width="@dimen/t2" android:layout_height="22.0dip" android:layout_marginRight="15.0dip" />
+                    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3s" android:textColor="@color/aty" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/aak" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/j6w" android:maxLines="1" android:singleLine="true" />
+                    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3s" android:textColor="@color/aty" android:id="@id/aai" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <View android:background="@color/a68" android:layout_width="@dimen/t2" android:layout_height="22.0dip" android:layout_marginLeft="15.0dip" />
+                </com.tencent.wework.common.views.EllipsizeHLinearLayout>
+                <include android:id="@id/eb0" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/ant" />
+            </FrameLayout>
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3v" android:textColor="@color/atz" android:id="@id/fdu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginRight="18.0dip" android:text="@string/j6v" />
+        </LinearLayout>
+        <RelativeLayout android:id="@id/duy" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.tencent.wework.enterprise.worklog.view.FontSizePopMenuView android:visibility="gone" android:layout_width="@dimen/apd" android:layout_height="@dimen/apc" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

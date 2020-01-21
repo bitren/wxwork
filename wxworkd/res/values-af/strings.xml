@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a3">Navigeer tuis</string>
+    <string name="a4">Navigeer op</string>
+    <string name="abc_action_menu_overflow_description">Nog opsies</string>
+    <string name="a5">Klaar</string>
+    <string name="a6">Sien alles</string>
+    <string name="a7">"Kies 'n program"</string>
+    <string name="a8">AF</string>
+    <string name="a9">AAN</string>
+    <string name="al">Alt+</string>
+    <string name="an">Ctrl+</string>
+    <string name="ao">delete</string>
+    <string name="ap">enter</string>
+    <string name="aq">Funksie+</string>
+    <string name="ar">Meta+</string>
+    <string name="as">Shift+</string>
+    <string name="at">spasiebalk</string>
+    <string name="au">Simbool+</string>
+    <string name="av">Kieslys+</string>
+    <string name="aw">Soek …</string>
+    <string name="ax">Vee navraag uit</string>
+    <string name="ay">Soeknavraag</string>
+    <string name="az">Soek</string>
+    <string name="b0">Dien navraag in</string>
+    <string name="b1">Stemsoektog</string>
+    <string name="b2">Deel met</string>
+    <string name="b3">Deel met %s</string>
+    <string name="b4">Vou in</string>
+    <string name="hlf">Soek</string>
+    <string name="i6c">999+</string>
+</resources>

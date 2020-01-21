@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" style="@style/a13" />
+    <View android:id="@id/fpz" android:background="@color/a4s" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/rw" />
+    <com.tencent.wework.common.views.SuperListView android:id="@id/dr7" android:background="@color/atc" android:layout_width="fill_parent" android:layout_height="fill_parent" android:dividerHeight="0.0dip" />
+</LinearLayout>

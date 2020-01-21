@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.wework.common.views.BaseLinearLayout android:orientation="vertical" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="24.0sp" android:textColor="@color/aq3" android:id="@id/ddn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gt8" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="15.0sp" android:textColor="@color/wu" android:id="@id/ddl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" />
+    <com.tencent.wework.common.views.BaseRelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" app:bottomDividerSize="@dimen/t0">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="13.0sp" android:textColor="@color/wu" android:id="@id/ddo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <com.tencent.wework.common.views.ConfigurableEditText android:textColorHint="@color/y8" android:id="@id/ddm" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="54.0dip" android:hint="@string/gt8" android:maxLines="1" android:maxLength="10" android:layout_centerVertical="true" android:inputType="number" />
+    </com.tencent.wework.common.views.BaseRelativeLayout>
+    <com.tencent.wework.common.views.ConfigurableTextView android:id="@id/ddk" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:text="@string/i6d" style="@style/y2" />
+    <com.tencent.wework.msg.views.MessageItemTextView android:textSize="13.0sp" android:layout_gravity="center_horizontal" android:id="@id/ddj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/fpz" />
+</com.tencent.wework.common.views.BaseLinearLayout>

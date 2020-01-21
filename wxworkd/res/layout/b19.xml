@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/cjx" android:background="@drawable/afl" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/oh">
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/om" android:textColor="@color/ait" android:id="@id/ckr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/oi" />
+            <TextView android:textSize="@dimen/ol" android:textColor="@color/k4" android:id="@id/cj6" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/oi" android:layout_marginTop="2.0dip" />
+        </LinearLayout>
+        <CheckBox android:gravity="right" android:id="@id/ciy" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="@dimen/oi" style="@style/io" />
+    </LinearLayout>
+    <ImageView android:layout_gravity="bottom" android:id="@id/b5z" android:layout_marginLeft="@dimen/oi" style="@style/gy" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/a1b" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/fe0" android:layout_alignParentTop="true" style="@style/a13" />
+    <android.support.v7.widget.RecyclerView android:id="@id/e68" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/alj" android:layout_below="@id/fe0" />
+    <FrameLayout android:id="@id/alj" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="83.0dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

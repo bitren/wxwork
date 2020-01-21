@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/adw" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" style="@style/a13" />
+    <com.tencent.wework.common.views.CommonItemView android:id="@id/cx8" android:layout_width="wrap_content" android:layout_height="@dimen/rx" />
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/aks" android:background="@drawable/m3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="12.0dip">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="43.5dip" android:src="@drawable/b0i" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="17.0sp" android:textColor="@color/aq3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:layout_marginBottom="43.5dip" android:text="@string/fst" android:layout_toRightOf="@id/akt" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/fq_" android:background="@drawable/m3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="12.0dip">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="43.5dip" android:src="@drawable/c8u" android:layout_centerVertical="true" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="17.0sp" android:textColor="@color/aq3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:layout_marginBottom="43.5dip" android:text="@string/fzd" />
+    </LinearLayout>
+</LinearLayout>

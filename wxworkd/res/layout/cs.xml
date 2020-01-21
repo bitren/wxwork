@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#fff0f1f5" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" style="@style/a13" />
+    <LinearLayout android:orientation="vertical" android:background="@drawable/mg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+        <com.tencent.wework.common.views.ConfigurableTextView android:id="@id/atj" android:background="@drawable/mh" android:padding="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/c9z" />
+        <View android:background="#ffd9d9d9" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="15.0dip" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:id="@id/ati" android:background="@drawable/mh" android:padding="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/c9y" />
+        <View android:background="#ffd9d9d9" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="15.0dip" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:id="@id/atg" android:background="@drawable/mh" android:padding="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/c9w" />
+        <View android:background="#ffd9d9d9" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="15.0dip" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:id="@id/ath" android:background="@drawable/mh" android:padding="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/c9x" />
+    </LinearLayout>
+</LinearLayout>

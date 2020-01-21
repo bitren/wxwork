@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/fz1" android:layout="@layout/aw3" android:inflatedId="@id/fbn" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="12.0sp" android:textColor="@color/a4h" android:id="@id/cz4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/a89" android:layout_marginRight="@dimen/a89" android:text="@string/ibc" android:layout_centerInParent="true" />
+        <View android:background="@color/a47" android:layout_width="fill_parent" android:layout_height="@dimen/sm" android:layout_toLeftOf="@id/cz4" android:layout_centerVertical="true" />
+        <View android:background="@color/a47" android:layout_width="fill_parent" android:layout_height="@dimen/sm" android:layout_toRightOf="@id/cz4" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</merge>

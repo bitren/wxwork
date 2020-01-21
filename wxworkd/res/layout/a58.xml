@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/a39" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="定位一次" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/cs7" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="持续定位1" android:layout_weight="1.0" />
+        <Button android:id="@id/ecq" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="移除定位1" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/cs8" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="持续定位2" android:layout_weight="1.0" />
+        <Button android:id="@id/ecr" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="移除定位2" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/cs9" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="持续定位3" android:layout_weight="1.0" />
+        <Button android:id="@id/ecs" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="移除定位3" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

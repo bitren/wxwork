@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.wework.common.views.TriangleTipsView android:layout_width="wrap_content" android:layout_height="wrap_content" app:triangleColor="#ff333333" app:triangleLocation="f"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0sp" android:textColor="@android:color/white" android:id="@id/e9l" android:paddingLeft="16.0dip" android:paddingTop="8.0dip" android:paddingRight="16.0dip" android:paddingBottom="8.0dip" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/xs" />
+        <View android:id="@id/bj6" android:background="#ff4d4d4d" android:visibility="gone" android:layout_width="0.5dip" android:layout_height="fill_parent" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0sp" android:textColor="@android:color/white" android:id="@id/bj5" android:paddingLeft="16.0dip" android:paddingTop="8.0dip" android:paddingRight="16.0dip" android:paddingBottom="8.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/xr" />
+        <View android:id="@id/b2p" android:background="#ff4d4d4d" android:visibility="gone" android:layout_width="0.5dip" android:layout_height="fill_parent" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0sp" android:textColor="@android:color/white" android:id="@id/b2f" android:paddingLeft="16.0dip" android:paddingTop="8.0dip" android:paddingRight="16.0dip" android:paddingBottom="8.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/xq" />
+    </LinearLayout>
+</com.tencent.wework.common.views.TriangleTipsView>

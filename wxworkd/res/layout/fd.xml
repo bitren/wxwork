@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/a3a" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/zk">
+        <com.tencent.wework.homeschool.views.HomeSchoolInfoProfileView android:id="@id/c_6" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <RelativeLayout android:background="@color/a88" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/zk" android:minHeight="@dimen/rx">
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/s4" android:id="@id/dti" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gsu" android:layout_centerVertical="true" android:paddingStart="@dimen/y5" android:paddingEnd="@dimen/y5" />
+            <LinearLayout android:orientation="vertical" android:id="@id/dtk" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toEndOf="@id/dti" />
+        </RelativeLayout>
+        <View android:id="@id/b5z" android:background="@color/a47" android:layout_width="fill_parent" android:layout_height="@dimen/rw" />
+        <include layout="@layout/a1k" />
+    </LinearLayout>
+    <LinearLayout android:background="@color/a88" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/oc" android:layout_alignParentBottom="true">
+        <FrameLayout android:id="@id/a0h" android:background="@drawable/kb" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3f" android:textColor="#ff5b636b" android:gravity="center" android:layout_gravity="center" android:id="@id/a0g" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/hp0" android:drawablePadding="@dimen/zk" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/dyf" android:background="@drawable/kb" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3f" android:textColor="#ff5b636b" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/cvr" android:drawablePadding="@dimen/zk" android:drawableStart="@drawable/ak2" />
+        </FrameLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@id/f7a" android:background="@color/a88" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/oc" android:layout_alignParentBottom="true">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3f" android:textColor="#ff5b636b" android:layout_gravity="center" android:id="@id/f7b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/c3q" android:drawablePadding="@dimen/zk" android:drawableStart="@drawable/aph" />
+    </FrameLayout>
+</RelativeLayout>

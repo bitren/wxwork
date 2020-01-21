@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/aib" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.PhotoImageView android:id="@id/aia" android:background="@color/aoi" android:layout_width="@dimen/aj_" android:layout_height="@dimen/aj_" android:scaleType="centerCrop" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

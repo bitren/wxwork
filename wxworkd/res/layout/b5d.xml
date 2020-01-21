@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/je"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:paddingLeft="@dimen/g" android:paddingRight="@dimen/g" style="@style/jp">
+        <ImageView android:id="@id/anv" android:background="@raw/default_avatar" android:layout_width="@dimen/ec" android:layout_height="@dimen/ec" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:paddingLeft="8.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/el" android:textColor="@color/ait" android:id="@id/e0z" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <FrameLayout android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/e0t" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="75.0dip" android:minHeight="30.0dip">
+            <TextView android:textSize="14.0dip" android:textColor="@color/ad1" android:gravity="center" android:layout_gravity="center" android:id="@id/e11" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="60.0dip" android:minHeight="30.0dip" android:text="@string/e9r" />
+            <ProgressBar android:gravity="center" android:layout_gravity="center" android:id="@id/e10" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/a0x" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

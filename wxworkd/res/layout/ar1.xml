@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.wework.common.views.BaseLinearLayout android:orientation="vertical" android:id="@id/d3x" android:background="@drawable/xv" android:layout_width="fill_parent" android:layout_height="wrap_content" app:widthLimit="@dimen/a_h"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.msg.views.MessageListJournalContentItemView android:id="@id/d7z" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="11.0dip" />
+    <com.tencent.wework.msg.views.MessageListItemViewBottomBar android:id="@id/zb" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</com.tencent.wework.common.views.BaseLinearLayout>

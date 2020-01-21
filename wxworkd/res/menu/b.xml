@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/copy" android:title="@string/c7r" />
+    <item android:id="@id/elp" android:title="@string/e6h" />
+    <item android:id="@id/elo" android:title="@string/dv3" />
+    <item android:id="@android:id/selectAll" android:title="@string/buf" />
+</menu>

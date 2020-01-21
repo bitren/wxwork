@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/ev_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:layout_toLeftOf="@id/ckf">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3d" android:textColor="#ff3582db" android:id="@id/ckc" android:background="@drawable/mh" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="韩玉峰" android:layout_toLeftOf="@id/cij" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/ii" android:textColor="#ff999999" android:id="@id/cij" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="" android:drawableLeft="@drawable/wd" android:layout_alignBaseline="@id/ckc" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3d" android:textColor="#ff3582db" android:id="@id/ckf" android:background="@drawable/mh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fyo" android:layout_alignBaseline="@id/ev_" android:layout_alignParentRight="true" />
+</RelativeLayout>

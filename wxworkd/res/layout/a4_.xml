@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="64.0dip" android:layout_marginLeft="12.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="20.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/c58" android:background="@drawable/er" android:layout_width="0.0dip" android:layout_height="64.0dip" android:layout_weight="1.0">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/b3e" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3c" android:textColor="@color/atg" android:id="@id/c59" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/cja" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/fn1" android:background="@drawable/er" android:layout_width="0.0dip" android:layout_height="64.0dip" android:layout_marginLeft="8.0dip" android:layout_weight="1.0">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/b3f" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3c" android:textColor="@color/atg" android:id="@id/fn2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/cjc" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ank" android:background="@drawable/er" android:layout_width="0.0dip" android:layout_height="64.0dip" android:layout_marginLeft="8.0dip" android:layout_weight="1.0">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/b3d" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3c" android:textColor="@color/atg" android:id="@id/anl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/cj9" />
+    </LinearLayout>
+</LinearLayout>

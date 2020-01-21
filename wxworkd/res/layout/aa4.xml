@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/a4c" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" style="@style/a13" />
+    <RelativeLayout android:paddingLeft="@dimen/a1u" android:paddingTop="@dimen/a1v" android:paddingRight="@dimen/a1u" android:paddingBottom="@dimen/a1v" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/dbz" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginRight="@dimen/a1u" android:src="@drawable/apw" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3g" android:textColor="@color/jf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fz7" android:layout_toRightOf="@id/dbz" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <com.tencent.wework.common.views.CommonItemView android:id="@id/cy3" android:layout_width="wrap_content" android:layout_height="@dimen/rx" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3c" android:textColor="@color/amf" android:id="@id/dbx" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/a1u" android:layout_marginTop="5.0dip" android:layout_marginRight="@dimen/a1u" android:layout_marginBottom="15.0dip" android:text="@string/fwz" />
+    <LinearLayout android:orientation="vertical" android:id="@id/cxx" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.tencent.wework.common.views.CommonItemView android:id="@id/eo5" android:layout_width="wrap_content" android:layout_height="@dimen/rx" />
+        <com.tencent.wework.common.views.CommonItemView android:id="@id/djz" android:layout_width="wrap_content" android:layout_height="@dimen/rx" />
+        <com.tencent.wework.common.views.CommonItemView android:id="@id/dby" android:layout_width="wrap_content" android:layout_height="@dimen/rx" android:layout_marginTop="15.0dip" />
+        <com.tencent.wework.common.views.CommonItemView android:id="@id/eh4" android:layout_width="wrap_content" android:layout_height="@dimen/rx" />
+        <Button android:textSize="@dimen/a3f" android:textColor="@color/a3l" android:id="@id/dc0" android:background="@drawable/a66" android:padding="@dimen/a1u" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/a1v" android:text="@string/c64" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="45px" height="57px" viewBox="0 0 45 57" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Nearby</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="★-Slice-★" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="SLICE" transform="translate(-1450.000000, -602.000000)" stroke="#555555" stroke-width="3">
+            <path d="M1470.91625,655.848525 C1472.06707,657.036752 1473.91641,657.023846 1475.03333,655.788069 C1475.03333,655.788069 1492,638.463839 1492,624 C1492,612.767038 1483.26955,604 1473,604 C1461.73045,604 1453,612.767038 1453,624 C1453,638.463839 1470.91625,655.848525 1470.91625,655.848525 Z M1473,630 C1476.08985,630 1479,627.089851 1479,624 C1479,619.910149 1476.08985,617 1473,617 C1468.91015,617 1466,619.910149 1466,624 C1466,627.089851 1468.91015,630 1473,630 Z" id="Nearby"></path>
+        </g>
+    </g>
+</svg>

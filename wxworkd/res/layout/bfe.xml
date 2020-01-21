@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/cuy" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/fcz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/xm" />
+        <LinearLayout android:orientation="vertical" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="16.0dip">
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3f" android:textColor="@color/jf" android:ellipsize="end" android:id="@id/fch" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:lineSpacingExtra="5.0dip" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3c" android:textColor="#ff9ba1a8" android:ellipsize="end" android:id="@id/fcp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:maxLines="1" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3c" android:textColor="#ff9ba1a8" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/fcg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:maxLines="1" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3c" android:textColor="#ff9ba1a8" android:id="@id/fc_" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/z6" android:background="@color/a5e" android:layout_width="fill_parent" android:layout_height="@dimen/rw" android:layout_marginLeft="12.0dip" />
+</LinearLayout>

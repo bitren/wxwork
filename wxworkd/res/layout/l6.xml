@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="#fff0eff4" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/c4">
+        <LinearLayout android:orientation="vertical" android:id="@id/lr" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/lo" android:layout_width="68.0dip" android:layout_height="68.0dip" android:layout_marginTop="50.0dip" android:layout_marginBottom="35.0dip" />
+            <TextView android:textSize="@dimen/el" android:textColor="@color/ait" android:id="@id/ln" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dl" android:layout_marginRight="@dimen/dl" />
+            <View android:id="@id/ls" android:background="@color/ap1" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="@dimen/dl" android:layout_marginTop="@dimen/e5" android:layout_marginRight="@dimen/dl" android:layout_marginBottom="@dimen/dl" />
+            <android.support.v7.widget.RecyclerView android:id="@id/lt" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dl" android:layout_marginRight="@dimen/dl" />
+            <TextView android:textSize="@dimen/fg" android:textColor="@color/ait" android:id="@id/lk" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dl" android:layout_marginTop="@dimen/bo" android:layout_marginRight="@dimen/dl" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dl" android:layout_marginTop="@dimen/dp" android:layout_marginRight="@dimen/dl">
+                <CheckBox android:textSize="@dimen/fg" android:id="@id/ll" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/xl" style="@style/ky" />
+                <TextView android:textSize="@dimen/fg" android:textColor="@color/ad4" android:id="@id/nh" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <Button android:id="@id/lm" android:layout_marginLeft="@dimen/dl" android:layout_marginRight="@dimen/dl" android:layout_below="@id/lk" style="@style/kn" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:orientation="horizontal" android:id="@id/lj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <TextView android:textColor="@color/ad4" android:id="@id/lu" android:padding="@dimen/ek" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <View android:id="@id/lw" android:background="@color/ad4" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_marginTop="@dimen/en" android:layout_marginBottom="@dimen/en" />
+        <TextView android:textColor="@color/ad4" android:id="@id/lv" android:padding="@dimen/ek" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>

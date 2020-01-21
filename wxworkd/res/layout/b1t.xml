@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/edh" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/b5p" android:background="@color/ahz" android:layout_width="fill_parent" android:layout_height="0.6700001dip" android:layout_below="@id/cyr" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <com.tencent.wework.common.views.ConfigurableEditText android:textSize="16.0sp" android:textColor="@color/a3c" android:textColorHint="@color/ai0" android:gravity="top" android:id="@id/ago" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="12.0dip" android:minHeight="100.0dip" android:layout_below="@id/b5p" android:layout_alignParentLeft="true" />
+    <View android:background="@color/ar4" android:layout_width="fill_parent" android:layout_height="12.0dip" android:layout_below="@id/ago" />
+</RelativeLayout>

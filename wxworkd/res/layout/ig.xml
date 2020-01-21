@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_horizontal" android:id="@id/ed8" android:background="@color/apf" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/ff8" android:layout_width="fill_parent" android:layout_height="@dimen/alo" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+        <ImageView android:id="@id/a8u" android:padding="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a7v" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/al1" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_todo_action_more" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <com.tencent.wework.common.views.CustomScrollView android:orientation="vertical" android:id="@id/efj" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/ff8">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:id="@id/anw" android:background="@drawable/ae9" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginLeft="15.0dip" android:layout_marginTop="57.0dip" android:layout_marginRight="15.0dip" android:layout_centerHorizontal="true">
+                <ImageView android:id="@id/ejg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:src="@drawable/avf" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                <ViewFlipper android:id="@id/cbe" android:layout_width="24.0dip" android:layout_height="44.0dip" android:layout_marginLeft="16.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                <ImageView android:id="@id/cb1" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="16.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                <ImageView android:id="@id/re" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:src="@drawable/c3h" android:layout_toRightOf="@id/cbe" android:layout_centerVertical="true" />
+                <com.rockerhieu.emojicon.EmojiconEditText android:textSize="14.0sp" android:textColor="@color/a3c" android:textColorHint="#ffdcdde0" android:gravity="center|left" android:id="@id/b_z" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:hint="@string/hy8" android:singleLine="true" android:maxLength="80" android:layout_toLeftOf="@id/ebf" android:layout_toRightOf="@id/re" android:layout_centerVertical="true" />
+                <FrameLayout android:id="@id/ebf" android:paddingRight="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+                    <ImageView android:id="@id/aec" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/c3e" />
+                </FrameLayout>
+            </RelativeLayout>
+            <android.support.v7.widget.RecyclerView android:id="@id/e6b" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="13.0dip" android:layout_marginTop="32.0dip" android:layout_marginRight="13.0dip" android:layout_below="@id/anw" android:layout_centerHorizontal="true" android:overScrollMode="never" />
+            <EditText android:id="@id/c7v" android:background="@color/ar4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:cursorVisible="false" android:layout_below="@id/e6b" />
+            <com.tencent.wework.setting.views.SettingStatusActionView android:id="@id/cr" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="38.0dip" android:layout_below="@id/anw" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="16.0sp" android:textColor="@color/amp" android:id="@id/g4f" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="42.0dip" android:text="@string/hyi" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </com.tencent.wework.common.views.CustomScrollView>
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/b6z" android:background="@color/zq" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:background="@color/zq" android:layout_width="135.0dip" android:layout_height="fill_parent">
+            <LinearLayout android:background="#fffbfbfb" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="0.5dip">
+                <com.tencent.wework.common.views.ConfigurableTextView android:textSize="16.0sp" android:textColor="#ff000000" android:layout_gravity="center_vertical" android:id="@id/e2a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="17.0dip" android:layout_marginRight="15.0dip" android:layout_marginBottom="17.0dip" />
+            </LinearLayout>
+        </FrameLayout>
+        <FrameLayout android:background="@color/zq" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <RelativeLayout android:id="@id/k0" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="0.5dip" android:layout_marginRight="0.5dip">
+                <com.tencent.wework.common.views.ConfigurableEditText android:textSize="16.0sp" android:textColor="#ff000000" android:textColorHint="#ffd9dad9" android:id="@id/jz" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/y3" android:layout_marginTop="17.0dip" android:layout_marginRight="@dimen/y3" android:layout_marginBottom="17.0dip" android:maxLength="50" android:layout_centerInParent="true" />
+            </RelativeLayout>
+        </FrameLayout>
+    </LinearLayout>
+    <View android:id="@id/b69" android:background="@color/zq" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+</LinearLayout>

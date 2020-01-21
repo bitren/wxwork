@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.wework.common.views.BaseRelativeLayout android:id="@id/fdf" android:background="@color/atc" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/fdm" android:layout_width="fill_parent" android:layout_height="@dimen/alo" android:layout_alignParentTop="true" />
+    <View android:background="@color/a47" android:layout_width="fill_parent" android:layout_height="@dimen/t0" android:layout_below="@id/fdm" />
+    <com.tencent.wework.common.views.recyclerview.SimpleHorizontalScrollBar android:id="@id/fde" android:background="@color/a1x" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/alo" android:layout_alignParentBottom="true" />
+    <View android:background="@color/a47" android:layout_width="fill_parent" android:layout_height="@dimen/t0" android:layout_alignTop="@id/fde" />
+    <ImageView android:id="@id/fdk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="matrix" />
+</com.tencent.wework.common.views.BaseRelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@drawable/j5" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0sp" android:textColor="#ff6f6f6f" android:id="@id/f83" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="14.0dip" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="16.0sp" android:textColor="#ff000000" android:ellipsize="end" android:id="@id/f84" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginTop="11.0dip" android:layout_marginRight="14.0dip" android:layout_marginBottom="@dimen/xx" android:maxLines="4" android:minLines="2" android:layout_below="@id/f83" />
+    <LinearLayout android:orientation="vertical" android:id="@id/a4t" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/f84">
+        <View android:background="@color/a4s" android:layout_width="fill_parent" android:layout_height="@dimen/rw" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3f" android:textColor="@color/tb" android:gravity="center" android:id="@id/a4s" android:layout_width="fill_parent" android:layout_height="@dimen/z1" android:text="xxx" android:drawablePadding="6.0dip" android:layout_below="@id/ber" android:layout_centerHorizontal="true" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/a4v" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/a4t">
+        <View android:background="@color/a4s" android:layout_width="fill_parent" android:layout_height="@dimen/rw" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3f" android:textColor="@color/tb" android:gravity="center" android:id="@id/a4u" android:layout_width="fill_parent" android:layout_height="@dimen/z1" android:text="xxx" android:drawablePadding="6.0dip" android:layout_below="@id/ber" android:layout_centerHorizontal="true" />
+    </LinearLayout>
+    <View android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" />
+</RelativeLayout>

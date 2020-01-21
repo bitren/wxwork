@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip" android:layout_above="@id/a01" android:layout_below="@id/ffb">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="16.0sp" android:textColor="@color/aq3" android:id="@id/arc" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.tencent.wework.customerservice.views.TextViewsAutoNewLineGroup android:id="@id/avs" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="11.0dip" app:overspread="false" app:textAllBackground="@drawable/n8" app:textAllColor="@color/ub" app:textAllLineMargin="12.0dip" app:textAllMinWidth="75.0dip" app:textAllPaddingBottom="8.0dip" app:textAllPaddingLeft="10.0dip" app:textAllPaddingRight="10.0dip" app:textAllPaddingTop="8.0dip" app:textAllSize="15.0sp" app:textAllWordMargin="12.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/a01" android:background="@color/a7h" android:layout_width="fill_parent" android:layout_height="@dimen/rw" />
+</LinearLayout>

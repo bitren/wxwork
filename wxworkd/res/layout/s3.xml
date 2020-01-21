@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ed8" android:background="@color/a1b" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/fe0" android:layout_width="fill_parent" android:layout_height="@dimen/alw" />
+    <com.tencent.wework.common.views.CommonItemView android:id="@id/dpl" android:layout_width="fill_parent" android:layout_height="@dimen/rx" android:layout_marginTop="16.0dip" app:leftTitle="@string/alj" />
+    <com.tencent.wework.common.views.CommonItemView android:id="@id/hq" android:layout_width="fill_parent" android:layout_height="@dimen/rx" android:layout_marginTop="16.0dip" app:leftTitle="@string/ab9" />
+    <com.tencent.wework.common.views.CommonItemView android:id="@id/dpk" android:layout_width="fill_parent" android:layout_height="@dimen/rx" app:leftTitle="@string/alh" />
+    <com.tencent.wework.common.views.CommonItemView android:id="@id/b_s" android:layout_width="fill_parent" android:layout_height="@dimen/rx" app:leftTitle="@string/aiz" />
+    <com.tencent.wework.common.views.CommonItemView android:id="@id/b_r" android:layout_width="fill_parent" android:layout_height="@dimen/rx" app:leftTitle="@string/aiu" />
+    <com.tencent.wework.common.views.CommonItemView android:id="@id/hu" android:layout_width="fill_parent" android:layout_height="@dimen/rx" android:layout_marginTop="16.0dip" app:leftTitle="@string/aba" />
+    <com.tencent.wework.common.views.CommonItemView android:id="@id/p" android:layout_width="fill_parent" android:layout_height="@dimen/rx" app:leftTitle="@string/aiz" />
+    <com.tencent.wework.common.views.CommonItemView android:id="@id/o" android:layout_width="fill_parent" android:layout_height="@dimen/rx" app:leftTitle="@string/aiu" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:id="@id/z1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/ajr" style="@style/y7" />
+</LinearLayout>

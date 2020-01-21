@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/atc" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/eap" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="result" style="@style/kz" />
+    <Button android:id="@id/ewj" android:text="@string/i5l" style="@style/ji" />
+    <Button android:id="@id/ewe" android:text="@string/i5g" style="@style/ji" />
+    <Button android:id="@id/ewi" android:text="@string/i5k" style="@style/ji" />
+    <Button android:id="@id/ewg" android:text="@string/i5i" style="@style/ji" />
+    <Button android:id="@id/ewd" android:text="@string/i5f" style="@style/ji" />
+    <Button android:id="@id/ewh" android:text="@string/i5j" style="@style/ji" />
+    <Button android:id="@id/ewf" android:text="@string/i5h" style="@style/ji" />
+    <Button android:id="@id/ewc" android:text="@string/i5e" style="@style/ji" />
+    <Button android:id="@id/ewb" android:text="@string/i5d" style="@style/ji" />
+</LinearLayout>

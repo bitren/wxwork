@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/atc" android:clickable="true" android:duplicateParentState="false" android:layout_width="fill_parent" android:layout_height="45.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/a68" android:visibility="gone" android:layout_width="@dimen/t2" android:layout_height="22.0dip" android:layout_marginRight="15.0dip" />
+    <ImageView android:id="@id/b8w" android:visibility="visible" android:clickable="true" android:duplicateParentState="false" android:layout_width="@dimen/xo" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/xn" android:src="@drawable/icon_doc_preview_toolbar_font_text_pressed" android:scaleType="center" />
+    <ImageView android:id="@id/b8x" android:visibility="visible" android:clickable="true" android:duplicateParentState="false" android:layout_width="@dimen/xo" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/xn" android:src="@drawable/wi" android:scaleType="center" />
+    <View android:background="@color/a68" android:visibility="visible" android:layout_width="@dimen/t2" android:layout_height="@dimen/yf" android:layout_marginLeft="@dimen/yd" />
+    <ImageView android:id="@id/b97" android:visibility="visible" android:clickable="true" android:duplicateParentState="false" android:layout_width="@dimen/xo" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/yd" android:src="@drawable/icon_doc_preview_toolbar_title_pressed" android:scaleType="center" />
+    <ImageView android:id="@id/b8r" android:visibility="visible" android:clickable="true" android:duplicateParentState="false" android:layout_width="@dimen/xo" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/yd" android:src="@drawable/icon_doc_preview_toolbar_cooperation_pressed" android:scaleType="center" />
+    <ImageView android:id="@id/b8y" android:visibility="gone" android:clickable="true" android:duplicateParentState="false" android:layout_width="@dimen/xo" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/xn" android:src="@drawable/wh" android:scaleType="center" />
+    <View android:background="@color/a68" android:visibility="gone" android:layout_width="@dimen/t2" android:layout_height="22.0dip" android:layout_marginLeft="15.0dip" />
+</LinearLayout>

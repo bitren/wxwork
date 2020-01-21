@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/cwk" android:background="@color/atc" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/fgh" android:layout_width="fill_parent" android:layout_height="@dimen/alo" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a73" android:textColor="@color/a3c" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/foh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/a7q" android:text="@string/bwv" android:singleLine="false" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="13.0sp" android:textColor="@color/jf" android:layout_gravity="center_horizontal" android:id="@id/fog" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:text="@string/bwx" android:singleLine="true" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="18.0dip" android:textColor="@color/ads" android:gravity="center" android:id="@id/fo8" android:background="@color/adr" android:layout_width="fill_parent" android:layout_height="73.0dip" android:layout_marginTop="10.0dip" />
+        <com.tencent.wework.common.views.WWIconButton android:layout_gravity="center_horizontal" android:id="@id/bv" android:layout_marginTop="@dimen/a7k" android:text="@string/bww" style="@style/z5" />
+    </LinearLayout>
+</LinearLayout>

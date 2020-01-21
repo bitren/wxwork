@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.rockerhieu.emojicon.EmojiconEditText android:textSize="18.0sp" android:textColor="@color/jf" android:textColorHint="#ffb2b2b2" android:gravity="left" android:id="@id/fb9" android:background="@null" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="12.0dip" android:hint="@string/bvl" android:singleLine="false" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:lineSpacingMultiplier="1.2" />
+    <View android:id="@id/ffb" android:background="#fff0f1f5" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/bj" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_below="@id/fb9" />
+    <com.rockerhieu.emojicon.EmojiconEditText android:textSize="16.0sp" android:textColor="@color/jf" android:textColorHint="#ffb2b2b2" android:gravity="left" android:id="@id/aos" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="12.0dip" android:hint="@string/cfm" android:minLines="4" android:layout_below="@id/ffb" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" android:lineSpacingMultiplier="1.2" />
+    <View android:id="@id/b5z" android:background="#fff0f1f5" android:layout_width="fill_parent" android:layout_height="@dimen/bj" android:layout_below="@id/aos" />
+    <FrameLayout android:id="@id/eux" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/b5z">
+        <include layout="@layout/a3l" />
+    </FrameLayout>
+    <RelativeLayout android:id="@id/dgf" android:background="@drawable/ms" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/b5z">
+        <android.support.v7.widget.RecyclerView android:id="@id/dtp" android:background="@color/ar4" android:paddingLeft="12.0dip" android:paddingTop="12.0dip" android:paddingRight="12.0dip" android:paddingBottom="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:overScrollMode="never" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="15.0sp" android:textColor="#ff808080" android:id="@id/dz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1.0dip" android:text="@string/cxw" android:layout_toRightOf="@id/dtp" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</RelativeLayout>

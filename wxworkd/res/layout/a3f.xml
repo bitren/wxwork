@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ww="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3d" android:textColor="@color/a4h" android:gravity="bottom|center|left" android:background="@color/a3a" android:paddingLeft="@dimen/ty" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="41.0dip" android:text="@string/cbp" />
+    <View android:background="@color/a47" android:layout_width="fill_parent" android:layout_height="@dimen/r4" />
+    <com.tencent.wework.setting.views.SimpleItemView android:id="@id/c4t" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/rw" android:minHeight="@dimen/rx" ww:leftContent="@string/cbo" ww:rightIconType="re" />
+    <com.tencent.wework.setting.views.SimpleItemView android:id="@id/c3f" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/rw" android:minHeight="@dimen/rx" ww:leftContent="@string/cbn" ww:rightIconType="re" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/s4" android:textColor="@color/a76" android:gravity="center" android:id="@id/c2q" android:background="@drawable/kb" android:layout_width="fill_parent" android:layout_height="@dimen/rx" android:layout_marginTop="@dimen/y3" android:text="@string/cc_" ww:bottomDividerSize="@dimen/rw" ww:topDividerSize="@dimen/rw" />
+</LinearLayout>

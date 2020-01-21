@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="?android:selectableItemBackground" android:paddingLeft="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="32.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <CheckBox android:id="@id/dkf" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    <com.github.johnkil.print.PrintView android:id="@id/rk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/dkf" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:layout_alignWithParentIfMissing="true" app:iconColor="@color/nt" app:iconFont="fonts/material-icon-font.ttf" app:iconSize="16.0dip" app:iconText="@string/fc4" />
+    <com.github.johnkil.print.PrintView android:id="@id/cb1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_toRightOf="@id/rk" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:layout_alignWithParentIfMissing="true" app:iconColor="@color/nt" app:iconFont="fonts/material-icon-font.ttf" app:iconSize="18.0dip" app:iconText="@string/fc0" />
+    <TextView android:textSize="14.0sp" android:id="@id/dkg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_toRightOf="@id/cb1" android:layout_centerVertical="true" />
+</RelativeLayout>

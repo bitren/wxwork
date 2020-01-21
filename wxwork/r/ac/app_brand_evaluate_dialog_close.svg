@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Icons/Outlined/close</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Icons/Outlined/close" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.5" opacity="0.5">
+        <g id="Icons/Tint-Color/Black" transform="translate(4.000000, 4.000000)" fill="#000000">
+            <polygon id="Mask" points="8 6.94318182 1.80681818 0.75 0.75 1.80681818 6.94318182 8 0.75 14.1931818 1.80681818 15.25 8 9.05681818 14.1931818 15.25 15.25 14.1931818 9.05681818 8 15.25 1.80681818 14.1931818 0.75"></polygon>
+        </g>
+    </g>
+</svg>

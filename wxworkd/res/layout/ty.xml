@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/lz"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:form="http://schemas.android.com/apk/res-auto">
+    <com.tencent.mm.ui.bindqq.AutoBottomScrollView android:id="@id/efd" android:scrollbars="none" style="@style/kg">
+        <LinearLayout android:gravity="center_horizontal" android:paddingLeft="@dimen/k" android:paddingTop="@dimen/dl" android:paddingRight="@dimen/k" android:paddingBottom="@dimen/dp" style="@style/im">
+            <ImageView android:id="@id/ep_" android:paddingBottom="@dimen/dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ait" />
+            <TextView android:textSize="@dimen/d8" android:textColor="@color/aci" android:gravity="center" android:id="@id/ep8" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dp" android:text="@string/axg" android:maxLines="4" android:singleLine="false" android:lineSpacingExtra="4.0dip" style="@style/k8" />
+            <com.tencent.mm.ui.base.MMFormInputView android:id="@id/xx" form:form_hint="@string/axv" form:form_layout="@layout/ax4" form:form_title="@string/hbd" style="@style/ja" />
+            <com.tencent.mm.ui.base.MMFormInputView android:id="@id/xw" form:form_hint="@string/axu" form:form_layout="@layout/ax6" form:form_title="@string/hbk" style="@style/ja" />
+            <TextView android:textSize="@dimen/d8" android:textColor="@color/as1" android:gravity="center" android:id="@id/xr" android:paddingTop="@dimen/ff" android:paddingBottom="@dimen/ff" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/axg" android:lineSpacingExtra="4.0dip" style="@style/in" />
+            <LinearLayout android:id="@id/xs" android:layout_marginTop="@dimen/do" style="@style/kn">
+                <TextView android:textSize="20.0dip" android:gravity="center" android:layout_gravity="center" android:id="@id/xv" android:background="@null" android:padding="0.0dip" android:text="@string/axx" style="@style/kn" />
+                <ProgressBar android:layout_gravity="center" android:id="@id/xu" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/a0x" />
+            </LinearLayout>
+        </LinearLayout>
+    </com.tencent.mm.ui.bindqq.AutoBottomScrollView>
+</LinearLayout>

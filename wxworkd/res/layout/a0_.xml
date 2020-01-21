@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:id="@id/ajh" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@drawable/cjr" android:layout_width="@dimen/xg" android:layout_height="@dimen/xg" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/xh" android:textColor="@color/atc" android:ellipsize="end" android:id="@id/b57" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="100.0dip" android:text="@string/fqr" android:lines="1" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+</RelativeLayout>

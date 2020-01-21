@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/a1h" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/fgh" android:layout_width="fill_parent" android:layout_height="@dimen/alo" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:fillViewport="true">
+        <LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/yd" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:background="@color/a1h" android:layout_width="fill_parent" android:layout_height="@dimen/yd" />
+            <RelativeLayout android:orientation="vertical" android:id="@id/cze" android:background="@drawable/cj_" android:paddingLeft="@dimen/yp" android:paddingRight="@dimen/yp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/y5" android:layout_marginRight="@dimen/y5" android:minHeight="547.0dip">
+                <com.tencent.wework.common.views.ConfigurableTextView android:textSize="16.0sp" android:textColor="#ffc5c5c5" android:gravity="center" android:id="@id/dk5" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ek9" android:drawableTop="@drawable/bbz" android:layout_centerInParent="true" />
+                <LinearLayout android:id="@id/asv" android:paddingTop="@dimen/yv" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <android.support.v7.widget.AppCompatTextView android:textSize="13.0sp" android:textColor="#ff9b9b9b" android:layout_gravity="center" android:id="@id/ass" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" />
+                </LinearLayout>
+                <LinearLayout android:id="@id/fgk" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/yp" android:layout_below="@id/asv">
+                    <android.support.v7.widget.AppCompatTextView android:textSize="20.0sp" android:textColor="@color/jf" android:id="@id/fgj" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout android:id="@id/f_9" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/zb" android:layout_below="@id/fgk">
+                    <android.support.v7.widget.AppCompatTextView android:textColor="#ff9b9b9b" android:id="@id/f_j" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ekj" />
+                    <LinearLayout android:orientation="vertical" android:id="@id/f_i" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <android.support.v7.widget.AppCompatTextView android:id="@id/eec" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/z4" />
+                        <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                            <android.support.v7.widget.AppCompatTextView android:id="@id/eee" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/z4" android:layout_marginRight="@dimen/z4" android:src="@drawable/bby" />
+                            <android.support.v7.widget.AppCompatTextView android:id="@id/eed" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <TextView android:textSize="17.0sp" android:textColor="#ff000000" android:ellipsize="end" android:gravity="center|left" android:id="@id/f_0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_below="@id/f_9" />
+                <com.tencent.wework.common.views.BaseLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/fq1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.899994dip" android:layout_below="@id/f_0">
+                    <com.tencent.wework.common.views.PhotoImageView android:id="@id/d17" android:layout_width="11.0dip" android:layout_height="11.0dip" android:src="@drawable/c8x" android:adjustViewBounds="true" />
+                    <TextView android:textSize="12.0sp" android:textColor="#ff000000" android:ellipsize="end" android:gravity="center" android:id="@id/d18" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/yw" android:maxLines="1" android:includeFontPadding="false" />
+                </com.tencent.wework.common.views.BaseLinearLayout>
+                <View android:id="@id/fpx" android:background="#ffd8b682" android:layout_width="@dimen/yp" android:layout_height="@dimen/yc" android:layout_marginTop="@dimen/yl" android:layout_below="@id/fq1" />
+                <RelativeLayout android:orientation="horizontal" android:id="@id/sw" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/yd" android:layout_below="@id/fpx">
+                    <android.support.v7.widget.AppCompatTextView android:textSize="15.0sp" android:textColor="#ff2d3034" android:id="@id/sx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ejg" />
+                    <android.support.v7.widget.AppCompatTextView android:textSize="15.0sp" android:textColor="#ff2d3034" android:id="@id/sv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ze" android:layout_alignParentLeft="true" />
+                </RelativeLayout>
+                <RelativeLayout android:orientation="horizontal" android:id="@id/fd" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/yd" android:layout_below="@id/sw">
+                    <android.support.v7.widget.AppCompatTextView android:textSize="15.0sp" android:textColor="#ff2d3034" android:id="@id/fe" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ej9" />
+                    <android.support.v7.widget.AppCompatTextView android:textSize="15.0sp" android:textColor="#ff2d3034" android:id="@id/fc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ze" android:layout_alignParentLeft="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/agz" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/yd" android:layout_below="@id/fd">
+                    <android.support.v7.widget.AppCompatTextView android:textSize="15.0sp" android:textColor="#ff2d3034" android:id="@id/ah2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/eje" />
+                    <android.support.v7.widget.AppCompatTextView android:textSize="15.0sp" android:textColor="#ff2d3034" android:id="@id/ah4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ze" android:maxLength="120" android:layout_alignParentLeft="true" android:lineSpacingExtra="2.0dip" />
+                </RelativeLayout>
+                <LinearLayout android:gravity="bottom" android:orientation="vertical" android:id="@id/a0e" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/yp" android:layout_below="@id/agz" android:layout_alignParentBottom="true">
+                    <RelativeLayout android:id="@id/doc" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/z1">
+                        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="13.0sp" android:textColor="#ff686868" android:id="@id/av" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/y5" android:layout_marginTop="0.0dip" android:text="@string/ekc" android:drawableTop="@drawable/bn_" android:drawablePadding="10.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+                        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="13.0sp" android:textColor="#ff686868" android:id="@id/f77" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/eke" android:drawableTop="@drawable/bng" android:drawablePadding="10.0dip" android:layout_centerHorizontal="true" />
+                        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="13.0sp" android:textColor="#ff686868" android:layout_gravity="right" android:id="@id/e8f" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/y5" android:text="@string/ekd" android:drawableTop="@drawable/bnb" android:drawablePadding="10.0dip" android:layout_alignParentRight="true" />
+                    </RelativeLayout>
+                    <LinearLayout android:id="@id/ez_" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/yj">
+                        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="15.0sp" android:textColor="#ff545d65" android:layout_gravity="right" android:id="@id/eyz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="10.0dip" android:layout_alignParentRight="true" />
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

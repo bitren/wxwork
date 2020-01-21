@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="#fffbfbfb" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="#ff000000" android:id="@id/fax" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="12.0sp" android:textColor="#ff939393" android:id="@id/b2k" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="3.0dip" android:layout_marginRight="15.0dip" android:text="打卡规则：产品组考勤 | 打卡规则：产品组考勤" />
+    </LinearLayout>
+    <View android:layout_gravity="bottom" android:background="#ffe3e3e3" android:layout_width="fill_parent" android:layout_height="@dimen/bj" />
+</FrameLayout>

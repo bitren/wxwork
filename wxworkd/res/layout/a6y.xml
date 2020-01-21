@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/aup" android:background="@drawable/nr" android:layout_width="310.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="left" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_marginLeft="24.0dip" android:layout_marginTop="28.5dip" android:layout_marginRight="24.0dip" android:src="@drawable/caq" />
+    <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="#ff000000" android:id="@id/fax" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="23.5dip" android:layout_marginRight="24.0dip" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="8.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:id="@id/aoa" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </ScrollView>
+    <RelativeLayout android:id="@id/aug" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textColor="#fff44539" android:gravity="center" android:id="@id/al3" android:background="@drawable/mm" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="wrap_content" android:layout_height="36.0dip" android:layout_marginRight="16.0dip" android:text="@string/dgt" android:singleLine="true" android:layout_alignParentRight="true" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3e" android:textColor="@color/a7o" android:gravity="center" android:id="@id/a8w" android:background="@drawable/mm" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="wrap_content" android:layout_height="36.0dip" android:layout_marginRight="15.0dip" android:text="@string/bmz" android:singleLine="true" android:layout_toLeftOf="@id/al3" />
+    </RelativeLayout>
+</LinearLayout>

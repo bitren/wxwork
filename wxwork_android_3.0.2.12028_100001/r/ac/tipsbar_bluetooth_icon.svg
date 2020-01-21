@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="96px" height="96px" viewBox="0 0 96 96" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>function_bluetooth_btn</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Tipsbar" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="function_bluetooth_btn">
+            <g>
+                <rect id="bond" x="0" y="0" width="96" height="96"></rect>
+                <path d="M46.2791753,21.0002144 L46.2791753,44.5821007 L33.041369,33.7062355 L31,36.1925458 L45.3721385,47.9990351 L31,59.8065965 L33.041369,62.2929068 L46.2791753,51.4170416 L46.2791753,75 L64.7394125,59.7465562 L50.439108,47.9990351 L64.7394125,36.2515139 L46.2791753,21.0002144 Z M49.4956181,27.8287224 L59.6810202,36.2440089 L49.4956181,44.6121208 L49.4956181,27.8287224 Z M49.4956181,51.3859493 L59.6810202,59.7529891 L49.4956181,68.1693477 L49.4956181,51.3859493 Z" id="Page-1" fill="#1AAD19"></path>
+            </g>
+        </g>
+    </g>
+</svg>

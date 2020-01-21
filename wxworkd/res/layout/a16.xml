@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ala" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <TextView android:id="@id/ale" android:visibility="gone" android:text="title" style="@style/go" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.tencent.mm.pluginsdk.ui.applet.CdnImageView android:id="@id/alh" android:layout_marginRight="@dimen/ff" style="@style/gn" />
+                <ImageView android:id="@id/dtx" android:visibility="gone" android:layout_marginRight="@dimen/ff" android:src="@drawable/ans" android:scaleType="centerInside" style="@style/gn" />
+            </FrameLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:textSize="@dimen/el" android:textColor="@color/ait" android:id="@id/ali" android:paddingLeft="0.0dip" android:paddingRight="0.0dip" android:layout_height="wrap_content" android:text="titlettttttttttttttttttttttttttttttttttt" android:maxLines="3" style="@style/go" />
+                <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                    <TextView android:id="@id/alf" android:layout_marginLeft="0.0dip" android:layout_marginTop="@dimen/g" android:text="messageeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee" android:maxLines="2" style="@style/gl" />
+                </ScrollView>
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:id="@id/alb" android:text="source" style="@style/gm" />
+        <com.tencent.mm.ui.widget.edittext.PasterEditText android:id="@id/alg" android:layout_marginBottom="@dimen/dl" style="@style/gj" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/al_" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ff" android:layout_marginBottom="@dimen/dl">
+            <CheckBox android:id="@id/ert" android:layout_width="@dimen/fd" android:layout_height="@dimen/fd" />
+            <TextView android:textSize="@dimen/d8" android:textColor="@color/ait" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hfl" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

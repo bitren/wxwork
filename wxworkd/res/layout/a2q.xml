@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/m1" android:layout_width="@dimen/re" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ww="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/fb6" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <RelativeLayout android:gravity="center|left|top" android:id="@id/cbl" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+            <ImageView android:id="@id/cbg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="12.0dip" android:src="@drawable/icon_dialog_warn" android:scaleType="fitStart" />
+        </RelativeLayout>
+        <com.rockerhieu.emojicon.EmojiconTextView android:textSize="@dimen/a3h" android:textColor="@color/jf" android:id="@id/av0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/aiv" android:layout_marginTop="@dimen/aiv" android:layout_marginRight="@dimen/aiv" android:layout_below="@id/cbl" ww:configurable="false" />
+    </RelativeLayout>
+    <RelativeLayout android:gravity="center|left" android:id="@id/auh" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/aiv" android:layout_marginRight="24.0dip" android:layout_weight="1.0">
+        <CheckBox android:id="@id/ach" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:layout_alignParentLeft="true" style="@style/xz" />
+        <com.tencent.wework.common.views.PhotoImageView android:id="@id/aul" android:paddingBottom="20.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/ach" android:layout_centerHorizontal="true" />
+        <com.rockerhieu.emojicon.EmojiconTextView android:textSize="@dimen/a3f" android:textColor="@color/a5f" android:id="@id/auu" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/aul" ww:configurable="false" />
+        <com.tencent.wework.common.views.SuperListView android:id="@id/aj8" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scrollingCache="false" android:dividerHeight="0.0dip" style="@style/yb" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/aug" android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_marginTop="@dimen/aiv" android:layout_marginBottom="16.0dip">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3f" android:textColor="@color/atc" android:gravity="center" android:id="@id/auq" android:background="@drawable/o2" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="wrap_content" android:layout_height="36.0dip" android:singleLine="true" android:layout_centerInParent="true" ww:configurable="false" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3f" android:textColor="@color/a7o" android:gravity="center" android:id="@id/auy" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="36.0dip" android:layout_marginRight="14.0dip" android:singleLine="true" android:layout_alignParentRight="true" ww:configurable="false" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3f" android:textColor="@color/a7o" android:gravity="center" android:id="@id/auv" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="36.0dip" android:layout_marginRight="14.0dip" android:singleLine="true" android:layout_toLeftOf="@id/auy" ww:configurable="false" />
+    </RelativeLayout>
+</LinearLayout>

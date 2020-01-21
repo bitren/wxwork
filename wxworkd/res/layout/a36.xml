@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/ffb" android:background="@color/a7h" android:layout_width="fill_parent" android:layout_height="@dimen/rw" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginBottom="15.0dip" android:layout_weight="1.0" android:layout_above="@id/a01" android:layout_below="@id/ffb">
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="17.0sp" android:textColor="@color/aq3" android:id="@id/arc" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.tencent.wework.customerservice.views.TextViewsAutoNewLineGroup android:id="@id/avs" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="11.0dip" app:overspread="false" app:textAllBackground="@drawable/n7" app:textAllColor="@color/vm" app:textAllLineMargin="10.0dip" app:textAllMinWidth="48.0dip" app:textAllPaddingBottom="5.0dip" app:textAllPaddingLeft="10.0dip" app:textAllPaddingRight="10.0dip" app:textAllPaddingTop="5.0dip" app:textAllSize="13.0sp" app:textAllWordMargin="8.0dip" />
+        </LinearLayout>
+        <ImageView android:layout_gravity="center|right" android:id="@id/ro" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="7.0dip" android:layout_marginRight="7.0dip" android:src="@drawable/c3h" />
+    </LinearLayout>
+    <View android:id="@id/a01" android:background="@color/a7h" android:layout_width="fill_parent" android:layout_height="@dimen/rw" />
+</LinearLayout>

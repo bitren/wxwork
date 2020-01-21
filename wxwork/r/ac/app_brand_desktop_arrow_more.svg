@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="48px" viewBox="0 0 24 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>multitaskbar_title_arrow_icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M19.0918831,34.8387016 L16.9705627,36.960022 L5.41276868,25.4022279 C4.63251808,24.6219773 4.63437753,23.3550817 5.41276868,22.5766905 L16.9705627,11.0188965 L19.0918831,13.1402168 L8.24264069,23.9894592 L19.0918831,34.8387016 Z" id="path-1"></path>
+    </defs>
+    <g opacity="0.5" id="multitaskbar_title_arrow_icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="common_icons_arrow" transform="translate(12.000000, 24.000000) rotate(-180.000000) translate(-12.000000, -24.000000) ">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Combined-Shape" fill="#ffffff" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

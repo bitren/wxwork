@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/a3a" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/fe0" android:layout_width="fill_parent" android:layout_height="@dimen/alo" />
+    <com.tencent.wework.common.views.BaseLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/agj" android:background="@color/atc" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/zc" app:bottomDividerSize="@dimen/t0" app:topDividerSize="@dimen/t0" />
+</LinearLayout>

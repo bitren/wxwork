@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.wework.common.views.KeyboardListenerRelativeLayout android:id="@id/edh" android:background="@color/atc" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/ekl" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <RelativeLayout android:id="@id/d1n" android:background="#ffecf6fe" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="50.0dip">
+            <TextView android:textSize="15.0dip" android:textColor="@color/jf" android:id="@id/d1o" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="@string/hn5" android:layout_centerVertical="true" />
+            <TextView android:textSize="15.0dip" android:textColor="@color/jf" android:id="@id/d1p" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hn6" android:layout_toRightOf="@id/d1o" android:layout_centerVertical="true" />
+            <TextView android:textSize="15.0dip" android:textColor="@color/jf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hn4" android:layout_toRightOf="@id/d1p" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <ViewStub android:id="@id/fyq" android:inflatedId="@id/ekj" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.tencent.wework.contact.views.InviteMultiContactSelectHListView android:id="@id/chf" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/ekk" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/ekl" />
+</com.tencent.wework.common.views.KeyboardListenerRelativeLayout>

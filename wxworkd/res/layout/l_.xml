@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/bk" android:layout_width="fill_parent" android:layout_height="@dimen/ka"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/cb1" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="15.0dip" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/exw" android:visibility="gone" android:layout_width="19.0dip" android:layout_height="19.0dip" android:layout_marginRight="20.0dip" android:src="@raw/ic_appbrand_star_mark" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <FrameLayout android:id="@id/f89" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toLeftOf="@id/exw" android:layout_toRightOf="@id/cb1">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:id="@id/dwu" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/p1" />
+                <TextView android:id="@id/eir" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" style="@style/p2" />
+            </LinearLayout>
+            <TextView android:id="@id/f6m" android:background="@drawable/bn" android:padding="2.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" style="@style/p3" />
+        </LinearLayout>
+    </FrameLayout>
+    <TextView android:textSize="11.0dip" android:id="@id/arj" android:background="@drawable/bn" android:padding="2.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" style="@style/p3" />
+    <View android:id="@id/b5z" android:layout_alignLeft="@id/f89" android:layout_alignParentBottom="true" android:layout_alignStart="@id/f89" style="@style/u7" />
+</RelativeLayout>

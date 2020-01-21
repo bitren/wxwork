@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewStub android:id="@id/fya" android:visibility="gone" android:layout="@layout/aty" android:inflatedId="@id/dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/aay" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    <com.tencent.wework.msg.views.MessageListInfoItemView android:id="@id/dab" android:paddingBottom="@dimen/a9j" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/dip" />
+    <ViewStub android:id="@id/fxi" android:layout="@layout/z6" android:inflatedId="@id/d5p" android:layout_width="wrap_content" android:layout_height="@dimen/a9b" android:layout_marginLeft="@dimen/a_9" android:layout_below="@id/dab" />
+    <com.tencent.wework.common.views.PhotoImageView android:id="@id/d8d" android:layout_width="@dimen/a9b" android:layout_height="@dimen/a9b" android:layout_marginLeft="@dimen/a98" android:layout_marginRight="@dimen/a9a" android:layout_toRightOf="@id/d5p" android:layout_below="@id/dab" android:layout_alignWithParentIfMissing="true" />
+    <LinearLayout android:orientation="vertical" android:id="@id/cz0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/d8d" android:layout_alignTop="@id/d8d">
+        <include android:id="@id/dad" layout="@layout/at5" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <RelativeLayout android:id="@id/d9q" android:background="@drawable/xi" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ViewStub android:id="@id/fy1" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout="@layout/asn" android:inflatedId="@id/d9l" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignLeft="@id/d3w" android:layout_alignTop="@id/d3w" android:layout_alignRight="@id/d3w" android:layout_alignBottom="@id/d3w" />
+                <com.tencent.wework.msg.views.MessageItemTextView android:autoLink="web" android:id="@id/d3w" android:paddingLeft="@dimen/aal" android:paddingTop="@dimen/aap" android:paddingRight="@dimen/aam" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/aan" android:singleLine="false" app:maxLevelIncrement="@dimen/aar" style="@style/ze" />
+                <com.tencent.wework.msg.views.MessageItemTextView android:textColor="@color/a4x" android:autoLink="web" android:id="@id/cqz" android:paddingLeft="@dimen/aal" android:paddingRight="@dimen/aam" android:paddingBottom="@dimen/aao" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/aan" android:singleLine="true" android:layout_below="@id/d3w" app:maxLevelIncrement="@dimen/aar" style="@style/ze" />
+            </RelativeLayout>
+            <ViewStub android:layout_gravity="bottom" android:id="@id/fxg" android:clickable="false" android:layout="@layout/aq6" android:inflatedId="@id/d4p" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/a9k" />
+            <ViewStub android:layout_gravity="center_vertical" android:id="@id/fxt" android:layout="@layout/at4" android:inflatedId="@id/d6v" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/a9k" />
+        </LinearLayout>
+    </LinearLayout>
+    <ViewStub android:id="@id/fxp" android:layout="@layout/asw" android:inflatedId="@id/d6p" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/a_l" android:layout_marginTop="@dimen/a_m" android:layout_below="@id/cz0" android:layout_alignLeft="@id/cz0" />
+</merge>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/dx4" android:background="@color/a3a" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" android:layout_width="fill_parent" android:layout_height="@dimen/alo" />
+    <ScrollView android:id="@id/dx5" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/dwx" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.tencent.wework.common.views.ConfigurableTextView android:gravity="center_vertical" android:id="@id/aw1" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/y3" style="@style/a0w" />
+            <com.tencent.wework.setting.views.SimpleItemView android:id="@id/eu1" android:layout_width="wrap_content" android:layout_height="@dimen/rx" android:text="@string/ga0" app:hasTopLine="true" app:rightIconType="esq" />
+            <com.tencent.wework.setting.views.SimpleItemView android:id="@id/emo" android:layout_width="wrap_content" android:layout_height="@dimen/rx" android:text="@string/g_z" app:hasTopLine="true" app:rightIconType="esq" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3b" android:textColor="@color/a4h" android:id="@id/a0_" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/y1" android:layout_marginTop="@dimen/xt" android:layout_marginRight="@dimen/y1" android:text="@string/ehk" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

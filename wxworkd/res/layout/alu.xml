@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:background="@color/afk" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.PhotoImageView android:id="@id/a3l" android:background="@color/afk" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/ez6" android:background="#b3ffffff" android:layout_width="fill_parent" android:layout_height="20.599976dip" android:layout_alignParentBottom="true">
+        <ImageView android:layout_gravity="center" android:id="@id/ez9" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ProgressBar android:id="@id/drc" android:layout_width="fill_parent" android:layout_height="fill_parent" android:max="100" android:progressDrawable="@drawable/m_" style="?android:progressBarStyleHorizontal" />
+    </FrameLayout>
+</merge>

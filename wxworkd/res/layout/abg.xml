@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/aqw" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.CommonItemView android:id="@id/c4b" android:clickable="true" android:layout_width="wrap_content" android:layout_height="@dimen/yj" app:hasBottomLine="false" app:hasTopLine="false" />
+    <ViewStub android:id="@id/fx8" android:layout="@layout/yz" android:inflatedId="@id/c4v" android:layout_width="fill_parent" android:layout_height="@dimen/yg" android:layout_marginBottom="@dimen/xt" />
+    <com.tencent.wework.common.views.BaseRelativeLayout android:id="@id/c4q" android:background="@drawable/kb" android:paddingTop="12.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/c4k" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:src="@drawable/c3h" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <com.rockerhieu.emojicon.EmojiconTextView android:textSize="@dimen/a3f" android:textColor="@color/aq3" android:id="@id/c4p" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="@string/eoh" android:singleLine="true" android:layout_alignParentLeft="true" />
+        <com.rockerhieu.emojicon.EmojiconTextView android:textSize="@dimen/a3d" android:textColor="@color/a4t" android:id="@id/c4o" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="12.0dip" android:text="@string/bvr" android:singleLine="true" android:layout_toLeftOf="@id/c4k" android:layout_centerVertical="true" />
+        <com.rockerhieu.emojicon.EmojiconTextView android:textSize="@dimen/a3d" android:textColor="@color/a4h" android:id="@id/fjm" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:singleLine="true" android:layout_toLeftOf="@id/c4k" android:layout_below="@id/c4p" />
+        <View android:id="@id/c4l" android:background="@color/a4s" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/rw" android:layout_marginTop="12.0dip" android:layout_below="@id/fjm" />
+    </com.tencent.wework.common.views.BaseRelativeLayout>
+</LinearLayout>

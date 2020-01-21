@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:id="@id/e6z" android:background="#ff823026" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="38.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.enterprise.redenvelopes.view.MarqueeView android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textColor="@color/am4" android:ellipsize="end" android:gravity="center" android:id="@id/e70" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:text="123" android:singleLine="true" />
+    </com.tencent.wework.enterprise.redenvelopes.view.MarqueeView>
+</RelativeLayout>

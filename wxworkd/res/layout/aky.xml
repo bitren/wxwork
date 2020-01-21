@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/ee8" android:background="@color/ajo" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textSize="@dimen/afa" android:textColor="@drawable/a9j" android:gravity="center|left" android:id="@id/a2_" android:background="@android:color/transparent" android:paddingLeft="@dimen/afc" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/gt1" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/afd" android:textColor="@color/ajr" android:gravity="center" android:id="@id/fha" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/a2a" android:layout_toRightOf="@id/a2_" android:layout_centerVertical="true" />
+    <Button android:textSize="@dimen/afa" android:textColor="@drawable/a9j" android:gravity="center|right" android:id="@id/a2a" android:background="@android:color/transparent" android:paddingRight="@dimen/afc" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/gt2" android:layout_alignParentRight="true" />
+</RelativeLayout>

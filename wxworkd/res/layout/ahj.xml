@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/a3a" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:pb="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/c7h" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" android:layout_width="fill_parent" android:layout_height="@dimen/alo" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/y1" android:textColor="@color/vm" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/d33" android:background="@color/a1f" android:paddingLeft="@dimen/y5" android:paddingRight="@dimen/y5" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/ys" android:maxLines="1" />
+    </LinearLayout>
+    <com.tencent.wework.common.views.SuperListView android:id="@id/d2s" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" android:layout_below="@id/c7h" />
+    <com.tencent.wework.common.views.SuperListView android:id="@id/e5s" android:visibility="gone" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" android:layout_below="@id/c7h" />
+    <ViewStub android:id="@id/fx6" android:layout="@layout/yr" android:inflatedId="@id/c3q" android:layout_width="@dimen/a65" android:layout_height="fill_parent" android:layout_marginRight="@dimen/a63" android:layout_marginBottom="@dimen/a64" android:layout_below="@id/c7h" android:layout_alignParentRight="true" />
+    <com.tencent.wework.common.views.EmptyView android:id="@id/cre" android:background="@color/a4y" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/c7h" pb:desctext="@string/ghy" pb:image="@drawable/bum" />
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ww="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/d_y" android:layout_width="fill_parent" android:layout_height="55.0dip" android:layout_centerInParent="true">
+        <com.tencent.wework.common.views.ConfigurableTextView android:id="@id/d_x" android:layout_width="wrap_content" android:layout_height="wrap_content" ww:configurable="false" style="@style/a05" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:id="@id/d_w" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" ww:configurable="false" style="@style/a06" />
+    </LinearLayout>
+    <View android:background="@color/a45" android:layout_width="fill_parent" android:layout_height="@dimen/sm" />
+    <View android:id="@id/d_v" android:background="@color/ag9" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+    <View android:id="@id/d_z" android:background="@color/a45" android:layout_width="fill_parent" android:layout_height="@dimen/sm" android:layout_below="@id/d_y" />
+</merge>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ScrollView android:scrollbarStyle="outsideOverlay" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/b5z" android:layout_width="fill_parent" android:layout_height="16.0dip" />
+                <RelativeLayout android:id="@id/dho" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/am6" android:textColor="@color/ara" android:id="@id/dhc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ihz" android:layout_alignParentRight="true" android:alpha="0.5" android:fontFamily="HwChinese-medium" />
+                    <TextView android:textSize="@dimen/am6" android:textColor="@color/ara" android:id="@id/dhr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:layout_toLeftOf="@id/dhc" android:fontFamily="HwChinese-medium" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/foj" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/am6" android:textColor="@color/ara" android:id="@id/foi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iht" android:layout_alignParentRight="true" android:alpha="0.5" android:fontFamily="HwChinese-medium" />
+                    <TextView android:textSize="@dimen/am6" android:textColor="@color/ara" android:id="@id/fok" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:layout_toLeftOf="@id/foi" android:fontFamily="HwChinese-medium" />
+                </RelativeLayout>
+                <RelativeLayout android:orientation="horizontal" android:id="@id/ev8" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/am6" android:textColor="@color/ara" android:id="@id/ev7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ihs" android:layout_alignParentRight="true" android:alpha="0.5" android:fontFamily="HwChinese-medium" />
+                    <TextView android:textSize="@dimen/am6" android:textColor="@color/ara" android:id="@id/r_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:layout_toLeftOf="@id/ev7" android:fontFamily="HwChinese-medium" />
+                </RelativeLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/aoz" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/am6" android:textColor="@color/ara" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/ihx" android:fontFamily="HwChinese-medium" />
+                    <TextView android:textSize="@dimen/am7" android:textColor="@color/ara" android:id="@id/apa" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:lineSpacingMultiplier="1.1" android:alpha="0.5" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

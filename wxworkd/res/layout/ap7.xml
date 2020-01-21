@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@color/atc" style="@style/lz"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/apj" android:layout_width="fill_parent" android:layout_height="@dimen/fe">
+        <LinearLayout android:orientation="vertical" android:background="@drawable/ahr" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/el" android:textColor="@color/ait" android:gravity="center" android:id="@id/edf" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/gt_" android:layout_weight="1.0" />
+            <View android:id="@id/edg" android:background="@color/at5" android:layout_width="fill_parent" android:layout_height="@dimen/fm" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:background="@drawable/ahr" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/el" android:textColor="@color/ait" android:gravity="center" android:id="@id/efm" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/gta" android:layout_weight="1.0" />
+            <View android:id="@id/efn" android:background="@color/at5" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="@dimen/fm" />
+        </LinearLayout>
+    </LinearLayout>
+    <ListView android:id="@id/e18" android:layout_weight="1.0" style="@style/jn" />
+</LinearLayout>

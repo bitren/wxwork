@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/c2_" android:layout_width="wrap_content" android:layout_height="39.0dip" android:layout_centerVertical="true">
+        <ImageView android:id="@id/f46" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/c5h" android:scaleType="center" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/f47" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/c5i" android:layout_toRightOf="@id/f46" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/f48" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/c5j" android:layout_toRightOf="@id/f47" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <ImageView android:id="@id/dot" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/c5p" android:layout_centerVertical="true" />
+</merge>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.qmui.widget.QMUIFloatLayout android:id="@id/bwm" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="11.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="11.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <View android:id="@id/b69" android:background="@color/a45" android:layout_width="fill_parent" android:layout_height="@dimen/rw" android:layout_marginLeft="16.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="16.0dip" android:layout_below="@id/bwm" />
+</RelativeLayout>

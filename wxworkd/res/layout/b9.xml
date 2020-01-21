@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/a1h" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" android:layout_width="fill_parent" android:layout_height="@dimen/alw" android:layout_alignParentTop="true" />
+    <com.tencent.wework.common.views.SuperListView android:id="@id/b4o" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="0.0dip" android:divider="@null" android:layout_above="@id/z5" android:layout_below="@id/ff6" />
+    <RelativeLayout android:id="@id/z5" android:background="#fff2f3f5" android:layout_width="fill_parent" android:layout_height="52.0dip" android:layout_alignParentBottom="true">
+        <View android:background="@color/aob" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentTop="true" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textColor="@color/atc" android:gravity="center" android:id="@id/dm9" android:background="@drawable/im" android:layout_width="80.0dip" android:layout_height="36.0dip" android:layout_marginRight="14.0dip" android:text="@string/bso" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <com.tencent.wework.common.views.EmptyView android:id="@id/ben" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/ff6" app:desctext="@string/afh" app:image="@drawable/bvv" />
+    <com.tencent.wework.common.views.EmptyViewStub android:id="@id/dms" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/ff6" />
+</RelativeLayout>

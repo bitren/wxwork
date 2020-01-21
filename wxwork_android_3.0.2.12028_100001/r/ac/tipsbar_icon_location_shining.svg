@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="96px" height="96px" viewBox="0 0 96 96" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>tipsbar_icon_location_shining</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M46.6221313,76.7455002 C46.6221313,76.7455002 27,57.1363563 27,41.2141782 C27,29.4468824 36.4020203,20 48.3043478,20 C59.5979797,20 69,29.4468824 69,41.2141782 C69,57.1363563 49.3778687,76.7455002 49.3778687,76.7455002 C48.6284883,77.5397813 47.3831072,77.5418727 46.6221313,76.7455002 Z M48,48.090498 C51.8659932,48.090498 55,44.946362 55,41.0678735 C55,37.1893851 51.8659932,34.045249 48,34.045249 C44.1340068,34.045249 41,37.1893851 41,41.0678735 C41,44.946362 44.1340068,48.090498 48,48.090498 Z" id="path-1"></path>
+        <filter x="-28.6%" y="-20.9%" width="157.1%" height="141.9%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.490196078   0 0 0 0 0.776470588   0 0 0 0 0.262745098  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Tipsbar" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="tipsbar_icon_location_shining">
+            <g id="tipsbar_icon_location">
+                <g id="Oval-2">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

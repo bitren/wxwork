@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/a3a" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" android:layout_width="fill_parent" android:layout_height="@dimen/alo" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/jf" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="12.0dip">
+        <com.tencent.wework.common.views.PhotoImageView android:id="@id/uy" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_marginTop="45.0dip" />
+        <com.rockerhieu.emojicon.EmojiconTextView android:textSize="20.0sp" android:textColor="@color/a3c" android:ellipsize="end" android:id="@id/dht" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="40.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="40.0dip" android:singleLine="true" />
+        <com.rockerhieu.emojicon.EmojiconTextView android:textSize="16.0sp" android:textColor="@color/a3c" android:id="@id/b32" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" />
+        <View android:background="@color/a47" android:layout_width="fill_parent" android:layout_height="@dimen/rw" android:layout_marginLeft="12.0dip" android:layout_marginTop="45.0dip" android:layout_marginRight="12.0dip" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="16.0sp" android:textColor="@color/a4h" android:gravity="center_horizontal" android:id="@id/fa2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="40.0dip" android:layout_marginTop="45.0dip" android:layout_marginRight="40.0dip" android:text="@string/bxw" android:lineSpacingExtra="4.0dip" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/a5e" android:paddingLeft="30.0dip" android:paddingTop="30.0dip" android:paddingRight="30.0dip" android:paddingBottom="40.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3j" android:textStyle="bold" android:textColor="#ff2c343d" android:ellipsize="end" android:id="@id/cmr" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3d" android:textColor="#ff99a2a9" android:ellipsize="end" android:id="@id/cms" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_below="@id/cmr" />
+    <View android:id="@id/cqf" android:background="#ffdcdcdc" android:layout_width="60.0dip" android:layout_height="0.5dip" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip" android:layout_below="@id/cms" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3d" android:textColor="#ff99a2a9" android:ellipsize="end" android:id="@id/cmt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/cqf" />
+    <RelativeLayout android:id="@id/cmx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_below="@id/cmt">
+        <ImageView android:id="@id/cmv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:src="@drawable/aqg" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="56.0sp" android:textColor="#ff477cb8" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/cmu" android:layout_width="wrap_content" android:layout_height="60.0dip" android:layout_toRightOf="@id/cmv" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="20.0sp" android:textColor="#ff477cb8" android:ellipsize="end" android:id="@id/cmw" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="35.0dip" android:text="@string/zq" android:layout_toRightOf="@id/cmu" />
+    </RelativeLayout>
+    <Button android:textSize="@dimen/a3f" android:id="@id/a5i" android:layout_width="240.0dip" android:layout_height="40.0dip" android:layout_marginTop="70.0dip" android:text="@string/zu" android:layout_below="@id/cmx" android:layout_centerHorizontal="true" style="@style/xr" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3b" android:textColor="#ff99a2a9" android:ellipsize="end" android:id="@id/cmy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_below="@id/a5i" android:layout_centerHorizontal="true" />
+</RelativeLayout>

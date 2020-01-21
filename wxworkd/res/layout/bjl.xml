@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.wework.common.views.CustomScrollView android:background="@color/a3a" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/g1w" android:paddingLeft="24.0dip" android:paddingTop="14.0dip" android:paddingBottom="@dimen/aq6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a7v" />
+        <com.tencent.wework.common.views.BaseLinearLayout android:orientation="vertical" android:background="@drawable/m4" android:paddingLeft="24.0dip" android:paddingRight="24.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip">
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="17.0sp" android:textColor="@color/a3c" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="@string/j2w" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0sp" android:textColor="@color/a3c" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/j2w" />
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/g20" android:background="@color/a3a" android:layout_width="177.0dip" android:layout_height="282.0dip" android:layout_marginTop="20.0dip" android:src="@drawable/by7" android:scaleType="centerInside" />
+            <FrameLayout android:layout_gravity="center_horizontal" android:padding="-1.0dip" android:layout_width="177.0dip" android:layout_height="282.0dip" android:layout_marginTop="20.0dip">
+                <com.tencent.wework.contact.views.WechatFriendAddApplicationAcceptGuideMaskedVideoView android:id="@id/g21" android:visibility="gone" android:layout_width="177.5dip" android:layout_height="284.0dip" />
+            </FrameLayout>
+            <com.tencent.wework.common.views.ConfigurableTextView android:id="@id/g1u" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/aq5" android:text="@string/j2s" style="@style/y2" />
+            <com.tencent.wework.msg.views.MessageItemTextView android:textSize="14.0sp" android:layout_gravity="center_horizontal" android:id="@id/g1v" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="27.0dip" android:text="@string/bse" />
+        </com.tencent.wework.common.views.BaseLinearLayout>
+    </LinearLayout>
+</com.tencent.wework.common.views.CustomScrollView>

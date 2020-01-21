@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/a4c" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" style="@style/a13" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/s4" android:id="@id/fh6" android:background="@drawable/kb" android:paddingLeft="@dimen/s2" android:paddingTop="10.0dip" android:paddingRight="@dimen/s3" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+    <View android:background="@color/a45" android:layout_width="fill_parent" android:layout_height="@dimen/sm" android:layout_alignParentBottom="true" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/s4" android:id="@id/fh7" android:background="@drawable/kb" android:paddingLeft="@dimen/s2" android:paddingTop="10.0dip" android:paddingRight="@dimen/s3" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+    <View android:background="@color/a45" android:layout_width="fill_parent" android:layout_height="@dimen/sm" android:layout_alignParentBottom="true" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/s4" android:id="@id/fh8" android:background="@drawable/kb" android:paddingLeft="@dimen/s2" android:paddingTop="10.0dip" android:paddingRight="@dimen/s3" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+    <View android:background="@color/a45" android:layout_width="fill_parent" android:layout_height="@dimen/sm" android:layout_alignParentBottom="true" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/s4" android:id="@id/fh9" android:background="@drawable/kb" android:paddingLeft="@dimen/s2" android:paddingTop="10.0dip" android:paddingRight="@dimen/s3" android:paddingBottom="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+    <View android:id="@id/fh_" android:background="@color/a45" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/sm" android:layout_alignParentBottom="true" />
+</LinearLayout>

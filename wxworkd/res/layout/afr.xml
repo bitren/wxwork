@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/atc" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ww="http://schemas.android.com/apk/res-auto">
+    <com.rockerhieu.emojicon.EmojiconTextView android:textSize="@dimen/a3m" android:textColor="@color/abg" android:id="@id/f2e" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="17.0dip" android:layout_alignParentTop="true" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="18.0dip" android:layout_below="@id/f2e">
+        <com.tencent.wework.common.views.PhotoImageView android:id="@id/f1z" android:layout_width="@dimen/a41" android:layout_height="@dimen/a41" android:layout_marginLeft="@dimen/ui" android:layout_marginRight="21.0dip" android:layout_marginBottom="@dimen/uo" android:scaleType="centerCrop" android:layout_alignParentRight="true" />
+        <RelativeLayout android:id="@id/cei" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/ui" android:layout_toLeftOf="@id/f1z" android:layout_centerVertical="true">
+            <com.rockerhieu.emojicon.EmojiconTextView android:textSize="@dimen/a3j" android:textColor="@color/a5f" android:id="@id/f2b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:layout_marginRight="15.0dip" android:text="@string/etq" android:singleLine="true" android:drawablePadding="5.0dip" ww:drawableConfigurable="true" />
+            <com.rockerhieu.emojicon.EmojiconTextView android:textSize="@dimen/uk" android:textColor="@color/a5g" android:id="@id/f24" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:text="@string/etq" android:singleLine="true" android:drawablePadding="5.0dip" android:layout_below="@id/f2b" />
+            <com.rockerhieu.emojicon.EmojiconTextView android:textSize="@dimen/um" android:textColor="@color/a5g" android:id="@id/f25" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="@string/etq" android:singleLine="true" android:layout_below="@id/f24" />
+        </RelativeLayout>
+        <ImageView android:id="@id/exv" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:layout_alignParentRight="true" />
+        <RelativeLayout android:id="@id/epd" android:visibility="gone" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/ajc" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignWithParentIfMissing="true">
+            <ImageView android:id="@id/eqz" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/c3h" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

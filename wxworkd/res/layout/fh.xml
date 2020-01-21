@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.CommonItemView android:id="@id/c_l" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/rx" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/c8i" android:paddingBottom="@dimen/zk" android:visibility="gone" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.tencent.wework.common.views.GroupSettingGridView android:id="@id/c_i" android:paddingLeft="@dimen/s2" android:focusable="false" android:scrollbars="none" android:clickable="false" android:descendantFocusability="blocksDescendants" android:layout_width="wrap_content" android:layout_height="wrap_content" android:listSelector="@drawable/abf" android:numColumns="6" android:layout_weight="6.0" />
+        <ImageView android:id="@id/k2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="29.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="15.0dip" android:src="@drawable/bnk" android:layout_weight="1.0" />
+    </LinearLayout>
+    <View android:id="@id/b5z" android:background="@color/a47" android:layout_width="fill_parent" android:layout_height="@dimen/rw" android:layout_marginLeft="16.0dip" />
+</LinearLayout>

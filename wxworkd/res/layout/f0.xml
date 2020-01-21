@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/ed8" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/anw" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true">
+        <RelativeLayout android:id="@id/fe9" android:layout_width="fill_parent" android:layout_height="51.0dip">
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="18.0sp" android:textColor="@color/a3c" android:id="@id/ff4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:text="@string/exi" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <ImageView android:id="@id/a90" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginRight="20.0dip" android:src="@drawable/c4p" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <RelativeLayout android:background="@color/atc" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.tencent.wework.common.views.CommonItemView android:id="@id/c9b" android:layout_width="fill_parent" android:layout_height="@dimen/rx" android:layout_alignParentTop="true" />
+            <android.support.v7.widget.RecyclerView android:id="@id/e6b" android:background="@color/atc" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/c9a" android:layout_below="@id/c9b" />
+            <com.tencent.wework.common.views.BaseLinearLayout android:id="@id/c9a" android:paddingLeft="@dimen/y5" android:paddingTop="@dimen/xx" android:paddingRight="@dimen/y5" android:paddingBottom="@dimen/xx" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" app:topDividerSize="@dimen/rw">
+                <Button android:id="@id/c9_" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/z3" style="@style/xr" />
+            </com.tencent.wework.common.views.BaseLinearLayout>
+        </RelativeLayout>
+        <com.tencent.wework.common.views.EmptyViewStub android:id="@id/ben" android:background="@color/atc" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+</RelativeLayout>

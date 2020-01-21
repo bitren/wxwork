@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.wework.common.views.BaseRelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.EmptyViewStub android:id="@id/ahk" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.tencent.wework.common.views.SuperListView android:id="@id/aj8" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@null" style="@style/yb" />
+</com.tencent.wework.common.views.BaseRelativeLayout>

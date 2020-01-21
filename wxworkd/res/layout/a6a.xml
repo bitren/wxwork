@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center" android:id="@id/dlt" android:background="@color/ar4" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="2.0">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <com.tencent.pb.pstn.view.DialerEditText android:textSize="38.0dip" android:textColor="@color/a8p" android:gravity="center" android:id="@id/dsi" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:cursorVisible="false" android:singleLine="true" android:inputType="phone" android:textCursorDrawable="@null" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="15.0dip" android:textColor="@color/a8o" android:gravity="center|top" android:id="@id/dhc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:singleLine="true" android:layout_below="@id/dsi" />
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:background="@color/ar4" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="5.0">
+        <View android:layout_width="0.0dip" android:layout_height="1.0px" android:layout_weight="1.0" />
+        <LinearLayout android:layout_gravity="top" android:orientation="vertical" android:background="@color/ar4" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="6.0">
+            <RelativeLayout android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="2.0">
+                <ImageButton android:id="@id/dmm" android:background="@drawable/nk" android:src="@drawable/cju" android:layout_alignParentLeft="true" android:contentDescription="1" style="@style/ym" />
+                <ImageButton android:id="@id/fke" android:background="@drawable/nk" android:src="@drawable/cjv" android:layout_centerHorizontal="true" android:contentDescription="2,A B C" style="@style/ym" />
+                <ImageButton android:id="@id/f9i" android:background="@drawable/nk" android:src="@drawable/cjw" android:layout_alignParentRight="true" android:contentDescription="3,D E F" style="@style/ym" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="2.0">
+                <ImageButton android:id="@id/byg" android:background="@drawable/nk" android:src="@drawable/cjx" android:layout_alignParentLeft="true" android:contentDescription="4,G H I" style="@style/ym" />
+                <ImageButton android:id="@id/bw7" android:background="@drawable/nk" android:src="@drawable/cjy" android:layout_centerHorizontal="true" android:contentDescription="5,J K L" style="@style/ym" />
+                <ImageButton android:id="@id/ev6" android:background="@drawable/nk" android:src="@drawable/cjz" android:layout_alignParentRight="true" android:contentDescription="6,M N O" style="@style/ym" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="2.0">
+                <ImageButton android:id="@id/erw" android:background="@drawable/nk" android:src="@drawable/ck0" android:layout_alignParentLeft="true" android:contentDescription="7,P Q R S" style="@style/ym" />
+                <ImageButton android:id="@id/bbh" android:background="@drawable/nk" android:src="@drawable/ck1" android:layout_centerHorizontal="true" android:contentDescription="8,T U V" style="@style/ym" />
+                <ImageButton android:id="@id/djn" android:background="@drawable/nk" android:src="@drawable/ck2" android:layout_alignParentRight="true" android:contentDescription="9,W X Y Z" style="@style/ym" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="2.0">
+                <ImageButton android:id="@id/g55" android:background="@drawable/nk" android:src="@drawable/cjt" android:layout_centerHorizontal="true" android:contentDescription="0,+" style="@style/ym" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="3.0">
+                <ImageButton android:id="@id/b0i" android:background="@null" android:src="@drawable/a6z" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/ym" />
+                <ImageButton android:id="@id/b4y" android:background="@null" android:layout_width="100.0dip" android:layout_height="45.0dip" android:src="@drawable/a2f" android:scaleType="center" android:layout_centerInParent="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <View android:layout_width="0.0dip" android:layout_height="1.0px" android:layout_weight="1.0" />
+    </LinearLayout>
+</merge>

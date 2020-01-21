@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/ed8" android:background="@drawable/kb" android:layout_width="fill_parent" android:layout_height="400.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="16.0sp" android:textColor="#ffacb2ba" android:id="@id/fa5" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ek_" android:layout_centerInParent="true" />
+</RelativeLayout>

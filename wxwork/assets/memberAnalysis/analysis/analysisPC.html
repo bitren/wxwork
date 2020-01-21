@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>行为数据概况</title>
+    <link rel="stylesheet" href="../lib/reset.css">
+    <link rel="stylesheet" href="analysis.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="format-detection" content="telephone=no" />
+    <!--todo debug开关-->
+    <script src="https://rescdn.qqmail.com/node/wework/js/vconsole.min.js"></script>
+</head>
+<body class="pc">
+<div class="main analysisWrap">
+    <div class="analysisHeader">
+        <span class="i18n" name="situation">行为概况</span>
+        <div class="analysisFilter">
+            <span class="js-filter-date i18n current" name='yesterday' data-date="yesterday">昨日</span>
+            <span class="js-filter-date i18n" name='week' data-date="week">近7日</span>
+            <span class="js-filter-date i18n" name='month' data-date="month">近30日</span>
+            <span class="js-filter-date i18n arrow_down_normal" name='other' data-date="other">自定义</span>
+
+            <div class="analysisFilter_selectParty js-party">
+                <span class="analysisFilter_selectParty_title js-party-title">销售中心</span>
+                <i class="arrow_down" style="display: inline-block"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="analysisTab">
+        <ul class="analysisFilter_inner">
+            <li class="analysisFilter_item analysisFilter_item_Current js_tabAddCustomer js_tab">
+                <a href="javascript:;"
+                   class="js_tab_click analysisFilter_item_link util_tof i18n"
+                   name="tabAddCustomer">
+                    统计客户</a>
+            </li>
+            <li class="analysisFilter_item js_tabChatWithCustomer js_tab">
+                <a href="javascript:;"
+                   class="js_tab_click analysisFilter_item_link util_tof i18n"
+                   name="tabChatWithCustomer">与客户聊天</a>
+            </li>
+            <li class="analysisFilter_item js_tabAddCustomerLost js_tab">
+                <a href="javascript:;"
+                   class="js_tab_click analysisFilter_item_link util_tof i18n"
+                   name="tabAddCustomerLost">客户流失</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="analysisSection">
+        <table class="analysisSection_table js_secTable js_secTable_tabAddCustomer">
+            <tr>
+                <td>
+                    <div class="analysisSection_card js-filter-type current" data-name="applyContactNum">
+                        <div class="analysisSection_card_title i18n"  name='applyContactNum'>发起申请数</div>
+                        <div class="analysisSection_card_subTitle"><label></label></div>
+                    </div>
+                </td>
+                <td>
+                    <div class="analysisSection_card js-filter-type even" data-name="customerIncr">
+                        <div class="analysisSection_card_title i18n"  name='customerIncr'>新增客户数</div>
+                        <div class="analysisSection_card_subTitle"><label></label></div>
+                    </div>
+                </td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+        <table class="analysisSection_table js_secTable js_secTable_tabChatWithCustomer util_d_n">
+            <tr>
+                <td>
+                    <div class="analysisSection_card js-filter-type current" data-name="chatNum">
+                        <div class="analysisSection_card_title i18n"  name='chatNum'>聊天总数</div>
+                        <div class="analysisSection_card_subTitle"><label></label></div>
+                    </div>
+                </td>
+                <td>
+                    <div class="analysisSection_card js-filter-type even" data-name="sendMsgNum">
+                        <div class="analysisSection_card_title i18n"  name='sendMsgNum'>发送消息数</div>
+                        <div class="analysisSection_card_subTitle"><label></label></div>
+                    </div>
+                </td>
+                <td>
+                    <div class="analysisSection_card js-filter-type" data-name="replyPer">
+                        <div class="analysisSection_card_title i18n"  name='replyPer'>已回复聊天占比</div>
+                        <div class="analysisSection_card_subTitle"><label></label><sub>%</sub></div>
+                    </div>
+                </td>
+                <td>
+                    <div class="analysisSection_card js-filter-type even" data-name="firstReplyTime">
+                        <div class="analysisSection_card_title i18n"  name='firstReplyTime'>平均首次回复时长</div>
+                        <div class="analysisSection_card_subTitle"><label></label><sub class="i18n" name="minute">分钟</sub></div>
+                    </div>
+                </td>
+            </tr>
+
+        </table>
+        <table class="analysisSection_table js_secTable js_secTable_tabAddCustomerLost util_d_n">
+
+            <tr>
+                <td>
+                    <div class="analysisSection_card js-filter-type" data-name="feedbackNum">
+                        <div class="analysisSection_card_title i18n" name="feedbackNum" style="margin-left: 11px;margin-right:
+                             11px;">
+                            删除/拉黑成员的客户数</div>
+                        <div class="analysisSection_card_subTitle"><label></label></div>
+                    </div>
+                </td>
+                <!----><td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+
+    </div>
+
+    <div class="analysisContent">
+        <div class="analysisHeader" style="display: none">
+            <span class="js-analysis-title">聊天总数</span><span class="i18n" name="trend">趋势 </span>
+        </div>
+        <div id="use_analysis_container">
+            <p class="use_analysis_container_empty js-use-analysis-container-empty i18n" name="empty">暂无数据</p>
+        </div>
+    </div>
+</div>
+
+<!--员工统计 start -->
+<a class="record_btn" href="wxwork://jump?target=member_analysis_record">
+    <label class='i18n' name='record'>成员行为统计</label><i class="arrow"></i>
+</a>
+<!--员工统计 end -->
+
+</body>
+
+<script>
+    var CONTENT = $content$
+    var LANGUAGE = '$language$';
+    var PLATFORM = $platform$;
+    var VERSION  = $version$;
+</script>
+
+<script>
+    var loadJS = function (url, success) {
+        var domScript = document.createElement('script');
+        domScript.src = url;
+        success = success || function () {
+        };
+        domScript.onload = domScript.onreadystatechange = function () {
+            if (!this.readyState || 'loaded' === this.readyState || 'complete' === this.readyState) {
+                success();
+                this.onload = this.onreadystatechange = null;
+                this.parentNode.removeChild(this);
+            }
+        }
+        document.getElementsByTagName('head')[0].appendChild(domScript);
+    }
+    // 1:ios 2：android 3:pc 4:mac dev：本地开发 其他：远程js
+    if (PLATFORM - 0 == 2) {
+        //根据平台加载基础库
+        loadJS('file:///android_asset/memberAnalysis/lib/zepto.min.js', function () {
+            loadJS('file:///android_asset/memberAnalysis/lib/zepto.touch.js',function(){
+                $('head').append('<link rel="stylesheet" href="file:///android_asset/memberAnalysis/lib/reset.css" type="text/css" />');
+                $('head').append('<link rel="stylesheet" href="file:///android_asset/memberAnalysis/analysis/analysis.css" type="text/css" />');
+                loadJS('file:///android_asset/memberAnalysis/lib/highcharts.js',function () {
+                    loadJS('file:///android_asset/memberAnalysis/lib/i18n.js',function () {
+                        loadJS('file:///android_asset/memberAnalysis/analysis/analysis.js');
+                    });
+                });
+            });
+        });
+    }else{
+        loadJS('../lib/zepto.min.js', function () {
+            loadJS('../lib/highcharts.js',function () {
+                loadJS('../lib/i18n.js',function () {
+                    loadJS('analysis.js');
+                });
+            });
+        });
+    }
+</script>
+
+</html>

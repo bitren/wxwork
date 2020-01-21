@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/atc" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" android:layout_width="fill_parent" android:layout_height="@dimen/alo" android:layout_alignParentTop="true" />
+    <com.tencent.wework.common.views.SwitchTab android:id="@id/f3k" android:background="@drawable/iu" android:layout_width="fill_parent" android:layout_height="@dimen/a7t" android:layout_alignParentBottom="true" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/a18" android:background="@drawable/iu" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="48.5dip" android:layout_alignParentBottom="true">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/emr" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/n2" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="10.0sp" android:textColor="@color/it" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="@string/f79" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/akz" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/n1" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="10.0sp" android:textColor="@color/it" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="@string/f79" />
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@id/byi" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/f3k" android:layout_below="@id/ff6" />
+</RelativeLayout>

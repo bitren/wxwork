@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/edh" android:background="@drawable/acp" android:layout_width="fill_parent" android:layout_height="@dimen/an3"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.PhotoImageView android:id="@id/uj" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="12.0dip" android:src="@drawable/b0q" android:layout_centerVertical="true" app:maskType="edm" app:radius="2.0dip" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:layout_toLeftOf="@id/d28" android:layout_toRightOf="@id/uj" android:layout_centerVertical="true">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="17.0dip" android:textColor="#ffffffff" android:ellipsize="end" android:id="@id/dhc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:maxLines="1" android:singleLine="true" android:drawablePadding="8.0dip" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0dip" android:textColor="#7fffffff" android:ellipsize="end" android:id="@id/faj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" />
+    </LinearLayout>
+    <ImageView android:id="@id/fux" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:src="@drawable/bh5" android:layout_alignTop="@id/uj" android:layout_alignParentRight="true" />
+    <TextView android:textColor="@color/atc" android:ellipsize="middle" android:gravity="center" android:id="@id/f3z" android:background="#99000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/isa" android:singleLine="true" />
+</RelativeLayout>

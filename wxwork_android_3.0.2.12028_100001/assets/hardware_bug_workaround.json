@@ -1,0 +1,55 @@
+{
+  "name": "gpu feature enable and disable list",
+  "entries": [
+    {
+      "description": "disable PBO for newer qualcomm devices",
+      "os": {
+        "type": "android",
+        "version": {
+          "op": ">=",
+          "value": "8.0.0"
+        }
+      },
+      "gl_vendor": "Qualcomm.*",
+      "features": [
+        "disable_android_pbo"
+      ]
+    },
+    {
+      "description": "decoder output SurfaceTexture directly for tested devices",
+      "gl_renderer": "Adreno[^0-9]+[56][0-9]+",
+      "features": [
+        "enable_android_system_decoder"
+      ],
+      "default_parameters": {
+        "max_pending_frames": 2,
+        "max_decoder_surface_instance": 1
+      }
+    },
+    {
+      "description": "disable encoder input SurfaceTexture directly for all devices",
+      "gl_renderer": ".*",
+      "features": [
+        "disable_android_encoder_surfacetexture"
+      ]
+    },
+    {
+      "description": "decoder output SurfaceTexture directly for tested devices",
+      "gl_renderer": "Adreno[^0-9]+[56][0-9]+",
+      "codec_name": "OMX.qcom.video.decoder.avc",
+      "features": [
+        "enable_android_system_decoder",
+        "enable_android_decoder_surfacetexture"
+      ]
+    },
+    {
+      "description": "disable hw codec",
+      "vendor_name": "Xiaomi",
+      "device_name": "MIX 2S",
+      "codec_name": "OMX.qcom.video.decoder.avc",
+      "features": [
+        "disable_android_system_decoder"
+      ]
+    }
+  ]
+}

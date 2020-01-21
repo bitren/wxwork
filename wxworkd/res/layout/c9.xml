@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@color/aj3" android:layout_width="fill_parent" android:layout_height="@dimen/alw">
+        <moai.ocr.view.common.OcrAlphaImageButton android:id="@id/vm" android:src="@drawable/icon_topbar_finish_clip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/a0g" />
+        <TextView android:text="@string/gnj" android:layout_centerInParent="true" style="@style/a0e" />
+    </RelativeLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <moai.ocr.view.clip.GlassClipView android:id="@id/c1h" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <moai.ocr.view.common.OcrAlphaTextView android:id="@id/al1" android:background="@color/aj3" android:layout_width="fill_parent" android:layout_height="@dimen/oc" android:text="@string/gnq" style="@style/a0e" />
+</LinearLayout>

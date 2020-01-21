@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/a4c" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ww="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" android:layout_width="fill_parent" android:layout_height="@dimen/alo" android:layout_alignParentTop="true" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ze" android:background="@color/a5n" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <com.tencent.wework.common.views.WWIconButton android:textSize="18.0sp" android:gravity="center" android:id="@id/abr" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_marginLeft="15.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="15.0dip" android:layout_marginBottom="15.0dip" android:text="@string/h1y" android:layout_centerHorizontal="true" ww:iconPadding="@dimen/a6v" style="@style/xr" />
+    </LinearLayout>
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0sp" android:textColor="@color/a5h" android:id="@id/a0l" android:paddingTop="14.0dip" android:paddingBottom="29.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/h3f" android:layout_above="@id/ze" android:layout_centerHorizontal="true" android:layout_alignWithParentIfMissing="true" />
+    <com.tencent.wework.common.views.SuperListView android:id="@id/e4v" android:background="@color/a4c" android:paddingBottom="10.0dip" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:divider="@null" android:dividerHeight="0.0dip" android:layout_above="@id/a0l" android:layout_below="@id/ff6" android:layout_alignWithParentIfMissing="true" />
+    <com.tencent.wework.common.views.EmptyViewStub android:id="@id/e4x" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/ff6" />
+</RelativeLayout>

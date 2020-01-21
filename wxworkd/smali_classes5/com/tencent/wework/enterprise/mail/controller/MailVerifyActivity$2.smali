@@ -1,0 +1,55 @@
+.class Lcom/tencent/wework/enterprise/mail/controller/MailVerifyActivity$2;
+.super Ljava/lang/Object;
+.source "MailVerifyActivity.java"
+
+# interfaces
+.implements Landroid/view/View$OnClickListener;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/tencent/wework/enterprise/mail/controller/MailVerifyActivity;->a(ILandroid/graphics/Bitmap;ILjava/lang/Runnable;Ljava/lang/Runnable;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic igc:Lcom/tencent/wework/enterprise/mail/controller/MailVerifyActivity;
+
+.field final synthetic igd:Ljava/lang/Runnable;
+
+
+# direct methods
+.method constructor <init>(Lcom/tencent/wework/enterprise/mail/controller/MailVerifyActivity;Ljava/lang/Runnable;)V
+    .locals 0
+
+    .line 684
+    iput-object p1, p0, Lcom/tencent/wework/enterprise/mail/controller/MailVerifyActivity$2;->igc:Lcom/tencent/wework/enterprise/mail/controller/MailVerifyActivity;
+
+    iput-object p2, p0, Lcom/tencent/wework/enterprise/mail/controller/MailVerifyActivity$2;->igd:Ljava/lang/Runnable;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public onClick(Landroid/view/View;)V
+    .locals 0
+
+    .line 688
+    iget-object p1, p0, Lcom/tencent/wework/enterprise/mail/controller/MailVerifyActivity$2;->igd:Ljava/lang/Runnable;
+
+    if-eqz p1, :cond_0
+
+    .line 689
+    invoke-interface {p1}, Ljava/lang/Runnable;->run()V
+
+    :cond_0
+    return-void
+.end method

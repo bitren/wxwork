@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/any" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/y5" android:layout_marginRight="@dimen/y5">
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:layout_weight="1.0">
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3d" android:textColor="@color/jf" android:ellipsize="end" android:id="@id/dea" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:drawablePadding="4.0dip" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3c" android:textColor="@color/y8" android:id="@id/de_" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3e" android:textColor="@color/a3i" android:gravity="center" android:id="@id/ebc" android:background="@drawable/zn" android:paddingLeft="@dimen/y3" android:paddingTop="4.0dip" android:paddingRight="@dimen/y3" android:paddingBottom="4.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gdz" />
+    </LinearLayout>
+    <View android:id="@id/a01" android:background="#ffededed" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/yf" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/w6" />
+        <com.tencent.wework.clouddisk.view.FeedItemViewNormalFileView android:id="@id/bud" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:layout_marginRight="16.0dip" android:layout_below="@id/ao3" android:layout_alignLeft="@id/ao3" />
+        <include layout="@layout/w8" />
+        <include layout="@layout/w7" />
+    </RelativeLayout>
+    <View android:background="@color/a02" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="16.0dip" android:layout_below="@id/yf" />
+</RelativeLayout>

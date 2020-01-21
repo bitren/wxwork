@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="90px" height="90px" viewBox="0 0 90 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>app_attach_file_icon_epub</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="-----Android" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="app_attach_file_icon_epub">
+            <g id="Group" transform="translate(11.000000, 0.000000)">
+                <path d="M46,0 L68,22 L68,87 C68,88.6568542 66.6568542,90 65,90 L3,90 C1.34314575,90 2.02906125e-16,88.6568542 0,87 L0,3 C-2.02906125e-16,1.34314575 1.34314575,3.04359188e-16 3,0 L46,0 Z" id="Combined-Shape" fill="#75BC00"></path>
+                <path d="M68,22 L49,22 C47.3431458,22 46,20.6568542 46,19 L46,0 L68,22 Z" id="Rectangle" fill="#5D9600"></path>
+                <path d="M44.4695498,48.7807581 L36.8833323,41.1945407 C35.2898653,39.6010737 32.7013789,39.6013807 31.1046598,41.1980999 L19.1989292,53.1038304 C17.6012852,54.7014745 17.6006165,57.2877494 19.19537,58.8825029 L31.1166677,70.8038006 C32.7101347,72.3972678 35.2986211,72.3969607 36.8953402,70.8002414 L48.8010708,58.8945109 C50.3987148,57.2968669 50.3993835,54.7105919 48.80463,53.1158384 L48.4422135,52.7534218 L34.0034485,67.1921866 L32.0171166,65.2058547 L24.7940917,57.9828299 L22.8077599,55.9964981 L33.9981033,44.8061546 L37.9707672,48.7788183 L30.7511906,55.9983947 L34.0015518,59.248756 L44.4695498,48.7807581 Z" id="Rectangle-64" fill="#FFFFFF" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

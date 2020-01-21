@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/atc" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ww="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" style="@style/a13" />
+    <LinearLayout android:orientation="vertical" android:id="@id/b3p" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="41.0dip" android:layout_below="@id/ff6" android:layout_centerHorizontal="true">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="23.0sp" android:textColor="@color/aq3" android:layout_gravity="center_horizontal" android:id="@id/df4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/aie" />
+        <com.tencent.wework.common.views.MoreApplicationItemView android:id="@id/df_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="55.0dip" android:text="@string/ai7" ww:leftImage="@drawable/atl" ww:subText="@string/ai8" />
+        <com.tencent.wework.common.views.MoreApplicationItemView android:id="@id/df8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="44.0dip" android:text="@string/aq9" ww:leftImage="@drawable/ass" ww:subText="@string/aq_" />
+        <com.tencent.wework.common.views.MoreApplicationItemView android:id="@id/df7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="44.0dip" android:text="@string/aeo" ww:leftImage="@drawable/asj" ww:subText="@string/aep" />
+    </LinearLayout>
+    <RelativeLayout android:paddingBottom="35.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <com.tencent.wework.common.views.MoreApplicationFooterView2 android:id="@id/df0" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </RelativeLayout>
+</RelativeLayout>

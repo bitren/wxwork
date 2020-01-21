@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/a24" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ek2" android:paddingLeft="6.0dip" android:paddingRight="16.0dip" android:layout_width="40.0dip" android:layout_height="45.0dip" android:src="@drawable/avf" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:paddingTop="12.0dip" android:paddingRight="6.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="56.0dip" android:minHeight="45.0dip" android:layout_toLeftOf="@id/ek2" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="16.0sp" android:textColor="@color/a3c" android:id="@id/el7" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0sp" android:textColor="@color/w9" android:id="@id/f10" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <View android:background="@color/a47" android:layout_width="fill_parent" android:layout_height="@dimen/rw" android:layout_marginLeft="56.0dip" android:layout_alignParentTop="true" />
+</RelativeLayout>

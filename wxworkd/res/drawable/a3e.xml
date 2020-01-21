@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="33" android:drawable="@drawable/cp9" />
+    <item android:duration="33" android:drawable="@drawable/cp_" />
+    <item android:duration="33" android:drawable="@drawable/cpa" />
+    <item android:duration="33" android:drawable="@drawable/cpb" />
+    <item android:duration="33" android:drawable="@drawable/cpc" />
+    <item android:duration="33" android:drawable="@drawable/cpd" />
+    <item android:duration="33" android:drawable="@drawable/cpe" />
+    <item android:duration="33" android:drawable="@drawable/cpf" />
+    <item android:duration="33" android:drawable="@drawable/cpg" />
+    <item android:duration="33" android:drawable="@drawable/cph" />
+    <item android:duration="33" android:drawable="@drawable/cpi" />
+    <item android:duration="33" android:drawable="@drawable/cpj" />
+    <item android:duration="33" android:drawable="@drawable/cpk" />
+    <item android:duration="33" android:drawable="@drawable/cpl" />
+    <item android:duration="33" android:drawable="@drawable/cpm" />
+    <item android:duration="33" android:drawable="@drawable/cpn" />
+    <item android:duration="33" android:drawable="@drawable/cpo" />
+    <item android:duration="33" android:drawable="@drawable/cpp" />
+    <item android:duration="33" android:drawable="@drawable/cpq" />
+    <item android:duration="33" android:drawable="@drawable/cpr" />
+    <item android:duration="33" android:drawable="@drawable/cps" />
+    <item android:duration="33" android:drawable="@drawable/cpt" />
+    <item android:duration="33" android:drawable="@drawable/cpu" />
+    <item android:duration="33" android:drawable="@drawable/cpv" />
+    <item android:duration="33" android:drawable="@drawable/cpw" />
+    <item android:duration="33" android:drawable="@drawable/cpx" />
+    <item android:duration="33" android:drawable="@drawable/cpy" />
+    <item android:duration="33" android:drawable="@drawable/cpz" />
+    <item android:duration="33" android:drawable="@drawable/cq0" />
+    <item android:duration="33" android:drawable="@drawable/cq1" />
+</animation-list>

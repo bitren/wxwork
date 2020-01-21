@@ -1,0 +1,103 @@
+.class public Lcom/tencent/mm/plugin/report/net/MMKVCommReport$Resp;
+.super Lcom/tencent/mm/protocal/MMBase$Resp;
+.source "MMKVCommReport.java"
+
+# interfaces
+.implements Lcom/tencent/mm/protocal/MMBase$ProtoBufResponse;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/tencent/mm/plugin/report/net/MMKVCommReport;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "Resp"
+.end annotation
+
+
+# instance fields
+.field public rImpl:Lcom/tencent/mm/protocal/protobuf/KVCommReportResp;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 1
+
+    .line 32
+    invoke-direct {p0}, Lcom/tencent/mm/protocal/MMBase$Resp;-><init>()V
+
+    .line 34
+    new-instance v0, Lcom/tencent/mm/protocal/protobuf/KVCommReportResp;
+
+    invoke-direct {v0}, Lcom/tencent/mm/protocal/protobuf/KVCommReportResp;-><init>()V
+
+    iput-object v0, p0, Lcom/tencent/mm/plugin/report/net/MMKVCommReport$Resp;->rImpl:Lcom/tencent/mm/protocal/protobuf/KVCommReportResp;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public fromProtoBuf([B)I
+    .locals 1
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/lang/Exception;
+        }
+    .end annotation
+
+    .line 38
+    new-instance v0, Lcom/tencent/mm/protocal/protobuf/KVCommReportResp;
+
+    invoke-direct {v0}, Lcom/tencent/mm/protocal/protobuf/KVCommReportResp;-><init>()V
+
+    invoke-virtual {v0, p1}, Lcom/tencent/mm/protocal/protobuf/KVCommReportResp;->parseFrom([B)Lcom/tencent/mm/protobuf/BaseProtoBuf;
+
+    move-result-object p1
+
+    check-cast p1, Lcom/tencent/mm/protocal/protobuf/KVCommReportResp;
+
+    iput-object p1, p0, Lcom/tencent/mm/plugin/report/net/MMKVCommReport$Resp;->rImpl:Lcom/tencent/mm/protocal/protobuf/KVCommReportResp;
+
+    .line 40
+    iget-object p1, p0, Lcom/tencent/mm/plugin/report/net/MMKVCommReport$Resp;->rImpl:Lcom/tencent/mm/protocal/protobuf/KVCommReportResp;
+
+    invoke-virtual {p1}, Lcom/tencent/mm/protocal/protobuf/KVCommReportResp;->getBaseResponse()Lcom/tencent/mm/protocal/protobuf/BaseResponse;
+
+    move-result-object p1
+
+    iget-object p1, p1, Lcom/tencent/mm/protocal/protobuf/BaseResponse;->ErrMsg:Lcom/tencent/mm/protocal/protobuf/SKBuiltinString_t;
+
+    if-eqz p1, :cond_0
+
+    .line 41
+    iget-object p1, p0, Lcom/tencent/mm/plugin/report/net/MMKVCommReport$Resp;->rImpl:Lcom/tencent/mm/protocal/protobuf/KVCommReportResp;
+
+    invoke-virtual {p1}, Lcom/tencent/mm/protocal/protobuf/KVCommReportResp;->getBaseResponse()Lcom/tencent/mm/protocal/protobuf/BaseResponse;
+
+    move-result-object p1
+
+    invoke-static {p0, p1}, Lcom/tencent/mm/protocal/MMBase;->fromBaseResponse(Lcom/tencent/mm/protocal/MMBase$Resp;Lcom/tencent/mm/protocal/protobuf/BaseResponse;)V
+
+    .line 44
+    :cond_0
+    iget-object p1, p0, Lcom/tencent/mm/plugin/report/net/MMKVCommReport$Resp;->rImpl:Lcom/tencent/mm/protocal/protobuf/KVCommReportResp;
+
+    invoke-virtual {p1}, Lcom/tencent/mm/protocal/protobuf/KVCommReportResp;->getBaseResponse()Lcom/tencent/mm/protocal/protobuf/BaseResponse;
+
+    move-result-object p1
+
+    iget p1, p1, Lcom/tencent/mm/protocal/protobuf/BaseResponse;->Ret:I
+
+    return p1
+.end method
+
+.method public getCmdId()I
+    .locals 1
+
+    const/4 v0, 0x0
+
+    return v0
+.end method

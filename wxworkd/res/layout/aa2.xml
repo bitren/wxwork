@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/a4c" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" style="@style/a13" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <android.indexablelistview.IndexableStickyListView android:id="@id/cs1" android:layout_width="fill_parent" android:layout_height="fill_parent" app:indexBar_selected_textColor="@color/a4h" app:indexBar_textColor="@color/a4h" app:indexBar_textSize="@dimen/a3b" app:indexListView_type_overlay="aan" />
+        <RelativeLayout android:id="@id/cre" android:background="@color/atc" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/d0i" android:background="@drawable/bfe" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" android:layout_above="@id/beh" android:layout_centerHorizontal="true" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/r1" android:textColor="@color/a5g" android:id="@id/beh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/fyf" android:layout_centerInParent="true" app:maxLevelIncrement="@dimen/aar" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

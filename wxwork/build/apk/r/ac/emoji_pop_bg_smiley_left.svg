@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="192px" height="405px" viewBox="0 0 192 405" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>EmoticonTipsLeft</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="android" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-opacity="0.195623868">
+        <path d="M191.25,381 L191.25,48 C191.25,21.9045456 170.095454,0.75 144,0.75 L48,0.75 C21.9045456,0.75 0.75,21.9045456 0.75,48 L0.75,180 C0.75,194.872283 7.75217393,208.87663 19.65,217.8 L53.25,243 C65.5255348,252.206651 72.75,266.655581 72.75,282 L72.75,381 C72.75,393.84062 83.1593796,404.25 96,404.25 L168,404.25 C180.84062,404.25 191.25,393.84062 191.25,381 Z" id="EmoticonTipsLeft" stroke="#000000" stroke-width="1.5" fill="#FFFFFF" transform="translate(96.000000, 202.500000) scale(-1, 1) translate(-96.000000, -202.500000) "></path>
+    </g>
+</svg>

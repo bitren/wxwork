@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/a88" android:padding="@dimen/s6" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="19.0dip" android:textColor="@color/a5f" android:id="@id/c94" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textColor="@color/a4h" android:id="@id/c96" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/zk" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textColor="@color/a4h" android:id="@id/c97" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

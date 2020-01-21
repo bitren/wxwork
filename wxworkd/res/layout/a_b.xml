@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.wework.common.views.BaseFrameLayout android:background="@color/a3a" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.SuperListView android:id="@id/bh7" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@null" style="@style/yb" />
+</com.tencent.wework.common.views.BaseFrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.rockerhieu.emojicon.EmojiconTextView android:textSize="16.0dip" android:textStyle="bold" android:textColor="#ff2d3035" android:ellipsize="end" android:id="@id/fbz" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" />
+    <com.rockerhieu.emojicon.EmojiconTextView android:textSize="14.0dip" android:textColor="#ff383e46" android:id="@id/apf" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingExtra="2.0dip" />
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/aff" android:background="@color/a3a" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ww="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" android:layout_width="fill_parent" android:layout_height="@dimen/alo" />
+    <RelativeLayout android:orientation="vertical" android:id="@id/bas" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip">
+        <com.rockerhieu.emojicon.EmojiconEditText android:textSize="16.0sp" android:textColor="@color/jf" android:textColorHint="@color/amd" android:gravity="center|left|top" android:id="@id/b3_" android:background="@color/atc" android:paddingLeft="12.0dip" android:paddingTop="10.0dip" android:paddingRight="12.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/bdp" android:lines="3" />
+    </RelativeLayout>
+</LinearLayout>

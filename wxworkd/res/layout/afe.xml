@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="60.0sp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.tencent.wework.common.views.PhotoImageView android:id="@id/fkl" android:visibility="gone" android:layout_width="@dimen/ys" android:layout_height="@dimen/ys" android:layout_marginRight="10.0dip" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/fkh" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/zb" android:src="@drawable/c3h" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <com.tencent.wework.friends.views.SimpleImageListView android:id="@id/ebr" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/yd" android:layout_marginRight="@dimen/z4" android:layout_toLeftOf="@id/fkh" android:layout_centerVertical="true" app:default_image="@drawable/b0q" app:item_space="5.0dip" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toLeftOf="@id/ebr" android:layout_toRightOf="@id/fkl" android:layout_centerVertical="true" android:layout_alignWithParentIfMissing="true">
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3f" android:id="@id/fks" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3c" android:textColor="@color/xk" android:id="@id/fkj" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <View android:id="@id/fkp" android:background="@color/a47" android:layout_width="fill_parent" android:layout_height="@dimen/a61" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</RelativeLayout>

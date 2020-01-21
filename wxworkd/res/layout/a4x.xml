@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.BaseLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ax8" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/s2" android:layout_marginTop="14.0dip" android:layout_marginRight="@dimen/s2" android:layout_marginBottom="4.0dip">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="18.0sp" android:textColor="@color/qv" android:id="@id/fbs" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cku" />
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/fb7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip">
+            <View android:layout_gravity="center_vertical" android:background="@color/xo" android:layout_width="0.5dip" android:layout_height="15.0dip" />
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginTop="3.0dip" android:src="@drawable/b46" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="15.0sp" android:textColor="@color/xo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/ckv" />
+        </LinearLayout>
+        <View android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <ImageView android:id="@id/af5" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/c4p" android:layout_alignTop="@id/fbs" />
+    </com.tencent.wework.common.views.BaseLinearLayout>
+    <View android:background="@color/zq" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" />
+</merge>

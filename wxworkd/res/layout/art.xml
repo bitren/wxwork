@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.PhotoImageView android:id="@id/d4h" android:layout_width="@dimen/a8w" android:layout_height="@dimen/a8w" android:layout_marginLeft="@dimen/a8v" android:layout_marginTop="@dimen/a8v" android:layout_marginRight="@dimen/a8v" android:layout_marginBottom="@dimen/a8v" android:src="@drawable/bog" android:layout_alignParentRight="true" app:maskType="edm" app:radius="@dimen/a_e" />
+    <ViewStub android:id="@id/fxf" android:layout="@layout/aru" android:inflatedId="@id/d4i" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignLeft="@id/d4h" android:layout_alignTop="@id/d4h" android:layout_alignRight="@id/d4h" android:layout_alignBottom="@id/d4h" />
+    <RelativeLayout android:paddingBottom="9.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/a8v" android:layout_marginTop="10.0dip" android:layout_marginRight="@dimen/a8v" android:layout_toLeftOf="@id/d4h">
+        <com.tencent.wework.common.views.ConfigurableTextView android:id="@id/d4j" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/zg" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:id="@id/d4g" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/a8x" android:layout_below="@id/d4j" app:configurable="false" style="@style/zf" />
+        <com.tencent.wework.common.views.DownloadProgressBar android:id="@id/d4e" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignLeft="@id/d4g" android:layout_alignBottom="@id/d4g" app:hasStopBtn="false" />
+    </RelativeLayout>
+</RelativeLayout>

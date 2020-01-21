@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ww="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" android:layout_alignParentTop="true" style="@style/a13" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/csq" android:layout_width="wrap_content" android:layout_height="48.0dip" android:layout_below="@id/ff6" android:layout_centerHorizontal="true">
+        <ProgressBar android:layout_gravity="center_vertical" android:layout_width="20.0dip" android:layout_height="20.0dip" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3c" android:textColor="@color/a4h" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="8.0dip" android:text="@string/fkx" ww:maxLevelIncrement="@dimen/aar" />
+    </LinearLayout>
+    <com.tencent.wework.common.views.BottomLoadListView android:id="@id/cwz" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/ff6" style="@style/yb" />
+    <RelativeLayout android:orientation="vertical" android:id="@id/cru" android:background="@color/atc" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/ff6">
+        <ImageView android:id="@id/d0i" android:background="@drawable/bum" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" android:layout_above="@id/beh" android:layout_centerHorizontal="true" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/r1" android:textColor="@color/a5g" android:id="@id/beh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/ghy" android:layout_centerInParent="true" ww:maxLevelIncrement="@dimen/aar" />
+    </RelativeLayout>
+</RelativeLayout>

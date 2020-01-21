@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="aei">0.0dip</dimen>
+    <dimen name="ael">0.0dip</dimen>
+    <dimen name="aem">12.0dip</dimen>
+</resources>

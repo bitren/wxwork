@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/c4f" android:background="@color/a3a" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" android:layout_width="fill_parent" android:layout_height="@dimen/alo" />
+    <ScrollView android:paddingBottom="0.0dip" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.tencent.wework.common.views.CommonItemView android:id="@id/c3x" style="@style/y_" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:gravity="center_vertical" android:id="@id/c3y" android:text="@string/em1" style="@style/y6" />
+            <View android:id="@id/ai7" android:background="@color/a4s" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/rw" android:layout_marginTop="@dimen/s8" />
+            <RelativeLayout android:background="@drawable/kh" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3f" android:textColor="@color/jf" android:gravity="center_vertical" android:id="@id/d30" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginLeft="@dimen/s2" android:text="@string/ely" />
+                <com.tencent.wework.common.views.GroupSettingGridView android:id="@id/d2h" android:paddingLeft="12.0dip" android:paddingBottom="15.0dip" android:focusable="false" android:clickable="false" android:descendantFocusability="blocksDescendants" android:layout_width="wrap_content" android:layout_height="wrap_content" android:listSelector="@drawable/abf" android:horizontalSpacing="12.0dip" android:numColumns="6" android:layout_weight="6.0" android:layout_below="@id/d30" />
+            </RelativeLayout>
+            <View android:background="@color/a4s" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/rw" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:gravity="center_vertical" android:id="@id/d2z" android:text="@string/elx" style="@style/y6" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

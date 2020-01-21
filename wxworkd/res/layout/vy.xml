@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:id="@id/aou" android:background="#ff191919" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/lz"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="15.0dip" android:textColor="#ff888888" android:gravity="center" android:id="@id/dky" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ef" />
+    <android.support.v7.widget.RecyclerView android:id="@id/bup" android:background="#ff191919" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/fe" />
+    <RelativeLayout android:gravity="center_vertical" android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/bxc" android:background="@color/a7u" android:layout_width="fill_parent" android:layout_height="@dimen/fe">
+        <Button android:enabled="false" android:textSize="@dimen/el" android:textColor="@color/atg" android:gravity="center" android:id="@id/f2i" android:layout_marginLeft="@dimen/dl" android:layout_marginRight="@dimen/dl" android:minWidth="64.0dip" android:text="@string/t5" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" style="@style/kp" />
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="@dimen/z0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/z5" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentBottom="true">
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/xs" android:layout_weight="1.0">
+                <include android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/ap3" />
+                <include android:id="@id/eay" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/ap2" />
+                <include android:id="@id/eax" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/ap1" />
+                <include android:id="@id/eaz" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/ap4" />
+                <include android:id="@id/eb0" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/ant" />
+            </FrameLayout>
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3v" android:textColor="@color/a98" android:id="@id/fdu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginRight="18.0dip" android:text="@string/j6v" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/c0o" android:background="@color/jq" android:visibility="gone" android:layout_width="@dimen/a61" android:layout_height="fill_parent" android:layout_marginLeft="4.0dip" android:layout_marginTop="14.0dip" android:layout_marginRight="4.0dip" android:layout_marginBottom="14.0dip" />
+</merge>

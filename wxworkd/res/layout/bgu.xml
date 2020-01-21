@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="48.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ww="http://schemas.android.com/apk/res-auto">
+    <ProgressBar android:layout_gravity="center_vertical" android:layout_width="20.0dip" android:layout_height="20.0dip" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3c" android:textColor="@color/a4h" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="48.0dip" android:layout_marginLeft="8.0dip" android:text="@string/fkx" ww:maxLevelIncrement="@dimen/aar" />
+</LinearLayout>

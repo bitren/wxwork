@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a5n" android:textColor="@color/a4h" android:gravity="center_vertical" android:id="@id/cjl" android:background="@color/a3a" android:paddingLeft="@dimen/ty" android:paddingTop="@dimen/u6" android:paddingBottom="@dimen/u6" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/f00" android:layout="@layout/vp" android:inflatedId="@id/crn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/cjl" />
+    <ViewStub android:id="@id/f01" android:layout="@layout/vq" android:inflatedId="@id/crm" android:layout_width="fill_parent" android:layout_height="@dimen/a67" android:layout_below="@id/crn" />
+    <ViewStub android:id="@id/fw9" android:layout="@layout/vs" android:inflatedId="@id/aj6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignLeft="@id/crn" android:layout_alignTop="@id/crn" android:layout_alignRight="@id/crn" android:layout_alignBottom="@id/crn" />
+</RelativeLayout>

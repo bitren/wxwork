@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.mm.ui.widget.textview.MMAutoAdjustTextView android:id="@id/faj" style="@style/j_" />
+    <com.tencent.mm.ui.base.MMVisiblePasswordEditText android:id="@id/bbe" style="@style/j9" />
+</merge>

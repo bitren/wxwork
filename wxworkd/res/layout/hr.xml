@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/atc" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" android:layout_width="fill_parent" android:layout_height="@dimen/alo" android:layout_alignParentTop="true" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/ff6">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.tencent.qmui.widget.QMUIFloatLayout android:id="@id/bwo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="11.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="11.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+            <View android:id="@id/b5z" android:background="@color/a45" android:layout_width="fill_parent" android:layout_height="@dimen/rw" android:layout_marginLeft="16.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="0.0dip" android:layout_below="@id/bwo" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0sp" android:id="@id/f6o" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="20.0dip" android:text="@string/giv" android:layout_below="@id/b5z" android:layout_alignParentLeft="true" />
+            <com.tencent.qmui.widget.QMUIFloatLayout android:id="@id/bwn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="11.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="11.0dip" android:layout_marginBottom="10.0dip" android:layout_below="@id/f6o" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

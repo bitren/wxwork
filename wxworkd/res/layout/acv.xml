@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/hu"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:padding="@dimen/cv" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ho">
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:id="@id/br5" android:contentDescription="@string/g8" style="@style/hm" />
+                    <ImageView android:layout_gravity="center" android:id="@id/br9" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/akc" android:contentDescription="@string/g8" />
+                </FrameLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cq">
+                    <TextView android:id="@id/bse" android:text="{title}" style="@style/hs" />
+                    <TextView android:id="@id/bqq" android:visibility="gone" android:layout_marginTop="@dimen/cy" android:text="{desc}" style="@style/hp" />
+                    <TextView android:id="@id/brw" android:visibility="gone" android:layout_marginTop="@dimen/cy" android:text="{source}" style="@style/hp" />
+                </LinearLayout>
+            </LinearLayout>
+            <include layout="@layout/acz" />
+            <include layout="@layout/acy" />
+        </LinearLayout>
+        <include layout="@layout/acx" />
+    </LinearLayout>
+</FrameLayout>

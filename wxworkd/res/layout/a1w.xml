@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.BaseLinearLayout android:orientation="vertical" android:id="@id/an_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/s2" android:layout_marginTop="14.0dip" android:layout_marginRight="@dimen/s2" android:layout_marginBottom="4.0dip">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="24.0sp" android:textColor="@color/qv" android:id="@id/and" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="16.0sp" android:textColor="@color/qv" android:id="@id/an9" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </com.tencent.wework.common.views.BaseLinearLayout>
+    <ImageView android:id="@id/anf" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/s2" android:src="@drawable/c4p" android:layout_alignTop="@id/an_" android:layout_alignParentRight="true" />
+    <com.tencent.wework.common.views.CommonItemView android:id="@id/an7" android:background="@color/a25" android:layout_width="fill_parent" android:layout_height="56.0dip" android:text="@string/dlp" android:layout_below="@id/an_" app:hasBottomLine="false" app:rightIconType="esq" app:subInfo="@string/dlq" app:subInfoTextColor="@color/wz" />
+    <View android:layout_width="fill_parent" android:layout_height="10.0dip" android:layout_below="@id/an7" />
+</merge>

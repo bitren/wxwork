@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/atc" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" android:layout_width="fill_parent" android:layout_height="@dimen/alo" android:layout_alignParentTop="true" />
+    <ImageView android:id="@id/cxr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="118.0dip" android:src="@drawable/ckz" android:layout_below="@id/ff6" android:layout_centerHorizontal="true" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3f" android:id="@id/cxi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="31.0dip" android:text="@string/c98" android:layout_below="@id/cxr" android:layout_centerHorizontal="true" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3h" android:ellipsize="end" android:gravity="center" android:id="@id/cxy" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="23.0dip" android:layout_marginTop="13.0dip" android:layout_marginRight="23.0dip" android:singleLine="true" android:layout_below="@id/cxi" android:layout_centerHorizontal="true" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3f" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/c7y" android:layout_below="@id/cxy" android:layout_centerHorizontal="true" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3d" android:textColor="@color/apz" android:id="@id/cxz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="43.0dip" android:text="@string/c8p" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

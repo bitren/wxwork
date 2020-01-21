@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="192px" height="192px" viewBox="0 0 192 192" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>chatromm_toolpanel_icon_buttons_hl@3x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M125.0608,0 C144.336,0 153.9712,0 164.3472,3.28 C175.6752,7.4032 184.5968,16.3248 188.72,27.6528 C192,38.0272 192,47.6656 192,66.9392 L192,125.0608 C192,144.336 192,153.9712 188.72,164.3472 C184.5968,175.6752 175.6752,184.5968 164.3472,188.7184 C153.9712,192 144.336,192 125.0608,192 L66.9392,192 C47.664,192 38.0272,192 27.6528,188.7184 C16.3248,184.5968 7.4032,175.6752 3.28,164.3472 C0,153.9712 0,144.336 0,125.0608 L0,66.9392 C0,47.6656 0,38.0272 3.28,27.6528 C7.4032,16.3248 16.3248,7.4032 27.6528,3.28 C38.0272,0 47.664,0 66.9392,0 L125.0608,0 Z" id="path-1"></path>
+    </defs>
+    <g id="chatromm_toolpanel_icon_buttons_hl" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon-Shape-2">
+            <use fill="#FFFFFF" xlink:href="#path-1"></use>
+            <use fill-opacity="0.1" fill="#000000" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

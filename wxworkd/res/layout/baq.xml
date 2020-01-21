@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ww="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/eh7" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/avb" android:scaleType="center" android:minWidth="@dimen/alk" android:layout_alignParentRight="true" />
+    <com.rockerhieu.emojicon.EmojiconEditText android:textSize="@dimen/aio" android:textColor="@color/ar0" android:textColorHint="@color/anq" android:gravity="center_vertical" android:id="@id/eh8" android:background="@color/ar4" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/igi" android:cursorVisible="true" android:drawablePadding="@dimen/aln" android:layout_toLeftOf="@id/eh7" android:layout_centerVertical="true" android:inputType="text" android:imeOptions="actionSearch" android:textCursorDrawable="@drawable/ctb" ww:configurable="false" />
+    <View android:background="#ff6d8fb4" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="@dimen/aln" android:layout_below="@id/eh8" />
+</merge>

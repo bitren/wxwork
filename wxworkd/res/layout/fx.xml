@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/byl" android:background="@color/atc" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/fe0" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/alw" android:layout_alignParentTop="true" />
+    <com.tencent.wework.common.views.CommonBottomActionBar android:id="@id/z5" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/su" android:layout_alignParentBottom="true" />
+    <LinearLayout android:gravity="start" android:orientation="horizontal" android:id="@id/fzv" android:background="#ffe4f3ff" android:padding="@dimen/xx" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/z5" android:layout_alignWithParentIfMissing="true">
+        <TextView android:textSize="@dimen/a3d" android:textColor="#ff333333" android:id="@id/fzu" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <android.support.v7.widget.RecyclerView android:id="@id/e68" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/fzv" android:layout_below="@id/fe0" android:layout_alignWithParentIfMissing="true" />
+</RelativeLayout>

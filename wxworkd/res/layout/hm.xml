@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.wework.common.views.KeyboardListenerRelativeLayout android:id="@id/ed8" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" android:layout_width="fill_parent" android:layout_height="@dimen/alo" android:layout_alignParentTop="true" />
+    <com.tencent.wework.namecard.view.NameCardRelativeLayout android:id="@id/crc" android:background="@color/aqw" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/ff6">
+        <FrameLayout android:id="@id/a_1" android:background="@drawable/aq4" android:padding="@dimen/adp" android:layout_width="@dimen/adq" android:layout_height="@dimen/ado" android:layout_marginTop="@dimen/adv" android:layout_centerHorizontal="true">
+            <com.tencent.wework.common.views.PhotoImageView android:layout_gravity="center" android:id="@id/a_0" android:layout_width="@dimen/adt" android:layout_height="@dimen/ads" android:alpha="1.0" />
+        </FrameLayout>
+        <android.support.v7.widget.RecyclerView android:id="@id/aa6" android:background="@color/atc" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true" android:translationY="@dimen/adw" />
+    </com.tencent.wework.namecard.view.NameCardRelativeLayout>
+    <RelativeLayout android:id="@id/een" android:background="@color/atc" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/ady" android:layout_alignParentBottom="true">
+        <View android:id="@id/b5z" android:background="@color/a45" android:layout_width="fill_parent" android:layout_height="@dimen/rw" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0sp" android:textColor="@color/ahk" android:id="@id/eem" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gk6" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/cfe" android:background="@color/atc" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/adx" android:layout_alignParentBottom="true">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.tencent.wework.common.views.ConfigurableEditText android:textSize="16.0sp" android:textColorHint="@color/ahu" android:ellipsize="middle" android:id="@id/cfb" android:background="@null" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="18.0dip" android:maxLines="1" android:lines="1" android:singleLine="true" android:layout_weight="1.0" />
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/em3" android:paddingLeft="5.0dip" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="30.0dip" android:layout_marginRight="18.0dip" android:src="@drawable/bek" />
+        </LinearLayout>
+        <View android:background="@color/ahv" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentTop="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/f63" android:background="#77000000" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:background="@drawable/a0k" android:clickable="true" android:layout_width="fill_parent" android:layout_height="225.0dip" android:layout_alignParentBottom="true">
+            <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="21.0dip" android:layout_marginBottom="21.0dip" android:layout_weight="1.0">
+                <com.tencent.wework.namecard.view.TagInputView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="17.0dip" android:layout_marginRight="17.0dip" />
+            </ScrollView>
+            <HorizontalScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="17.0dip" android:layout_marginRight="17.0dip">
+                <com.tencent.wework.namecard.view.TagRecommendView android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </HorizontalScrollView>
+            <RelativeLayout android:background="@color/ai1" android:layout_width="fill_parent" android:layout_height="50.0dip">
+                <View android:background="@color/ai3" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentTop="true" />
+                <ImageView android:id="@id/b0n" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="22.5dip" android:src="@drawable/bv7" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                <ImageView android:id="@id/ah7" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginRight="22.5dip" android:src="@drawable/bv5" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</com.tencent.wework.common.views.KeyboardListenerRelativeLayout>

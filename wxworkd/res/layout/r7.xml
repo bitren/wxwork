@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/ih" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/fe0" style="@style/a13" />
+    <com.tencent.wework.enterprise.attendance.view.AttendanceMonthSelectView android:id="@id/deo" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include android:id="@id/sy" layout="@layout/ru" />
+            <include android:id="@id/sz" layout="@layout/rv" />
+            <include android:id="@id/t0" layout="@layout/rw" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

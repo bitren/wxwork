@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.wework.common.views.KeyboardListenerRelativeLayout android:id="@id/edh" android:background="@color/atc" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.contact.views.MultiDepartmentSelectItemView android:id="@id/dgk" android:layout_width="fill_parent" android:layout_height="@dimen/su" android:layout_alignParentBottom="true" />
+    <FrameLayout android:id="@id/ekk" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/dgk" />
+</com.tencent.wework.common.views.KeyboardListenerRelativeLayout>

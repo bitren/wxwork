@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/a3a" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.tencent.wework.uitest.RoundedFrameLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" app:corner_radius="16.0dip">
+            <com.tencent.wework.common.views.ConfigurableTextView android:layout_width="200.0dip" android:layout_height="wrap_content" android:text="@string/ibc" style="@style/y2" />
+        </com.tencent.wework.uitest.RoundedFrameLayout>
+        <com.tencent.wework.uitest.RoundedFrameLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" app:top_left_corner_radius="16.0dip">
+            <com.tencent.wework.common.views.ConfigurableTextView android:layout_width="200.0dip" android:layout_height="wrap_content" android:text="@string/ibc" style="@style/y2" />
+        </com.tencent.wework.uitest.RoundedFrameLayout>
+        <com.tencent.wework.uitest.RoundedFrameLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" app:top_right_corner_radius="16.0dip">
+            <com.tencent.wework.common.views.ConfigurableTextView android:layout_width="200.0dip" android:layout_height="wrap_content" android:text="@string/ibc" style="@style/y2" />
+        </com.tencent.wework.uitest.RoundedFrameLayout>
+        <com.tencent.wework.uitest.RoundedFrameLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" app:bottom_right_corner_radius="16.0dip">
+            <com.tencent.wework.common.views.ConfigurableTextView android:layout_width="200.0dip" android:layout_height="wrap_content" android:text="@string/ibc" style="@style/y2" />
+        </com.tencent.wework.uitest.RoundedFrameLayout>
+        <com.tencent.wework.uitest.RoundedFrameLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" app:bottom_left_corner_radius="16.0dip">
+            <com.tencent.wework.common.views.ConfigurableTextView android:layout_width="200.0dip" android:layout_height="wrap_content" android:text="@string/ibc" style="@style/y2" />
+        </com.tencent.wework.uitest.RoundedFrameLayout>
+    </LinearLayout>
+</ScrollView>

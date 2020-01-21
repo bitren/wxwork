@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.wework.common.views.BaseLinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingLeft="20.0dip" android:paddingTop="20.0dip" android:paddingRight="20.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.MultiPhotoImageView android:id="@id/bm5" android:layout_width="48.0dip" android:layout_height="48.0dip" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3f" android:textColor="@color/s4" android:ellipsize="end" android:id="@id/bm6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/bps" android:singleLine="true" />
+    <View android:id="@id/cqs" android:background="#ff196fd4" android:layout_width="22.0dip" android:layout_height="2.0dip" android:layout_marginTop="24.0dip" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="18.0sp" android:textColor="@color/a3c" android:ellipsize="end" android:id="@id/bmc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="@string/c5e" android:maxLines="1" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="13.0sp" android:textColor="@color/vm" android:id="@id/bmb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/c6i" android:singleLine="true" android:layout_below="@id/cqs" />
+</com.tencent.wework.common.views.BaseLinearLayout>

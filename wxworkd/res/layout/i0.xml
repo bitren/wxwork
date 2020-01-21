@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/atc" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" style="@style/a13" />
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/dsq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="62.0dip" android:src="@drawable/bxd" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="15.0sp" android:layout_gravity="center_horizontal" android:id="@id/cn3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="当前手机号" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="24.0sp" android:layout_gravity="center_horizontal" android:id="@id/au4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="11.5dip" android:text="\ 13012341234" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0sp" android:textColor="#ffb3b3b3" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/f_t" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="22.0dip" android:layout_marginTop="13.0dip" android:layout_marginRight="22.0dip" android:text="本手机号将显示在个人信息中\n你也可以使用此手机号登录" />
+    <com.tencent.wework.common.views.WWIconButton android:enabled="true" android:id="@id/bv" android:layout_marginTop="37.5dip" android:text="更换手机号" style="@style/z3" />
+</LinearLayout>

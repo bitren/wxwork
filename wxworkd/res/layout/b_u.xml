@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/atc" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" android:layout_width="fill_parent" android:layout_height="@dimen/alo" android:layout_alignParentTop="true" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0sp" android:textColor="@color/a5h" android:id="@id/a0l" android:paddingTop="14.0dip" android:paddingBottom="29.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fmd" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <ScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/a0l" android:layout_below="@id/ff6">
+        <LinearLayout android:orientation="vertical" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="22.0sp" android:textColor="@color/a3c" android:id="@id/foh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="22.0dip" android:layout_marginTop="@dimen/a7q" android:text="@string/fme" android:singleLine="false" />
+            <View android:layout_width="fill_parent" android:layout_height="15.0dip" />
+            <com.tencent.wework.enterprisemgr.view.EnterpriseListView android:id="@id/bir" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="22.0dip" android:divider="@null" android:dividerHeight="0.0dip" />
+            <View android:id="@id/b61" android:background="@color/a4c" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="14.0dip" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:enabled="false" android:layout_gravity="center_horizontal" android:id="@id/bfv" android:visibility="gone" android:layout_width="fill_parent" android:layout_marginLeft="13.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="13.0dip" android:text="@string/bp3" style="@style/z5" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

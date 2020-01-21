@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/byt" android:background="@color/atc" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.tencent.wework.common.views.BaseLinearLayout android:orientation="vertical" android:id="@id/aob" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <View android:id="@id/dua" android:layout_width="@dimen/m1" android:layout_height="fill_parent" />
+        <HorizontalScrollView android:id="@id/caf" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" android:layout_toEndOf="@id/dua">
+            <FrameLayout android:id="@id/ao9" android:layout_width="wrap_content" android:layout_height="@dimen/m0" />
+        </HorizontalScrollView>
+    </RelativeLayout>
+</merge>

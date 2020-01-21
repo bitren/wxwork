@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/jf" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <moai.ocr.view.edit.PhotoViewPager android:id="@id/fqk" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:id="@id/ayx" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <moai.ocr.view.edit.BitmapEditTopBar android:id="@id/fgh" android:background="@color/aj4" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_gravity="top" android:layout_width="fill_parent" android:layout_height="@dimen/alw">
+            <ImageView android:id="@id/a8u" android:background="@drawable/a8_" android:padding="12.0dip" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/icon_topbar_backwhite" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="17.699982sp" android:textColor="@color/ajc" android:ellipsize="end" android:id="@id/faj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="7.6999817dip" android:text="" android:maxLines="1" android:maxEms="10" android:layout_toRightOf="@id/a8u" android:layout_centerVertical="true" />
+            <View android:id="@id/fc1" android:background="@drawable/a8a" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginLeft="17.299988dip" android:layout_toRightOf="@id/faj" android:layout_centerVertical="true" />
+            <moai.ocr.view.common.OcrAlphaTextView android:id="@id/ejh" android:text="@string/cvr" android:layout_alignParentRight="true" style="@style/a0e" />
+        </RelativeLayout>
+    </moai.ocr.view.edit.BitmapEditTopBar>
+    <RelativeLayout android:id="@id/a1r" android:background="@color/aj4" android:layout_width="fill_parent" android:layout_height="@dimen/alw" android:layout_alignParentBottom="true">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="17.699982sp" android:textColor="@color/ana" android:gravity="center" android:id="@id/es2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/buh" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0sp" android:textColor="#ff999999" android:id="@id/baz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:text="" android:layout_above="@id/a1r" android:layout_centerHorizontal="true" />
+</RelativeLayout>

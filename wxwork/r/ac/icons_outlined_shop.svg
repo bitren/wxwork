@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>icons_outlined_shop</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="icons_outlined_shop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon37">
+            <g id="Group-8" transform="translate(12.000000, 6.000000)">
+                <path d="M1.8,18.0049167 L1.8,54.0010878 C1.8,56.322994 3.68055992,58.2 6.00638655,58.2 L41.9936134,58.2 C44.3206504,58.2 46.2,56.3217774 46.2,54.0010878 L46.2,18.0049167 C46.2,17.3399455 45.6606433,16.8 44.997385,16.8 L3.00261497,16.8 C2.33288368,16.8 1.8,17.3345741 1.8,18.0049167 Z" id="Rectangle-701" stroke="#000000" stroke-width="3.6"></path>
+                <path d="M12,12 C12,5.372583 17.372583,0 24,0 C30.627417,0 36,5.372583 36,12 L35.9999979,27 L32.3999977,27 L32.3999977,12 C32.3999906,7.36079888 28.6391825,3.59999084 23.9999907,3.59999084 C19.3607989,3.59999084 15.5999908,7.36079888 15.5999908,11.9999907 L15.6000001,27 L12,27 L12,12 Z" id="Combined-Shape" fill="#000000"></path>
+            </g>
+        </g>
+    </g>
+</svg>

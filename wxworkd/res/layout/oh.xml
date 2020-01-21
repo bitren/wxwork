@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/a3a" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" android:layout_width="fill_parent" android:layout_height="@dimen/alo" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/ff6">
+        <com.tencent.wework.common.views.FooterScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <android.support.v7.widget.RecyclerView android:id="@id/cs1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+                <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0dip" android:textColor="#ffacb2bb" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="30.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="30.0dip" android:text="@string/m_" android:lineSpacingExtra="8.0dip" />
+            </LinearLayout>
+        </com.tencent.wework.common.views.FooterScrollView>
+        <com.tencent.wework.common.views.EmptyViewStub android:id="@id/ben" android:background="@color/a4y" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:empty_icon="@drawable/bea" app:mainTips="@string/m8" app:stubLayoutStyle="g3n" app:subTips="@string/m9" />
+    </FrameLayout>
+</RelativeLayout>

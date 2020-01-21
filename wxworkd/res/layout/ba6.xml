@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ww="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" android:layout_width="fill_parent" android:layout_height="@dimen/alo" android:layout_alignParentTop="true" />
+    <com.tencent.wework.common.views.EnterpriseImageView android:id="@id/aqt" android:layout_width="@dimen/a1t" android:layout_height="@dimen/a1s" android:layout_marginTop="125.0dip" android:src="@drawable/cjn" android:scaleType="fitCenter" android:layout_below="@id/ff6" android:layout_centerHorizontal="true" />
+    <View android:id="@id/aqv" android:background="#ffdcdcdc" android:layout_width="@dimen/a5x" android:layout_height="@dimen/a61" android:layout_marginTop="15.0dip" android:layout_marginBottom="15.0dip" android:layout_below="@id/aqt" android:layout_centerHorizontal="true" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a5z" android:textColor="#ff666666" android:gravity="center_horizontal" android:id="@id/ar1" android:paddingLeft="@dimen/a5y" android:paddingRight="@dimen/a5y" android:layout_width="@dimen/a5x" android:layout_height="wrap_content" android:text="@string/fiz" android:singleLine="false" android:layout_below="@id/aqv" android:layout_centerHorizontal="true" />
+    <com.tencent.wework.common.views.WWIconButton android:gravity="center" android:id="@id/tv" android:visibility="gone" android:layout_marginBottom="@dimen/a6s" android:text="@string/fqy" android:layout_alignParentBottom="true" ww:iconPadding="@dimen/a6v" style="@style/z3" />
+    <ImageView android:id="@id/co0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/a60" android:src="@drawable/bkw" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

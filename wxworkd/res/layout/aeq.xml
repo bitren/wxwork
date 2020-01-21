@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" android:layout_width="fill_parent" android:layout_height="@dimen/alo" />
+    <com.tencent.wework.enterprise.todo.calendar.views.CalendarWeekLayout android:id="@id/a66" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.tencent.wework.enterprise.todo.calendar.views.CalendarLayout android:id="@id/a63" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="vertical" android:id="@id/a5z" android:background="@color/atc" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.tencent.wework.enterprise.todo.calendar.views.DayShowView android:id="@id/axf" android:layout_width="fill_parent" android:layout_height="56.0dip" />
+        <android.support.v4.view.ViewPager android:id="@id/ef4" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+</LinearLayout>

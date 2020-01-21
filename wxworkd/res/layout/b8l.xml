@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="16.0sp" android:textColor="@color/aq3" android:id="@id/f9x" android:layout_width="fill_parent" android:layout_height="wrap_content" android:includeFontPadding="false" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="16.0sp" android:textColor="@color/aq6" android:id="@id/f9y" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:includeFontPadding="false" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="16.0sp" android:textColor="@color/aq3" android:id="@id/f9p" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:includeFontPadding="false" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="16.0sp" android:textColor="@color/aq6" android:id="@id/f9q" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:includeFontPadding="false" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="20.0sp" android:textColor="@color/aq3" android:id="@id/f9z" android:duplicateParentState="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="20.0sp" android:textColor="@color/aq3" android:id="@id/f9r" android:duplicateParentState="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:includeFontPadding="false" android:drawableLeft="@drawable/icon_schedule_time_arrow" android:drawablePadding="6.0dip" />
+    </LinearLayout>
+</LinearLayout>

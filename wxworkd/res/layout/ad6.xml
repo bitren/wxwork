@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/hu"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:padding="@dimen/cv" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ho">
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="horizontal" android:id="@id/e62" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <FrameLayout android:id="@id/brr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/cq">
+                        <ImageView android:id="@id/brp" style="@style/hn" />
+                        <View android:layout_gravity="bottom" android:id="@id/br7" android:background="@drawable/rh" android:layout_width="@dimen/cs" android:layout_height="45.0dip" />
+                        <ImageView android:layout_gravity="center" android:id="@id/bra" android:src="@drawable/a06" android:contentDescription="@string/g8" style="@style/ht" />
+                        <TextView android:layout_gravity="bottom|center|right" android:id="@id/br8" android:paddingRight="3.0dip" android:paddingBottom="3.0dip" android:text="{11:32}" style="@style/hq" />
+                    </FrameLayout>
+                    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:id="@id/brv" android:text="{title}" style="@style/hs" />
+                        <TextView android:id="@id/brq" android:layout_marginTop="@dimen/cy" android:text="{desc}" android:maxLines="3" style="@style/hp" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/fr5" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ImageView android:src="@raw/app_attach_file_icon_sound" style="@style/hm" />
+                    <TextView android:layout_gravity="center_vertical" android:id="@id/bsk" android:layout_marginLeft="@dimen/cq" android:text="{title}" style="@style/hs" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/abd" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ImageView android:src="@raw/app_attach_file_icon_voice" style="@style/hm" />
+                    <TextView android:layout_gravity="center_vertical" android:id="@id/bqi" android:layout_marginLeft="@dimen/cq" android:text="{title}" style="@style/hs" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/ahe" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ImageView android:id="@id/bqo" style="@style/hm" />
+                    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cq">
+                        <TextView android:id="@id/bqg" android:text="{title}" style="@style/hs" />
+                        <TextView android:id="@id/bqf" android:layout_marginTop="@dimen/cy" android:text="{desc}" style="@style/hp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </FrameLayout>
+            <include layout="@layout/acz" />
+            <include layout="@layout/acy" />
+        </LinearLayout>
+        <include layout="@layout/acx" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/aon" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/fea" android:layout_width="fill_parent" android:layout_height="44.0dip">
+        <ImageView android:id="@id/vr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="13.0dip" android:src="@drawable/icon_todo_action_bar_cancel" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:alpha="0.5" />
+        <com.tencent.wework.enterprise.todo.calendar.views.CalendarSwitchView android:id="@id/ddw" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="14.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="12.0sp" android:textColor="#ff8f9397" android:id="@id/f3m" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:layout_toLeftOf="@id/ddw" android:layout_centerVertical="true" android:layout_alignWithParentIfMissing="true" />
+        <ImageView android:id="@id/fdd" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:src="@drawable/c7t" android:layout_toLeftOf="@id/f3m" android:layout_centerVertical="true" android:layout_alignWithParentIfMissing="true" />
+    </RelativeLayout>
+    <FrameLayout android:id="@id/byi" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/fea" android:layout_alignWithParentIfMissing="true" />
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="96px" height="96px" viewBox="0 0 96 96" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>actionbar_refresh_icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="#ffffffff" sketch:type="MSLayerGroup" transform="translate(24.000000, 20.000000)" fill="#FFFFFF">
+            <path d="M24,9 C24.0569996,5.94927958 23.5673496,2.84965493 25,0 C29.8828354,3.91952537 35.1090998,7.79905559 40,12 C41.2347213,12.5484805 40.7850427,14.1682843 40,15 C34.7793355,18.5277564 29.7529282,22.3372951 25,26 C23.3574996,22.5472697 24.2168853,18.6277443 24,15 C19.0505781,15.228156 14.0941208,17.0679332 11,21 C5.90997068,26.0068508 4.63088494,34.1158688 8,41 C10.5866279,47.1542899 17.861428,51.5337596 25,51 C32.3910426,50.6438674 39.086257,45.3645067 41,38 C42.2240142,35.5057005 41.5744785,32.3560819 42,29 C43.6130214,27.2866958 47.2304357,27.6966461 48,30 C48.9891786,39.0652695 44.5923214,48.3441459 37,53 C30.1326568,57.7230102 20.8193138,58.252946 13,55 C6.32967069,51.1038117 1.16336345,43.974675 3.55271368e-15,36 C-1.06504373,27.1767091 3.30183492,17.7678484 11,13 C14.7736351,10.2887541 19.4203138,9.21888366 24,9 L24,9 Z" id="Shape" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>WAVideoPlay@2x</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="=slice=" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="iPhone-X-Copy-2" transform="translate(-60.000000, -60.000000)">
+            <g id="play" transform="translate(60.000000, 60.000000)">
+                <g>
+                    <g>
+                        <rect id="Rectangle-11" x="0" y="0" width="24" height="24"></rect>
+                        <path d="M20.2927454,12.4572708 L5.76610796,21.5893625 C5.53232344,21.7363299 5.22366305,21.6659507 5.07669568,21.4321662 C5.0265851,21.3524541 5,21.2602128 5,21.1660582 L5,2.90187473 C5,2.62573235 5.22385763,2.40187473 5.5,2.40187473 C5.5941546,2.40187473 5.68639586,2.42845983 5.76610796,2.47857041 L20.2927454,11.6106621 C20.52653,11.7576295 20.5969092,12.0662899 20.4499418,12.3000744 C20.4100032,12.3636056 20.3562766,12.4173322 20.2927454,12.4572708 Z" id="Triangle" fill="#FFFFFF"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="124.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.setting.views.BrokenLineView android:id="@id/c5_" android:layout_width="30.0dip" android:layout_height="15.0dip" android:layout_marginBottom="28.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <RelativeLayout android:id="@id/c57" android:background="@color/aqw" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="124.0dip">
+        <TextView android:textSize="20.0sp" android:textColor="@color/atc" android:id="@id/c5k" android:layout_width="wrap_content" android:layout_height="28.0dip" android:layout_marginLeft="20.0dip" android:text="@string/htc" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+        <TextView android:textSize="20.0sp" android:textColor="@color/pi" android:id="@id/c5j" android:layout_width="wrap_content" android:layout_height="28.0dip" android:layout_toRightOf="@id/c5k" android:layout_alignTop="@id/c5k" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="16.0dip" android:layout_below="@id/c5k">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/c5a" android:background="@drawable/er" android:layout_width="0.0dip" android:layout_height="64.0dip" android:layout_weight="1.0">
+                <com.tencent.wework.common.views.PhotoImageView android:id="@id/c5b" android:layout_width="22.0dip" android:layout_height="22.0dip" android:src="@drawable/icon_add_wechat" />
+                <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3c" android:textColor="@color/atg" android:id="@id/c5c" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="test" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/c5d" android:background="@drawable/er" android:layout_width="0.0dip" android:layout_height="64.0dip" android:layout_marginLeft="8.0dip" android:layout_weight="1.0">
+                <com.tencent.wework.common.views.PhotoImageView android:id="@id/c5e" android:layout_width="22.0dip" android:layout_height="22.0dip" android:src="@drawable/icon_add_wechat" />
+                <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3c" android:textColor="@color/atg" android:id="@id/c5f" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="test" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/c5g" android:background="@drawable/er" android:layout_width="0.0dip" android:layout_height="64.0dip" android:layout_marginLeft="8.0dip" android:layout_weight="1.0">
+                <com.tencent.wework.common.views.PhotoImageView android:id="@id/c5h" android:layout_width="22.0dip" android:layout_height="22.0dip" android:src="@drawable/icon_add_wechat" />
+                <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3c" android:textColor="@color/atg" android:id="@id/c5i" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="test" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

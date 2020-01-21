@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="192px" height="192px" viewBox="0 0 192 192" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>chatromm_toolpanel_icon_voiceinput@3x</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="chatromm_toolpanel_icon_voiceinput" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Fav" transform="translate(30.000000, 36.000000)" fill="#333333">
+            <g id="Group-24" transform="translate(65.569219, 65.569219) rotate(30.000000) translate(-65.569219, -65.569219) translate(17.569219, 17.569219)">
+                <rect id="Rectangle-15" x="33" y="3" width="30" height="54" rx="15"></rect>
+                <path d="M27,33 L27,42 C27,53.5979797 36.4020203,63 48,63 C59.5979797,63 69,53.5979797 69,42 L69,33 L75,33 L75,42 C75,56.9116882 62.9116882,69 48,69 C33.0883118,69 21,56.9116882 21,42 L21,33 L27,33 Z" id="Combined-Shape"></path>
+                <rect id="Rectangle" x="45" y="66" width="6" height="9"></rect>
+                <path d="M45,78 L51,78 L48.5510594,83.6858209 C48.4199764,83.9901626 48.0669948,84.1306165 47.7626531,83.9995335 C47.6218418,83.9388846 47.5095895,83.8266323 47.4489406,83.6858209 L45,78 Z" id="Rectangle-14"></path>
+            </g>
+        </g>
+    </g>
+</svg>

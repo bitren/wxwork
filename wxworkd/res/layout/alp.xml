@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:id="@id/ed8" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0sp" android:textColor="@color/wu" android:id="@id/f_t" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="5.0dip" android:text="@string/ao2" android:layout_below="@id/elm" />
+    <com.tencent.wework.common.views.CommonItemView android:id="@id/enx" android:layout_width="fill_parent" android:layout_height="@dimen/rx" android:layout_marginTop="5.0dip" android:layout_below="@id/f_t" app:bottomLineType="cdq" app:hasBottomLine="true" app:hasTopLine="true" app:leftTitle="@string/ao9" app:rightIconType="re" app:topLineType="g34" />
+    <com.tencent.wework.common.views.CommonItemView android:id="@id/el5" android:layout_width="fill_parent" android:layout_height="@dimen/rx" android:layout_below="@id/enx" app:bottomLineType="g34" app:hasBottomLine="true" app:hasTopLine="false" app:leftTitle="@string/acp" app:rightIconType="re" />
+</RelativeLayout>

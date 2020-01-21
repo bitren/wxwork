@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a3">Ուղղվել տուն</string>
+    <string name="a4">Ուղղվել վերև</string>
+    <string name="abc_action_menu_overflow_description">Այլ ընտրանքներ</string>
+    <string name="a5">Պատրաստ է</string>
+    <string name="a6">Տեսնել բոլորը</string>
+    <string name="a7">Ընտրել ծրագիր</string>
+    <string name="a8">ԱՆՋԱՏՎԱԾ</string>
+    <string name="a9">ՄԻԱՑՎԱԾ</string>
+    <string name="al">Alt+</string>
+    <string name="an">Ctrl+</string>
+    <string name="ao">Delete</string>
+    <string name="ap">Enter</string>
+    <string name="aq">Function+</string>
+    <string name="ar">Meta+</string>
+    <string name="as">Shift+</string>
+    <string name="at">բացատ</string>
+    <string name="au">Sym+</string>
+    <string name="av">Menu+</string>
+    <string name="aw">Որոնում...</string>
+    <string name="ax">Մաքրել հարցումը</string>
+    <string name="ay">Որոնման հարցում</string>
+    <string name="az">Որոնել</string>
+    <string name="b0">Ուղարկել հարցումը</string>
+    <string name="b1">Ձայնային որոնում</string>
+    <string name="b2">Կիսվել</string>
+    <string name="b3">Ուղարկել %s-ին</string>
+    <string name="b4">Թաքցնել</string>
+    <string name="hlf">Որոնել</string>
+    <string name="i6c">999+</string>
+</resources>

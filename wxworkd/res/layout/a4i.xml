@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" android:layout_width="fill_parent" android:layout_height="@dimen/alw" />
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:translationY="0.0dip">
+            <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/b41" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="18.0sp" android:textColor="#ff000000" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="53.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="53.0dip" android:text="@string/cln" />
+        </LinearLayout>
+    </LinearLayout>
+    <Button android:id="@id/eoa" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginLeft="30.0dip" android:layout_marginRight="30.0dip" android:layout_marginBottom="25.0dip" android:text="@string/bp3" style="@style/xr" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0sp" android:textColor="#ff999999" android:gravity="center" android:id="@id/a92" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginRight="30.0dip" android:layout_marginBottom="40.0dip" android:text="@string/clr" />
+</LinearLayout>

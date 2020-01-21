@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/a4c" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ww="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" android:layout_width="fill_parent" android:layout_height="@dimen/alo" android:layout_alignParentTop="true" />
+    <com.tencent.wework.common.views.ScrollListView android:id="@id/cnj" android:background="@color/ar4" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/s8" android:divider="@null" android:layout_below="@id/ff6" style="@style/yb" />
+</RelativeLayout>

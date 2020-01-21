@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/hz" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ww="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" style="@style/a13" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="18.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/axk" android:layout_width="wrap_content" android:layout_height="@dimen/alo" android:layout_centerHorizontal="true" />
+    <LinearLayout android:orientation="vertical" android:id="@id/axo" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/ff6">
+        <include layout="@layout/v2" />
+        <FrameLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <FrameLayout android:background="@color/hz" android:paddingLeft="@dimen/mr" android:paddingRight="@dimen/mr" android:paddingBottom="@dimen/mr" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <com.tencent.mail.calendar.view.CalendarScrollView android:id="@id/a7v" android:background="@color/hz" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </FrameLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <View android:id="@id/be4" android:background="@color/ar4" android:layout_width="fill_parent" android:layout_height="252.0dip" />
+                <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0sp" android:textColor="#ffb3b3b3" android:gravity="center_vertical" android:background="#fff0f1f5" android:paddingLeft="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="32.0dip" android:text="xxxx" ww:maxLevelIncrement="@dimen/aar" />
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                    <View android:background="@color/hz" android:layout_width="fill_parent" android:layout_height="10.0dip" />
+                    <FrameLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                        <android.support.v7.widget.RecyclerView android:id="@id/e5v" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                        <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/ct3" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <ProgressBar android:layout_width="20.0dip" android:layout_height="20.0dip" />
+                            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="15.0sp" android:textColor="@color/xx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip" android:text="@string/aig" />
+                        </LinearLayout>
+                        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="15.0sp" android:textColor="@color/im" android:gravity="center_horizontal" android:layout_gravity="center" android:id="@id/beb" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/ajn" />
+                    </FrameLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+</RelativeLayout>

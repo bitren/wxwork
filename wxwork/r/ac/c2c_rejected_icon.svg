@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="102px" height="102px" viewBox="0 0 102 102" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+    <title>back3x</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="红包／卡券" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="back3x" fill="#FFFFFF">
+            <path d="M51,102 C79.1665222,102 102,79.1665222 102,51 C102,22.8334778 79.1665222,0 51,0 C22.8334778,0 0,22.8334778 0,51 C0,79.1665222 22.8334778,102 51,102 Z M51,98 C76.9573832,98 98,76.9573832 98,51 C98,25.0426168 76.9573832,4 51,4 C25.0426168,4 4,25.0426168 4,51 C4,76.9573832 25.0426168,98 51,98 Z" id="Oval-91"></path>
+            <g id="C2C-ICON" transform="translate(15.000000, 14.000000)">
+                <g id="Group" transform="translate(9.000000, 24.000000)">
+                    <path d="M15.4159471,1.21133456 C16.2907954,0.542332956 17,0.894978851 17,1.99700466 L17,24.0029953 C17,25.1059106 16.2911746,25.4579571 15.4159471,24.7886654 L1.58405289,14.2113346 C0.709204635,13.542333 0.708825365,12.4579571 1.58405289,11.7886654 L15.4159471,1.21133456 Z" id="Triangle-1"></path>
+                    <rect id="Rectangle-686" x="14" y="9" width="41" height="8"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

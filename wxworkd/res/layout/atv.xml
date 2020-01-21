@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/d7f" android:background="@drawable/x6" android:paddingBottom="@dimen/a_w" android:duplicateParentState="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/a_t" android:layout_marginRight="@dimen/a_t" android:layout_alignParentTop="true">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a_x" android:textColor="@color/a4h" android:ellipsize="end" android:id="@id/d7g" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/a_w" android:singleLine="true" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:src="@drawable/icon_conversation_enter_member_card_right_arrow" android:layout_toRightOf="@id/d7g" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View android:id="@id/d74" android:background="@drawable/xk" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginRight="24.0dip" android:layout_below="@id/d7f" android:layout_alignLeft="@id/d7f" />
+    <RelativeLayout android:id="@id/d7b" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/a_t" android:layout_below="@id/d74">
+        <com.tencent.wework.common.views.PhotoImageView android:id="@id/d7d" android:layout_width="@dimen/a_u" android:layout_height="@dimen/a_u" android:layout_marginLeft="@dimen/a_t" android:layout_marginTop="@dimen/a_r" android:layout_marginBottom="5.0dip" />
+        <com.rockerhieu.emojicon.EmojiconTextView android:textSize="@dimen/a_v" android:textColor="@color/a3c" android:ellipsize="end" android:id="@id/d7e" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/a_t" android:layout_marginRight="@dimen/a_t" android:singleLine="true" android:layout_toRightOf="@id/d7d" android:layout_alignTop="@id/d7d" android:layout_alignWithParentIfMissing="true" />
+        <com.rockerhieu.emojicon.EmojiconTextView android:textSize="@dimen/a_s" android:textColor="@color/a4h" android:ellipsize="end" android:id="@id/d7c" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/a_t" android:layout_marginRight="@dimen/a_t" android:singleLine="false" android:layout_toRightOf="@id/d7d" android:layout_below="@id/d7e" android:layout_alignWithParentIfMissing="true" />
+    </RelativeLayout>
+    <View android:id="@id/d76" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="@dimen/a_t" android:layout_below="@id/d7b" android:layout_alignLeft="@id/d7f" />
+    <View android:id="@id/d6l" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginTop="@dimen/a_r" android:layout_marginBottom="@dimen/a_q" android:layout_below="@id/d76" />
+    <ImageView android:id="@id/d6o" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@color/a3_" android:layout_below="@id/d7f" android:layout_alignTop="@id/d7b" android:layout_alignBottom="@id/d76" />
+</merge>

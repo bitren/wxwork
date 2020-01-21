@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:id="@id/baw" android:layout_width="fill_parent" android:layout_height="@dimen/am8"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:gravity="center" android:layout_width="0.0dip" android:layout_height="@dimen/am8" android:layout_weight="1.0">
+            <TextView android:textSize="30.0sp" android:textColor="@color/h3" android:gravity="center" android:id="@id/afw" android:layout_width="fill_parent" android:layout_height="fill_parent" android:maxLines="1" />
+            <ImageView android:id="@id/afm" android:background="@drawable/cki" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <RelativeLayout android:gravity="center" android:layout_width="0.0dip" android:layout_height="@dimen/am8" android:layout_weight="1.0">
+            <TextView android:textSize="30.0sp" android:textColor="@color/h3" android:gravity="center" android:id="@id/afx" android:layout_width="fill_parent" android:layout_height="fill_parent" android:maxLines="1" />
+            <ImageView android:id="@id/afn" android:background="@drawable/cki" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <RelativeLayout android:gravity="center" android:layout_width="0.0dip" android:layout_height="@dimen/am8" android:layout_weight="1.0">
+            <TextView android:textSize="30.0sp" android:textColor="@color/h3" android:gravity="center" android:id="@id/afy" android:layout_width="fill_parent" android:layout_height="fill_parent" android:maxLines="1" />
+            <ImageView android:id="@id/afo" android:background="@drawable/cki" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <RelativeLayout android:gravity="center" android:layout_width="0.0dip" android:layout_height="@dimen/am8" android:layout_weight="1.0">
+            <TextView android:textSize="30.0sp" android:textColor="@color/h3" android:gravity="center" android:id="@id/afz" android:layout_width="fill_parent" android:layout_height="fill_parent" android:maxLines="1" />
+            <ImageView android:id="@id/afp" android:background="@drawable/cki" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <RelativeLayout android:gravity="center" android:layout_width="0.0dip" android:layout_height="@dimen/am8" android:layout_weight="1.0">
+            <TextView android:textSize="30.0sp" android:textColor="@color/h3" android:gravity="center" android:id="@id/ag0" android:layout_width="fill_parent" android:layout_height="fill_parent" android:maxLines="1" />
+            <ImageView android:id="@id/afq" android:background="@drawable/cki" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <RelativeLayout android:gravity="center" android:layout_width="0.0dip" android:layout_height="@dimen/am8" android:layout_weight="1.0">
+            <TextView android:textSize="30.0sp" android:textColor="@color/h3" android:gravity="center" android:id="@id/ag1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:maxLines="1" />
+            <ImageView android:id="@id/afr" android:background="@drawable/cki" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <EditText android:id="@id/fo5" android:background="@null" android:layout_width="fill_parent" android:layout_height="@dimen/am8" android:cursorVisible="false" android:maxLines="1" android:maxLength="6" android:digits="\ 1234567890" android:layout_centerVertical="true" android:inputType="phone" />
+</RelativeLayout>

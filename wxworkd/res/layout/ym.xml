@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/fw3" android:layout="@layout/yn" android:inflatedId="@id/ahw" android:layout_width="fill_parent" android:layout_height="@dimen/sm" android:layout_alignParentTop="true" />
+    <HorizontalScrollView android:id="@id/ahu" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="horizontal" android:id="@id/aht" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </HorizontalScrollView>
+    <ViewStub android:id="@id/fw2" android:layout="@layout/yn" android:inflatedId="@id/ahv" android:layout_width="fill_parent" android:layout_height="@dimen/sm" android:layout_alignParentBottom="true" />
+</merge>

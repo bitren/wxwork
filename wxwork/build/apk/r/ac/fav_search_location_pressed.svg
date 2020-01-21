@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="135px" height="135px" viewBox="0 0 135 135" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12072) - http://www.bohemiancoding.com/sketch -->
+    <title>fav_search_location_pressed</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="#5e6971ff" sketch:type="MSLayerGroup" fill="#5E6971">
+            <path d="M64.43,0 L70.36,0 C86.61,0.76 102.53,7.46 114.22,18.81 C126.68,30.6 134.12,47.3 135,64.4 L135,70.04 C134.31,87.59 126.58,104.75 113.69,116.7 C102.12,127.7 86.53,134.17 70.61,135 L64.61,135 C48.61,134.24 32.93,127.74 21.3,116.69 C8.43,104.77 0.74,87.65 0,70.15 L0,64.68 C0.8,47.25 8.47,30.21 21.28,18.33 C32.87,7.3 48.48,0.83 64.43,0 L64.43,0 Z M52.66,42.66 C44.71,48.71 41.53,59.9 44.75,69.31 C48.78,81.4 57.88,91.02 67.52,99 C77.11,90.99 86.23,81.41 90.25,69.31 C93.47,59.92 90.3,48.73 82.36,42.67 C74.01,35.84 61.01,35.84 52.66,42.66 L52.66,42.66 Z" id="Shape" sketch:type="MSShapeGroup"></path>
+            <path d="M63.25,50.28 C69.49,47.7 77.27,51.6 79,58.1 C81,64.22 77.06,71.37 70.86,73.02 C64.78,74.97 57.7,71.09 56.01,64.96 C54.11,59.14 57.5,52.33 63.25,50.28 L63.25,50.28 Z" id="Shape" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

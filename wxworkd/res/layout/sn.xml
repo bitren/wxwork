@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="18.0sp" android:textColor="#ff000000" android:gravity="center" android:layout_width="fill_parent" android:layout_height="60.0dip" android:text="@string/acc" />
+    <View android:background="#ffd6d6d6" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <RelativeLayout android:id="@id/c2a" android:background="@drawable/ik" android:layout_width="fill_parent" android:layout_height="68.0dip">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="16.0sp" android:textColor="#ff3e3e3e" android:ellipsize="end" android:id="@id/faz" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:lines="1" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0sp" android:textColor="#ff979797" android:ellipsize="end" android:id="@id/b2l" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:lines="1" />
+        </LinearLayout>
+        <View android:background="#ffd6d6d6" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="15.0dip" android:layout_alignParentBottom="true" />
+        <ImageView android:id="@id/abl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:src="@drawable/b_0" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/c2b" android:background="@drawable/ik" android:layout_width="fill_parent" android:layout_height="68.0dip">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="16.0sp" android:textColor="#ff3e3e3e" android:ellipsize="end" android:id="@id/fb0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:lines="1" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0sp" android:textColor="#ff979797" android:ellipsize="end" android:id="@id/b2m" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:lines="1" />
+        </LinearLayout>
+        <View android:background="#ffd6d6d6" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="15.0dip" android:layout_alignParentBottom="true" />
+        <ImageView android:id="@id/abm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:src="@drawable/b_0" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/c2c" android:background="@drawable/ik" android:layout_width="fill_parent" android:layout_height="68.0dip">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="16.0sp" android:textColor="#ff3e3e3e" android:ellipsize="end" android:id="@id/fb1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:lines="1" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0sp" android:textColor="#ff979797" android:ellipsize="end" android:id="@id/b2n" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:lines="1" />
+        </LinearLayout>
+        <ImageView android:id="@id/abn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:src="@drawable/b_0" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_horizontal" android:background="@drawable/c5e" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.tencent.wework.msg.views.MessageItemTextView android:textSize="@dimen/a3f" android:textColor="@color/a4h" android:layout_gravity="center_horizontal" android:id="@id/cxm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fz6" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3f" android:textColor="@color/all" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/cxl" android:background="@drawable/t4" android:visibility="gone" android:layout_width="112.0dip" android:layout_height="32.69998dip" android:layout_marginTop="16.699982dip" android:text="@string/fz6" android:textAlignment="center" />
+</LinearLayout>

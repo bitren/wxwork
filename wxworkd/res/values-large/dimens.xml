@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="gm">440.0dip</dimen>
+    <item type="dimen" name="gr">60.000004%</item>
+    <item type="dimen" name="gs">90.0%</item>
+    <item type="dimen" name="gt">60.000004%</item>
+    <item type="dimen" name="gu">90.0%</item>
+    <item type="dimen" name="gx">55.000008%</item>
+    <item type="dimen" name="gy">79.99999%</item>
+</resources>

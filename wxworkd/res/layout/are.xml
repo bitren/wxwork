@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.wework.common.views.BaseRelativeLayout android:background="@drawable/xv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/a_h"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.BaseLinearLayout android:orientation="vertical" android:id="@id/aon" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="15.0sp" android:id="@id/d62" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="10.0dip" android:maxLines="2" />
+        <com.tencent.wework.common.views.BaseLinearLayout android:orientation="vertical" android:background="@color/a3a" android:padding="11.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="10.0dip">
+            <com.tencent.wework.common.views.BaseLinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.tencent.wework.common.views.ConfigurableTextView android:id="@id/d61" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="2" android:layout_weight="1.0" />
+                <ImageView android:id="@id/d60" android:layout_width="22.0dip" android:layout_height="26.0dip" android:layout_marginLeft="10.0dip" android:src="@drawable/b4w" />
+            </com.tencent.wework.common.views.BaseLinearLayout>
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="12.0sp" android:textColor="@color/a4h" android:ellipsize="end" android:id="@id/d5z" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:singleLine="true" />
+        </com.tencent.wework.common.views.BaseLinearLayout>
+        <com.tencent.wework.msg.views.MessageListItemViewBottomBar android:id="@id/d5y" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" />
+    </com.tencent.wework.common.views.BaseLinearLayout>
+</com.tencent.wework.common.views.BaseRelativeLayout>

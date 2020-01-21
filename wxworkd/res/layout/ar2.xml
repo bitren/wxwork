@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.wework.common.views.BaseRelativeLayout android:descendantFocusability="blocksDescendants" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.enterprise.attendance.view.MessageListLocationContentItemView android:id="@id/d82" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="@dimen/a_f" app:widthLimit="@dimen/a_h" />
+</com.tencent.wework.common.views.BaseRelativeLayout>

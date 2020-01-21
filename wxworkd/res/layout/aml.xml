@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:background="@color/atc" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.BaseLinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/cp6" android:background="#fffafafa" android:layout_width="@dimen/m2" android:layout_height="fill_parent" android:layout_alignTop="@id/aob" android:layout_alignBottom="@id/aob" android:layout_alignParentLeft="true" android:layout_centerVertical="true" app:bottomDividerSize="@dimen/t0">
+        <ImageView android:id="@id/ib" android:layout_width="28.599976dip" android:layout_height="28.599976dip" android:src="@drawable/g1" android:scaleType="centerCrop" android:layout_centerInParent="true" />
+        <TextView android:textSize="10.0sp" android:textColor="#ff8a8a8a" android:ellipsize="end" android:gravity="center" android:id="@id/id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" />
+    </com.tencent.wework.common.views.BaseLinearLayout>
+    <View android:id="@id/eb8" android:background="@color/ada" android:layout_width="@dimen/lx" android:layout_height="fill_parent" android:minHeight="@dimen/yz" android:layout_toRightOf="@id/cp6" android:layout_alignTop="@id/aob" android:layout_alignBottom="@id/aob" />
+    <com.tencent.wework.common.views.BaseLinearLayout android:orientation="vertical" android:id="@id/aob" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/eb8" app:bottomDividerPadding="0.0dip" />
+</merge>

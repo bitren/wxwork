@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/atc" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ww="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" android:layout_width="fill_parent" android:layout_height="@dimen/alo" android:layout_alignParentTop="true" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" android:layout_below="@id/ff6">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="22.0sp" android:textColor="@color/a3c" android:id="@id/foh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/a7q" android:text="@string/btn" android:singleLine="false" android:layout_alignParentTop="true" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0sp" android:textColor="@color/a4h" android:id="@id/fog" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/fp4" android:layout_below="@id/foh" />
+        <com.tencent.wework.common.views.InternationalPhoneNumberLineView android:id="@id/cgi" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="32.0dip" android:layout_below="@id/fog" />
+        <View android:id="@id/cgh" android:background="@color/a4s" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/rw" android:layout_below="@id/cgi" />
+        <com.tencent.wework.common.views.CommonEditTextItemView android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="@dimen/rx" android:layout_below="@id/cgh" ww:contentTextHint="äž\u008b:username@company.com" ww:labelText="@string/ill" />
+        <com.tencent.wework.common.views.ClearableEditText android:textSize="16.0sp" android:textColorHint="@color/adn" android:gravity="center_vertical" android:id="@id/bk2" android:background="@drawable/w8" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_marginTop="24.0dip" android:hint="@string/c8o" android:singleLine="true" android:layout_below="@id/cgi" android:imeOptions="actionNext" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:enabled="false" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/bfv" android:layout_width="fill_parent" android:layout_marginTop="36.0dip" android:text="@string/i6d" android:layout_below="@id/bk2" style="@style/z5" />
+    </RelativeLayout>
+</RelativeLayout>

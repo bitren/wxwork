@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>群聊数据统计</title>
+    <link rel="stylesheet" href="../lib/reset.css">
+    <link rel="stylesheet" href="analysis.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="format-detection" content="telephone=no" />
+    <!--todo debug开关-->
+    <script src="https://rescdn.qqmail.com/node/wework/js/vconsole.min.js"></script>
+</head>
+<body style="visibility: hidden;">
+
+<!-- 管理使用组 -->
+<div class="main main_border group_wrap js-party-wrap">
+    <!-- 分组 start -->
+    <a class="group_text js-party" href="javascript:;">
+        <span class="js-party-title group_text_title"></span>
+    </a>
+    <!-- 分组 end -->
+</div>
+<!-- 管理使用组 -->
+
+<div class="main main_border analysisWrap">
+    <!--<div class="analysisHeader i18n" name="situation">行为概况</div>-->
+
+    <div class="analysisFilter">
+
+        <div class="ww_horizontalTab">
+                <ul class="ww_horizontalTab_tabNav">
+                    <li class="ww_horizontalTab_Nav_item ww_horizontalTab_Nav_item_left js-filter-date" data-date="yesterday">
+                        <a href="javascript:;" class="ww_horizontalTab_Nav_itemLink"><label class='i18n' name='yesterday'></label></a>
+                    </li>
+                    <li class="ww_horizontalTab_Nav_item ww_horizontalTab_Nav_item_middle js-filter-date" data-date="week">
+                        <a href="javascript:;" class="ww_horizontalTab_Nav_itemLink"><label class='i18n' name='week'></label></a>
+                    </li>
+                    <li class="ww_horizontalTab_Nav_item ww_horizontalTab_Nav_item_right js-filter-date" data-date="month">
+                        <a href="javascript:;" class="ww_horizontalTab_Nav_itemLink"><label class='i18n' name='month'></label></a>
+                    </li>
+                </ul>
+        </div>
+
+
+        <div class="ww_horizontalTab" style="margin-left: 8px;margin-right: 12px;">
+            <ul class="ww_horizontalTab_tabNav">
+                <li class="ww_horizontalTab_Nav_item ww_horizontalTab_Nav_item_single js-filter-date" data-date="other">
+                    <a href="javascript:;" class="ww_horizontalTab_Nav_itemLink">
+                        <label class='arrow_down_normal i18n' name='other'></label>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="analysisTab">
+        <ul class="analysisFilter_inner">
+            <li class="analysisFilter_item analysisFilter_item_Current js_tabGroupChat js_tab">
+                <a href="javascript:;"
+                   class="js_tab_click analysisFilter_item_link util_tof i18n"
+                   name="tabGroupChat">
+                     群聊</a>
+            </li>
+            <li class="analysisFilter_item js_tabGroupMembers js_tab">
+                <a href="javascript:;"
+                   class="js_tab_click analysisFilter_item_link util_tof i18n"
+                   name="tabGroupMembers">群成员</a>
+            </li>
+            <li class="analysisFilter_item js_tabGroupMsg js_tab">
+                <a href="javascript:;"
+                   class="js_tab_click analysisFilter_item_link util_tof i18n"
+                   name="tabGroupMsg">群消息</a>
+            </li>
+        </ul>
+    </div>
+
+
+    <div class="analysisSection">
+        <table class="analysisSection_table js_secTable js_secTable_tabGroupChat">
+            <tr>
+                <td>
+                    <div class="analysisSection_card js-filter-type current" data-name="ChatRoomsAllCount">
+                        <div class="analysisSection_card_title i18n"  name='ChatRoomsAllCount'>群聊总数</div>
+                        <div class="analysisSection_card_subTitle"><label></label></div>
+                    </div>
+                </td>
+                <td>
+                    <div class="analysisSection_card js-filter-type even" data-name="NewAddChatRoomsCount">
+                        <div class="analysisSection_card_title i18n"  name='NewAddChatRoomsCount'>新增群聊数</div>
+                        <div class="analysisSection_card_subTitle"><label></label></div>
+                    </div>
+                </td>
+                
+            </tr>
+            <tr>
+                <td>
+                    <div class="analysisSection_card js-filter-type " data-name="ReceivedMsgChatRoomsCount">
+                        <div class="analysisSection_card_title i18n"  name='ReceivedMsgChatRoomsCount'>有过消息的群聊数</div>
+                        <div class="analysisSection_card_subTitle"><label></label></div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <table class="analysisSection_table js_secTable js_secTable_tabGroupMembers util_d_n">
+            <tr>
+                <td>
+                    <div class="analysisSection_card js-filter-type current" data-name="RoomMembersAllCount">
+                        <div class="analysisSection_card_title i18n"  name='RoomMembersAllCount'>群成员总数</div>
+                        <div class="analysisSection_card_subTitle"><label></label></div>
+                    </div>
+                </td>
+                <td>
+                    <div class="analysisSection_card js-filter-type even" data-name="NewAddRoomMembersCount">
+                        <div class="analysisSection_card_title i18n"  name='NewAddRoomMembersCount'>新增群成员数</div>
+                        <div class="analysisSection_card_subTitle"><label></label></div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="analysisSection_card js-filter-type" data-name="SentMsgRoomMembersCount">
+                        <div class="analysisSection_card_title i18n"  name='SentMsgRoomMembersCount'>发过消息的群成员数</div>
+                        <div class="analysisSection_card_subTitle"><label></label></div>
+                    </div>
+                </td>
+            </tr>
+
+        </table>
+        <table class="analysisSection_table js_secTable js_secTable_tabGroupMsg util_d_n">
+
+            <tr>
+                <td>
+                    <div class="analysisSection_card analysisSection_card_Spe1 js-filter-type" data-name="ChatRoomMsgAllCount">
+                        <div class="analysisSection_card_title i18n" name="ChatRoomMsgAllCount" style="">
+                            群聊消息总数</div>
+                        <div class="analysisSection_card_subTitle"><label></label></div>
+                    </div>
+                </td>
+                <!----><td>
+
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="analysisContent">
+        <!----><div class="analysisHeader" style="display: none">
+            <span class="js-analysis-title">群聊总数</span><span class="i18n" name="trend">趋势 </span>
+        </div>
+
+        <div id="use_analysis_container" class="analysisContent_inner">
+            <p class="use_analysis_container_empty js-use-analysis-container-empty i18n" name="empty">暂无数据</p>
+        </div>
+
+    </div>
+</div>
+
+<!--员工统计 start -->
+<div class="main main_border recordWrap">
+    <a class="record_btn" href="wxwork://jump?target=member_analysis_record">
+        <label class='i18n' name='memberGroupChatRecord'>成员群聊数据统计</label><i class="arrow"></i>
+    </a>
+</div>
+<!--员工统计 end -->
+
+</body>
+
+<script>
+    var CONTENT = {};
+    var LANGUAGE = 'zh';
+    var PLATFORM = 1;
+    var VERSION  = 0;
+
+    // 兼容本地开发与实际环境的方式
+    var getQueryVariable = function (variable) {
+        var query = window.location.search.substring(1);
+        var vars = query.split("&");
+        for (var i = 0; i < vars.length; i++) {
+            var pair = vars[i].split("=");
+            if (pair[0] == variable) {
+                return pair[1];
+            }
+        }
+        return (false);
+    }
+
+    if (getQueryVariable('debug')) {
+        // local dev
+        var debugLang = getQueryVariable('lang');
+        if (debugLang && ['zh', 'zh_HK', 'en'].indexOf(debugLang) > -1) {
+            LANGUAGE = debugLang;
+        }
+    } else {
+        // clinet process here
+        CONTENT = $content$;
+        LANGUAGE = '$language$';
+        PLATFORM = $platform$;
+        VERSION  = 0; // 不区分，恒为 0 
+    }
+</script>
+
+<script>
+    var loadJS = function (url, success) {
+        var domScript = document.createElement('script');
+        domScript.src = url;
+        success = success || function () {
+        };
+        domScript.onload = domScript.onreadystatechange = function () {
+            if (!this.readyState || 'loaded' === this.readyState || 'complete' === this.readyState) {
+                success();
+                this.onload = this.onreadystatechange = null;
+                this.parentNode.removeChild(this);
+            }
+        }
+        document.getElementsByTagName('head')[0].appendChild(domScript);
+    }
+    // 1:ios 2：android 3:pc 4:mac dev：本地开发 其他：远程js
+    if (PLATFORM - 0 == 2) {
+        //根据平台加载基础库
+        loadJS('file:///android_asset/memberAnalysis/lib/zepto.min.js', function () {
+            loadJS('file:///android_asset/memberAnalysis/lib/zepto.touch.js',function(){
+                $('head').append('<link rel="stylesheet" href="file:///android_asset/memberAnalysis/lib/reset.css" type="text/css" />');
+                $('head').append('<link rel="stylesheet" href="file:///android_asset/memberAnalysis/groupChat/analysis.css" type="text/css" />');
+                loadJS('file:///android_asset/memberAnalysis/lib/highcharts.js',function () {
+                    loadJS('file:///android_asset/memberAnalysis/lib/i18n.js',function () {
+                        loadJS('file:///android_asset/memberAnalysis/groupChat/analysis.js');
+                    });
+                });
+            });
+        });
+    }else{
+        loadJS('../lib/zepto.min.js', function () {
+            loadJS('../lib/zepto.touch.js',function(){
+                loadJS('../lib/highcharts.js',function () {
+                    loadJS('../lib/i18n.js',function () {
+                        loadJS('analysis.js');
+                    });
+                });
+            });
+        });
+    }
+</script>
+
+</html>

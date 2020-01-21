@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>群发规则说明</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0,viewport-fit=cover">
+    <link rel="stylesheet" type="text/css" href="https://rescdn.qqmail.com/node/wework/css/normalize.min.css">
+    <!--    <link rel="stylesheet" href="../lib/reset.css">-->
+    <style>
+        body {
+            min-height: 100vh;
+            font-size: 15px;
+            line-height: 1.34;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+            color: #585858;
+            font-family: "Helvetica Neue", "Arial", "PingFang SC", "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+            padding: 30px 0;
+            font-size: 18px;
+            font-weight: normal;
+            line-height: 28px;
+            border-bottom: 1px solid #D8D8D8;
+        }
+
+        h2 {
+            padding-top: 10px;
+            font-size: 16px;
+            line-height: 22px;
+            margin-bottom: 20px;;
+            font-weight: normal;
+        }
+
+        h3 {
+            color: #000;
+            font-size: 17px;
+            line-height: 24px;
+            margin-bottom: 8px;
+            margin-top: 0;
+        }
+
+        p {
+            font-size: 14px;
+            line-height: 22px;
+            margin-bottom: 15px;
+            color: #808080;
+        }
+
+        strong {
+            font-size: 14px;
+            color: #3B4447;
+            font-weight: normal;
+        }
+
+        .content {
+            padding: 0px 20px 30px;
+        }
+
+        .content_item {
+            margin-top: 30px;
+        }
+
+        .content_item > div {
+            font-size: 15px;
+            line-height: 22px;
+        }
+
+        .content_item ol {
+            padding-left: 18px;
+        }
+
+        .content_item li {
+            margin-top: 4px;
+        }
+
+        .content_title {
+            display: none;
+            font-size: 16px;
+            line-height: 22px;
+            padding-top: 30px;
+        }
+        /*@media all and (orientation : landscape) {*/
+
+        @media screen and (min-width: 415px) {
+            .content_title {
+                display: block;
+            }
+
+            h3 {
+                font-size: 15px;
+                line-height: 21px;
+            }
+
+            .content_item > div {
+                font-size: 13px;
+                line-height: 18px;
+            }
+
+            .content_item {
+                margin-top: 16px;
+            }
+            body {
+                background-color: #F5F5F5;
+            }
+        }
+
+    </style>
+</head>
+<body>
+<section class="content" id="main" style="display: none">
+    <div class="content_title i18n" name="title"></div>
+    <div>
+        <div class="content_item">
+            <h3 class="i18n" name="t1"></h3>
+            <div class="i18n" name="d1"></div>
+        </div>
+
+        <div class="content_item">
+            <h3 class="i18n" name="t2"></h3>
+            <div class="i18n" name="d2"></div>
+        </div>
+
+        <div class="content_item">
+            <h3 class="i18n" name="t3"></h3>
+            <div class="i18n" name="d3"></div>
+        </div>
+
+        <div class="content_item">
+            <h3  class="i18n" name="t4"></h3>
+            <div>
+                <ol>
+                    <li class="i18n" name="d4"></li>
+                    <!-- <li class="i18n" name="d5"></li> -->
+                    <li class="i18n" name="d6"></li>
+                    <li class="i18n" name="d7"></li>
+                </ol>
+            </div>
+        </div>
+    </div>
+
+
+</section>
+<script>
+    var LANGUAGE = '$language$';
+    var PLATFORM = $platform$;
+    var VERSION = $version$;
+</script>
+<!--<script src="https://wwcdn.weixin.qq.com/node/wwnl/wwnl/js/modules/jquery/jquery/1.11.3/jquery$eb324322.js"></script>-->
+<script>
+    var DEBUG = 0;
+
+    var getQueryVariable = function (variable) {
+        var query = window.location.search.substring(1);
+        var vars = query.split("&");
+        for (var i = 0; i < vars.length; i++) {
+            var pair = vars[i].split("=");
+            if (pair[0] == variable) {
+                return pair[1];
+            }
+        }
+        return (false);
+    };
+
+    var i18n = {
+        zh: {
+            title: '群发规则说明',
+            t1: '一、什么是群发助手？',
+            d1: '成员可把通知、祝福、活动等消息批量发送给不同的客户，并进行后续的服务；管理员或负责人也可创建企业服务消息，由成员发送并进行后续的服务。',
+            t2: '二、谁可以使用群发助手？',
+            d2: '具有客户联系使用权限的成员，都可以使用群发助手给自己的客户发送消息；超级管理员和业务负责人还可向管理范围内成员的客户创建企业服务消息。',
+            t3: '三、群发是否有频率限制？',
+            d3: '客户每个自然日最多能接收来自一名成员的一条群发消息，每个自然周最多接收来自同一企业的管理员或业务负责人的一条群发消息。',
+            t4: '四、群发助手其他注意事项',
+            d4: '群发消息不得出现违反法律法规或侵犯他人合法权益的内容，企业应对其制作、发送和传播的群发消息内容承担全部法律责任。',
+            d5: '通过企业成员会话向企业客户发送群发消息前，请务必获得企业成员授权同意。',
+            d6: '不得以任何方式滥用群发助手实施恶意骚扰用户、开展过度营销等行为。',
+            d7: '如企业微信帐号存在异常，则可能导致群发消息发送失败或异常等情况。',
+        },
+        en: {
+            title: 'Rules for Broadcast Messages',
+            t1: '1. What is Broadcast Messages?' ,
+            d1: 'Members can send messages such as notifications, greetings, and activities to different customers in bulk, and offer subsequent services; messages created by admins or owners can also be sent in members chats, and the members can offer subsequent services.' ,
+            t2: '2. Who can use Broadcast Messages?' ,
+            d2: 'Members with the permission to use Contact Customers can use Broadcast Messages to send messages to their customers; super admins and business owners can send messages to customers in their authorized members chats.' ,
+            t3: '3. Is there any frequency limit for broadcast messages?' ,
+            d3: 'Customers can receive only one broadcast message from a member per day, and one broadcast message from admins or business owners of a company per week.' ,
+            t4: '4. Other notes for Broadcast Messages',
+            d4: 'Broadcast messages must not violate the laws and regulations or infringe on the legitimate rights and interests of others. The company shall bear full legal responsibility for broadcast messages it produces, sends and distributes.' ,
+            d5: 'Before sending broadcast messages to company customers in members chats, obtain authorization from the company member.' ,
+            d6: 'Broadcast Messages must not be used in any way to carry out malicious harassment of users, excessive marketing, etc.' ,
+            d7: 'Exception in WeChat Work may cause failure to send broadcast messages or sending failure.' ,
+        },
+        zh_HK: {
+            title: '群發規則說明',
+            t1: '壹、什麽是群發助手？',
+            d1: '成員可把通知、祝福、活動等消息批量發送給不同的客戶，並進行後續的服務；管理員或負責人創建的消息也可直接通過成員的會話發送，由成員進行後續服務。',
+            t2: '二、誰可以使用群發助手？',
+            d2: '具有客戶聯系使用權限的成員，都可以使用群發助手給自己的客戶發送消息；超級管理員和業務負責人可直接通過管理範圍內成員的會話向客戶發消息。',
+            t3: '三、群發是否有頻率限制？',
+            d3: '客戶每個自然日最多能接收來自壹個成員的壹條群發消息，每個自然周最多接收來自同壹企業的管理員或業務負責人的壹條群發消息。',
+            t4: '四、群發助手其他註意事項',
+            d4: '群發消息不得出現違反法律法規或侵犯他人合法權益的內容，企業應對其制作、發送和傳播的群發消息內容承擔全部法律責任。',
+            d5: '通過企業成員會話向企業客戶發送群發消息前，請務必獲得企業成員授權同意。',
+            d6: '不得以任何方式濫用群發助手實施惡意騷擾用戶、開展過度營銷等行為。',
+            d7: '如企業微信帳號存在異常，則可能導致群發消息發送失敗或異常等情況。',
+        }
+    };
+
+    var loadJS = function (url, success) {
+        var domScript = document.createElement('script');
+        domScript.src = url;
+        success = success || function () {
+        };
+        domScript.onload = domScript.onreadystatechange = function () {
+            if (!this.readyState || 'loaded' === this.readyState || 'complete' === this.readyState) {
+                success();
+                this.onload = this.onreadystatechange = null;
+                this.parentNode.removeChild(this);
+            }
+        }
+        document.getElementsByTagName('head')[0].appendChild(domScript);
+    }
+
+    // debug
+    if (DEBUG) {
+        LANGUAGE = 'zh_HK';
+        loadJS('https://wwcdn.weixin.qq.com/node/wwnl/wwnl/js/modules/jquery/jquery/1.11.3/jquery$eb324322.js', function () {
+            mainFun();
+        });
+    }
+
+    // 1:ios 2：android 3:pc 4:mac dev：本地开发 其他：远程js
+    if (PLATFORM - 0 == 2) {
+        //根据平台加载基础库
+        loadJS('file:///android_asset/memberAnalysis/lib/zepto.min.js', function () {
+            mainFun();
+        });
+    }else{
+        loadJS('../lib/zepto.min.js', function () {
+            mainFun();
+        });
+    }
+
+    var mainFun = function () {
+        $('.i18n').each(function () {
+            var key = $(this).attr('name');
+            $(this).text(i18n[LANGUAGE][key]);
+        });
+
+        $('#main').show();
+    }
+
+</script>
+</body>
+
+</html>

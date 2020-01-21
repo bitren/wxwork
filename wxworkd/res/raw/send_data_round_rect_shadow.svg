@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="168px" height="168px" viewBox="0 0 168 168" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.4 (17248) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard 52</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Artboard-52" sketch:type="MSArtboardGroup" fill="#E1E1E6">
+            <path d="M0,0 L168,0 L168,168 L0,168 L0,0 Z M0,11.997895 C0,5.37164055 5.37581262,0 11.997895,0 L156.002105,0 C162.628359,0 168,5.37581262 168,11.997895 L168,156.002105 C168,162.628359 162.624187,168 156.002105,168 L11.997895,168 C5.37164055,168 0,162.624187 0,156.002105 L0,11.997895 Z" id="Rectangle-162" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="b">
+        <item>China:86:11</item>
+        <item>Hong Kong,China:852:8</item>
+        <item>Macau,China:853:8</item>
+        <item>Taiwan,China:886:10</item>
+        <item>Albania:355:7</item>
+        <item>Algeria:213:6</item>
+        <item>Afghanistan:93:6</item>
+        <item>Argentina:54:7</item>
+        <item>United Arab Emirates:971:11</item>
+        <item>Aruba:297:7</item>
+        <item>Azerbaijan:994:9</item>
+        <item>Ascension:247:4</item>
+        <item>Egypt:20:8</item>
+        <item>Ethiopia:251:7</item>
+        <item>Ireland:353:9</item>
+        <item>Estonia:372:7|8</item>
+        <item>Andorra:376:6</item>
+        <item>Angola:244:6</item>
+        <item>Anguilla:1264:7</item>
+        <item>Antigua and Barbuda:1268:7</item>
+        <item>Austria:43:8</item>
+        <item>Australia:61:10</item>
+        <item>Barbados:1246:7</item>
+        <item>Papua New Guinea:675:7</item>
+        <item>Bahamas:1242:7</item>
+        <item>Pakistan:92:11</item>
+        <item>Bahrain:973:8</item>
+        <item>Panama:507:7</item>
+        <item>Brazil:55:8</item>
+        <item>Belarus:375:9</item>
+        <item>Bermuda:1441:7</item>
+        <item>Bulgaria:359:7</item>
+        <item>Benin:229:8</item>
+        <item>Belgium:32:8</item>
+        <item>Iceland:354:7</item>
+        <item>Puerto Rico:1:7</item>
+        <item>Poland:48:10</item>
+        <item>Bolivia:591:7</item>
+        <item>Belize:501:7</item>
+        <item>Botswana:267:7</item>
+        <item>Bhutan:975:5</item>
+        <item>Burkina Faso:226:6</item>
+        <item>Burundi:257:8</item>
+        <item>Denmark:45:8</item>
+        <item>Germany:49:11</item>
+        <item>East Samoa (US):1684:7</item>
+        <item>Togo:228:7</item>
+        <item>Dominica:1767:7</item>
+        <item>Dominican Republic:1809:9</item>
+        <item>Russia:7:10</item>
+        <item>Ecuador:593:7</item>
+        <item>France:33:10</item>
+        <item>French Polynesia:689:6</item>
+        <item>French Guiana:594:10</item>
+        <item>Philippines:63:11</item>
+        <item>Fiji:679:7</item>
+        <item>Finland:358:7</item>
+        <item>Gambia:220:7</item>
+        <item>Congo (cloth):242:7</item>
+        <item>Colombia:57:10</item>
+        <item>Costa Rica:506:8</item>
+        <item>Grenada:1473:7</item>
+        <item>Georgia:995:8</item>
+        <item>Cuba:53:7</item>
+        <item>Guam:1671:7</item>
+        <item>Guyana:592:12</item>
+        <item>Kazakhstan:7:10</item>
+        <item>Haiti:509:8</item>
+        <item>South Korea:82:11</item>
+        <item>Honduras:504:7</item>
+        <item>Djibouti:253:6</item>
+        <item>Kyrgyzstan:996:9</item>
+        <item>Guinea:224:6</item>
+        <item>Canada:1:7</item>
+        <item>Ghana:233:10</item>
+        <item>Gabon:241:6</item>
+        <item>Cambodia:855:9</item>
+        <item>Czech:420:9</item>
+        <item>Zimbabwe:263:9</item>
+        <item>Cameroon:237:8</item>
+        <item>Qatar:974:7</item>
+        <item>Cayman Islands:1345:7</item>
+        <item>"Côte d'Ivoire:225:8"</item>
+        <item>Kuwait:965:8</item>
+        <item>Kenya:254:7</item>
+        <item>Cook Islands:682:5</item>
+        <item>Latvia:371:8</item>
+        <item>Lesotho:266:8</item>
+        <item>Laos:856:10</item>
+        <item>Lebanon:961:7</item>
+        <item>Lithuania:370:5</item>
+        <item>Liberia:231:7|8</item>
+        <item>Libya:218:10</item>
+        <item>Liechtenstein:423:7</item>
+        <item>Mayotte:262:6</item>
+        <item>Luxembourg:352:9</item>
+        <item>Rwanda:250:9|10|11</item>
+        <item>Romania:40:9</item>
+        <item>Madagascar:261:7</item>
+        <item>Maldives:960:7</item>
+        <item>Malta:356:8</item>
+        <item>Malawi:265:9</item>
+        <item>Malaysia:60:10</item>
+        <item>Mali:223:8</item>
+        <item>Mariana Islands:596:10</item>
+        <item>Martinique:596:10</item>
+        <item>Mauritius:230:7</item>
+        <item>United States:1:10</item>
+        <item>American Samoa:1684:7</item>
+        <item>Bangladesh:880:7</item>
+        <item>Myanmar:95:6</item>
+        <item>Moldova:373:5</item>
+        <item>Monaco:377:8</item>
+        <item>Mozambique:258:9</item>
+        <item>Mexico:52:8</item>
+        <item>South Africa:27:9</item>
+        <item>Nauru:674:7</item>
+        <item>Niger:227:6</item>
+        <item>Nigeria:234:11</item>
+        <item>Norway:47:8</item>
+        <item>Portugal:351:9</item>
+        <item>Japan:81:11</item>
+        <item>Sweden:46:6</item>
+        <item>Switzerland:41:10</item>
+        <item>El Salvador:503:7</item>
+        <item>Sierra Leone:232:6</item>
+        <item>Senegal:221:7</item>
+        <item>Cyprus:357:6</item>
+        <item>Seychelles:248:6</item>
+        <item>Saudi Arabia:966:9</item>
+        <item>Sao Tome and Principe:239:6</item>
+        <item>Saint Lucia:1758:7</item>
+        <item>San Marino:378:10</item>
+        <item>Saint Vincent and the Grenadines:1784:7</item>
+        <item>Sri Lanka:94:7|8</item>
+        <item>Slovakia:421:7</item>
+        <item>Slovenia:386:7</item>
+        <item>Swaziland:268:7</item>
+        <item>Sultan:249:9</item>
+        <item>Suriname:597:6</item>
+        <item>Solomon Islands:677:7</item>
+        <item>Somalia:252:7</item>
+        <item>Tajikistan:992:6</item>
+        <item>Thailand:66:10</item>
+        <item>Tanzania:255:11</item>
+        <item>Tonga:676:7</item>
+        <item>Trinidad and Tobago:1868:7</item>
+        <item>Tunisia:216:8</item>
+        <item>Turkey:90:10</item>
+        <item>Turkmenistan:993:6</item>
+        <item>Guatemala:502:8</item>
+        <item>Venezuela:58:7</item>
+        <item>Brunei:673:7</item>
+        <item>Uganda:256:9</item>
+        <item>Ukraine:380:10</item>
+        <item>Uruguay:598:7</item>
+        <item>Uzbekistan:998:7</item>
+        <item>Spain:34:9</item>
+        <item>Samoa:685:7</item>
+        <item>Greece:30:10</item>
+        <item>Singapore:65:8</item>
+        <item>New Zealand:64:8</item>
+        <item>Hungary:36:9</item>
+        <item>Syria:963:9</item>
+        <item>Jamaica:1876:7</item>
+        <item>Armenia:374:8</item>
+        <item>Yemen:967:6</item>
+        <item>Iraq:964:8</item>
+        <item>Iran:98:8</item>
+        <item>Israel:972:9</item>
+        <item>Italy:39:10</item>
+        <item>India:91:10</item>
+        <item>Indonesia:62:10|11|12</item>
+        <item>UK:44:10</item>
+        <item>Jordan:962:7</item>
+        <item>Vietnam:84:10</item>
+        <item>Zambia:260:9</item>
+        <item>Congo (Gold):243:8</item>
+        <item>Chad:235:7</item>
+        <item>Gibraltar:350:8</item>
+        <item>Chile:56:7</item>
+        <item>Central African Republic:236:6</item>
+        <item>British Virgin Islands:1284:10</item>
+        <item>US Virgin Islands:1340:10</item>
+        <item>Saint Martin:1599:9</item>
+        <item>Tex and Caicos Islands:1649:9</item>
+        <item>Montserrat:1664:9</item>
+        <item>Northern Mariana Islands:1670:9</item>
+        <item>Saint Kitts and Nevis:1869:9</item>
+        <item>Morocco:212:9</item>
+        <item>Mauritania:222:9</item>
+        <item>Cape Verde:238:9</item>
+        <item>Equatorial Guinea:240:9</item>
+        <item>Guinea-Bissau:245:9</item>
+        <item>Namibia:264:9</item>
+        <item>Comoros:269:9</item>
+        <item>St. Helena:290:9</item>
+        <item>Eritrea:291:9</item>
+        <item>Faroe Islands:298:9</item>
+        <item>Greenland:299:9</item>
+        <item>Netherlands:31:9</item>
+        <item>Serbia:381:9</item>
+        <item>Montenegro:382:9</item>
+        <item>Croatia:385:9</item>
+        <item>Bosnia and Herzegovina:387:9</item>
+        <item>Macedonia:389:9</item>
+        <item>Vatican:39:9</item>
+        <item>Man Island:44:9</item>
+        <item>Falkland Islands:500:9</item>
+        <item>Nicaragua:505:9</item>
+        <item>Saint Pierre and Miquelon:508:9</item>
+        <item>Peru:51:9</item>
+        <item>St. Barthelemy:590:9</item>
+        <item>Paraguay:595:9</item>
+        <item>Netherlands Antilles:599:9</item>
+        <item>Cocos Islands:61:9</item>
+        <item>Christmas Island:61:9</item>
+        <item>East Timor:670:9</item>
+        <item>Antarctica:672:9</item>
+        <item>Vanuatu:678:9</item>
+        <item>Palau:680:9</item>
+        <item>Wallis and Futuna:681:9</item>
+        <item>Niue:683:9</item>
+        <item>Kiribati:686:9</item>
+        <item>New Caledonia:687:9</item>
+        <item>Tuvalu:688:9</item>
+        <item>French Polynesia:689:9</item>
+        <item>Tokelau:690:9</item>
+        <item>Federated States of Micronesia:691:9</item>
+        <item>Marshall Islands:692:9</item>
+        <item>Oman:968:9</item>
+        <item>Mongolia:976:9</item>
+        <item>Nepal:977:9</item>
+        <item>North Korea:850:9</item>
+        <item>South Sudan:211:7</item>
+    </string-array>
+</resources>

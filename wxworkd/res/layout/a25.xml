@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/atc" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ww="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/anp" android:background="@color/a3a" android:layout_width="fill_parent" android:layout_height="@dimen/sk" android:layout_alignParentTop="true">
+        <View android:background="@color/a4s" android:layout_width="fill_parent" android:layout_height="@dimen/a61" android:layout_alignParentTop="true" />
+        <View android:background="@color/a4s" android:layout_width="fill_parent" android:layout_height="@dimen/a61" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/anm" android:layout_width="fill_parent" android:layout_height="84.0dip" android:layout_below="@id/anp">
+        <com.tencent.wework.common.views.PhotoImageView android:id="@id/f1z" android:layout_width="@dimen/uh" android:layout_height="@dimen/uh" android:layout_marginLeft="@dimen/ui" android:layout_marginTop="@dimen/uo" android:layout_marginBottom="@dimen/uo" android:scaleType="centerCrop" android:layout_centerVertical="true" />
+        <RelativeLayout android:id="@id/cei" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ui" android:layout_toRightOf="@id/f1z" android:layout_centerVertical="true">
+            <com.rockerhieu.emojicon.EmojiconTextView android:textSize="@dimen/un" android:textColor="@color/a5f" android:id="@id/f2b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:layout_marginRight="25.0dip" android:text="@string/etq" android:singleLine="true" android:drawablePadding="5.0dip" ww:drawableConfigurable="true" />
+            <com.rockerhieu.emojicon.EmojiconTextView android:textSize="@dimen/uk" android:textColor="@color/a4h" android:gravity="center_vertical" android:id="@id/f24" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ul" android:text="@string/etq" android:singleLine="true" android:includeFontPadding="false" android:drawablePadding="1.0dip" android:layout_below="@id/f2b" />
+            <com.rockerhieu.emojicon.EmojiconTextView android:textSize="@dimen/um" android:textColor="@color/a4h" android:id="@id/f25" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ul" android:text="@string/etq" android:singleLine="true" android:layout_below="@id/f24" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3a" android:textColor="@color/a9w" android:gravity="center" android:id="@id/f20" android:background="@drawable/q2" android:visibility="gone" android:layout_width="38.0dip" android:layout_height="16.0dip" android:layout_marginTop="6.0dip" android:text="已离职" android:layout_below="@id/f2b" />
+        </RelativeLayout>
+        <ImageView android:id="@id/exv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <RelativeLayout android:id="@id/epd" android:visibility="gone" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/ajc" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignWithParentIfMissing="true">
+            <ImageView android:id="@id/eqz" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/c3h" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/ano" android:background="@color/a3a" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/sk" android:layout_below="@id/anm">
+        <View android:background="@color/a4s" android:layout_width="fill_parent" android:layout_height="@dimen/a61" android:layout_alignParentTop="true" />
+        <View android:background="@color/a4s" android:layout_width="fill_parent" android:layout_height="@dimen/a61" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</RelativeLayout>

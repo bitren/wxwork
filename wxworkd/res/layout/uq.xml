@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:id="@id/dav" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.BaseRelativeLayout android:layout_width="fill_parent" android:layout_height="38.0dip" android:layout_marginTop="0.0dip" android:layout_marginBottom="0.0dip" app:bottomDividerPadding="0.0dip" app:bottomDividerSize="0.5dip" app:topDividerSize="0.5dip">
+        <TextView android:textSize="14.0sp" android:textColor="#7f000000" android:ellipsize="end" android:gravity="center" android:id="@id/a65" android:paddingTop="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="@string/b4w" android:maxLines="1" android:includeFontPadding="false" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/ce2" android:paddingLeft="3.0dip" android:paddingTop="3.0dip" android:paddingRight="3.0dip" android:layout_width="21.0dip" android:layout_height="fill_parent" android:src="@drawable/cji" android:adjustViewBounds="true" android:tint="@color/as0" android:layout_toRightOf="@id/a65" android:layout_centerVertical="true" />
+        <TextView android:textSize="13.0sp" android:textColor="@drawable/fw" android:ellipsize="end" android:gravity="center" android:id="@id/dc" android:paddingTop="3.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="@dimen/y5" android:text="@string/azm" android:maxLines="1" android:includeFontPadding="false" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </com.tencent.wework.common.views.BaseRelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/a62" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/a65" />
+</merge>

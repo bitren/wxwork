@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="54.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="13.0sp" android:textColor="@color/a9z" android:id="@id/cfr" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="企业名称" />
+    <com.tencent.wework.common.views.ClearableEditText android:textSize="16.0sp" android:gravity="center|left" android:id="@id/cff" android:background="@null" android:layout_marginRight="10.0dip" android:hint="@string/ilm" android:maxLength="50" android:layout_below="@id/cfr" android:inputType="text" android:imeOptions="actionNext" style="@style/z4" />
+    <View android:id="@id/cfh" android:background="@color/a47" android:layout_width="fill_parent" android:layout_height="@dimen/t0" android:layout_below="@id/cff" />
+</merge>

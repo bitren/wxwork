@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/a38" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" android:layout_width="fill_parent" android:layout_height="@dimen/alw" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0sp" android:textColor="@color/wz" android:id="@id/e3o" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/a7b" />
+    <com.tencent.wework.appstore.view.RankView android:id="@id/e3u" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" />
+    <View android:background="@color/a0s" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="15.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="15.0dip" />
+    <com.tencent.wework.common.views.ConfigurableEditText android:textSize="17.0sp" android:textColor="@color/qv" android:textColorHint="@color/zq" android:gravity="center|left|top" android:id="@id/cfr" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="15.0dip" android:hint="@string/a7i" />
+    <View android:background="@color/a0s" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="15.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="15.0dip" />
+    <com.tencent.wework.common.views.ConfigurableEditText android:textSize="17.0sp" android:textColor="@color/qv" android:textColorHint="@color/zq" android:gravity="center|left|top" android:id="@id/cfb" android:background="@null" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="15.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="15.0dip" android:hint="@string/a7h" android:layout_weight="1.0" />
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.BaseRelativeLayout android:id="@id/fdi" android:paddingLeft="40.0dip" android:paddingTop="10.0dip" android:paddingRight="40.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.tencent.wework.common.views.BaseLinearLayout android:orientation="vertical" android:id="@id/fdj" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="24.0sp" android:textColor="@color/aq3" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/caw" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="16.0sp" android:textColor="@color/aq3" android:id="@id/awm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:text="@string/deu" android:lineSpacingExtra="@dimen/yw" />
+            <com.tencent.wework.common.views.BaseLinearLayout android:orientation="horizontal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+                <com.tencent.wework.common.views.ConfigurableTextView android:textSize="15.0sp" android:textColor="@color/aq3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1. " />
+                <com.tencent.wework.common.views.ConfigurableTextView android:textSize="15.0sp" android:textColor="@color/aq3" android:id="@id/awn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dev" />
+            </com.tencent.wework.common.views.BaseLinearLayout>
+            <com.tencent.wework.common.views.BaseLinearLayout android:orientation="horizontal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip">
+                <com.tencent.wework.common.views.ConfigurableTextView android:textSize="15.0sp" android:textColor="@color/aq3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2. " />
+                <com.tencent.wework.common.views.ConfigurableTextView android:textSize="16.0sp" android:textColor="@color/aq3" android:id="@id/awo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dex" />
+            </com.tencent.wework.common.views.BaseLinearLayout>
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/awl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:src="@drawable/b_8" />
+            <Button android:textSize="18.0sp" android:textColor="@color/a38" android:layout_gravity="center_horizontal" android:id="@id/an2" android:background="@drawable/wv" android:layout_width="200.0dip" android:layout_height="48.0dip" android:layout_marginTop="50.0dip" android:layout_marginBottom="12.0dip" android:text="@string/hpj" android:layout_alignParentBottom="true" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="13.0sp" android:textColor="#ff999999" android:gravity="center|top" android:id="@id/a1b" android:paddingLeft="@dimen/yu" android:paddingRight="@dimen/yu" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:text="@string/cgs" />
+        </com.tencent.wework.common.views.BaseLinearLayout>
+        <include android:id="@id/fdc" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_below="@id/fdj" android:layout_alignParentBottom="true" layout="@layout/bfi" />
+    </com.tencent.wework.common.views.BaseRelativeLayout>
+</ScrollView>

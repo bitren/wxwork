@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/c4f" android:background="@color/a3a" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/bas" android:background="@color/atc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip">
+            <com.tencent.wework.common.views.ClearableEditText android:textSize="17.0sp" android:textColor="@color/jf" android:gravity="center|left" android:id="@id/c4c" android:background="@color/atc" android:layout_width="fill_parent" android:layout_height="@dimen/rx" android:layout_marginLeft="12.5dip" android:layout_marginRight="6.0dip" android:singleLine="true" android:maxLength="50" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

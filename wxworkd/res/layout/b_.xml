@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/a1x" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" android:layout_width="fill_parent" android:layout_height="@dimen/alw" />
+    <android.support.v7.widget.RecyclerView android:id="@id/cr7" android:paddingBottom="20.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/ff6" />
+    <RelativeLayout android:id="@id/f_e" android:background="@color/p7" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentBottom="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="252.0dip" android:layout_alignParentBottom="true">
+            <RelativeLayout android:background="@color/a38" android:layout_width="fill_parent" android:layout_height="45.0dip">
+                <com.tencent.wework.common.views.ConfigurableTextView android:textSize="16.0sp" android:textColor="@color/vm" android:id="@id/a8z" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/pv" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                <com.tencent.wework.common.views.ConfigurableTextView android:textSize="16.0sp" android:textColor="@color/rx" android:id="@id/al4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:text="@string/t5" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <TimePicker android:id="@id/f_c" android:background="@color/a38" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/a4c" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" android:layout_width="fill_parent" android:layout_height="@dimen/alo" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <com.tencent.wework.common.views.EmptyViewStub android:id="@id/ben" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/ff6" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0sp" android:textColor="#ffacb2bb" android:id="@id/bei" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="-10.0dip" android:text="@string/j7r" android:layout_above="@id/bej" android:layout_centerHorizontal="true" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="17.0sp" android:textColor="#ffacb2bb" android:id="@id/bej" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="36.0dip" android:text="@string/do2" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <android.support.v7.widget.RecyclerView android:id="@id/e6b" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/ff6" />
+</RelativeLayout>

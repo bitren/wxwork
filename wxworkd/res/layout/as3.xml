@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.wework.common.views.BaseLinearLayout android:orientation="vertical" android:background="@drawable/xv" android:layout_width="fill_parent" android:layout_height="wrap_content" app:clipType="cp1" app:widthLimit="@dimen/a8u"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="12.0dip" android:paddingTop="11.0dip" android:paddingRight="12.0dip" android:layout_width="fill_parent" android:layout_height="76.0dip">
+        <com.rockerhieu.emojicon.EmojiconTextView android:textSize="16.0sp" android:textColor="@color/a6_" android:id="@id/faj" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="3.0dip" android:lineSpacingExtra="@dimen/qj" />
+        <com.rockerhieu.emojicon.EmojiconTextView android:textSize="12.0sp" android:textColor="@color/a6d" android:id="@id/ao3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingExtra="@dimen/qi" />
+    </LinearLayout>
+    <ViewStub android:id="@id/fxo" android:layout="@layout/at8" android:inflatedId="@id/d6k" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</com.tencent.wework.common.views.BaseLinearLayout>

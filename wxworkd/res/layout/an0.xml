@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/atf" android:descendantFocusability="afterDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" android:layout_width="fill_parent" android:layout_height="@dimen/alo" android:layout_alignParentTop="true" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3l" android:textColor="@color/jk" android:id="@id/cot" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="32.0dip" android:layout_marginRight="16.0dip" android:singleLine="false" android:layout_below="@id/ff6" />
+    <View android:id="@id/b5z" android:background="@color/a4s" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/rw" android:layout_marginLeft="16.0dip" android:layout_marginTop="23.0dip" android:layout_marginRight="16.0dip" android:layout_below="@id/cot" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3d" android:textColor="@color/a6d" android:id="@id/cox" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="16.0dip" android:layout_below="@id/b5z" />
+    <android.support.v7.widget.RecyclerView android:id="@id/fc3" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="17.0dip" android:layout_marginTop="7.0dip" android:layout_below="@id/cox" />
+</RelativeLayout>

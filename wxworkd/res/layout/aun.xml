@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.msg.views.MessageListMultipleMessageContentItemView android:id="@id/d8k" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" />
+    <ViewStub android:id="@id/fxw" android:layout="@layout/auk" android:inflatedId="@id/d8j" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignLeft="@id/d8k" android:layout_alignRight="@id/d8k" android:layout_alignBottom="@id/d8k" />
+</merge>

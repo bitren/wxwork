@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <moai.ocr.view.edit.PhotoViewPager android:id="@id/fqk" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3d" android:textColor="@color/ah8" android:id="@id/baz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="63.0dip" android:text="" android:layout_alignParentBottom="true" android:layout_centerInParent="true" />
+    <RelativeLayout android:id="@id/a1r" android:background="@color/aj4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="17.0sp" android:textColor="@color/ana" android:gravity="center" android:id="@id/a8u" android:layout_width="wrap_content" android:layout_height="48.0dip" android:layout_marginLeft="16.0dip" android:text="@string/c3l" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="17.0sp" android:textColor="@color/ana" android:gravity="center" android:id="@id/es2" android:layout_width="wrap_content" android:layout_height="48.0dip" android:layout_marginRight="16.0dip" android:text="@string/bso" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</RelativeLayout>

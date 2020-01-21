@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3g" android:textStyle="bold" android:textColor="@color/aq3" android:id="@id/d9p" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/a_8" android:maxLines="2" android:lineSpacingMultiplier="1.1" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3e" android:textColor="@color/aq3" android:id="@id/d9m" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:adjustViewBounds="true" android:maxLength="512" android:lineSpacingMultiplier="1.1" />
+    <View android:id="@id/d9o" android:background="@color/a45" android:layout_width="fill_parent" android:layout_height="@dimen/sm" android:layout_marginTop="14.0dip" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3e" android:textColor="@color/aq3" android:gravity="center_vertical" android:id="@id/d9n" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="46.0dip" android:text="@string/bo_" android:drawableRight="@drawable/c3h" />
+</merge>

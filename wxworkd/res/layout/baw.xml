@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/atc" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:calendar="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" android:layout_width="fill_parent" android:layout_height="@dimen/alo" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@color/a83" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="28.0dip">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="11.0sp" android:textColor="@color/a82" android:gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/cmx" android:layout_weight="1.0" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="11.0sp" android:textColor="@color/a82" android:gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/cmv" android:layout_weight="1.0" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="11.0sp" android:textColor="@color/a82" android:gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/cmz" android:layout_weight="1.0" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="11.0sp" android:textColor="@color/a82" android:gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/cn0" android:layout_weight="1.0" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="11.0sp" android:textColor="@color/a82" android:gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/cmy" android:layout_weight="1.0" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="11.0sp" android:textColor="@color/a82" android:gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/cmu" android:layout_weight="1.0" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="11.0sp" android:textColor="@color/a82" android:gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/cmw" android:layout_weight="1.0" />
+    </LinearLayout>
+    <View android:background="@color/air" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="15.0dip" android:textColor="@color/f7" android:gravity="center" android:id="@id/ei_" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ef" />
+    <com.tencent.wework.msg.search.date.DayPickerView android:id="@id/du0" android:layout_width="fill_parent" android:layout_height="fill_parent" calendar:drawRoundRect="false" />
+</LinearLayout>

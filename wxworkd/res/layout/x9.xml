@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/axu" android:background="#fff7f7f7" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="end|center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/z2">
+        <Button android:textSize="17.0sp" android:textColor="@color/a38" android:gravity="center" android:id="@id/axv" android:layout_width="55.0dip" android:layout_height="35.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="@dimen/y3" android:layout_marginBottom="10.0dip" android:text="@string/bx2" style="@style/xr" />
+    </LinearLayout>
+    <View android:id="@id/b5z" android:background="#ffd9d9d9" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <DatePicker android:id="@id/axt" android:background="@color/a38" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="240.0dip" android:calendarViewShown="false" />
+</LinearLayout>

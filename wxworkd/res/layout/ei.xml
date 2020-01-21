@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#fff2f3f5" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" android:layout_width="fill_parent" android:layout_height="@dimen/alo" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="13.0sp" android:textColor="#ff888888" android:id="@id/f_t" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="25.0dip" android:layout_marginBottom="5.0dip" />
+    <RelativeLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="45.0dip">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="16.0sp" android:textColor="#ff2c343d" android:id="@id/e0l" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="@string/fob" android:layout_centerVertical="true" />
+        <com.tencent.wework.common.views.ClearableEditText android:textSize="16.0sp" android:id="@id/cfb" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_toRightOf="@id/e0l" android:layout_centerVertical="true" android:inputType="textPassword" />
+        <View android:background="#ffe7e7e8" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentTop="true" />
+        <View android:background="#ffe7e7e8" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/lz"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@color/abl" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ListView android:id="@id/dd7" android:background="@color/atc" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@color/ar4" android:cacheColorHint="#00000000" android:divider="@null" android:dividerHeight="0.0px" android:layout_weight="1.0" />
+            <TextView android:id="@id/bee" android:background="@color/atc" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/iy" />
+            <TextView android:id="@id/be8" android:paddingTop="40.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="49.0dip" style="@style/iy" />
+        </RelativeLayout>
+        <LinearLayout android:gravity="center_vertical" android:id="@id/dd8" android:background="@drawable/z2" android:visibility="gone" style="@style/jp">
+            <TextView android:id="@id/dd9" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="3.0dip" android:text="@string/g8l" android:singleLine="false" android:layout_weight="1.0" style="@style/iz" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

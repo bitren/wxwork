@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:id="@id/bxk" android:paddingTop="6.0dip" android:paddingBottom="16.0dip" android:layout_width="22.0dip" android:layout_height="22.0dip" android:indeterminate="true" android:indeterminateDrawable="@drawable/a1s" android:layout_centerInParent="true" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/bxj" android:paddingTop="6.0dip" android:paddingBottom="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <View android:background="@color/a47" android:layout_width="20.0dip" android:layout_height="@dimen/t0" android:layout_marginRight="10.0dip" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3q" android:textColor="@color/a4f" android:id="@id/bxi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bjk" />
+        <View android:background="@color/a47" android:layout_width="20.0dip" android:layout_height="@dimen/t0" android:layout_marginLeft="10.0dip" />
+    </LinearLayout>
+</RelativeLayout>

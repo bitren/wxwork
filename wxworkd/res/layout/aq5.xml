@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/fyy" android:layout="@layout/yp" android:inflatedId="@id/eyo" android:layout_width="@dimen/a8l" android:layout_height="wrap_content" android:scaleType="center" />
+    <com.tencent.wework.common.views.AlphaImageView android:id="@id/cfq" android:layout_width="@dimen/a8l" android:layout_height="wrap_content" android:src="@drawable/bnw" android:scaleType="center" />
+</merge>

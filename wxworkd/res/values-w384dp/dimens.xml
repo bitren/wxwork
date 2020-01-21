@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="adl">80.75dip</dimen>
+    <dimen name="apl">240.0dip</dimen>
+    <dimen name="apm">13.0dip</dimen>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0sp" android:textColor="#662d3034" android:id="@id/b76" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="20.0dip" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/uo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="12.0dip" android:minHeight="20.0dip" android:layout_below="@id/b76">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/h5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:src="@drawable/b4u" />
+    </LinearLayout>
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0sp" android:textColor="#77000000" android:orientation="horizontal" android:id="@id/a8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:text="2343" android:layout_toRightOf="@id/uo" android:layout_below="@id/b76" android:layout_alignTop="@id/uo" />
+</RelativeLayout>

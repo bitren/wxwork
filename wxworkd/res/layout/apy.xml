@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.RecyclerView android:id="@id/d3v" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:overScrollMode="never" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="17.0sp" android:textColor="@color/va" android:gravity="center" android:id="@id/d3t" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/ajo" android:text="@string/bn_" android:layout_alignParentBottom="true" />
+</merge>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View style="@style/xx" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="15.0dip" android:textStyle="bold" android:textColor="@color/a4h" android:gravity="center_vertical" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/s2" android:layout_marginTop="10.0dip" android:text="@string/e80" android:drawableLeft="@drawable/avl" android:drawablePadding="5.0dip" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3d" android:textColor="@color/a4h" android:gravity="center_vertical" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/ov" android:layout_marginLeft="@dimen/s2" android:text="@string/e7z" />
+        <View style="@style/xw" />
+        <com.tencent.wework.common.views.CommonItemView android:id="@id/a3y" android:background="@color/ar4" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/ov" android:text="@string/bxp" app:hasBottomLine="true" app:hasTopLine="false" />
+        <com.tencent.wework.common.views.CommonItemView android:id="@id/a3z" android:background="@color/ar4" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/ov" android:text="@string/hx0" app:hasBottomLine="false" app:hasTopLine="false" />
+        <View style="@style/xw" />
+        <com.tencent.wework.common.views.CommonItemView android:id="@id/a3w" android:background="@color/ar4" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/ov" android:text="@string/hwm" app:hasBottomLine="false" />
+        <View style="@style/xw" />
+        <com.tencent.wework.common.views.CommonItemView android:id="@id/a3u" android:background="@color/ar4" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/ov" android:text="@string/hwi" app:hasBottomLine="false" />
+        <com.tencent.wework.common.views.CommonItemView android:id="@id/a3x" android:background="@color/ar4" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/ov" android:text="@string/hwj" app:hasBottomLine="false" />
+        <com.tencent.wework.common.views.CommonItemView android:id="@id/a3v" android:background="@color/ar4" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/ov" android:text="@string/hwk" app:hasBottomLine="false" app:hasTopLine="true" app:rightIconType="re" />
+        <View style="@style/xx" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/ov">
+            <com.tencent.wework.common.views.ConfigurableTextView android:id="@id/a3s" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/bmz" android:layout_weight="1.0" style="@style/xv" />
+            <View android:layout_gravity="center" android:background="@color/a47" android:layout_width="0.70000005dip" android:layout_height="fill_parent" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:id="@id/a3t" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/bso" android:layout_weight="1.0" style="@style/xv" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.rockerhieu.emojicon.EmojiconTextView android:textSize="@dimen/a3d" android:textColor="@color/atc" android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:id="@id/erg" android:background="@drawable/clf" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="54.0dip" android:text="@string/hx5" />
+</RelativeLayout>

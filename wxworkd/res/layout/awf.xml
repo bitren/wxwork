@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/a45" android:layout_width="fill_parent" android:layout_height="@dimen/sm" />
+    <com.tencent.wework.common.views.PhotoImageView android:id="@id/da6" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_marginLeft="@dimen/aba" android:layout_marginTop="@dimen/abd" android:layout_marginBottom="@dimen/abd" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/abb" android:layout_marginRight="@dimen/abc" android:minHeight="@dimen/zc" android:layout_toLeftOf="@id/eyz" android:layout_toRightOf="@id/da6" android:layout_alignTop="@id/da6" android:layout_centerVertical="true" android:layout_alignWithParentIfMissing="true">
+        <com.tencent.wework.common.views.BaseLinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/u9" android:textColor="@color/a4w" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/da5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="200.0dip" android:singleLine="true" android:drawablePadding="5.0dip" />
+        </com.tencent.wework.common.views.BaseLinearLayout>
+        <com.tencent.wework.common.views.BaseLinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/g48" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.rockerhieu.emojicon.EmojiconTextView android:textSize="@dimen/u2" android:textColor="@color/a4h" android:ellipsize="end" android:id="@id/g3w" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/yc" android:maxWidth="200.0dip" android:singleLine="true" />
+        </com.tencent.wework.common.views.BaseLinearLayout>
+    </LinearLayout>
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="18.0sp" android:id="@id/eyz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:text="@string/eti" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_below="@id/da6" />
+</merge>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="#fff2f3f5" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" android:layout_alignParentTop="true" style="@style/a13" />
+    <android.support.v7.widget.RecyclerView android:id="@id/cs1" android:background="@null" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/ff6" />
+    <ImageView android:id="@id/cb1" android:layout_width="80.0dip" android:layout_height="80.0dip" android:layout_marginTop="80.0dip" android:src="@drawable/are" android:layout_below="@id/ff6" android:layout_centerHorizontal="true" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3i" android:textColor="@color/jf" android:id="@id/cnc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/guf" android:layout_below="@id/cb1" android:layout_centerHorizontal="true" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3d" android:textColor="#ff9b9b9b" android:id="@id/cne" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_below="@id/cnc" android:layout_centerHorizontal="true" />
+    <Button android:textSize="@dimen/a3h" android:id="@id/a2u" android:layout_width="fill_parent" android:layout_height="46.0dip" android:layout_marginLeft="64.0dip" android:layout_marginTop="174.0dip" android:layout_marginRight="64.0dip" android:text="@string/e4h" android:layout_below="@id/cne" android:layout_centerHorizontal="true" style="@style/xr" />
+</RelativeLayout>

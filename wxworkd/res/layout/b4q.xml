@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/atc" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" android:layout_width="fill_parent" android:layout_height="@dimen/alo" android:layout_alignParentTop="true" />
+    <com.tencent.wework.common.views.BaseRelativeLayout android:id="@id/dzq" android:background="@drawable/kb" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="50.0dip" android:layout_alignParentBottom="true" app:topDividerSize="0.5dip">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="16.0sp" android:textColor="@color/aka" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bmy" android:drawableLeft="@drawable/byd" android:drawablePadding="6.0dip" android:layout_centerInParent="true" app:dividerColor="@color/a47" />
+    </com.tencent.wework.common.views.BaseRelativeLayout>
+    <com.tencent.wework.common.views.ScrollListView android:id="@id/a8b" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" android:layout_above="@id/dzq" android:layout_below="@id/ff6" />
+    <com.tencent.wework.common.views.EmptyViewStub android:id="@id/ben" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/dzq" android:layout_below="@id/ff6" />
+</RelativeLayout>

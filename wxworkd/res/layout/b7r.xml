@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:orientation="vertical" android:id="@id/e7w" android:background="@drawable/a4m" android:padding="@dimen/ahe" android:layout_width="@dimen/ahf" android:layout_height="wrap_content">
+        <com.tencent.wework.enterprise.redenvelopes.view.HongBaoCoverPreviewView android:id="@id/as5" android:layout_width="@dimen/ahi" android:layout_height="@dimen/ahh" />
+        <RelativeLayout android:paddingLeft="@dimen/ahd" android:paddingRight="@dimen/ahd" android:layout_width="@dimen/ahi" android:layout_height="wrap_content" android:layout_below="@id/as5">
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="17.0sp" android:textColor="@color/r8" android:ellipsize="end" android:id="@id/e7y" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ahd" android:layout_marginTop="10.0dip" android:layout_marginRight="46.0dip" android:maxLines="1" android:singleLine="true" android:layout_centerHorizontal="true" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="12.0sp" android:textColor="@color/y8" android:ellipsize="end" android:id="@id/e80" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ahd" android:layout_marginRight="@dimen/ahd" android:maxLines="1" android:singleLine="true" android:layout_below="@id/e7y" android:layout_centerHorizontal="true" />
+            <View android:layout_width="wrap_content" android:layout_height="4.0dip" android:layout_below="@id/e80" />
+            <com.tencent.wework.common.views.CommonListCheckBox android:id="@id/e84" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_alignBottom="@id/e80" android:layout_alignParentRight="true" app:button_style="@drawable/b0c" />
+        </RelativeLayout>
+    </RelativeLayout>
+</merge>

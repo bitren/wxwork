@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ed8" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/f89" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="21.0dip" android:layout_centerVertical="true">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="17.0sp" android:textColor="@color/qv" android:ellipsize="middle" android:id="@id/faj" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="40.0dip" android:maxLines="2" android:layout_toLeftOf="@id/ez6" />
+        <LinearLayout android:gravity="center" android:id="@id/ez6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="13.0sp" android:textColor="@color/y7" android:id="@id/fvl" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/re" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:src="@drawable/bfr" />
+        </LinearLayout>
+    </RelativeLayout>
+    <ProgressBar android:id="@id/fvj" android:background="@color/a1x" android:layout_width="fill_parent" android:layout_height="4.0dip" android:layout_marginTop="8.0dip" android:layout_marginBottom="4.5dip" android:progressDrawable="@drawable/adb" style="@android:style/Widget.ProgressBar.Horizontal" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="13.0sp" android:textColor="@color/y7" android:ellipsize="end" android:id="@id/fvo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" />
+</LinearLayout>

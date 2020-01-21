@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="18.0sp" android:textColor="#ff1a1a1a" android:id="@id/f7r" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="@string/a06" />
+    <android.support.v7.widget.RecyclerView android:id="@id/cr7" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <RelativeLayout android:id="@id/dbo" android:background="#fff7f8fa" android:layout_width="fill_parent" android:layout_height="70.0dip" android:layout_marginLeft="15.0dip" android:layout_marginTop="30.0dip" android:layout_marginRight="15.0dip">
+        <ImageView android:id="@id/dbj" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="15.0dip" android:src="@drawable/brj" android:layout_centerVertical="true" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="17.0sp" android:textColor="#ff1a1a1a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/hue" android:layout_toRightOf="@id/dbj" android:layout_centerVertical="true" />
+        <FrameLayout android:layout_width="49.0dip" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:layout_toLeftOf="@id/ebd" android:layout_centerVertical="true">
+            <com.tencent.wework.common.views.PhotoImageView android:id="@id/oo" android:layout_width="24.0dip" android:layout_height="24.0dip" />
+            <com.tencent.wework.common.views.PhotoImageView android:id="@id/on" android:layout_width="24.0dip" android:layout_height="24.0dip" android:translationX="12.0dip" />
+            <com.tencent.wework.common.views.PhotoImageView android:id="@id/om" android:layout_width="24.0dip" android:layout_height="24.0dip" android:translationX="24.0dip" />
+        </FrameLayout>
+        <ImageView android:id="@id/ebd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:src="@drawable/bfr" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View android:background="#ffe9eaef" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="20.0dip" />
+</LinearLayout>

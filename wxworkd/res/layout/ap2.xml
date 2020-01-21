@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/atc" android:clickable="true" android:layout_width="fill_parent" android:layout_height="45.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/b8v" android:visibility="visible" android:clickable="true" android:layout_width="@dimen/z1" android:layout_height="fill_parent" android:src="@drawable/icon_doc_preview_toolbar_packup_pressed" android:scaleType="center" />
+    <View android:background="@color/a68" android:layout_width="@dimen/t2" android:layout_height="22.0dip" android:layout_marginRight="15.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/b90" android:visibility="visible" android:clickable="true" android:layout_width="@dimen/xo" android:layout_height="fill_parent" android:src="@drawable/icon_doc_preview_toolbar_paragraph_normal_pressed" android:scaleType="center" android:layout_weight="1.0" />
+        <ImageView android:id="@id/b98" android:visibility="visible" android:clickable="true" android:duplicateParentState="false" android:layout_width="@dimen/xo" android:layout_height="fill_parent" android:src="@drawable/icon_doc_preview_toolbar_todo_pressed" android:scaleType="center" android:layout_weight="1.0" />
+        <ImageView android:id="@id/b8u" android:clickable="true" android:layout_width="@dimen/xo" android:layout_height="fill_parent" android:src="@drawable/wg" android:scaleType="center" android:layout_weight="1.0" />
+        <ImageView android:id="@id/b8m" android:clickable="true" android:layout_width="@dimen/xo" android:layout_height="fill_parent" android:src="@drawable/icon_doc_preview_toolbar_bold_pressed" android:scaleType="center" android:layout_weight="1.0" />
+        <ImageView android:id="@id/b8n" android:visibility="visible" android:clickable="true" android:layout_width="@dimen/xo" android:layout_height="fill_parent" android:src="@drawable/icon_doc_preview_toolbar_color_black_pressed" android:scaleType="center" android:layout_weight="1.0" />
+    </LinearLayout>
+    <View android:background="@color/a68" android:layout_width="@dimen/t2" android:layout_height="22.0dip" android:layout_marginLeft="15.0dip" />
+</LinearLayout>

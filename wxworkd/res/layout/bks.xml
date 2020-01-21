@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#fff0eff4" android:paddingTop="@dimen/dl" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/g" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ek" style="@style/je">
+        <LinearLayout android:gravity="center|left" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/fe">
+            <TextView android:textSize="@dimen/el" android:textColor="@color/ait" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/ek" android:text="@string/jct" android:layout_weight="1.0" />
+            <com.tencent.mm.ui.widget.MMSwitchBtn android:id="@id/dnd" android:layout_width="@dimen/fu" android:layout_height="@dimen/fr" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/d8" android:textColor="@color/aci" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/jcs" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/g" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ek" style="@style/je">
+        <LinearLayout android:gravity="center|left" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/fe">
+            <TextView android:textSize="@dimen/el" android:textColor="@color/ait" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/ek" android:text="@string/jco" android:layout_weight="1.0" />
+            <com.tencent.mm.ui.widget.MMSwitchBtn android:id="@id/cet" android:layout_width="@dimen/fu" android:layout_height="@dimen/fr" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/d8" android:textColor="@color/aci" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/jcs" />
+    </LinearLayout>
+</LinearLayout>

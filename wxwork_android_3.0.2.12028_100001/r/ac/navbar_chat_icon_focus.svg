@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="96px" height="84px" viewBox="0 0 96 84" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>navbar_chat_icon_focus</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="导航栏" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="navbar_chat_icon_focus" sketch:type="MSArtboardGroup" fill="#45C01A">
+            <g sketch:type="MSLayerGroup" transform="translate(12.000000, 11.000000)" id="Shape">
+                <path d="M14.949,5.84257649 C21.649,1.67929147 29.638,-0.26057971 37.503,0.0289533011 C45.468,0.296521739 53.408,2.88933977 59.778,7.71455717 C62.781,9.98489533 65.423,12.7494364 67.47,15.9113366 C69.411,18.8995169 70.805,22.2491143 71.491,25.7474718 C72.316,29.9227375 72.131,34.2926892 70.953,38.3830918 C69.294,44.209694 65.656,49.3703704 61.004,53.2151691 C55.825,57.5152335 49.43,60.2638003 42.799,61.3470531 C33.676,62.8456361 24.002,61.3041224 15.968,56.6705958 C10.646,58.4127858 5.323,60.1569726 0,61.900161 C2.104,57.4203865 4.21,52.9426087 6.312,48.4618357 C3.922,45.4686634 2.079,42.0252174 1.034,38.3371659 C-0.644,32.5175523 -0.26,26.1418357 2.082,20.5578422 C4.618,14.4197424 9.327,9.3189694 14.949,5.84257649 L14.949,5.84257649 Z" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>

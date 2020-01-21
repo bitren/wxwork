@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/cpj" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/cpc" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="20.0dip" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:gravity="center_vertical" android:id="@id/cpd" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" />
+        <View android:layout_gravity="center_vertical" android:id="@id/cp9" android:background="@color/a0e" android:layout_width="0.30000007dip" android:layout_height="14.0dip" android:layout_marginLeft="15.0dip" />
+    </LinearLayout>
+    <HorizontalScrollView android:paddingRight="5.0dip" android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/ec1" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    </HorizontalScrollView>
+</LinearLayout>

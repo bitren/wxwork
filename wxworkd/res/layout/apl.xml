@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ceg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/yf" android:layout_marginTop="24.0dip" android:layout_marginRight="@dimen/yf" android:layout_marginBottom="@dimen/yf"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="19.0sp" android:textColor="@color/qv" android:ellipsize="end" android:id="@id/d1q" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="11.0dip" android:text="" />
+    <com.tencent.wework.common.views.BaseLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/fq1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.899994dip">
+        <com.tencent.wework.common.views.PhotoImageView android:id="@id/d17" android:layout_width="11.0dip" android:layout_height="11.0dip" android:src="@drawable/c8x" android:adjustViewBounds="true" />
+        <TextView android:textSize="12.0sp" android:textColor="#ff000000" android:ellipsize="end" android:gravity="center" android:id="@id/d18" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/yw" android:maxLines="1" android:includeFontPadding="false" />
+    </com.tencent.wework.common.views.BaseLinearLayout>
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/xt">
+        <ImageView android:layout_gravity="center|top" android:background="@drawable/x5" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0sp" android:textColor="#ff000000" android:id="@id/d1m" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/fd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/xt">
+        <ImageView android:layout_gravity="center|top" android:background="@drawable/x5" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0sp" android:textColor="#ff000000" android:id="@id/d19" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0sp" android:textColor="#ff828285" android:id="@id/d1a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/xt" />
+    <LinearLayout android:id="@id/d1_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/yd">
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bni" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textColor="#ff545d65" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/ek1" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/d1h" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/yd">
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bnd" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/ek0" />
+    </LinearLayout>
+</LinearLayout>

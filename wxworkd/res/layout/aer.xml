@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ww="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.tencent.wework.common.views.CommonEditTextItemView android:id="@id/dp" android:clickable="true" android:layout_width="wrap_content" android:layout_height="@dimen/rx" android:layout_marginTop="@dimen/ajd" ww:contentTextHint="@string/b5c" ww:labelText="@string/azl" ww:labelWidth="@dimen/ug" />
+        <com.tencent.wework.common.views.CommonEditTextItemView android:id="@id/dr" android:clickable="true" android:layout_width="wrap_content" android:layout_height="@dimen/rx" android:layout_marginTop="@dimen/ajd" ww:contentTextHint="@string/b6m" ww:labelText="@string/azk" ww:labelWidth="@dimen/ug" />
+        <com.tencent.wework.common.views.CommonEditTextItemView android:id="@id/do" android:clickable="true" android:layout_width="wrap_content" android:layout_height="@dimen/rx" android:layout_marginTop="@dimen/ajd" ww:contentTextHint="@string/b4k" ww:labelText="@string/azi" ww:labelWidth="@dimen/ug" />
+        <com.tencent.wework.common.views.CommonEditTextItemView android:id="@id/ds" android:clickable="true" android:layout_width="wrap_content" android:layout_height="@dimen/rx" android:layout_marginTop="@dimen/ajd" ww:contentTextHint="@string/b5c" ww:labelText="@string/azj" ww:labelWidth="@dimen/ug" />
+        <com.tencent.wework.common.views.CommonEditTextItemView android:id="@id/dq" android:clickable="true" android:layout_width="wrap_content" android:layout_height="@dimen/rx" android:layout_marginTop="@dimen/ajd" ww:contentInputType="textPassword" ww:contentTextHint="@string/b5c" ww:labelText="@string/azc" ww:labelWidth="@dimen/ug" />
+        <com.tencent.wework.common.views.CommonEditTextItemView android:id="@id/dn" android:clickable="true" android:layout_width="wrap_content" android:layout_height="@dimen/rx" android:layout_marginTop="@dimen/ajd" ww:contentTextHint="@string/b39" ww:labelText="@string/azh" ww:labelWidth="@dimen/ug" />
+        <com.tencent.wework.common.views.CommonItemView android:textSize="@dimen/a3f" android:textColor="@color/a4a" android:gravity="center_vertical" android:id="@id/ajt" android:layout_width="fill_parent" android:layout_height="@dimen/rx" />
+    </LinearLayout>
+</RelativeLayout>

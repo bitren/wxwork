@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/a3a" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.tencent.wework.common.views.CommonSummaryView android:id="@id/jt" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/yd" />
+        <com.tencent.wework.common.views.CommonDescriptionView android:id="@id/jp" android:background="@color/atc" android:layout_width="fill_parent" android:layout_height="wrap_content" app:bottomDividerSize="@dimen/sl" app:topDividerSize="@dimen/sl" />
+        <com.tencent.wework.common.views.CommonItemView android:id="@id/js" android:layout_width="fill_parent" android:layout_height="@dimen/rx" android:text="@string/dbf" app:hasTopLine="true" />
+        <com.tencent.wework.common.views.CommonItemView android:id="@id/jr" android:layout_width="fill_parent" android:layout_height="@dimen/rx" android:text="@string/c6d" />
+        <com.tencent.wework.common.views.CommonItemView android:id="@id/jo" android:layout_width="fill_parent" android:layout_height="@dimen/rx" android:layout_marginTop="@dimen/af7" android:text="@string/c55" app:hasTopLine="true" app:rightIconType="re" />
+        <com.tencent.wework.common.views.CommonItemView android:id="@id/jq" android:layout_width="fill_parent" android:layout_height="@dimen/rx" android:layout_marginTop="@dimen/af7" android:text="@string/gq3" app:hasTopLine="true" />
+        <com.tencent.wework.setting.views.CommonItemButton android:id="@id/jn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/af7" android:text="@string/fz" app:bottomDividerSize="@dimen/rw" app:textColorType="yb" app:topDividerSize="@dimen/rw" />
+    </LinearLayout>
+</ScrollView>

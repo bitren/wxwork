@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.tencent.mail.calendar.view.NumberPicker android:id="@id/cao" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="6.0dip" android:layout_marginBottom="16.0dip" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textColor="@color/a61" android:layout_gravity="center_vertical" android:id="@id/b5z" android:layout_width="wrap_content" android:layout_height="wrap_content" android:importantForAccessibility="no" />
+        <com.tencent.mail.calendar.view.NumberPicker android:id="@id/dbt" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="16.0dip" />
+    </LinearLayout>
+    <com.tencent.mail.calendar.view.NumberPicker android:id="@id/ia" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="16.0dip" />
+</LinearLayout>

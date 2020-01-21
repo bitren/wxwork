@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:layout_width="fill_parent" android:layout_height="@dimen/afb" layout="@layout/aky" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/dom" android:background="@android:color/white" android:paddingTop="16.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.tencent.wework.picker.view.WheelView android:id="@id/doj" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <com.tencent.wework.picker.view.WheelView android:id="@id/dok" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <com.tencent.wework.picker.view.WheelView android:id="@id/dol" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

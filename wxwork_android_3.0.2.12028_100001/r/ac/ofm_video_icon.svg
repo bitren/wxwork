@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="96px" height="96px" viewBox="0 0 96 96" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>ofm_video_icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="#ffffffff" sketch:type="MSLayerGroup" fill="#FFFFFF">
+            <path d="M16,29 C17.726973,27.7004197 19.4550549,28.1597761 21,28 C34.0089,28.0898741 47.0544194,27.9201119 60,28 C62.0677545,27.960056 63.2264683,30.1370059 63,32 C62.9767455,42.619517 62.9667566,53.3444906 63,64 C63.2464461,65.8369877 62.0577655,68.0239237 60,68 C46.3352177,68.0239237 32.6004634,67.9440356 19,68 C17.1076605,68.2536019 14.9700333,67.0652668 15,65 C14.9200887,54.3830355 15.0899002,43.678034 15,33 C15.0599335,31.4351871 14.7902328,29.4479713 16,29 L16,29 Z" id="Shape" sketch:type="MSShapeGroup"></path>
+            <path d="M66,41 C71.0387246,37.0166415 75.7382084,32.1855774 81,28 C82.3334499,30.0675744 81.934343,32.5890066 82,35 C81.9443207,44.7120524 81.9742537,54.505295 82,64 C82.0041867,65.6298538 81.6649458,66.8603127 81,68 C75.718253,63.8245083 71.0187693,58.9934443 66,55 L66,41 L66,41 Z" id="Shape" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

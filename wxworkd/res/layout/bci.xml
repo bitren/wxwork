@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.tencent.wework.common.views.CommonListCheckBox android:layout_gravity="center_vertical" android:id="@id/er8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ajl" />
+        <com.tencent.wework.msg.views.ConversationListBaseItemView android:id="@id/er_" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ajm" android:layout_marginBottom="@dimen/ajm" android:layout_weight="1.0" />
+        <ImageView android:layout_gravity="right" android:id="@id/er9" android:background="@drawable/kv" android:paddingLeft="@dimen/ajl" android:paddingRight="@dimen/ajl" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/icon_info" android:minWidth="48.0dip" />
+    </LinearLayout>
+</merge>

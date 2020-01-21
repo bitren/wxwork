@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/aio" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:form="http://schemas.android.com/apk/res-auto">
+    <com.tencent.mm.plugin.account.ui.ResizeLayout android:orientation="vertical" android:id="@id/e_z" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.tencent.mm.plugin.account.ui.MMKeyboardUperView android:id="@id/efg" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/dl" android:paddingTop="@dimen/eq" android:paddingRight="@dimen/dl" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center_horizontal" android:id="@id/cnn" android:layout_width="@dimen/dm" android:layout_height="@dimen/dm" android:src="@drawable/a9z" />
+                <TextView android:textSize="@dimen/e0" android:textColor="@color/jk" android:gravity="center" android:id="@id/cvh" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dv" />
+                <com.tencent.mm.ui.base.MMFormInputView android:id="@id/cw8" android:focusableInTouchMode="false" android:layout_marginTop="@dimen/dp" form:form_hint="@string/fqu" form:form_layout="@layout/ax6" form:form_title="@string/fob" style="@style/ja" />
+                <com.tencent.mm.ui.base.MMFormVerifyCodeInputView android:id="@id/evv" android:focusableInTouchMode="false" android:visibility="gone" android:layout_marginTop="@dimen/dp" form:form_btn_title="@string/g8z" form:form_hint="@string/fr4" form:form_layout="@layout/ax8" form:form_title="@string/g8w" style="@style/ja" />
+                <LinearLayout android:orientation="horizontal" android:id="@id/frh" android:paddingTop="@dimen/e5" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/eq">
+                    <LinearLayout android:id="@id/cwm" style="@style/kn">
+                        <ImageView android:id="@id/fr3" android:layout_width="@dimen/fc" android:layout_height="@dimen/fc" android:src="@drawable/c97" android:scaleType="fitXY" />
+                        <TextView android:id="@id/fr6" android:focusableInTouchMode="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fnj" style="@style/kn" />
+                    </LinearLayout>
+                </LinearLayout>
+                <Button android:textSize="@dimen/d8" android:textColor="@color/ad6" android:id="@id/cvp" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ff" android:layout_marginTop="@dimen/ek" android:text="@string/flp" />
+                <Button android:id="@id/cvl" android:paddingLeft="0.0dip" android:paddingRight="0.0dip" android:layout_marginTop="@dimen/eq" android:layout_marginBottom="@dimen/e5" android:text="@string/fnd" style="@style/kn" />
+                <LinearLayout android:orientation="horizontal" android:id="@id/bp5" android:paddingTop="@dimen/e5" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/eq" android:layout_marginBottom="@dimen/e5">
+                    <LinearLayout android:id="@id/cvw" style="@style/kn">
+                        <ImageView android:id="@id/bny" android:layout_width="@dimen/fc" android:layout_height="@dimen/fc" android:src="@drawable/clm" android:scaleType="fitXY" />
+                        <TextView android:id="@id/bou" android:focusableInTouchMode="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fnk" style="@style/kn" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/bvl" android:paddingTop="@dimen/e5" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/eq">
+                    <TextView android:gravity="center" android:id="@id/bvm" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/fnf" style="@style/in" />
+                    <Button android:textSize="16.0sp" android:gravity="center" android:layout_gravity="center" android:id="@id/euh" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="16.0dip" android:text="模拟刷指纹" style="@style/kn" />
+                </LinearLayout>
+            </LinearLayout>
+        </com.tencent.mm.plugin.account.ui.MMKeyboardUperView>
+        <Button android:textSize="@dimen/el" android:textColor="@color/ad6" android:layout_gravity="bottom|center" android:id="@id/cvi" android:background="@null" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/do" android:layout_marginBottom="@dimen/do" android:text="@string/flf" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ek" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+                <Button android:textSize="@dimen/d8" android:textColor="@color/ad6" android:id="@id/cvy" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/h9z" />
+                <ImageView android:background="@color/es" android:layout_width="@dimen/bj" android:layout_height="@dimen/do" android:layout_marginLeft="@dimen/k" android:layout_marginRight="@dimen/k" />
+                <RelativeLayout android:id="@id/byx" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <Button android:textSize="@dimen/d8" android:textColor="@color/ad6" android:id="@id/cw0" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fn6" android:layout_centerVertical="true" />
+                    <ImageView android:background="@color/es" android:layout_width="@dimen/bj" android:layout_height="@dimen/do" android:layout_marginLeft="@dimen/k" android:layout_marginRight="@dimen/k" android:layout_toRightOf="@id/cw0" />
+                </RelativeLayout>
+                <Button android:textSize="@dimen/d8" android:textColor="@color/ad6" android:id="@id/cw3" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/flm" />
+            </LinearLayout>
+        </RelativeLayout>
+    </com.tencent.mm.plugin.account.ui.ResizeLayout>
+</LinearLayout>

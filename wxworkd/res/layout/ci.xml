@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/ed8" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/ecw" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.tencent.wework.filescan.api.ROICameraPreview android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:id="@id/io" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <com.tencent.wework.common.views.PhotoImageView android:id="@id/dwl" android:visibility="invisible" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_marginRight="18.0dip" android:layout_marginBottom="79.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    <com.tencent.wework.common.views.RedPoint android:id="@id/e7q" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:layout_marginBottom="56.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    <ImageView android:id="@id/bwe" android:padding="6.0dip" android:visibility="visible" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginLeft="12.0dip" android:layout_marginTop="12.0dip" android:src="@drawable/icon_flash_off" />
+    <ImageView android:id="@id/bwk" android:padding="6.0dip" android:visibility="gone" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="12.0dip" android:src="@drawable/icon_flip" android:layout_alignParentRight="true" />
+    <ImageView android:id="@id/a8u" android:padding="5.0dip" android:layout_width="49.0dip" android:layout_height="49.0dip" android:layout_marginLeft="13.0dip" android:layout_marginBottom="48.0dip" android:src="@drawable/av3" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+    <ImageView android:id="@id/a8e" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_marginBottom="44.0dip" android:src="@drawable/avc" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:layout_gravity="center" android:id="@id/a8n" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <android.support.v7.widget.RecyclerView android:id="@id/adj" android:layout_width="148.0dip" android:layout_height="44.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0sp" android:textColor="@color/lq" android:id="@id/euw" android:paddingLeft="60.0dip" android:paddingTop="12.0dip" android:paddingRight="16.0dip" android:paddingBottom="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/c3o" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0sp" android:textColor="@color/atc" android:id="@id/dgd" android:paddingLeft="16.0dip" android:paddingTop="12.0dip" android:paddingRight="60.0dip" android:paddingBottom="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/c3n" />
+</RelativeLayout>

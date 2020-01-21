@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.wework.common.views.BaseRelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.BottomButton android:textColor="@color/a3p" android:id="@id/bgm" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/hfr" android:layout_alignParentBottom="true" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/bgm" style="@style/yb">
+        <com.tencent.wework.common.views.BaseLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ViewStub android:id="@id/fwj" android:inflatedId="@id/bgn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/s2" android:layout_marginTop="@dimen/ajd" android:layout_marginRight="@dimen/s2" />
+            <View android:background="@color/q5" android:layout_width="fill_parent" android:layout_height="@dimen/t0" android:layout_marginLeft="@dimen/s2" android:layout_marginTop="16.0dip" android:layout_marginRight="@dimen/s2" />
+            <com.tencent.wework.common.views.BaseLinearLayout android:orientation="vertical" android:id="@id/bgs" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip">
+                <com.tencent.wework.enterprisemgr.view.EnterpriseAppManagerMessageDetailDescriptionView android:id="@id/fwl" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/s2" android:layout_marginRight="@dimen/s2" app:descriptionLabelText="@string/bmq" />
+                <com.tencent.wework.enterprisemgr.view.EnterpriseAppManagerMessageDetailDescriptionView android:id="@id/fwo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/s2" android:layout_marginTop="8.0dip" android:layout_marginRight="@dimen/s2" app:descriptionLabelText="@string/buk" />
+                <com.tencent.wework.enterprisemgr.view.EnterpriseAppManagerMessageDetailDescriptionView android:id="@id/fwm" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/s2" android:layout_marginTop="8.0dip" android:layout_marginRight="@dimen/s2" app:descriptionLabelText="@string/buj" />
+                <com.tencent.wework.enterprisemgr.view.EnterpriseAppManagerMessageDetailDescriptionView android:id="@id/fwn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/s2" android:layout_marginTop="8.0dip" android:layout_marginRight="@dimen/s2" app:descriptionLabelText="@string/bum" />
+                <com.tencent.wework.enterprisemgr.view.EnterpriseAppManagerMessageDetailDescriptionView android:id="@id/fwp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/s2" android:layout_marginTop="8.0dip" android:layout_marginRight="@dimen/s2" app:descriptionLabelText="@string/but" />
+                <View android:layout_width="fill_parent" android:layout_height="16.0dip" />
+            </com.tencent.wework.common.views.BaseLinearLayout>
+            <com.tencent.wework.common.views.BaseRelativeLayout android:id="@id/bgj" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="16.0dip">
+                <ImageView android:id="@id/bgd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/aqb" android:layout_centerVertical="true" />
+                <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0sp" android:textColor="@color/pu" android:id="@id/bge" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="@string/dau" android:layout_toRightOf="@id/bgd" />
+                <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0sp" android:textColor="@color/q2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="@string/dav" android:layout_toRightOf="@id/bgd" android:layout_below="@id/bge" />
+            </com.tencent.wework.common.views.BaseRelativeLayout>
+        </com.tencent.wework.common.views.BaseLinearLayout>
+    </ScrollView>
+</com.tencent.wework.common.views.BaseRelativeLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="240px" height="240px" viewBox="0 0 240 240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46 (44423) - http://www.bohemiancoding.com/sketch -->
+    <title>编辑@3x</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="切片" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.75">
+        <g id="编辑@3x" fill="#000000">
+            <g id="Group-8" transform="translate(92.000000, 95.000000)">
+                <path d="M44,4 L57,4 L57,9 L44,9 L44,14 L39,14 L39,0 L44,0 L44,4 Z M0,4 L36,4 L36,9 L0,9 L0,4 Z" id="Combined-Shape"></path>
+                <path d="M22,24 L57,24 L57,29 L22,29 L22,32 L17,32 L17,21 L22,21 L22,24 Z M0,24 L14,24 L14,29 L0,29 L0,24 Z" id="Combined-Shape"></path>
+                <path d="M44,43 L57,43 L57,48 L44,48 L44,51 L40,51 L40,40 L44,40 L44,43 Z M0,43 L36,43 L36,48 L0,48 L0,43 Z" id="Combined-Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

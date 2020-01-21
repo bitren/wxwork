@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.wework.common.views.BaseLinearLayout android:orientation="vertical" android:background="@drawable/xe" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/a_h" app:widthLimit="@dimen/a_h"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.BaseRelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="11.0dip" app:widthLimit="@dimen/a_h">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="16.0sp" android:textColor="@color/ahc" android:id="@id/faj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="abcd" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="12.0sp" android:textColor="@color/ahs" android:id="@id/ao3" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="4.0dip" android:text="abcd" android:layout_below="@id/faj" />
+    </com.tencent.wework.common.views.BaseRelativeLayout>
+</com.tencent.wework.common.views.BaseLinearLayout>

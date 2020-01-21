@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/ed8" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:orientation="vertical" android:id="@id/a9w" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/cz_" android:layout_width="fill_parent" android:layout_height="@dimen/oo" />
+    </FrameLayout>
+    <RelativeLayout android:id="@id/e20" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/a9w" android:layout_centerHorizontal="true">
+        <View android:background="#ffeeeeee" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <ImageView android:id="@id/e1v" android:layout_width="@dimen/a0g" android:layout_height="@dimen/a0_" android:layout_marginTop="@dimen/a0d" android:layout_marginBottom="@dimen/a0b" android:scaleType="fitXY" android:layout_centerHorizontal="true" />
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignLeft="@id/e1v" android:layout_alignTop="@id/e1v" android:layout_alignRight="@id/e1v" android:layout_alignBottom="@id/e1v">
+            <ProgressBar android:id="@id/e1p" android:visibility="gone" android:layout_width="@dimen/yg" android:layout_height="@dimen/yg" android:layout_centerInParent="true" style="?android:progressBarStyleLarge" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/ba_" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/a09" android:layout_marginBottom="@dimen/a08" android:layout_below="@id/e1v" android:layout_centerHorizontal="true">
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3d" android:textColor="@color/vp" android:id="@id/ba9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iin" android:maxLines="1" />
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginTop="4.0dip" android:src="@drawable/b_d" android:layout_toRightOf="@id/ba9" />
+        </RelativeLayout>
+        <com.tencent.wework.common.views.PhotoImageView android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="34.0dip" android:layout_marginBottom="10.0dip" android:src="@drawable/cr1" android:layout_below="@id/e1v" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/e1z" android:paddingTop="@dimen/yd" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/a9w" android:layout_centerHorizontal="true">
+        <ImageView android:id="@id/e1w" android:layout_width="@dimen/a0f" android:layout_height="@dimen/a0f" android:layout_marginTop="@dimen/a0k" android:scaleType="fitXY" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3d" android:textColor="@color/v3" android:id="@id/eso" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/cx1" android:maxLines="1" android:layout_below="@id/e1w" android:layout_centerHorizontal="true" />
+        <LinearLayout android:orientation="vertical" android:id="@id/esp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_below="@id/eso" android:layout_centerHorizontal="true" android:layout_alignWithParentIfMissing="true">
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3c" android:textColor="@color/sg" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cwz" android:maxLines="1" android:layout_below="@id/e1w" android:layout_centerHorizontal="true" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3b" android:textColor="@color/xl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cx0" android:maxLines="1" android:layout_below="@id/e1w" android:layout_centerHorizontal="true" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

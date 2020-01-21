@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#fff5f5f5" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="13.0sp" android:textColor="#ff8b8b8b" android:id="@id/cmq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="13.0sp" android:textColor="@color/jv" android:id="@id/ebe" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:text="@string/cs2" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <com.tencent.wework.common.views.CommonItemView android:id="@id/dmk" android:layout_width="fill_parent" android:layout_height="@dimen/rx" android:layout_marginTop="2.0dip" app:hasBottomLine="false" app:hasTopLine="true" app:leftTitle="@string/akr" app:rightIconType="re" app:topLineType="cdq" />
+    <com.tencent.wework.common.views.CommonItemView android:id="@id/dm3" android:layout_width="fill_parent" android:layout_height="@dimen/rx" app:bottomLineType="g34" app:hasBottomLine="true" app:hasTopLine="true" app:leftTitle="@string/akg" app:rightIconType="re" app:topLineType="cdq" />
+</LinearLayout>

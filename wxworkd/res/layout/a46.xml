@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.wework.common.views.BaseRelativeLayout android:id="@id/ax1" android:paddingLeft="@dimen/s2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="56.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.PhotoImageView android:id="@id/cll" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/s2" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/cl_" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:src="@drawable/c3h" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3d" android:textColor="@color/xk" android:id="@id/fjy" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/zk" android:layout_marginRight="@dimen/zk" android:layout_toLeftOf="@id/cl_" android:layout_centerVertical="true" android:layout_alignWithParentIfMissing="true" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/cyz" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/fjy" android:layout_toRightOf="@id/cll" android:layout_centerVertical="true">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3g" android:id="@id/fk6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3b" android:textColor="@color/xk" android:id="@id/fii" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</com.tencent.wework.common.views.BaseRelativeLayout>

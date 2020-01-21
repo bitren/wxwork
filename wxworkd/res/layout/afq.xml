@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="60.0sp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.tencent.wework.common.views.PhotoImageView android:id="@id/fkl" android:visibility="gone" android:layout_width="@dimen/ys" android:layout_height="@dimen/ys" android:layout_marginRight="10.0dip" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/fkh" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/zb" android:src="@drawable/c3h" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="10.0sp" android:textColor="@color/atc" android:id="@id/c03" android:background="@drawable/jq" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:layout_toLeftOf="@id/fkh" android:layout_centerVertical="true" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toLeftOf="@id/fkh" android:layout_toRightOf="@id/fkl" android:layout_centerVertical="true">
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3f" android:id="@id/fks" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3c" android:textColor="@color/xk" android:id="@id/fkj" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <View android:id="@id/fkp" android:background="@color/a47" android:layout_width="fill_parent" android:layout_height="@dimen/a61" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</RelativeLayout>

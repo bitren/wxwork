@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="90px" height="90px" viewBox="0 0 90 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>app_attach_file_icon_pic</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="-----Android" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="app_attach_file_icon_pic">
+            <rect id="bg" fill="#F2F2F2" x="0" y="0" width="90" height="90"></rect>
+            <g id="Pic" opacity="0.600000024" transform="translate(21.000000, 27.000000)" fill="#000000" fill-rule="nonzero">
+                <path d="M44,21.9628217 L44,4 L4,4 L4,20.9131246 L14.8781893,12.5182208 C15.9883177,11.620444 17.7711015,11.6639852 18.841189,12.6042008 L29.6161147,22.07142 L35.0618461,17.3859944 C36.1711619,16.4426501 37.936135,16.4618142 39.0130354,17.4282009 L44,21.9628217 Z M43.9999991,29.1630298 L43.9999991,27.3691957 L36.9950012,20.9994968 L32.6504457,24.7374873 L34.9978532,26.8 L28.9377016,26.8 L16.7711137,16.1100186 L4,25.9657278 L4,32 L44,32 L44,29.16303 Z M-2.22044605e-15,2.4 C-2.38277095e-15,1.0745166 1.0745166,2.4348735e-16 2.4,0 L45.6,-2.22044605e-15 C46.9254834,-2.4639334e-15 48,1.0745166 48,2.4 L48,33.6 C48,34.9254834 46.9254834,36 45.6,36 L2.4,36 C1.0745166,36 1.623249e-16,34.9254834 0,33.6 L-2.22044605e-15,2.4 Z" id="Combined-Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

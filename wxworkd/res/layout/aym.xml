@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="center" android:id="@id/b56" android:background="@drawable/cjr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/afi" android:minHeight="@dimen/afh"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/dyn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:baselineAligned="false" android:minWidth="@dimen/afi" android:layout_centerInParent="true">
+        <ProgressBar android:layout_gravity="center_horizontal" android:id="@id/dym" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:indeterminateDrawable="@drawable/a1r" />
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/dyw" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="35.0dip" android:layout_marginTop="10.0dip" android:src="@drawable/crc" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/afk" android:textColor="@color/atc" android:ellipsize="marquee" android:gravity="center" android:id="@id/dyv" android:paddingTop="@dimen/afj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" android:text="请稍后" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+        <com.tencent.wework.common.views.WaitingDotView android:id="@id/dys" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" app:alphaFrom="200" app:alphaTo="80" app:autoplay="true" app:dotColor="#ffffffff" app:dotCount="3" app:dotPadding="4.0dip" app:period="650" />
+    </LinearLayout>
+</RelativeLayout>

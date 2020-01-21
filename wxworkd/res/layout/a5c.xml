@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.wework.common.views.BaseRelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.msg.views.DoubleClickAnimationView android:id="@id/azd" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.tencent.wework.common.views.PhotoImageView android:id="@id/aze" android:layout_width="100.0dip" android:layout_height="100.0dip" android:layout_centerInParent="true" />
+</com.tencent.wework.common.views.BaseRelativeLayout>

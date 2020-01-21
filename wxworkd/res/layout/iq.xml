@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/atc" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" android:layout_width="fill_parent" android:layout_height="@dimen/alo" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="22.0sp" android:textColor="@color/a3c" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="24.0dip" android:text="@string/i8e" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0sp" android:textColor="@color/a4h" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="24.0dip" android:text="@string/i8d" />
+    <RelativeLayout android:id="@id/ele" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0sp" android:textColor="@color/x_" android:id="@id/el_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:text="@string/i8l" android:layout_alignParentTop="true" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="18.0sp" android:textColor="@color/a3c" android:gravity="center|left" android:id="@id/eld" android:layout_width="280.0dip" android:layout_height="48.0dip" android:layout_marginLeft="24.0dip" android:text="@string/i8m" android:layout_below="@id/el_" android:layout_alignParentLeft="true" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="48.0dip" android:layout_marginRight="24.0dip" android:layout_marginBottom="4.0dip" android:src="@drawable/c3h" android:layout_alignBottom="@id/eld" android:layout_alignParentRight="true" />
+        <View android:background="@color/a47" android:layout_width="fill_parent" android:layout_height="@dimen/rw" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" android:layout_below="@id/eld" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/el3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0sp" android:textColor="@color/x_" android:id="@id/ekz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:text="@string/i8h" android:layout_alignParentTop="true" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="18.0sp" android:textColor="@color/a3c" android:gravity="center|left" android:id="@id/el2" android:layout_width="280.0dip" android:layout_height="48.0dip" android:layout_marginLeft="24.0dip" android:text="@string/i8j" android:layout_below="@id/ekz" android:layout_alignParentLeft="true" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="48.0dip" android:layout_marginRight="24.0dip" android:layout_marginBottom="4.0dip" android:src="@drawable/c3h" android:layout_alignBottom="@id/el2" android:layout_alignParentRight="true" />
+        <View android:background="@color/a47" android:layout_width="fill_parent" android:layout_height="@dimen/rw" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" android:layout_below="@id/el2" />
+    </RelativeLayout>
+    <com.tencent.wework.common.views.ConfigurableTextView android:id="@id/ejs" android:layout_width="fill_parent" android:layout_height="@dimen/tt" android:layout_marginLeft="24.0dip" android:layout_marginTop="40.0dip" android:layout_marginRight="24.0dip" android:text="@string/bv0" style="@style/xr" />
+</LinearLayout>

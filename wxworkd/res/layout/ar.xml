@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/ed8" android:tag="@string/e6l" android:background="#fff1f2f4" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" style="@style/a13" />
+    <FrameLayout android:id="@id/byi" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/a18" android:layout_below="@id/ff6" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/a18" android:background="@color/a38" android:layout_width="fill_parent" android:layout_height="@dimen/mp" android:layout_alignParentBottom="true">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/cyr" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a9a" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="10.0sp" android:textColor="@color/it" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="@string/acr" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/eyv" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a9d" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="10.0sp" android:textColor="@color/it" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="@string/aqf" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/eog" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a9c" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="10.0sp" android:textColor="@color/it" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="@string/anl" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/b49" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a9b" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="10.0sp" android:textColor="@color/it" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="@string/af8" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:background="@color/a0w" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_below="@id/byi" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textColor="@color/atc" android:gravity="center" android:id="@id/ack" android:background="@drawable/asl" android:visibility="invisible" android:layout_width="@dimen/np" android:layout_height="wrap_content" android:text="@string/ad3" android:layout_above="@id/a18" android:translationY="3.0dip" />
+    <com.tencent.wework.enterprise.attendance.view.AttendanceTimePickerView android:id="@id/f9w" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

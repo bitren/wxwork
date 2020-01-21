@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@drawable/m6" android:paddingLeft="11.0dip" android:paddingTop="11.0dip" android:paddingRight="11.0dip" android:paddingBottom="11.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:layout_below="@id/ckp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/cyn" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.tencent.wework.common.views.PhotoImageView android:id="@id/cxw" android:layout_width="@dimen/a9b" android:layout_height="@dimen/a9b" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <com.rockerhieu.emojicon.EmojiconTextView android:textSize="@dimen/a3g" android:textColor="@color/jf" android:ellipsize="end" android:id="@id/ckc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:maxWidth="230.0dip" android:text="RTX test" android:lines="1" android:layout_toRightOf="@id/cxw" />
+        <ImageView android:id="@id/cx_" android:visibility="gone" android:layout_width="13.299988dip" android:layout_height="13.299988dip" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:src="@drawable/icon_mail_item_block" android:layout_toRightOf="@id/ckc" />
+        <com.rockerhieu.emojicon.EmojiconTextView android:textSize="@dimen/a3e" android:textColor="#ff999999" android:id="@id/cii" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableLeft="@drawable/bm6" android:drawablePadding="5.0dip" android:layout_toRightOf="@id/cx_" android:layout_alignBaseline="@id/ckc" android:layout_alignTop="@id/ckc" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3b" android:textColor="#ff8a8a8a" android:ellipsize="end" android:id="@id/ckp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignBaseline="@id/ckc" android:layout_alignParentRight="true" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/ckc" android:layout_alignLeft="@id/ckc">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/cyd" android:visibility="gone" android:layout_width="15.299988dip" android:layout_height="12.699982dip" android:layout_marginRight="6.0dip" android:src="@drawable/icon_read_mail_reply" />
+            <com.rockerhieu.emojicon.EmojiconTextView android:textSize="@dimen/a3e" android:textColor="@color/jf" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/ckn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" />
+        </LinearLayout>
+    </RelativeLayout>
+    <com.rockerhieu.emojicon.EmojiconTextView android:textSize="@dimen/a3d" android:textColor="#ff8a8a8a" android:ellipsize="end" android:id="@id/cj1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:lines="2" android:layout_below="@id/cyn" android:lineSpacingExtra="1.0dip" android:lineSpacingMultiplier="1.0" />
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/fe0" android:layout_width="fill_parent" android:layout_height="@dimen/alw" />
+    <com.tencent.wework.common.views.RecyclerViewWrapperView android:id="@id/e69" android:background="@color/a1h" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a3">Orientohu për në shtëpi</string>
+    <string name="a4">Ngjitu lart</string>
+    <string name="abc_action_menu_overflow_description">Opsione të tjera</string>
+    <string name="a5">U krye!</string>
+    <string name="a6">Shikoji të gjitha</string>
+    <string name="a7">Zgjidh një aplikacion</string>
+    <string name="a8">JOAKTIV</string>
+    <string name="a9">AKTIV</string>
+    <string name="al">Alt+</string>
+    <string name="an">Ctrl+</string>
+    <string name="ao">delete</string>
+    <string name="ap">enter</string>
+    <string name="aq">Funksioni+</string>
+    <string name="ar">Meta+</string>
+    <string name="as">Shift+</string>
+    <string name="at">hapësirë</string>
+    <string name="au">Sym+</string>
+    <string name="av">Menyja+</string>
+    <string name="aw">Kërko...</string>
+    <string name="ax">Pastro pyetjen</string>
+    <string name="ay">Kërko pyetjen</string>
+    <string name="az">Kërko</string>
+    <string name="b0">Dërgo pyetjen</string>
+    <string name="b1">Kërkim me zë</string>
+    <string name="b2">Shpërnda publikisht me</string>
+    <string name="b3">Ndaje me %s</string>
+    <string name="b4">Shpalos</string>
+    <string name="hlf">Kërko</string>
+    <string name="i6c">999+</string>
+</resources>

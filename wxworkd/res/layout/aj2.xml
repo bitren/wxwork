@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/yx"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/a8r" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/yd" android:layout_marginTop="@dimen/xx" android:layout_marginBottom="@dimen/yn">
+        <View android:layout_gravity="center_vertical" android:background="#ff4796e7" android:layout_width="3.0dip" android:layout_height="16.0dip" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3d" android:textColor="#ff5a5b5c" android:layout_gravity="center_vertical" android:id="@id/a8s" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/zk" />
+    </LinearLayout>
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3d" android:textColor="#ff9b9b9b" android:layout_gravity="center_vertical" android:id="@id/a8q" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/yd" android:layout_marginTop="@dimen/yp" android:text="@string/eyb" />
+    <com.tencent.wework.homeschool.views.HomeSchoolSectionConfigView android:id="@id/cmn" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.tencent.wework.homeschool.views.HomeSchoolSectionConfigView android:id="@id/dwt" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.tencent.wework.homeschool.views.HomeSchoolSectionConfigView android:id="@id/cmh" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.tencent.wework.homeschool.views.HomeSchoolSectionConfigView android:id="@id/c7x" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

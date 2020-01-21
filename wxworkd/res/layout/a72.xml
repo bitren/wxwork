@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/a88" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="54.0dip">
+        <FrameLayout android:id="@id/b3x" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="17.0sp" android:textColor="#ff477cb8" android:layout_gravity="center" android:id="@id/f5a" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <View android:layout_gravity="center_horizontal" android:id="@id/f50" android:background="#ff477cb8" android:layout_width="64.0dip" android:layout_height="2.0dip" android:layout_marginTop="52.0dip" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/b3y" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="17.0sp" android:textColor="#ff8c8c8c" android:layout_gravity="center" android:id="@id/f5b" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <View android:layout_gravity="center_horizontal" android:id="@id/f51" android:background="#ff477cb8" android:visibility="invisible" android:layout_width="64.0dip" android:layout_height="2.0dip" android:layout_marginTop="52.0dip" />
+        </FrameLayout>
+    </LinearLayout>
+    <View android:id="@id/b5z" android:background="@color/a47" android:layout_width="fill_parent" android:layout_height="@dimen/a61" />
+    <android.support.v4.view.ViewPager android:id="@id/b7h" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

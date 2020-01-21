@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.wework.msg.views.MessageListTextCardView android:id="@id/apd" android:background="@drawable/xv" android:paddingLeft="@dimen/a_7" android:paddingRight="@dimen/a_7" android:layout_width="fill_parent" android:layout_height="wrap_content" app:widthLimit="@dimen/a_h"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

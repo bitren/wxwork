@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_gravity="center_vertical" android:id="@id/ed8" android:background="@color/atc" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ww="http://schemas.android.com/apk/res-auto">
+    <View android:background="@color/a4s" android:layout_width="fill_parent" android:layout_height="@dimen/a61" android:layout_alignParentTop="true" />
+    <LinearLayout android:orientation="vertical" android:id="@id/a1g" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/a6b" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3f" android:textColor="@color/jk" android:id="@id/a1h" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3d" android:textColor="@color/a4h" android:id="@id/a1i" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/ekm" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_below="@id/a1g" android:layout_alignWithParentIfMissing="true">
+        <com.tencent.wework.common.views.ConfigurableTextView android:enabled="false" android:textSize="@dimen/st" android:textColor="@color/atc" android:gravity="center" android:id="@id/ejm" android:background="@drawable/en" android:layout_width="@dimen/ss" android:layout_height="@dimen/sr" android:layout_marginLeft="@dimen/a6b" android:layout_marginRight="@dimen/sq" android:text="@string/bso" android:layout_alignParentRight="true" android:layout_centerVertical="true" ww:configurable="false" />
+        <android.support.v7.widget.RecyclerView android:id="@id/c67" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/a6b" android:layout_toLeftOf="@id/ejm" android:layout_centerVertical="true" android:layout_alignWithParentIfMissing="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/a1p" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_below="@id/ekm">
+        <View android:id="@id/a1q" android:background="@color/a4s" android:layout_width="fill_parent" android:layout_height="@dimen/a61" android:layout_marginLeft="@dimen/a6b" android:layout_alignParentTop="true" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/a1q">
+            <com.tencent.wework.common.views.ConfigurableTextView android:enabled="false" android:textSize="@dimen/st" android:textColor="@color/atc" android:gravity="center" android:id="@id/f0p" android:background="@drawable/en" android:layout_width="@dimen/ss" android:layout_height="@dimen/sr" android:layout_marginLeft="@dimen/a6b" android:layout_marginRight="@dimen/sq" android:text="@string/bso" android:layout_alignParentRight="true" android:layout_centerVertical="true" ww:configurable="false" />
+            <RelativeLayout android:id="@id/a0i" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toLeftOf="@id/f0p" android:layout_centerVertical="true">
+                <ImageView android:id="@id/zi" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/a6b" android:layout_centerVertical="true" />
+                <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3d" android:textColor="@color/wz" android:id="@id/a1e" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/a6b" android:drawablePadding="6.0dip" android:layout_toRightOf="@id/zi" android:layout_centerVertical="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</merge>

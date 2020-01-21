@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <bitmap android:src="@drawable/bw5" android:alpha="@integer/n" />
+    </item>
+    <item android:state_enabled="false">
+        <bitmap android:src="@drawable/bw5" android:alpha="@integer/m" />
+    </item>
+    <item android:drawable="@drawable/bw5" />
+</selector>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/a4c" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" android:layout_width="fill_parent" android:layout_height="@dimen/alo" android:layout_alignParentTop="true" />
+    <ScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:layout_below="@id/ff6">
+        <RelativeLayout android:paddingBottom="29.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:id="@id/b3p" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+                <View android:layout_width="fill_parent" android:layout_height="15.0dip" />
+                <com.tencent.wework.enterprisemgr.view.EnterpriseListView android:id="@id/dgv" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@null" android:dividerHeight="0.0dip" />
+                <View android:id="@id/b61" android:background="@color/a4c" android:layout_width="fill_parent" android:layout_height="14.0dip" />
+                <com.tencent.wework.common.views.CommonItemView android:id="@id/fzj" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/rx" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/b3p">
+                <com.tencent.wework.common.views.ConfigurableTextView android:textSize="15.0sp" android:textColor="@color/a3f" android:gravity="center" android:id="@id/eho" android:background="@drawable/kb" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/rx" android:text="@string/c96" android:layout_alignParentBottom="true" />
+                <View android:id="@id/b6b" android:background="@color/a4c" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                <com.tencent.wework.common.views.ConfigurableTextView android:textSize="15.0sp" android:textColor="@color/a3f" android:gravity="center" android:id="@id/asb" android:background="@drawable/kb" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/rx" android:text="@string/dbs" android:layout_alignParentBottom="true" />
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

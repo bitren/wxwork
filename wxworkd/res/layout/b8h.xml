@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:gravity="center_horizontal" android:id="@id/ed7" android:src="@drawable/ajv" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" style="@style/ns" />
+    <ImageView android:gravity="center" android:id="@id/ecz" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/c_" android:layout_alignLeft="@id/ed7" android:layout_alignTop="@id/ed7" />
+    <ImageView android:id="@id/ed1" android:visibility="gone" android:layout_width="25.0dip" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_alignRight="@id/ed7" android:layout_alignBottom="@id/ed7" />
+    <ImageView android:id="@id/ed0" android:visibility="gone" android:layout_width="26.0dip" android:layout_height="26.0dip" android:layout_marginTop="2.0dip" android:src="@drawable/amr" android:layout_alignRight="@id/ed7" android:layout_alignBottom="@id/ed7" />
+    <RelativeLayout android:id="@id/ed5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/ed7" android:layout_centerHorizontal="true">
+        <TextView android:id="@id/ed3" android:visibility="gone" android:layout_centerHorizontal="true" style="@style/nt" />
+        <TextView android:id="@id/ed4" android:paddingTop="@dimen/g" android:visibility="gone" android:layout_centerHorizontal="true" style="@style/nt" />
+    </RelativeLayout>
+    <TextView android:textColor="#fffd8f44" android:id="@id/ed6" android:visibility="gone" android:layout_below="@id/ed5" android:layout_centerHorizontal="true" style="@style/nt" />
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="a4s">10.0sp</dimen>
+    <dimen name="a4t">12.0sp</dimen>
+    <dimen name="a4u">16.0sp</dimen>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/kb" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/ffb" android:background="@color/a47" android:layout_width="fill_parent" android:layout_height="@dimen/a61" android:layout_marginLeft="@dimen/ty" android:layout_alignParentTop="true" />
+    <RelativeLayout android:id="@id/cz0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ty" android:layout_marginTop="@dimen/u7" android:layout_marginRight="8.0dip" android:layout_marginBottom="@dimen/u5" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentRight="true">
+        <com.rockerhieu.emojicon.EmojiconTextView android:textSize="16.0sp" android:ellipsize="middle" android:id="@id/cyt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:drawablePadding="@dimen/sh" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+        <com.rockerhieu.emojicon.EmojiconTextView android:textSize="16.0sp" android:textColor="@color/a5f" android:ellipsize="end" android:id="@id/ao_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_toRightOf="@id/cyt" android:layout_alignTop="@id/cyt" />
+        <FrameLayout android:id="@id/ap3" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="1.0dip" android:layout_alignRight="@id/ao_" android:layout_alignBottom="@id/ao_">
+            <include layout="@layout/yw" />
+        </FrameLayout>
+        <com.rockerhieu.emojicon.EmojiconTextView android:textSize="@dimen/a6h" android:textColor="@color/a4h" android:ellipsize="end" android:id="@id/b3l" android:layout_width="wrap_content" android:layout_height="56.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="8.0dip" android:singleLine="true" android:layout_toRightOf="@id/cyt" android:layout_below="@id/ao_" android:layout_alignWithParentIfMissing="true" />
+    </RelativeLayout>
+    <View android:id="@id/a01" android:background="@color/a47" android:layout_width="fill_parent" android:layout_height="@dimen/a61" android:layout_below="@id/cz0" />
+</RelativeLayout>

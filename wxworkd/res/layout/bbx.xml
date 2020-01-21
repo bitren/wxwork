@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ap4" android:background="@color/a3a" android:descendantFocusability="afterDescendants" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ww="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" android:layout_width="fill_parent" android:layout_height="@dimen/alo" />
+    <ScrollView android:paddingBottom="0.0dip" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View android:id="@id/ai4" android:background="@color/a4s" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/rw" android:layout_marginTop="@dimen/aj2" />
+            <com.tencent.wework.common.views.CommonInfoCardView android:id="@id/epc" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.tencent.wework.common.views.CommonItemView android:id="@id/eqo" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="@dimen/rx" />
+            <com.tencent.wework.common.views.CommonItemView android:id="@id/eqi" android:clickable="true" android:layout_width="wrap_content" android:layout_height="@dimen/rx" />
+            <com.tencent.wework.common.views.CommonItemView android:id="@id/epy" android:clickable="true" android:layout_width="wrap_content" android:layout_height="@dimen/rx" android:layout_marginTop="@dimen/s8" />
+            <com.tencent.wework.common.views.CommonItemView android:id="@id/erd" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/rx" />
+            <com.tencent.wework.common.views.CommonItemView android:id="@id/erj" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/rx" />
+            <com.tencent.wework.common.views.CommonItemView android:id="@id/erc" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/rx" />
+            <com.tencent.wework.common.views.CommonItemView android:id="@id/eph" android:clickable="true" android:layout_width="wrap_content" android:layout_height="@dimen/rx" />
+            <com.tencent.wework.common.views.CommonItemView android:id="@id/epl" android:clickable="true" android:layout_width="wrap_content" android:layout_height="@dimen/rx" />
+            <com.tencent.wework.common.views.CommonItemView android:id="@id/erh" android:clickable="true" android:layout_width="wrap_content" android:layout_height="@dimen/rx" />
+            <com.tencent.wework.common.views.CommonItemView android:id="@id/eos" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="@dimen/rx" />
+            <com.tencent.wework.common.views.CommonItemView android:id="@id/epj" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="@dimen/rx" />
+            <com.tencent.wework.common.views.CommonItemView android:id="@id/eqt" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="@dimen/rx" />
+            <com.tencent.wework.common.views.CommonItemView android:id="@id/eq1" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="@dimen/rx" android:layout_marginTop="@dimen/s8" />
+            <com.tencent.wework.common.views.CommonItemView android:id="@id/eon" android:clickable="true" android:layout_width="wrap_content" android:layout_height="@dimen/rx" />
+            <com.tencent.wework.common.views.CommonItemView android:id="@id/epx" android:visibility="visible" android:clickable="true" android:layout_width="wrap_content" android:layout_height="@dimen/rx" android:layout_marginTop="@dimen/s8" />
+            <com.tencent.wework.common.views.CommonItemView android:id="@id/epk" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="@dimen/rx" />
+            <com.tencent.wework.common.views.CommonItemView android:id="@id/eq2" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="@dimen/rx" />
+            <com.tencent.wework.common.views.CommonItemView android:id="@id/eop" android:clickable="true" android:layout_width="wrap_content" android:layout_height="@dimen/rx" android:layout_marginTop="@dimen/s8" />
+            <com.tencent.wework.common.views.CommonItemView android:id="@id/epv" android:clickable="true" android:layout_width="wrap_content" android:layout_height="@dimen/rx" android:layout_marginTop="@dimen/s8" />
+            <View android:layout_width="fill_parent" android:layout_height="@dimen/aj2" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

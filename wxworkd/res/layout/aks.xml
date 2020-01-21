@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.wework.common.views.StepIndicatorView android:textSize="12.0sp" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/a55" android:layout_centerHorizontal="true" app:connectorDefaultColor="#ffcfd8e1" app:connectorHighlightColor="#ff468ceb" app:doingColor="#ff468ceb" app:doingDrawable="@drawable/bi1" app:doneColor="#ff468ceb" app:doneDrawable="@drawable/bi2" app:textMinWidth="118.0dip" app:todoColor="#ff98a9ba" app:todoDrawable="@drawable/bi3"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

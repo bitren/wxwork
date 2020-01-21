@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.wework.common.views.BaseRelativeLayout android:orientation="vertical" android:id="@id/d_" android:background="@color/a3a" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" android:layout_width="fill_parent" android:layout_height="@dimen/alo" />
+    <ScrollView android:id="@id/c2i" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/agc" android:layout_below="@id/ff6">
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:id="@id/e1g" android:background="@color/a3a" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/agd">
+                    <RelativeLayout android:id="@id/e1h" android:background="@drawable/ja" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="@dimen/agc" android:layout_marginRight="16.0dip">
+                        <ViewStub android:id="@id/fyc" android:inflatedId="@id/e1l" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="16.0dip" android:layout_centerHorizontal="true" />
+                        <ImageView android:id="@id/e1m" android:layout_width="160.0dip" android:layout_height="160.0dip" android:layout_marginTop="34.0dip" android:layout_below="@id/e1l" android:layout_centerHorizontal="true" />
+                        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignLeft="@id/e1m" android:layout_alignTop="@id/e1m" android:layout_alignRight="@id/e1m" android:layout_alignBottom="@id/e1m">
+                            <ViewStub android:id="@id/fyd" android:layout="@layout/and" android:inflatedId="@id/e1p" android:layout_width="@dimen/yg" android:layout_height="@dimen/yg" android:layout_centerInParent="true" />
+                        </RelativeLayout>
+                        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3f" android:textColor="#ff9e9e9e" android:gravity="center" android:id="@id/e1k" android:background="#f3ffffff" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignLeft="@id/e1m" android:layout_alignTop="@id/e1m" android:layout_alignRight="@id/e1m" android:layout_alignBottom="@id/e1m" />
+                        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3c" android:textColor="#ff9e9e9e" android:gravity="center" android:id="@id/e1i" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_below="@id/e1m" android:layout_centerHorizontal="true" android:textAlignment="center" />
+                        <View android:layout_width="fill_parent" android:layout_height="32.0dip" android:layout_below="@id/e1i" />
+                    </RelativeLayout>
+                    <ImageView android:layout_gravity="center_horizontal" android:id="@id/bm_" android:paddingTop="@dimen/yp" android:paddingBottom="@dimen/z0" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/b_y" />
+                </LinearLayout>
+                <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3c" android:textColor="#ff9e9e9e" android:id="@id/e1j" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="22.0dip" android:layout_marginRight="22.0dip" android:text="@string/eon" android:layout_centerHorizontal="true" android:textAlignment="center" />
+                <ViewStub android:id="@id/fyb" android:inflatedId="@id/e1_" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</com.tencent.wework.common.views.BaseRelativeLayout>

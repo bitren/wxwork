@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/a3n" android:background="@color/a1x" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:id="@id/c02" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/bzg" android:paddingLeft="@dimen/apq" android:paddingTop="@dimen/apq" android:paddingRight="@dimen/apq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a7v" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3f" android:textColor="@color/jf" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:paddingTop="@dimen/apq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ebz" android:layout_toRightOf="@id/bzg" />
+        <ImageView android:id="@id/bzj" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6.0dip" android:src="@drawable/baw" android:layout_toLeftOf="@id/bzt" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/bzt" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_todo_action_more" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/a4e" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip" android:layout_centerHorizontal="true">
+        <com.tencent.wework.friends.views.ElectronicNameCardView android:id="@id/a4c" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.tencent.wework.friends.views.BigImageElectronicNameCardView android:id="@id/a4d" android:visibility="gone" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" />
+    </RelativeLayout>
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3d" android:textColor="@color/vw" android:layout_gravity="center_horizontal" android:id="@id/a40" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/xt" android:text="@string/cw_" android:layout_alignBottom="@id/a4e" android:layout_centerHorizontal="true" />
+    <ImageView android:id="@id/op" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="50.0dip" android:layout_marginBottom="24.0dip" android:src="@drawable/bvx" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <RelativeLayout android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/bzv" android:paddingLeft="@dimen/yp" android:paddingRight="@dimen/yp" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/a0i" android:layout_below="@id/a4e" android:layout_centerHorizontal="true">
+        <View android:id="@id/rd" android:background="@color/ar4" android:layout_width="1.0dip" android:layout_height="1.0dip" android:layout_centerInParent="true" />
+        <LinearLayout android:orientation="vertical" android:id="@id/bzw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="50.0dip" android:layout_toLeftOf="@id/bzy">
+            <ImageView android:layout_gravity="center_horizontal" android:layout_width="@dimen/yg" android:layout_height="@dimen/yg" android:src="@drawable/a9o" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="12.0sp" android:textColor="@color/xz" android:gravity="center_horizontal" android:id="@id/bzx" android:layout_width="wrap_content" android:layout_height="36.0dip" android:layout_marginTop="@dimen/yw" android:text="@string/cwx" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/bzy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <ImageView android:layout_gravity="center_horizontal" android:layout_width="@dimen/yg" android:layout_height="@dimen/yg" android:src="@drawable/a7b" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="12.0sp" android:textColor="@color/xz" android:gravity="center_horizontal" android:id="@id/bzz" android:layout_width="wrap_content" android:layout_height="36.0dip" android:layout_marginTop="@dimen/yw" android:text="@string/bu7" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/c00" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="50.0dip" android:layout_toRightOf="@id/bzy">
+            <ImageView android:layout_gravity="center_horizontal" android:layout_width="@dimen/yg" android:layout_height="@dimen/yg" android:src="@drawable/b8v" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="12.0sp" android:textColor="@color/xz" android:gravity="center_horizontal" android:id="@id/c01" android:layout_width="wrap_content" android:layout_height="36.0dip" android:layout_marginTop="@dimen/yw" android:text="@string/cwy" />
+        </LinearLayout>
+    </RelativeLayout>
+    <ViewStub android:id="@id/fx1" android:layout="@layout/a7y" android:inflatedId="@id/bzf" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    <ViewStub android:id="@id/fx0" android:layout="@layout/a7w" android:inflatedId="@id/bbt" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    <ViewStub android:id="@id/fx2" android:layout="@layout/a80" android:inflatedId="@id/bc2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+</merge>

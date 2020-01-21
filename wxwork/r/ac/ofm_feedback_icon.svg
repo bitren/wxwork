@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="96px" height="96px" viewBox="0 0 96 96" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>ofm_feedback_icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="OFM菜单" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="ofm_feedback_icon" sketch:type="MSArtboardGroup" fill="#FEFEFE">
+            <path d="M77,25 L19,25 C17.343,25 16,26.3429708 16,27.9999348 L16,68.0000652 C16,69.6570292 17.343,71 19,71 L77,71 C78.656,71 80,69.6570292 80,68.0000652 L80,27.9999348 C80,26.3429708 78.657,25 77,25 Z M72.7714249,39.4281296 L49.7790744,52.6763971 C49.2185971,52.9992623 48.5843729,53.0699197 48.0002966,52.9354743 C47.4142537,53.0699197 46.7810127,52.9982809 46.2215187,52.6763971 L23.2291682,39.4281296 C22.0541326,38.750996 21.6509823,37.250507 22.3294547,36.0768087 L22.8211015,35.2269568 C23.4995739,34.0532585 25.0040129,33.651885 26.1790486,34.3290187 L48.0002966,46.9021152 L69.8205613,34.3290187 C70.9955969,33.651885 72.5000359,34.0532585 73.1775251,35.2269568 L73.6691718,36.0768087 C74.3496109,37.250507 73.9464605,38.750996 72.7714249,39.4281296 Z" id="Path" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

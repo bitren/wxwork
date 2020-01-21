@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="138px" height="138px" viewBox="0 0 138 138" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="138" height="138"></rect>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-2">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Rectangle-14" fill="#2BA245" xlink:href="#path-1"></use>
+            <path d="M50.5432781,90.0445369 L53.0412955,91.676294 C57.2802244,94.4452507 62.8794798,95.9208245 69.52,95.9208245 C87.8045548,95.9208245 102,83.8349595 102,68.5046672 C102,52.3292574 87.4603717,39 69.52,39 C50.6777602,39 36,52.2102978 36,68.5046672 C36,73.4255831 37.4255796,77.2210358 41.2316775,82.9278633 L42.8577696,85.3660106 L40.0561473,93.8052642 L50.5432781,90.0445369 Z M35.2,101.920824 C32.5670468,102.349574 31.2832711,100.999101 32.08,98.7880597 L36.24,86.2570007 C32.3209727,80.3808479 30,75.3405104 30,68.5046672 C30,48.7795224 47.46108,33 69.52,33 C90.53892,33 108,48.7795224 108,68.5046672 C108,87.7092864 90.53892,101.920824 69.52,101.920824 C61.798604,101.920824 55.0530514,100.157081 49.76,96.6995499 L35.2,101.920824 Z" id="Path-2" fill="#FFFFFF" mask="url(#mask-2)"></path>
+        </g>
+    </g>
+</svg>

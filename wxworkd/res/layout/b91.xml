@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:id="@id/czb" android:background="@drawable/vt" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/a67" android:padding="@dimen/a2p" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.tencent.wework.common.views.PhotoImageView android:id="@id/agf" android:layout_width="@dimen/qp" android:layout_height="@dimen/qp" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/zh" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3u" android:textColor="@color/aat" android:ellipsize="end" android:id="@id/fky" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/u_" android:singleLine="true" android:layout_toRightOf="@id/agf" android:layout_alignParentTop="true" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3q" android:textColor="@color/a79" android:id="@id/fpm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/u_" android:text="00:00" android:layout_toRightOf="@id/agf" android:layout_below="@id/fky" />
+    </RelativeLayout>
+</merge>

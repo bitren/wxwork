@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/a68" />
+    <item android:drawable="@color/al9" android:top="@dimen/ag6" />
+    <item android:drawable="@color/a47" android:left="@dimen/r3" android:top="@dimen/ag6" />
+    <item android:drawable="@color/atc" android:left="@dimen/r3" android:top="@dimen/ag6" android:bottom="@dimen/ag6" />
+</layer-list>

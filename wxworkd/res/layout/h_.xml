@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.CommonEditTextItemView android:id="@id/ctw" android:layout_width="fill_parent" android:layout_height="46.0dip" app:contentTextHint="@string/gay" app:labelText="@string/gax" />
+    <com.tencent.wework.common.views.CommonItemView android:id="@id/e90" android:layout_width="fill_parent" android:layout_height="46.0dip" app:bottomLineType="cdq" app:hasBottomLine="true" app:hasTopLine="false" app:leftTitle="@string/gb2" />
+    <com.tencent.wework.common.views.CommonEditTextItemView android:id="@id/fn" android:layout_width="fill_parent" android:layout_height="46.0dip" app:contentTextHint="@string/gaw" app:labelText="@string/gav" />
+    <com.tencent.wework.common.views.CommonItemView android:id="@id/aad" android:layout_width="fill_parent" android:layout_height="46.0dip" app:bottomLineType="cdq" app:hasBottomLine="true" app:hasTopLine="false" app:leftTitle="@string/gah" />
+    <com.tencent.wework.common.views.CommonEditTextItemView android:id="@id/dds" android:layout_width="fill_parent" android:layout_height="46.0dip" app:contentInputType="textPhoneNumber" app:contentTextHint="@string/gb0" app:labelText="@string/gaz" />
+</LinearLayout>

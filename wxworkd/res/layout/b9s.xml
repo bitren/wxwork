@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/bum" android:background="@drawable/bog" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/a35" android:layout_below="@id/ff6" android:layout_centerHorizontal="true" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:gravity="center" android:id="@id/buh" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/a33" android:layout_marginTop="@dimen/a31" android:layout_marginRight="@dimen/a33" android:text="@string/ibc" android:maxLines="2" android:singleLine="false" android:layout_below="@id/bum" android:layout_centerHorizontal="true" style="@style/yn" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:gravity="center" android:id="@id/buk" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/a33" android:layout_marginTop="@dimen/a32" android:layout_marginRight="@dimen/a33" android:text="@string/ibc" android:singleLine="true" android:layout_below="@id/buh" android:layout_centerHorizontal="true" style="@style/yo" />
+    <FrameLayout android:id="@id/do7" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/a2w" android:layout_marginTop="@dimen/a2y" android:layout_marginRight="@dimen/a2w" android:layout_below="@id/buk" android:layout_centerHorizontal="true">
+        <Button android:id="@id/buf" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/a2x" android:text="@string/ibc" style="@style/xr" />
+        <com.tencent.wework.common.views.DownloadProgressBar android:id="@id/bug" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <com.tencent.wework.common.views.ConfigurableTextView android:gravity="center" android:id="@id/bul" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/a2w" android:layout_marginTop="@dimen/a34" android:layout_marginRight="@dimen/a2w" android:text="@string/e1p" android:singleLine="true" android:layout_below="@id/do7" android:layout_centerHorizontal="true" style="@style/yp" />
+</RelativeLayout>

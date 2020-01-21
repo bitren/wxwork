@@ -1,0 +1,278 @@
+.class public abstract Lbea;
+.super Lbff;
+.source "ForwardingCache.java"
+
+# interfaces
+.implements Lbdy;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<K:",
+        "Ljava/lang/Object;",
+        "V:",
+        "Ljava/lang/Object;",
+        ">",
+        "Lbff;",
+        "Lbdy<",
+        "TK;TV;>;"
+    }
+.end annotation
+
+
+# direct methods
+.method protected constructor <init>()V
+    .locals 0
+
+    .line 39
+    invoke-direct {p0}, Lbff;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public asMap()Ljava/util/concurrent/ConcurrentMap;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/concurrent/ConcurrentMap<",
+            "TK;TV;>;"
+        }
+    .end annotation
+
+    .line 115
+    invoke-virtual {p0}, Lbea;->delegate()Lbdy;
+
+    move-result-object v0
+
+    invoke-interface {v0}, Lbdy;->asMap()Ljava/util/concurrent/ConcurrentMap;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public cleanUp()V
+    .locals 1
+
+    .line 120
+    invoke-virtual {p0}, Lbea;->delegate()Lbdy;
+
+    move-result-object v0
+
+    invoke-interface {v0}, Lbdy;->cleanUp()V
+
+    return-void
+.end method
+
+.method protected abstract delegate()Lbdy;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Lbdy<",
+            "TK;TV;>;"
+        }
+    .end annotation
+.end method
+
+.method protected bridge synthetic delegate()Ljava/lang/Object;
+    .locals 1
+
+    .line 35
+    invoke-virtual {p0}, Lbea;->delegate()Lbdy;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public get(Ljava/lang/Object;Ljava/util/concurrent/Callable;)Ljava/lang/Object;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(TK;",
+            "Ljava/util/concurrent/Callable<",
+            "+TV;>;)TV;"
+        }
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/util/concurrent/ExecutionException;
+        }
+    .end annotation
+
+    .line 58
+    invoke-virtual {p0}, Lbea;->delegate()Lbdy;
+
+    move-result-object v0
+
+    invoke-interface {v0, p1, p2}, Lbdy;->get(Ljava/lang/Object;Ljava/util/concurrent/Callable;)Ljava/lang/Object;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public getAllPresent(Ljava/lang/Iterable;)Lcom/google/common/collect/ImmutableMap;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/Iterable<",
+            "*>;)",
+            "Lcom/google/common/collect/ImmutableMap<",
+            "TK;TV;>;"
+        }
+    .end annotation
+
+    .line 66
+    invoke-virtual {p0}, Lbea;->delegate()Lbdy;
+
+    move-result-object v0
+
+    invoke-interface {v0, p1}, Lbdy;->getAllPresent(Ljava/lang/Iterable;)Lcom/google/common/collect/ImmutableMap;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public getIfPresent(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/Object;",
+            ")TV;"
+        }
+    .end annotation
+
+    .line 50
+    invoke-virtual {p0}, Lbea;->delegate()Lbdy;
+
+    move-result-object v0
+
+    invoke-interface {v0, p1}, Lbdy;->getIfPresent(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public invalidate(Ljava/lang/Object;)V
+    .locals 1
+
+    .line 87
+    invoke-virtual {p0}, Lbea;->delegate()Lbdy;
+
+    move-result-object v0
+
+    invoke-interface {v0, p1}, Lbdy;->invalidate(Ljava/lang/Object;)V
+
+    return-void
+.end method
+
+.method public invalidateAll()V
+    .locals 1
+
+    .line 100
+    invoke-virtual {p0}, Lbea;->delegate()Lbdy;
+
+    move-result-object v0
+
+    invoke-interface {v0}, Lbdy;->invalidateAll()V
+
+    return-void
+.end method
+
+.method public invalidateAll(Ljava/lang/Iterable;)V
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/Iterable<",
+            "*>;)V"
+        }
+    .end annotation
+
+    .line 95
+    invoke-virtual {p0}, Lbea;->delegate()Lbdy;
+
+    move-result-object v0
+
+    invoke-interface {v0, p1}, Lbdy;->invalidateAll(Ljava/lang/Iterable;)V
+
+    return-void
+.end method
+
+.method public put(Ljava/lang/Object;Ljava/lang/Object;)V
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(TK;TV;)V"
+        }
+    .end annotation
+
+    .line 74
+    invoke-virtual {p0}, Lbea;->delegate()Lbdy;
+
+    move-result-object v0
+
+    invoke-interface {v0, p1, p2}, Lbdy;->put(Ljava/lang/Object;Ljava/lang/Object;)V
+
+    return-void
+.end method
+
+.method public putAll(Ljava/util/Map;)V
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/util/Map<",
+            "+TK;+TV;>;)V"
+        }
+    .end annotation
+
+    .line 82
+    invoke-virtual {p0}, Lbea;->delegate()Lbdy;
+
+    move-result-object v0
+
+    invoke-interface {v0, p1}, Lbdy;->putAll(Ljava/util/Map;)V
+
+    return-void
+.end method
+
+.method public size()J
+    .locals 2
+
+    .line 105
+    invoke-virtual {p0}, Lbea;->delegate()Lbdy;
+
+    move-result-object v0
+
+    invoke-interface {v0}, Lbdy;->size()J
+
+    move-result-wide v0
+
+    return-wide v0
+.end method
+
+.method public stats()Lbdz;
+    .locals 1
+
+    .line 110
+    invoke-virtual {p0}, Lbea;->delegate()Lbdy;
+
+    move-result-object v0
+
+    invoke-interface {v0}, Lbdy;->stats()Lbdz;
+
+    move-result-object v0
+
+    return-object v0
+.end method

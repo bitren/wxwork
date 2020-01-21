@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.wework.common.views.BaseRelativeLayout android:orientation="vertical" android:id="@id/c_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/fga" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="16.0dip" android:layout_alignParentTop="true">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="13.0sp" android:textColor="@color/y8" android:ellipsize="end" android:id="@id/fg4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0sp" android:textColor="@color/jf" android:ellipsize="middle" android:gravity="left" android:id="@id/ffl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="250.0dip" android:singleLine="true" android:layout_toLeftOf="@id/fg4" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/ems" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_below="@id/fga">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0sp" android:textColor="@color/a4h" android:id="@id/e30" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/f5j" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0sp" android:textColor="@color/a4h" android:id="@id/e2w" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/e30" />
+    </RelativeLayout>
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="16.0sp" android:textColor="@color/r8" android:ellipsize="end" android:id="@id/c74" android:background="@drawable/k1" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="12.0dip" android:layout_below="@id/ems" />
+    <FrameLayout android:id="@id/ap3" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:layout_marginBottom="12.0dip" android:layout_alignRight="@id/c74" android:layout_alignBottom="@id/c74">
+        <ImageView android:layout_width="46.0dip" android:layout_height="22.0dip" android:src="@drawable/icon_broadcast_re_detail" />
+    </FrameLayout>
+    <com.tencent.wework.common.views.BaseFrameLayout android:id="@id/c77" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:layout_below="@id/c74" android:layout_alignWithParentIfMissing="true">
+        <android.support.v7.widget.RecyclerView android:id="@id/dtp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" />
+    </com.tencent.wework.common.views.BaseFrameLayout>
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3c" android:textColor="@color/a63" android:id="@id/fq6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:layout_marginBottom="24.0dip" android:text="@string/ev6" android:layout_below="@id/c77" />
+    <View android:layout_width="fill_parent" android:layout_height="32.0dip" android:layout_below="@id/c77" />
+    <View android:id="@id/b5z" android:background="@color/a1f" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="8.0dip" android:layout_alignParentBottom="true" />
+</com.tencent.wework.common.views.BaseRelativeLayout>

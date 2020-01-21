@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="192px" height="192px" viewBox="0 0 192 192" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>chatromm_toolpanel_icon_photo@3x</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="chatromm_toolpanel_icon_photo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-13" transform="translate(48.000000, 48.000000)">
+            <g id="icon" transform="translate(9.000000, 18.000000)">
+                <path d="M64.663898,28.4372713 C62.8161007,26.7724723 59.7298266,26.6601098 57.7753529,28.1825316 L49.7201326,34.4570819 L53.7918678,42.8883548 L28.6583879,19.6633708 C26.8337349,17.9772717 23.8818014,17.9953306 22.078855,19.690734 L0,40.4526204 L0,57 L78,57 L78,40.4526204 L64.663898,28.4372713 Z" id="Rectangle-39" fill="#333333"></path>
+                <rect id="Rectangle-40" stroke="#333333" stroke-width="6" x="3" y="3" width="72" height="54" rx="3"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

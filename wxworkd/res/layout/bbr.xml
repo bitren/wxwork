@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/a3a" android:descendantFocusability="afterDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" android:layout_width="fill_parent" android:layout_height="@dimen/alo" android:layout_alignParentTop="true" />
+    <ScrollView android:paddingBottom="0.0dip" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/ff6">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.tencent.wework.common.views.CommonItemView android:id="@id/eq9" android:clickable="true" android:layout_width="wrap_content" android:layout_height="@dimen/rx" android:layout_marginTop="@dimen/ajd" />
+            <View android:id="@id/ai3" android:background="@color/a4s" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/rw" android:layout_marginTop="@dimen/ajd" />
+            <com.tencent.wework.common.views.CommonItemView android:id="@id/eq7" android:clickable="true" android:layout_width="wrap_content" android:layout_height="@dimen/rx" />
+            <com.tencent.wework.common.views.CommonItemView android:id="@id/eq8" android:clickable="true" android:layout_width="wrap_content" android:layout_height="@dimen/rx" />
+            <com.tencent.wework.common.views.CommonItemView android:id="@id/eq_" android:clickable="true" android:layout_width="wrap_content" android:layout_height="@dimen/rx" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:gravity="center_vertical" android:id="@id/eqa" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/hw3" style="@style/a0w" />
+            <View android:id="@id/ai6" android:background="@color/a4s" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/rw" android:layout_marginTop="@dimen/ajd" />
+            <com.tencent.wework.common.views.CommonItemView android:id="@id/eq5" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/rx" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:gravity="center_vertical" android:id="@id/eq6" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" android:text="@string/hvj" style="@style/a0w" />
+        </LinearLayout>
+    </ScrollView>
+    <com.tencent.wework.login.views.AppLockTimePickerView android:id="@id/du0" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentBottom="true" />
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ww="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.PhotoImageView android:id="@id/av2" android:layout_width="@dimen/vc" android:layout_height="@dimen/vc" android:scaleType="centerCrop" android:layout_centerInParent="true" />
+    <ImageView android:id="@id/ec" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerInside" android:layout_centerInParent="true" />
+    <ProgressBar android:id="@id/av3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <View android:background="@color/a45" android:layout_width="fill_parent" android:layout_height="@dimen/sz" android:layout_alignParentBottom="true" />
+    <View android:background="@color/a45" android:layout_width="@dimen/sz" android:layout_height="fill_parent" android:layout_alignParentRight="true" />
+    <ViewStub android:id="@id/fwg" android:layout="@layout/a0s" android:inflatedId="@id/av5" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.tencent.wework.common.views.CommonListCheckBox android:id="@id/av4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignRight="@id/av2" android:layout_alignBottom="@id/av2" ww:unchecked_visible="false" />
+</merge>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/a3a" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/edh" android:descendantFocusability="afterDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" android:layout_width="fill_parent" android:layout_height="@dimen/alo" />
+        <View android:id="@id/ai2" android:background="@color/a4s" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/rw" />
+        <com.tencent.wework.common.views.CommonItemView android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/rx" android:layout_marginTop="24.0dip" android:text="@string/hm1" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/ajh" android:textColor="@color/a4i" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/s2" android:layout_marginTop="@dimen/ajg" android:layout_marginRight="@dimen/s3" android:layout_marginBottom="@dimen/ajg" android:text="@string/hm2" />
+        <com.tencent.wework.common.views.CommonItemView android:id="@id/eqb" android:layout_width="fill_parent" android:layout_height="@dimen/rx" android:layout_marginTop="24.0dip" android:text="@string/hlx" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/ajh" android:textColor="@color/a4i" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/s2" android:layout_marginTop="@dimen/ajg" android:layout_marginRight="@dimen/s3" android:layout_marginBottom="@dimen/ajg" android:text="@string/hly" />
+        <com.tencent.wework.common.views.CommonItemView android:id="@id/epn" android:layout_width="fill_parent" android:layout_height="@dimen/rx" android:layout_marginTop="24.0dip" android:text="@string/hlv" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/ajh" android:textColor="@color/a4i" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/s2" android:layout_marginTop="@dimen/ajg" android:layout_marginRight="@dimen/s3" android:layout_marginBottom="@dimen/ajg" android:text="@string/hlw" />
+        <com.tencent.wework.common.views.CommonItemView android:id="@id/eqn" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/rx" android:layout_marginTop="24.0dip" app:bottomLineType="g34" app:hasBottomLine="true" app:hasTopLine="true" app:leftTitle="@string/hlz" app:rightIconType="esq" app:topLineType="g34" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textColor="@color/a4i" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/hm0" style="@style/a0w" />
+        <com.tencent.wework.common.views.CommonItemView android:id="@id/eqs" android:layout_width="fill_parent" android:layout_height="@dimen/rx" android:layout_marginTop="24.0dip" app:bottomLineType="g34" app:hasBottomLine="true" app:hasTopLine="true" app:leftTitle="@string/hm3" app:rightIconType="re" app:topLineType="g34" />
+    </LinearLayout>
+</ScrollView>

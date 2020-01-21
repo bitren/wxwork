@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/a3a" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.BaseLinearLayout android:orientation="vertical" android:id="@id/bh_" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.tencent.wework.setting.views.CommonCardButton android:id="@id/bh9" android:layout_width="fill_parent" android:layout_height="196.0dip" android:layout_marginLeft="@dimen/ajd" android:layout_marginTop="@dimen/ajd" android:layout_marginRight="@dimen/ajd" android:text="@string/hp0" app:topDrawable="@drawable/b9l" />
+        <com.tencent.wework.setting.views.CommonCardButton android:id="@id/bha" android:layout_width="fill_parent" android:layout_height="196.0dip" android:layout_marginLeft="@dimen/ajd" android:layout_marginTop="8.0dip" android:layout_marginRight="@dimen/ajd" android:text="@string/db4" app:topDrawable="@drawable/b9m" />
+        <com.tencent.wework.msg.views.MessageItemTextView android:textSize="13.0dip" android:textColor="@color/y7" android:gravity="bottom|center" android:id="@id/bhz" android:paddingBottom="20.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" android:layout_weight="1.0" />
+    </com.tencent.wework.common.views.BaseLinearLayout>
+</ScrollView>

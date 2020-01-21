@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/atc" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" android:layout_width="fill_parent" android:layout_height="@dimen/alo" android:layout_alignParentTop="true" />
+    <com.tencent.wework.common.views.CommonBottomActionBar android:id="@id/z5" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/su" android:layout_alignParentBottom="true" />
+    <com.tencent.wework.common.views.ScrollListView android:id="@id/amz" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@null" android:layout_above="@id/z5" android:layout_below="@id/ff6" />
+    <LinearLayout android:orientation="vertical" android:id="@id/dk7" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:layout_gravity="center_horizontal" android:layout_width="75.0dip" android:layout_height="75.0dip" android:src="@drawable/icon_department_no_member" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a6a" android:textColor="@color/a4h" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/c04" />
+    </LinearLayout>
+</RelativeLayout>

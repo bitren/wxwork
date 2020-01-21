@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#fff5f5f5" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" android:layout_width="fill_parent" android:layout_height="@dimen/alo" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="13.0sp" android:textColor="#ff888888" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="22.0dip" android:text="@string/et0" />
+    <com.tencent.wework.hardwaremgr.view.HardwareAddMethodView android:id="@id/eey" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="14.0dip" />
+    <com.tencent.wework.hardwaremgr.view.HardwareAddMethodView android:id="@id/yd" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginRight="14.0dip" />
+    <com.tencent.wework.hardwaremgr.view.HardwareAddMethodView android:id="@id/cto" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginRight="14.0dip" />
+    <com.tencent.wework.hardwaremgr.view.HardwareAddMethodView android:id="@id/evw" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginRight="14.0dip" />
+</LinearLayout>

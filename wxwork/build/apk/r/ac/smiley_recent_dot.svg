@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_page_control android</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0.00202247191 0.00134831461 24 0.00134831461 24 24 0.00202247191 24"></polygon>
+    </defs>
+    <g id="icon_page_control-android" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="时钟-copy-3">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Clip-2"></g>
+            <path d="M12,0 C5.37165169,0 0,5.37165169 0,12 C0,18.6283483 5.37165169,24 12,24 C18.6283483,24 24,18.6283483 24,12 C24,5.37165169 18.6283483,0 12,0 Z M12.1482472,12.9708202 L18.9168202,15.1227303 L18.5069326,16.4062584 L10.7973034,13.9550562 L10.7973034,3.1551236 L12.145618,3.1551236 L12.145618,12.9708202 L12.1482472,12.9708202 Z" id="Fill-1" fill="#D6D6D6" mask="url(#mask-2)"></path>
+        </g>
+    </g>
+</svg>

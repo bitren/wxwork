@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/a3a" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ww="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" android:layout_width="fill_parent" android:layout_height="@dimen/alo" />
+    <com.tencent.wework.setting.views.SimpleItemView android:id="@id/f3u" android:clickable="true" android:layout_width="wrap_content" android:layout_height="@dimen/rx" android:layout_marginTop="@dimen/y3" ww:leftContent="@string/huk" ww:rightIconType="re" ww:topLineType="g34" />
+    <com.tencent.wework.setting.views.SimpleItemView android:id="@id/avh" android:clickable="true" android:layout_width="wrap_content" android:layout_height="@dimen/rx" android:layout_marginTop="@dimen/y3" ww:leftContent="@string/huh" ww:rightIconType="re" ww:topLineType="g34" />
+    <RelativeLayout android:id="@id/avb" android:background="@color/a5n" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.tencent.wework.common.views.ClearableEditText android:textSize="17.0sp" android:textColor="@color/amz" android:textColorHint="@color/yp" android:gravity="center|left" android:id="@id/ced" android:background="@color/atc" android:layout_width="fill_parent" android:layout_height="@dimen/rx" android:layout_marginLeft="@dimen/y5" android:layout_marginRight="6.0dip" android:hint="@string/hui" android:singleLine="true" />
+    </RelativeLayout>
+</LinearLayout>

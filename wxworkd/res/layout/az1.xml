@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/je"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:paddingLeft="@dimen/g" android:paddingRight="@dimen/g" style="@style/jp">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:id="@id/dd_" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/iz" />
+        </LinearLayout>
+        <FrameLayout android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/dd2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="75.0dip" android:minHeight="30.0dip">
+            <TextView android:textSize="14.0dip" android:textColor="@color/ad1" android:gravity="center" android:layout_gravity="center" android:id="@id/ddc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="60.0dip" android:minHeight="30.0dip" android:text="@string/e9r" />
+            <ProgressBar android:gravity="center" android:layout_gravity="center" android:id="@id/ddb" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/a0x" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

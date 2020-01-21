@@ -1,0 +1,17 @@
+.class public interface abstract Lcom/tencent/wework/foundation/logic/ColleagueBbsService$BackwardGetPostCommentListCallBack;
+.super Ljava/lang/Object;
+.source "ColleagueBbsService.java"
+
+# interfaces
+.implements Lcom/tencent/wework/foundation/logic/ColleagueBbsService$GetPostCommentListCallBack;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/tencent/wework/foundation/logic/ColleagueBbsService;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "BackwardGetPostCommentListCallBack"
+.end annotation

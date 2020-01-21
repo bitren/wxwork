@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="#fff2f3f5" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" android:layout_alignParentTop="true" style="@style/a13" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:fillViewport="true" android:layout_below="@id/ff6">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <android.support.v7.widget.RecyclerView android:id="@id/cs1" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="8.0dip">
+                <View android:background="@color/a4s" android:layout_width="fill_parent" android:layout_height="@dimen/rw" android:layout_marginLeft="16.0dip" android:layout_marginRight="12.0dip" />
+                <com.tencent.wework.common.views.CommonItemView android:textSize="@dimen/a3f" android:textColor="@color/jp" android:id="@id/nl" android:layout_width="fill_parent" android:layout_height="55.0dip" android:layout_centerHorizontal="true" app:bottomLineType="g34" app:hasBottomLine="false" app:hasTopLine="false" app:leftContent="@string/a1z" app:rightIconType="re" app:topLineType="g34" />
+                <View android:background="@color/a4s" android:layout_width="fill_parent" android:layout_height="@dimen/rw" android:layout_marginLeft="16.0dip" android:layout_marginRight="12.0dip" />
+                <com.tencent.wework.common.views.CommonItemView android:textSize="@dimen/a3f" android:textColor="@color/jp" android:id="@id/p5" android:layout_width="fill_parent" android:layout_height="55.0dip" android:layout_marginRight="3.0dip" android:layout_centerHorizontal="true" app:bottomLineType="g34" app:hasBottomLine="false" app:hasTopLine="false" app:leftContent="@string/a2d" app:rightIconType="re" app:topLineType="g34" />
+                <View android:id="@id/cqt" android:background="@color/a4s" android:layout_width="fill_parent" android:layout_height="@dimen/rw" android:layout_marginLeft="16.0dip" android:layout_marginRight="12.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

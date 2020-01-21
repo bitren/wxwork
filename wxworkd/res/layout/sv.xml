@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/d09" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/nd" android:layout_centerHorizontal="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.enterprise.attendance.view.MapView2 android:id="@id/d08" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:background="@drawable/at_" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

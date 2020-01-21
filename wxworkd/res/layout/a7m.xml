@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/b_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ctw" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <ProgressBar android:id="@id/b_2" android:layout_width="fill_parent" android:layout_height="@dimen/a2z" android:layout_marginRight="@dimen/a30" android:max="1000" android:progress="100" android:indeterminate="false" android:indeterminateOnly="false" android:indeterminateDrawable="@drawable/o1" android:progressDrawable="@drawable/o1" android:layout_toLeftOf="@id/b_3" android:layout_centerVertical="true" />
+</merge>

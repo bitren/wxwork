@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.rockerhieu.emojicon.EmojiconTextView android:textSize="@dimen/a3d" android:textColor="@color/a40" android:id="@id/d99" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" />
+        <com.rockerhieu.emojicon.EmojiconTextView android:textSize="@dimen/a3d" android:textColor="@color/a40" android:id="@id/d98" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="100.0dip" android:maxLines="4" android:layout_below="@id/d99" android:layout_alignWithParentIfMissing="true" />
+    </RelativeLayout>
+</merge>

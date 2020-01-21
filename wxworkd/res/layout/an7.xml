@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.wework.common.views.BaseRelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/fdn" android:background="@color/a47" android:layout_width="fill_parent" android:layout_height="@dimen/t0" />
+    <com.tencent.wework.common.views.BaseFrameLayout android:id="@id/g13" android:paddingBottom="-2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <com.tencent.wework.common.views.recyclerview.SimpleHorizontalScrollBar android:id="@id/g12" android:background="@color/a1x" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <View android:background="@color/a47" android:layout_width="fill_parent" android:layout_height="@dimen/t0" />
+    </com.tencent.wework.common.views.BaseFrameLayout>
+    <android.support.v7.widget.RecyclerView android:id="@id/cs4" android:background="@color/atc" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/g13" android:layout_below="@id/fdn" android:overScrollMode="never" layout="@layout/a0a" />
+    <RelativeLayout android:id="@id/dbk" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/g13" android:layout_below="@id/fdn">
+        <View android:id="@id/dbf" android:layout_width="1.0dip" android:layout_height="1.0dip" android:layout_centerInParent="true" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="16.0sp" android:textColor="@color/k" android:ellipsize="end" android:id="@id/dbm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/s2" android:layout_marginRight="@dimen/s2" android:layout_marginBottom="@dimen/yd" android:maxLines="1" android:layout_above="@id/dbf" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <ViewStub android:id="@id/fzi" android:inflatedId="@id/g15" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/fdn" />
+</com.tencent.wework.common.views.BaseRelativeLayout>

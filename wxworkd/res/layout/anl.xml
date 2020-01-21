@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/ed8" android:background="@drawable/kb" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:id="@id/f3k" android:background="@color/atc" android:layout_width="fill_parent" android:layout_height="@dimen/z0">
+        <RelativeLayout android:gravity="center" android:id="@id/f36" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3f" android:textColor="@drawable/w0" android:gravity="center" android:id="@id/f37" android:clickable="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/j6d" android:drawableRight="@drawable/w1" android:drawablePadding="8.0dip" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <RelativeLayout android:gravity="center" android:id="@id/f3c" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3f" android:textColor="@drawable/w0" android:ellipsize="middle" android:gravity="center" android:id="@id/f3d" android:clickable="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="@dimen/zb" android:text="@string/j63" android:singleLine="true" android:drawableRight="@drawable/w1" android:drawablePadding="8.0dip" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

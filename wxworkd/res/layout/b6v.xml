@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/cjn" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:id="@id/cjk" android:background="@color/a47" android:layout_width="fill_parent" android:layout_height="@dimen/a61" />
+        <com.rockerhieu.emojicon.EmojiconTextView android:textSize="@dimen/a3h" android:textColor="@color/jf" android:id="@id/ckr" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="8.5dip" android:layout_marginBottom="2.0dip" android:text="" />
+        <RelativeLayout android:id="@id/cjl" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="8.5dip" />
+        <View android:background="@color/a47" android:layout_width="fill_parent" android:layout_height="@dimen/a61" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/ao1" android:background="@drawable/a3u" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="33.0dip" android:layout_below="@id/cjn">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a7s" android:textColor="#ffa4a4a4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="@string/fxq" android:layout_centerVertical="true" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a7s" android:textColor="#ffa4a4a4" android:id="@id/cjy" android:background="@drawable/a3v" android:paddingLeft="7.5dip" android:paddingTop="3.0dip" android:paddingRight="7.5dip" android:paddingBottom="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:text="@string/fxp" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <WebView android:id="@id/cj1" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/ao1" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/b9q" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:layout_below="@id/cj1" android:layout_centerHorizontal="true">
+        <ProgressBar android:id="@id/b_7" android:visibility="gone" android:layout_width="14.0dip" android:layout_height="14.0dip" android:indeterminate="true" android:indeterminateDrawable="@drawable/a1r" android:layout_centerInParent="true" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/s4" android:textColor="@color/a3l" android:id="@id/b_6" android:background="@drawable/mh" android:paddingLeft="2.0dip" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ft5" />
+    </LinearLayout>
+    <View android:id="@id/ck5" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_below="@id/b9q" />
+    <com.tencent.wework.enterprise.mail.view.ReadMailAttachmentLinearLayout android:orientation="vertical" android:id="@id/cin" android:paddingTop="1.0dip" android:paddingBottom="1.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/ck5">
+        <View android:id="@id/cis" android:background="@color/a47" android:layout_width="fill_parent" android:layout_height="@dimen/a61" />
+    </com.tencent.wework.enterprise.mail.view.ReadMailAttachmentLinearLayout>
+    <View android:id="@id/cig" android:background="@drawable/bih" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignTop="@id/cin" />
+    <View android:id="@id/cih" android:background="@drawable/bii" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignBottom="@id/cin" />
+    <RelativeLayout android:id="@id/ckh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <View android:layout_width="fill_parent" android:layout_height="14.0dip" android:layout_below="@id/cin" />
+    <ProgressBar android:id="@id/dym" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" android:indeterminateDrawable="@drawable/a1s" android:layout_centerInParent="true" />
+</merge>

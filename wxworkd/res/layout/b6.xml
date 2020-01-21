@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/a1x" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" android:layout_width="fill_parent" android:layout_height="@dimen/alw" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="252.0dip">
+        <com.tencent.wework.enterprise.attendance.view.MapView2 android:id="@id/d07" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/atc" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/tb" android:background="@color/a38" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textColor="#ffd6d6d6" android:gravity="center_vertical" android:id="@id/tc" android:paddingLeft="12.0dip" android:layout_width="fill_parent" android:layout_height="33.0dip" android:text="@string/ain" />
+        <View android:background="#ffe5e7e6" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    </LinearLayout>
+    <android.support.v7.widget.RecyclerView android:id="@id/cr7" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <com.tencent.wework.common.views.CommonItemView android:id="@id/eo0" android:layout_width="fill_parent" android:layout_height="@dimen/rx" app:hasBottomLine="false" app:hasTopLine="true" app:rightIconType="re" app:topLineType="g34" />
+</LinearLayout>

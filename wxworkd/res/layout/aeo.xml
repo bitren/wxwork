@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.wework.enterprise.attendance.view.AttendanceStatisticsPageRootLinearLayout android:orientation="vertical" android:id="@id/ed8" android:background="@color/a1x" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/v3" />
+    <LinearLayout android:orientation="vertical" android:id="@id/a68" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:id="@id/a6_" android:layout_width="fill_parent" android:layout_height="252.0dip">
+            <com.tencent.mail.calendar.view.CalendarScrollView android:id="@id/a7v" android:background="@color/hz" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </FrameLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@id/byi" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+</com.tencent.wework.enterprise.attendance.view.AttendanceStatisticsPageRootLinearLayout>

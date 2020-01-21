@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="168px" height="168px" viewBox="0 0 168 168" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.2 (33826) - http://www.bohemiancoding.com/sketch -->
+    <title>Panel_icon_service</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Panel" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Panel_icon_service" fill="#7C8186">
+            <g transform="translate(50.000000, 36.000000)" id="Fill-8">
+                <path d="M24.8679245,54 L2,54 C1.27712096,54 0.501836557,53.5459034 -1.0658141e-14,53 C-0.170573569,51.9746089 0.0232475313,51.0679193 1,50 L43,1 C43.7671791,0.0963274499 44.4619532,-0.130720851 45,7.10542736e-15 C45.6964445,0.281274079 46.0483043,0.857164804 46,1 L42.1320755,42 L67,42 C67.6680794,42 68.4774127,42.4540966 69,43 C69.178232,44.0268948 68.9762755,44.9320808 68,46 L24,95 C23.3310831,95.9036734 22.6046424,96.129218 22,96 C21.3160391,95.7172231 20.9498045,95.142836 21,95 L24.8679245,54 Z"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/edh" android:background="@color/atc" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" android:layout_width="fill_parent" android:layout_height="@dimen/alo" android:layout_alignParentTop="true" />
+    <com.tencent.wework.contact.groupchatselect.views.BottomBottomMultiSelectHListView android:id="@id/chf" android:background="#fffafafa" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="85.0dip" android:layout_alignParentBottom="true" />
+    <FrameLayout android:id="@id/byk" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/chf" android:layout_below="@id/ff6">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.tencent.wework.contact.groupchatselect.views.ContactTabScrollView android:id="@id/f5g" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <android.support.v4.view.ViewPager android:id="@id/fq0" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/f5g" />
+        </RelativeLayout>
+    </FrameLayout>
+</RelativeLayout>

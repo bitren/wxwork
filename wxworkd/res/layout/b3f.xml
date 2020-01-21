@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/a3a" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.BaseLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:background="@color/atf" android:layout_width="fill_parent" android:layout_height="87.0dip" android:layout_marginTop="20.0dip">
+            <com.tencent.wework.common.views.PhotoImageView android:id="@id/dp2" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:id="@id/dp4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_toRightOf="@id/dp2" android:layout_alignTop="@id/dp2" />
+        </RelativeLayout>
+        <com.tencent.wework.common.views.CommonItemView android:id="@id/dp3" android:layout_width="wrap_content" android:layout_height="@dimen/rx" app:leftTitle="@string/gr4" app:rightIconType="re" />
+        <com.tencent.wework.common.views.CommonItemView android:id="@id/dp8" android:layout_width="wrap_content" android:layout_height="@dimen/rx" app:leftTitle="@string/gr7" app:rightIconType="re" />
+        <com.tencent.wework.common.views.CommonItemView android:id="@id/dp5" android:layout_width="wrap_content" android:layout_height="@dimen/rx" app:leftTitle="@string/gr5" app:rightIconType="re" />
+        <com.tencent.wework.common.views.CommonItemView android:id="@id/dp7" android:layout_width="wrap_content" android:layout_height="@dimen/rx" android:layout_marginTop="30.0dip" app:leftTitle="@string/gr6" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:id="@id/dp6" android:layout_width="fill_parent" android:layout_height="@dimen/tt" android:layout_marginLeft="16.0dip" android:layout_marginTop="@dimen/si" android:layout_marginRight="16.0dip" android:text="@string/hp0" style="@style/xr" />
+    </com.tencent.wework.common.views.BaseLinearLayout>
+</ScrollView>

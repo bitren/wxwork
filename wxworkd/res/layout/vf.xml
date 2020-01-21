@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ap4" android:background="@color/atc" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" android:layout_width="fill_parent" android:layout_height="@dimen/alo" />
+    <com.tencent.wework.enterprise.mail.view.MScrollView android:id="@id/efg" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3h" android:textColor="@color/a60" android:id="@id/faj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="16.0dip" />
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip">
+                <ImageView android:id="@id/erx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.6999817dip" android:src="@drawable/icon_schedule_location" />
+                <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3d" android:textColor="@color/h4" android:id="@id/ctn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.5dip" android:layout_marginTop="2.0dip" android:layout_toRightOf="@id/erx" />
+            </RelativeLayout>
+            <com.tencent.wework.enterprise.mail.view.ScheduleTimeReadView android:id="@id/f9o" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" />
+            <View android:layout_width="fill_parent" android:layout_height="19.0dip" />
+            <com.tencent.wework.common.views.CommonItemView android:id="@id/e__" android:layout_width="fill_parent" android:layout_height="@dimen/rx" app:bottomLineType="g34" app:hasBottomLine="false" app:hasTopLine="true" app:leftTitle="@string/b84" app:rightIconType="dkj" app:topLineType="cdq" />
+            <com.tencent.wework.common.views.CommonItemView android:id="@id/gi" android:layout_width="fill_parent" android:layout_height="@dimen/rx" app:bottomLineType="g34" app:hasBottomLine="false" app:hasTopLine="true" app:leftTitle="@string/b60" app:rightIconType="dkj" app:topLineType="cdq" />
+            <com.tencent.wework.common.views.CommonItemView android:id="@id/ts" android:layout_width="fill_parent" android:layout_height="@dimen/rx" app:bottomLineType="cdq" app:hasBottomLine="true" app:hasTopLine="true" app:leftTitle="@string/b7u" app:rightIconType="re" app:topLineType="cdq" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3f" android:textColor="@color/a60" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="16.0dip" android:text="@string/b83" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3d" android:textColor="@color/h4" android:id="@id/e9l" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="16.0dip" android:lineSpacingExtra="5.0dip" />
+            <View android:id="@id/cjb" android:background="@color/a4s" android:layout_width="fill_parent" android:layout_height="@dimen/rw" android:layout_marginLeft="16.0dip" android:layout_marginTop="10.0dip" />
+        </LinearLayout>
+    </com.tencent.wework.enterprise.mail.view.MScrollView>
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.android.support.view.CageHorizontalLinearLayout android:id="@id/cqo" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="16.0sp" android:textColor="#ff333333" android:ellipsize="end" android:gravity="center|left" android:id="@id/e39" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:singleLine="true" app:keepInParent="false" />
+        <com.tencent.wework.appstore.view.RankView android:id="@id/e3u" android:layout_width="wrap_content" android:layout_height="wrap_content" app:keepInParent="true" app:layout_gravity="aan" />
+    </com.tencent.android.support.view.CageHorizontalLinearLayout>
+    <com.tencent.android.support.view.CageHorizontalLinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:layout_below="@id/cqo">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0sp" android:textColor="#ffa6aab3" android:ellipsize="end" android:gravity="center|right" android:id="@id/ecl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" app:keepInParent="false" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0sp" android:textColor="#ffa6aab3" android:id="@id/axk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="19.0dip" android:singleLine="true" app:keepInParent="true" />
+    </com.tencent.android.support.view.CageHorizontalLinearLayout>
+</RelativeLayout>

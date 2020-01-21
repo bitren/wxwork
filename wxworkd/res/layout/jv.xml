@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/dq7" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="matrix" android:layout_centerInParent="true" />
+    <SurfaceView android:layout_gravity="center" android:id="@id/dq9" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.tencent.pb.emoji.ui.EmojiGifView android:id="@id/c1f" android:layout_width="wrap_content" android:layout_height="wrap_content" android:adjustViewBounds="true" android:minWidth="@dimen/vb" android:minHeight="@dimen/vb" android:layout_centerInParent="true" />
+    <ImageView android:id="@id/fp5" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/c8s" android:layout_centerInParent="true" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3a" android:textColor="@color/atc" android:id="@id/fpi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginBottom="57.0dip" android:text="@string/ibc" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3a" android:textColor="@color/atc" android:id="@id/fpn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:layout_marginBottom="57.0dip" android:text="@string/ibc" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    <ProgressBar android:id="@id/ctm" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="?android:progressBarStyle" />
+</RelativeLayout>

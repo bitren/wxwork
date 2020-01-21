@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="96px" height="96px" viewBox="0 0 96 96" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>receipt_payment_icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Tab-&amp;-Nav-Bar" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="receipt_payment_icon" fill="#FFFFFF">
+            <path d="M59,65 L73,65 L73,56 L78,56 L78,40 L73,40 L73,31 L59,31 L59,25 L38,25 L38,31 L23,31 L23,40 L18,40 L18,56 L23,56 L23,65 L38,65 L38,71 L59,71 L59,65 Z M18,28.0004442 C18,26.3433446 19.3373097,25 20.9959374,25 L75.0040626,25 C76.6586731,25 78,26.3517805 78,28.0004442 L78,67.9995558 C78,69.6566554 76.6626903,71 75.0040626,71 L20.9959374,71 C19.3413269,71 18,69.6482195 18,67.9995558 L18,28.0004442 Z" id="Combined-Shape"></path>
+            <polygon id="Rectangle-58-Copy-2" points="37.7586207 45.6724138 36 49.1896552 43.9137931 58.862069 61.5 37.7586207 59.7413793 36 43.9137931 50.9482759"></polygon>
+        </g>
+    </g>
+</svg>

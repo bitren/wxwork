@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ww="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/b5p" android:background="#fff3f3f3" android:layout_width="fill_parent" android:layout_height="10.0dip" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="54.0dip">
+        <RelativeLayout android:id="@id/cpp" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="19.0sp" android:id="@id/cpq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+            <View android:id="@id/cpk" android:background="#ff438edf" android:layout_width="88.0dip" android:layout_height="3.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/eci" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="19.0sp" android:id="@id/ecj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+            <View android:id="@id/ec3" android:background="#ff438edf" android:layout_width="88.0dip" android:layout_height="3.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <View android:id="@id/b5t" android:background="@color/a47" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+</LinearLayout>

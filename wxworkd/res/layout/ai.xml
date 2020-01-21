@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.BaseRelativeLayout android:id="@id/byv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/z9" app:bottomDividerSize="@dimen/t0">
+        <ImageView android:id="@id/byq" android:padding="@dimen/zk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/zk" android:src="@drawable/a7v" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/byr" android:padding="@dimen/zk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ar0" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/xx" android:layout_alignParentEnd="true" />
+        <com.tencent.wework.common.views.AlphaImageView android:id="@id/fat" android:padding="@dimen/zk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/z4" android:layout_toLeftOf="@id/byu" android:layout_centerVertical="true" />
+        <com.tencent.wework.common.views.AlphaImageView android:id="@id/fau" android:padding="@dimen/zk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/z4" android:layout_toRightOf="@id/byu" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/a3h" android:textColor="#ff394250" android:id="@id/byu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    </com.tencent.wework.common.views.BaseRelativeLayout>
+    <android.support.v4.view.ViewPager android:id="@id/fq0" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/dm6" />
+    <com.tencent.wework.enterprise.todo.calendarchat.freebusy.FreeBusyLayout android:id="@id/byp" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/dm6" android:layout_below="@id/byv" />
+    <com.tencent.wework.common.views.BaseLinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/dm6" android:background="@color/a5n" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" app:topDividerSize="@dimen/t0">
+        <TextView android:textSize="17.0sp" android:textColor="#ff2864a5" android:ellipsize="end" android:gravity="center" android:id="@id/dm7" android:paddingTop="@dimen/y3" android:paddingBottom="@dimen/y3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bso" android:maxLines="1" android:includeFontPadding="false" />
+    </com.tencent.wework.common.views.BaseLinearLayout>
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.wework.common.views.BaseRelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.EmptyViewStub android:id="@id/fdh" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include android:id="@id/fdg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="40.0dip" android:layout_marginTop="290.0dip" android:layout_marginRight="40.0dip" layout="@layout/bfi" />
+</com.tencent.wework.common.views.BaseRelativeLayout>

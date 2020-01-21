@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>multitaskBar_miniProgram_addIcon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="multitaskBar_miniProgram_addIcon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2">
+            <circle id="Oval-2" fill="#FFFFFF" cx="36" cy="36" r="36"></circle>
+            <path d="M33,33 L33,18 L39,18 L39,33 L54,33 L54,39 L39,39 L39,54 L33,54 L33,39 L18,39 L18,33 L33,33 Z" id="Combined-Shape" fill="#000000" opacity="0.889999986"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,124 @@
+.class final Lcom/tencent/mm/pluginsdk/model/app/AppInfoLogic$5;
+.super Ljava/lang/Object;
+.source "AppInfoLogic.java"
+
+# interfaces
+.implements Landroid/content/DialogInterface$OnClickListener;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/tencent/mm/pluginsdk/model/app/AppInfoLogic;->launchAppByWeChat(Landroid/content/Context;Landroid/content/Intent;Ljava/lang/String;ILcom/tencent/mm/pluginsdk/model/app/OnLaunchAppCallback;Landroid/os/Bundle;)Z
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x8
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic val$callback:Lcom/tencent/mm/pluginsdk/model/app/OnLaunchAppCallback;
+
+.field final synthetic val$currentPageAppId:Ljava/lang/String;
+
+.field final synthetic val$currentPageUrl:Ljava/lang/String;
+
+.field final synthetic val$pkg:Ljava/lang/String;
+
+
+# direct methods
+.method constructor <init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/tencent/mm/pluginsdk/model/app/OnLaunchAppCallback;)V
+    .locals 0
+
+    .line 976
+    iput-object p1, p0, Lcom/tencent/mm/pluginsdk/model/app/AppInfoLogic$5;->val$pkg:Ljava/lang/String;
+
+    iput-object p2, p0, Lcom/tencent/mm/pluginsdk/model/app/AppInfoLogic$5;->val$currentPageUrl:Ljava/lang/String;
+
+    iput-object p3, p0, Lcom/tencent/mm/pluginsdk/model/app/AppInfoLogic$5;->val$currentPageAppId:Ljava/lang/String;
+
+    iput-object p4, p0, Lcom/tencent/mm/pluginsdk/model/app/AppInfoLogic$5;->val$callback:Lcom/tencent/mm/pluginsdk/model/app/OnLaunchAppCallback;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public onClick(Landroid/content/DialogInterface;I)V
+    .locals 3
+
+    .line 979
+    sget-object p1, Lcom/tencent/mm/plugin/report/service/ReportManager;->INSTANCE:Lcom/tencent/mm/plugin/report/service/ReportManager;
+
+    const/4 p2, 0x7
+
+    new-array p2, p2, [Ljava/lang/Object;
+
+    const/4 v0, 0x0
+
+    .line 980
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v1
+
+    aput-object v1, p2, v0
+
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v1
+
+    const/4 v2, 0x1
+
+    aput-object v1, p2, v2
+
+    const-string v1, ""
+
+    const/4 v2, 0x2
+
+    aput-object v1, p2, v2
+
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v1
+
+    const/4 v2, 0x3
+
+    aput-object v1, p2, v2
+
+    iget-object v1, p0, Lcom/tencent/mm/pluginsdk/model/app/AppInfoLogic$5;->val$pkg:Ljava/lang/String;
+
+    const/4 v2, 0x4
+
+    aput-object v1, p2, v2
+
+    iget-object v1, p0, Lcom/tencent/mm/pluginsdk/model/app/AppInfoLogic$5;->val$currentPageUrl:Ljava/lang/String;
+
+    const/4 v2, 0x5
+
+    aput-object v1, p2, v2
+
+    iget-object v1, p0, Lcom/tencent/mm/pluginsdk/model/app/AppInfoLogic$5;->val$currentPageAppId:Ljava/lang/String;
+
+    const/4 v2, 0x6
+
+    aput-object v1, p2, v2
+
+    const/16 v1, 0x3716
+
+    .line 979
+    invoke-virtual {p1, v1, p2}, Lcom/tencent/mm/plugin/report/service/ReportManager;->kvStat(I[Ljava/lang/Object;)V
+
+    .line 981
+    iget-object p1, p0, Lcom/tencent/mm/pluginsdk/model/app/AppInfoLogic$5;->val$callback:Lcom/tencent/mm/pluginsdk/model/app/OnLaunchAppCallback;
+
+    if-eqz p1, :cond_0
+
+    .line 982
+    invoke-interface {p1, v0}, Lcom/tencent/mm/pluginsdk/model/app/OnLaunchAppCallback;->onLaunchApp(Z)V
+
+    :cond_0
+    return-void
+.end method

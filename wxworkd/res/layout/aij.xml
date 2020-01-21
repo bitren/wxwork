@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/ap4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip">
+        <Button android:id="@id/abf" android:background="@drawable/c4d" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginLeft="16.0dip" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="13.0sp" android:textColor="#ff000000" android:id="@id/f7r" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="16.0dip" android:text="@string/fbq" android:layout_toRightOf="@id/abf" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a3">Zulazulela ekhaya</string>
+    <string name="a4">Zulazulela phezulu</string>
+    <string name="abc_action_menu_overflow_description">Izinketho eziningi</string>
+    <string name="a5">Kwenziwe</string>
+    <string name="a6">Buka konke</string>
+    <string name="a7">Khetha uhlelo lokusebenza</string>
+    <string name="a8">VALIWE</string>
+    <string name="a9">VULIWE</string>
+    <string name="al">Alt+</string>
+    <string name="an">Ctrl+</string>
+    <string name="ao">susa</string>
+    <string name="ap">enter</string>
+    <string name="aq">Function+</string>
+    <string name="ar">Meta+</string>
+    <string name="as">Shift+</string>
+    <string name="at">space</string>
+    <string name="au">Sym+</string>
+    <string name="av">Imenyu+</string>
+    <string name="aw">Iyasesha...</string>
+    <string name="ax">Sula inkinga</string>
+    <string name="ay">Umbuzo wosesho</string>
+    <string name="az">Sesha</string>
+    <string name="b0">Hambisa umbuzo</string>
+    <string name="b1">Ukusesha ngezwi</string>
+    <string name="b2">Yabelana no-</string>
+    <string name="b3">Yabelana ne-%s</string>
+    <string name="b4">Goqa</string>
+    <string name="hlf">Sesha</string>
+    <string name="i6c">999+</string>
+</resources>

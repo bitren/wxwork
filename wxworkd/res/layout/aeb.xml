@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/edh" android:padding="8.0dip" android:layout_width="72.0dip" android:layout_height="72.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/vv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <View android:id="@id/ct3" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <ImageView android:id="@id/bxs" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+</RelativeLayout>

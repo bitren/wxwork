@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/a88" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewStub android:id="@id/c9c" android:layout="@layout/akb" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:id="@id/c9d" android:paddingLeft="@dimen/y5" android:paddingTop="@dimen/zk" android:paddingRight="@dimen/y5" android:paddingBottom="@dimen/zk" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.tencent.wework.common.views.PhotoImageView android:id="@id/c9e" android:layout_width="@dimen/f" android:layout_height="@dimen/f" android:layout_centerVertical="true" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toEndOf="@id/c9e">
+            <com.tencent.wework.common.views.CommonExternalContactDisplayView android:ellipsize="middle" android:id="@id/c9f" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="200.0dip" android:singleLine="true" android:drawablePadding="8.0dip" android:layout_marginStart="@dimen/zk" app:leftTextColor="@color/a5f" app:leftTextSize="@dimen/u9" app:maxRightWidth="120.0dip" app:rightTextColor="@color/ajh" app:rightTextDrawablePadding="@dimen/aaw" app:rightTextSize="@dimen/a9n" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/fn" android:textColor="@color/a4i" android:id="@id/c91" android:background="@color/a3a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/zk" />
+        </LinearLayout>
+        <com.tencent.wework.common.views.ConfigurableTextView android:textColor="@color/aca" android:id="@id/c8v" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <View android:id="@id/ahy" android:background="@color/a4s" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/rw" android:layout_marginStart="@dimen/y5" />
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:background="#fffafafa" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.tencent.wework.msg.views.MessageItemTextView android:textSize="14.0sp" android:textColor="@color/a4h" android:id="@id/fbu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="28.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="28.0dip" android:text="@string/f8_" android:layout_alignParentTop="true" />
+            <ImageView android:id="@id/bkg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:src="@drawable/bia" android:layout_below="@id/fbu" android:layout_centerHorizontal="true" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="16.0dip" android:textStyle="bold" android:textColor="@color/jf" android:id="@id/ef7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="45.0dip" android:layout_alignTop="@id/bkg" android:layout_centerHorizontal="true" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:id="@id/em3" android:layout_width="fill_parent" android:layout_height="46.0dip" android:layout_marginLeft="40.0dip" android:layout_marginTop="40.0dip" android:layout_marginRight="40.0dip" android:layout_marginBottom="20.0dip" android:text="@string/f89" android:layout_below="@id/bkg" style="@style/xr" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.PhotoImageView android:id="@id/d4h" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/bog" android:layout_alignParentLeft="true" android:layout_centerVertical="true" app:maskType="edm" app:radius="@dimen/a_e" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3d" android:textColor="@color/a40" android:ellipsize="middle" android:gravity="center|left" android:id="@id/d4j" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:singleLine="true" android:layout_toRightOf="@id/d4h" android:layout_centerVertical="true" />
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="n3">80.0px</dimen>
+    <dimen name="nc">7.0dip</dimen>
+    <dimen name="ng">15.0dip</dimen>
+    <dimen name="sz">0.6dip</dimen>
+    <dimen name="a5c">9.0dip</dimen>
+    <dimen name="a7u">0.6dip</dimen>
+    <dimen name="a7w">1.0dip</dimen>
+    <dimen name="apl">170.0dip</dimen>
+    <dimen name="apn">250.0dip</dimen>
+    <dimen name="aq0">22.0dip</dimen>
+    <dimen name="aq3">83.0dip</dimen>
+    <dimen name="aq5">40.0dip</dimen>
+    <dimen name="aq6">30.0dip</dimen>
+    <dimen name="aq7">335.5dip</dimen>
+    <dimen name="aq8">336.0dip</dimen>
+    <dimen name="aq9">252.0dip</dimen>
+    <dimen name="aq_">36.0dip</dimen>
+    <dimen name="aqa">209.69998dip</dimen>
+    <dimen name="aqb">210.0dip</dimen>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/a3a" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/fe0" style="@style/a13" />
+    <TextView android:textSize="@dimen/a3d" android:textColor="@color/a4h" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/s2" android:layout_marginTop="15.0dip" android:layout_marginRight="@dimen/s2" android:layout_marginBottom="5.0dip" android:text="@string/f0u" />
+    <com.tencent.wework.common.views.CommonItemView android:id="@id/a8t" android:layout_width="fill_parent" android:layout_height="@dimen/rx" />
+    <TextView android:textSize="@dimen/a3d" android:textColor="@color/a4h" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/s2" android:layout_marginTop="15.0dip" android:layout_marginRight="@dimen/s2" android:layout_marginBottom="5.0dip" android:text="@string/f0x" />
+    <com.tencent.wework.common.views.CommonItemView android:id="@id/dib" android:layout_width="fill_parent" android:layout_height="@dimen/rx" />
+    <com.tencent.wework.common.views.CommonItemView android:id="@id/f7_" android:layout_width="fill_parent" android:layout_height="@dimen/rx" android:layout_marginTop="15.0dip" />
+    <com.tencent.wework.common.views.CommonItemView android:id="@id/adw" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/rx" android:layout_marginTop="15.0dip" />
+    <com.tencent.wework.common.views.CommonItemView android:id="@id/fpy" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/rx" android:layout_marginTop="15.0dip" />
+    <TextView android:textSize="@dimen/a3d" android:textColor="@color/a4h" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/s2" android:layout_marginTop="5.0dip" android:layout_marginRight="@dimen/s2" android:layout_marginBottom="5.0dip" android:text="@string/f12" />
+    <com.tencent.wework.common.views.CommonItemView android:id="@id/dmq" android:layout_width="fill_parent" android:layout_height="@dimen/rx" android:layout_marginTop="15.0dip" />
+    <TextView android:textSize="@dimen/a3d" android:textColor="@color/a4h" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/s2" android:layout_marginTop="5.0dip" android:layout_marginRight="@dimen/s2" android:layout_marginBottom="5.0dip" android:text="@string/f0y" />
+    <com.tencent.wework.common.views.CommonItemView android:id="@id/c8e" android:layout_width="fill_parent" android:layout_height="@dimen/rx" android:layout_marginTop="15.0dip" />
+</LinearLayout>

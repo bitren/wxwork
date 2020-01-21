@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="#fff1e6d7" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="bottom" android:background="@drawable/bl2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/bl3" android:scaleType="fitEnd" android:layout_alignParentBottom="true" />
+    <RelativeLayout android:id="@id/bjo" android:background="@drawable/b_m" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="20.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="28.0dip">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="16.0sp" android:textColor="#ffaa956f" android:id="@id/aex" android:paddingLeft="5.0dip" android:paddingTop="1.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bn9" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+        <ImageView android:id="@id/cr6" android:paddingTop="1.0dip" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/co2" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0sp" android:textColor="#ffbf473d" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/eu_" android:padding="5.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/h4m" android:layout_alignParentBottom="true" />
+        <com.tencent.wework.enterprise.redenvelopes.view.RedEnvelopReceiverListView android:id="@id/e5h" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" android:layout_above="@id/eu_" android:layout_below="@id/aex" />
+    </RelativeLayout>
+</FrameLayout>

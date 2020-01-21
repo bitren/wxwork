@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/atc" android:clickable="true" android:layout_width="fill_parent" android:layout_height="45.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/b96" android:visibility="visible" android:clickable="true" android:layout_width="@dimen/z1" android:layout_height="fill_parent" android:src="@drawable/icon_doc_preview_toolbar_packup_pressed" android:scaleType="center" />
+    <View android:background="@color/a68" android:layout_width="@dimen/t2" android:layout_height="22.0dip" android:layout_marginRight="15.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/b93" android:visibility="visible" android:clickable="true" android:layout_width="@dimen/xo" android:layout_height="fill_parent" android:src="@drawable/icon_doc_preview_toolbar_table_add_row_pressed" android:scaleType="center" android:layout_weight="1.0" />
+        <ImageView android:id="@id/b92" android:clickable="true" android:layout_width="@dimen/xo" android:layout_height="fill_parent" android:src="@drawable/icon_doc_preview_toolbar_table_add_column_pressed" android:scaleType="center" android:layout_weight="1.0" />
+        <ImageView android:id="@id/b95" android:clickable="true" android:layout_width="@dimen/xo" android:layout_height="fill_parent" android:src="@drawable/icon_doc_preview_toolbar_table_delete_row_pressed" android:scaleType="center" android:layout_weight="1.0" />
+        <ImageView android:id="@id/b94" android:visibility="visible" android:clickable="true" android:layout_width="@dimen/xo" android:layout_height="fill_parent" android:src="@drawable/icon_doc_preview_toolbar_table_delete_column_pressed" android:scaleType="center" android:layout_weight="1.0" />
+    </LinearLayout>
+    <View android:background="@color/a68" android:layout_width="@dimen/t2" android:layout_height="22.0dip" android:layout_marginLeft="15.0dip" />
+</LinearLayout>

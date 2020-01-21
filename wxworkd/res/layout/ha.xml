@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.pb.emoji.ui.EmojiInputLayout android:id="@id/edh" android:background="@color/atc" android:layout_width="fill_parent" android:layout_height="fill_parent" app:emojiButton="@id/bdl" app:inputText="@id/bb4" app:isEmojiPanelDrawTopLine="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/alw" />
+        <FrameLayout android:id="@id/byi" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <com.tencent.wework.common.views.PostDetailEditor android:id="@id/a06" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</com.tencent.pb.emoji.ui.EmojiInputLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ww="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" style="@style/a13" />
+    <com.tencent.wework.setting.views.FontSizeSettingView android:id="@id/bx5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" ww:autowithsys="true" />
+    <com.tencent.wework.msg.views.FontSizeExampleView android:background="@color/afk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@id/bx5" android:layout_below="@id/ff6" />
+</RelativeLayout>

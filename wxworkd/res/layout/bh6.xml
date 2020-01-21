@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/dot" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/c5o" android:layout_centerVertical="true" />
+    <RelativeLayout android:id="@id/c2_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignLeft="@id/dot" android:layout_alignTop="@id/dot" android:layout_alignRight="@id/dot" android:layout_alignBottom="@id/dot">
+        <ImageView android:id="@id/f46" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/auk" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/f47" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/auj" android:layout_toLeftOf="@id/f46" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/f48" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/aui" android:scaleType="center" android:layout_toLeftOf="@id/f47" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</merge>

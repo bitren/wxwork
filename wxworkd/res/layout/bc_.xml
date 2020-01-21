@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/cq8" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <ImageView android:id="@id/cq9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:src="@drawable/a7w" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="13.0sp" android:textColor="@color/amv" android:id="@id/cqd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:text="@string/hyc" android:layout_below="@id/cq9" android:layout_centerHorizontal="true" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0sp" android:textColor="@color/a2u" android:id="@id/cq6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="+1" android:layout_toRightOf="@id/cq9" android:layout_alignParentTop="true" />
+    </RelativeLayout>
+    <View android:background="@color/a47" android:layout_width="@dimen/rw" android:layout_height="60.0dip" android:layout_centerHorizontal="true" />
+    <RelativeLayout android:id="@id/esm" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <ImageView android:id="@id/esa" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:src="@drawable/a7x" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="13.0sp" android:textColor="@color/amv" android:id="@id/esj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:text="@string/hyg" android:layout_below="@id/esa" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</LinearLayout>

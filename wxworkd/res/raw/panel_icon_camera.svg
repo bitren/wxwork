@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="192px" height="192px" viewBox="0 0 192 192" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>chatromm_toolpanel_icon_video@3x</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="chatromm_toolpanel_icon_video" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-5" transform="translate(48.000000, 48.000000)" fill="#333333">
+            <g id="Picture">
+                <g id="Camera-icon" transform="translate(9.000000, 18.000000)">
+                    <path d="M52.1147273,1.78356365 L58.5,12 L73.5018215,12 C75.9866036,12 78,14.0120996 78,16.4941503 L78,55.5058497 C78,57.9834105 75.9842862,60 73.4977772,60 L4.50222285,60 C2.0064843,60 0,57.9879004 0,55.5058497 L0,16.4941503 C0,14.0165895 2.01390309,12 4.49817846,12 L19.5,12 L25.8852727,1.78356365 C26.5020957,0.796646811 27.9441444,0 29.1088055,0 L48.8911945,0 C50.0591716,0 51.4990804,0.798528646 52.1147273,1.78356365 Z M39,51 C48.9411255,51 57,42.9411255 57,33 C57,23.0588745 48.9411255,15 39,15 C29.0588745,15 21,23.0588745 21,33 C21,42.9411255 29.0588745,51 39,51 Z M39,45 C32.372583,45 27,39.627417 27,33 C27,26.372583 32.372583,21 39,21 C45.627417,21 51,26.372583 51,33 C51,39.627417 45.627417,45 39,45 Z" id="Combined-Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

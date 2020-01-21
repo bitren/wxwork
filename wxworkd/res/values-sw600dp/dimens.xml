@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="g0">24.0dip</dimen>
+    <dimen name="g1">80.0dip</dimen>
+    <dimen name="g2">64.0dip</dimen>
+    <dimen name="g3">8.0dip</dimen>
+    <dimen name="g4">8.0dip</dimen>
+    <dimen name="gm">580.0dip</dimen>
+    <dimen name="hy">16.0dip</dimen>
+    <dimen name="i0">20.0dip</dimen>
+    <dimen name="wx">320.0dip</dimen>
+    <dimen name="x0">0.0dip</dimen>
+    <dimen name="x1">2.0dip</dimen>
+    <dimen name="x3">24.0dip</dimen>
+    <dimen name="x4">576.0dip</dimen>
+    <dimen name="x5">320.0dip</dimen>
+    <item type="dimen" name="x8">@dimen/x7</item>
+    <dimen name="xa">160.0dip</dimen>
+</resources>

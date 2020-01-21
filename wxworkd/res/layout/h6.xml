@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/edh" android:background="@color/a3a" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" android:layout_width="fill_parent" android:layout_height="@dimen/alo" />
+    <com.tencent.wework.common.views.BusinessCardView android:id="@id/a4c" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_below="@id/ff6" android:layout_centerHorizontal="true" />
+    <LinearLayout android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/a42" android:layout_below="@id/a4c">
+        <ImageView android:id="@id/e1e" android:visibility="gone" android:layout_width="55.0dip" android:layout_height="55.0dip" android:src="@drawable/a3a" />
+        <ImageView android:id="@id/e1f" android:layout_width="55.0dip" android:layout_height="55.0dip" android:layout_marginLeft="58.0dip" android:src="@drawable/a3b" />
+    </LinearLayout>
+</RelativeLayout>

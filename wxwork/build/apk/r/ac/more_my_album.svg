@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="108px" height="108px" viewBox="0 0 108 108" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>more_my_album</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="模块/插件" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="more_my_album" sketch:type="MSArtboardGroup" fill="#10AEFF">
+            <path d="M86,81 L23,81 C21.344,81 20,79.657 20,78 L20,31 C20,29.343 21.344,28 23,28 L86,28 C87.656,28 89,29.343 89,31 L89,78 C89,79.657 87.656,81 86,81 L86,81 Z M24,32 L24,68.031 L43.951,48.001 L68,68.706 L64.273,61.914 L71,54 L85,70.471 L85,32 L24,32 L24,32 Z" id="Shape" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

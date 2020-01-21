@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.wework.common.views.BaseRelativeLayout android:background="@color/a3a" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.SuperListView android:id="@id/bgh" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@color/ar4" android:dividerHeight="@dimen/a1o" android:overScrollMode="ifContentScrolls" />
+    <com.tencent.wework.common.views.EmptyViewStub android:id="@id/bgy" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:empty_desc="@string/c5k" app:empty_icon="@drawable/bei" app:stubLayoutStyle="dkm" />
+    <com.tencent.wework.common.views.BaseFrameLayout android:id="@id/bgf" android:background="@color/a5k" android:paddingBottom="69.0dip" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.tencent.wework.enterprise.view.EnterpriseAppManagerFilterListView android:id="@id/bgg" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </com.tencent.wework.common.views.BaseFrameLayout>
+</com.tencent.wework.common.views.BaseRelativeLayout>

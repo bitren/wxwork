@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/ed8" android:background="@drawable/kb" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="66.0dip">
+        <View android:id="@id/ffc" android:background="@color/a47" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/a61" android:layout_alignParentTop="true" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="16.0sp" android:id="@id/b4s" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="10.0dip" android:text="ZK-5070dsfjkdsklfjklsdjflkjsdlkjflkjsdfsdflsdfsdsdfsdfsdf" android:singleLine="true" android:layout_toLeftOf="@id/b4u" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/b4k" android:background="@drawable/c3h" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0sp" android:textColor="@color/abs" android:id="@id/b4u" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:maxWidth="100.0dip" android:text="已连接" android:layout_toLeftOf="@id/b4k" android:layout_centerVertical="true" />
+        <View android:id="@id/b70" android:background="@color/a47" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/a61" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</RelativeLayout>

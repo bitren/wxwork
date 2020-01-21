@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46 (44423) - http://www.bohemiancoding.com/sketch -->
+    <title>闹钟-列表</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="闹钟-列表" stroke="#B2B2B2" stroke-width="2">
+            <g id="Group-5" transform="translate(2.000000, 2.000000)">
+                <path d="M1.75989111,9.57841377 C0.677072179,8.56860311 0,7.12932834 0,5.53191489 C0,2.47672266 2.47672266,0 5.53191489,0 C7.28076225,0 8.84006683,0.811529114 9.85379238,2.0785511 C6.08636489,3.10554007 3.06131577,5.93257632 1.75989111,9.57841377 Z M16.1458925,2.07894495 C17.1596101,0.81169729 18.7190565,0 20.4680851,0 C23.5232773,0 26,2.47672266 26,5.53191489 C26,7.12997747 25.3223774,8.56977281 24.2387887,9.5796446 C22.9377718,5.93367857 19.9130727,3.10637832 16.1458925,2.07894495 Z" id="Combined-Shape"></path>
+                <circle id="Oval-3" cx="13" cy="13" r="11.3404255"></circle>
+                <path d="M20.2652482,22.9574468 L23.0312057,25.7234043" id="Line" stroke-linecap="square"></path>
+                <path d="M3.2822695,22.4042553 L5.49503546,25.7234043" id="Line" stroke-linecap="square" transform="translate(4.388652, 24.063830) scale(-1, 1) translate(-4.388652, -24.063830) "></path>
+                <path d="M13,5.31818182 L13,13" id="Line" stroke-linecap="square"></path>
+                <path d="M13,13 L17.9787234,15.9545455" id="Line" stroke-linecap="square"></path>
+            </g>
+        </g>
+    </g>
+</svg>

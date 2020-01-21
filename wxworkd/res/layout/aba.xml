@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/a3b" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" style="@style/a13" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/ff6" android:layout_centerInParent="true">
+        <com.tencent.pb.emoji.ui.EmojiGifView android:id="@id/blg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:adjustViewBounds="true" android:minWidth="@dimen/vb" android:minHeight="@dimen/vb" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3g" android:textColor="@color/tb" android:gravity="center" android:id="@id/eb" android:background="@drawable/ew" android:visibility="gone" android:layout_width="180.0dip" android:layout_height="38.0dip" android:layout_marginTop="40.0dip" android:text="@string/cvm" />
+    </LinearLayout>
+    <ViewStub android:id="@id/fww" android:layout="@layout/ab4" android:inflatedId="@id/blf" android:layout_width="fill_parent" android:layout_height="@dimen/a23" android:layout_alignParentBottom="true" />
+    <ProgressBar android:id="@id/ctm" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="?android:progressBarStyle" />
+    <com.tencent.wework.common.views.CommonItemView android:id="@id/c06" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="80.0dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

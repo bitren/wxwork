@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.wework.common.views.BaseFrameLayout android:background="@color/a5k" android:paddingTop="25.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.BaseRelativeLayout android:orientation="vertical" android:id="@id/f6c" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/zf" android:background="@color/a28" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <View android:background="@color/y7" android:layout_width="fill_parent" android:layout_height="0.30000007dip" android:layout_alignParentTop="true" />
+            <RelativeLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="50.0dip">
+                <com.tencent.wework.common.views.ConfigurableTextView android:textColor="@color/vm" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/ekb" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="12.0dip" android:maxWidth="255.0dip" android:singleLine="true" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                <ImageView android:gravity="center_vertical" android:id="@id/ejr" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="6.0dip" android:src="@drawable/b4k" android:layout_toRightOf="@id/ekb" android:layout_centerVertical="true" />
+                <com.tencent.wework.common.views.ConfigurableTextView android:textColor="@color/t9" android:gravity="center_vertical" android:id="@id/al4" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="16.0dip" android:text="@string/bso" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <com.tencent.wework.contact.views.CustomerTagSelectConfirmTitleView android:id="@id/fbz" android:background="@drawable/kh" android:layout_width="fill_parent" android:layout_height="54.0dip" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/zf" android:layout_below="@id/fbz">
+            <android.support.v7.widget.RecyclerView android:id="@id/f62" android:background="@drawable/ik" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <com.tencent.wework.common.views.EmptyView android:id="@id/bez" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/zf" />
+        </LinearLayout>
+    </com.tencent.wework.common.views.BaseRelativeLayout>
+</com.tencent.wework.common.views.BaseFrameLayout>

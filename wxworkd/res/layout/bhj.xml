@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.wework.common.views.MeasureSpecExactlyLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.mm.plugin.voip.video.OpenGlView android:id="@id/fsj" android:layout_width="fill_parent" android:layout_height="fill_parent" app:glversion="2" />
+    <com.tencent.wework.multitalk.view.VoipMeetingRenderStub android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.tencent.xcast.GLSingleVideoView android:id="@id/fsk" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.tencent.wework.multitalk.view.VoipMeetingRenderStub>
+    <com.tencent.wework.common.views.MaskedImageView android:id="@id/fse" android:background="@color/jf" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/b0q" android:scaleType="centerCrop" android:layout_centerInParent="true" />
+    <ImageView android:id="@id/fuz" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/ca3" android:scaleType="fitXY" android:layout_alignParentBottom="true" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3b" android:textColor="@color/atc" android:ellipsize="end" android:id="@id/fsg" android:paddingLeft="10.0dip" android:paddingRight="30.0dip" android:paddingBottom="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+    <ImageView android:id="@id/fsi" android:paddingRight="6.0dip" android:paddingBottom="6.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ca8" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    <ImageView android:id="@id/fun" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="25.0dip" android:src="@drawable/c_t" android:scaleType="fitXY" android:layout_alignParentBottom="true" />
+    <RelativeLayout android:id="@id/fsf" android:background="#7d000000" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside">
+        <com.tencent.wework.common.views.WaitingDotView android:id="@id/fv7" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" android:layout_centerInParent="true" app:alphaFrom="200" app:alphaTo="100" app:autoplay="true" app:dotColor="#ffffffff" app:dotCount="3" app:dotPadding="10.0dip" app:dotSize="8.0dip" app:period="450" />
+    </RelativeLayout>
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3b" android:textColor="@color/atc" android:gravity="center" android:id="@id/fu0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <ImageView android:gravity="center" android:id="@id/fu6" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/c_r" android:scaleType="centerInside" android:layout_centerInParent="true" />
+</com.tencent.wework.common.views.MeasureSpecExactlyLayout>

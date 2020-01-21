@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.mm.ui.widget.textview.MMAutoAdjustTextView android:id="@id/faj" style="@style/j_" />
+    <com.tencent.mm.ui.base.MMClearEditText android:id="@id/bbe" android:layout_width="wrap_content" android:layout_marginRight="@dimen/ff" android:layout_weight="1.0" android:imeOptions="actionDone" style="@style/j9" />
+    <Button android:id="@id/en4" style="@style/ls" />
+    <TextView android:textSize="@dimen/d8" android:textColor="@color/aci" android:id="@id/f_s" android:visibility="gone" style="@style/j_" />
+</merge>

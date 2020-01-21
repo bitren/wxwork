@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.wework.common.views.WaterMaskLinearLayout android:orientation="vertical" android:background="@color/aao" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" android:layout_width="fill_parent" android:layout_height="@dimen/alo" />
+    <ScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:id="@id/fg8" android:layout_width="fill_parent" android:layout_height="75.0dip">
+                <com.tencent.wework.common.views.MultiPhotoImageView android:id="@id/dtu" android:duplicateParentState="true" android:layout_width="@dimen/a2n" android:layout_height="@dimen/a2n" android:layout_marginLeft="@dimen/ty" android:layout_centerVertical="true" />
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/u_" android:layout_marginRight="@dimen/ty" android:layout_toRightOf="@id/dtu" android:layout_centerVertical="true">
+                    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3f" android:textColor="@color/jf" android:id="@id/en7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="4.0dip" />
+                    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3c" android:textColor="@color/aaz" android:ellipsize="end" android:id="@id/aq7" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/a2t" android:singleLine="true" />
+                </LinearLayout>
+                <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/qu" android:id="@id/emz" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/ty" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                <View android:id="@id/b5z" android:background="@color/aap" android:layout_width="fill_parent" android:layout_height="@dimen/a61" android:layout_marginLeft="@dimen/ty" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/ao3" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <View android:id="@id/b69" android:background="@color/aap" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/a61" android:layout_marginLeft="@dimen/ty" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3b" android:textColor="@color/a79" android:id="@id/ag_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ty" android:layout_marginTop="30.0dip" android:layout_marginBottom="@dimen/ty" />
+        </LinearLayout>
+    </ScrollView>
+</com.tencent.wework.common.views.WaterMaskLinearLayout>

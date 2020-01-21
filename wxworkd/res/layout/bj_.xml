@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/ash" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_above="@id/bwy" />
+    <com.tencent.wework.common.views.FontChooserView android:id="@id/bwy" android:background="@color/asg" android:layout_width="fill_parent" android:layout_height="100.0dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ala" android:background="@color/ao2" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" style="@style/gi">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:minHeight="@dimen/e6" android:layout_weight="1.0">
+            <com.tencent.mm.ui.MMImageView android:id="@id/alh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ek" android:src="@drawable/ajs" style="@style/gn" />
+            <TextView android:id="@id/alf" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dl" android:layout_marginBottom="@dimen/dl" android:text="message" android:maxLines="6" style="@style/go" />
+        </LinearLayout>
+        <ImageView android:id="@id/dc2" android:background="@color/ap1" android:layout_width="fill_parent" android:layout_height="@dimen/bl" />
+        <Button android:textSize="@dimen/el" android:textColor="@color/ait" android:id="@id/al7" android:background="@drawable/as" android:layout_width="fill_parent" android:layout_height="@dimen/ef" android:text="@string/t5" />
+    </LinearLayout>
+</LinearLayout>

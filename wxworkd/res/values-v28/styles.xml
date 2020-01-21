@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="c3" parent="@style/a23" />
+    <style name="c_" parent="@style/a24" />
+    <style name="a23" parent="@style/a20">
+        <item name="h6">?android:dialogCornerRadius</item>
+    </style>
+    <style name="a24" parent="@style/a21">
+        <item name="h6">?android:dialogCornerRadius</item>
+    </style>
+</resources>

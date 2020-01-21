@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/a4c" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ww="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/fe9" android:layout_width="fill_parent" android:layout_height="@dimen/alo" android:layout_alignParentTop="true" />
+    <LinearLayout android:orientation="vertical" android:id="@id/edh" android:descendantFocusability="afterDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="18.0dip">
+        <com.tencent.wework.common.views.CommonMemberInfoView android:id="@id/d2k" android:layout_width="fill_parent" android:layout_height="140.0dip" />
+        <com.tencent.wework.common.views.CommonItemView android:id="@id/d1y" android:layout_width="fill_parent" android:layout_height="48.0dip" />
+        <com.tencent.wework.common.views.CommonItemView android:id="@id/hx" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginTop="16.0dip" ww:hasBottomLine="true" ww:hasTopLine="true" ww:rightIconType="re" ww:subInfoTextColor="@color/a4h" ww:topLineType="g34" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:id="@id/cdp" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/i__" style="@style/a0w" />
+        <com.tencent.wework.common.views.CommonItemView android:id="@id/i1" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginTop="16.0dip" ww:hasBottomLine="true" ww:hasTopLine="true" ww:rightIconType="re" ww:subInfoTextColor="@color/a4h" ww:topLineType="g34" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:id="@id/dp9" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/i__" style="@style/a0w" />
+        <com.tencent.wework.common.views.CommonItemView android:id="@id/euc" android:layout_width="fill_parent" android:layout_height="@dimen/rx" android:layout_marginTop="16.0dip" android:text="@string/i_u" ww:hasBottomLine="true" ww:hasTopLine="true" ww:rightIconType="esq" ww:topLineType="cdq" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:id="@id/eud" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/ia9" style="@style/a0w" />
+    </LinearLayout>
+</LinearLayout>

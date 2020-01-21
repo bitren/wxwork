@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/kb" android:layout_width="fill_parent" android:layout_height="70.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/c6_" android:layout_width="37.0dip" android:layout_height="37.0dip" android:layout_marginLeft="15.0dip" android:layout_centerVertical="true" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_toRightOf="@id/c6_" android:layout_centerVertical="true">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="16.0sp" android:textColor="#ff000000" android:id="@id/c6a" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="12.0sp" android:textColor="#ff9b9b9b" android:id="@id/c6b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" />
+    </LinearLayout>
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:src="@drawable/bfr" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <View android:id="@id/ffa" android:background="#ffececec" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentTop="true" />
+    <View android:id="@id/zz" android:background="#ffececec" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

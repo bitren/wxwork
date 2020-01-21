@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.PhotoImageView android:layout_gravity="center_horizontal" android:id="@id/eqd" android:layout_width="@dimen/aja" android:layout_height="@dimen/aj_" android:layout_marginLeft="15.0dip" android:layout_marginTop="@dimen/aj4" android:layout_marginRight="10.0dip" android:layout_marginBottom="@dimen/aj4" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/eqz" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ajc" android:layout_marginRight="@dimen/ajb" android:src="@drawable/c3h" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@null" />
+    <com.tencent.wework.common.views.RedPoint android:id="@id/e7q" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/ajb" android:src="@drawable/c0h" android:layout_toLeftOf="@id/eqz" android:layout_centerVertical="true" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/un" android:textColor="@color/a4h" android:id="@id/epa" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:singleLine="true" android:drawablePadding="5.0dip" android:layout_toLeftOf="@id/eqz" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/dh0" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/bb0" android:layout_toLeftOf="@id/epa" android:layout_centerVertical="true" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/aj4" android:layout_marginBottom="@dimen/aj3" android:layout_toLeftOf="@id/dh0" android:layout_toRightOf="@id/eqd" android:layout_centerVertical="true" android:layout_alignWithParentIfMissing="true">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/un" android:textColor="@color/a5f" android:id="@id/epe" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:drawablePadding="5.0dip" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/un" android:textColor="@color/a4h" android:id="@id/epf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:singleLine="true" android:drawablePadding="5.0dip" android:layout_toRightOf="@id/epe" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/uk" android:textColor="@color/a5g" android:id="@id/epb" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/uj" android:singleLine="true" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/un" android:textColor="@color/a5f" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:singleLine="true" android:drawablePadding="5.0dip" android:layout_toRightOf="@id/epb" />
+        </RelativeLayout>
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/um" android:textColor="@color/a5g" android:id="@id/epg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ul" android:singleLine="true" />
+    </LinearLayout>
+    <View android:id="@id/ahy" android:background="@color/a4s" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/rw" android:layout_below="@id/eqd" />
+</merge>

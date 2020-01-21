@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:background="@drawable/qe" android:layout_width="102.0dip" android:layout_height="102.0dip">
+        <com.tencent.pb.emoji.ui.EmojiGifView android:layout_gravity="center" android:id="@id/bll" android:layout_width="72.0dip" android:layout_height="72.0dip" android:scaleType="centerCrop" />
+        <ProgressBar android:id="@id/bln" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_centerInParent="true" />
+    </LinearLayout>
+</LinearLayout>

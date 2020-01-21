@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/a1b" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/fe9" android:layout_width="fill_parent" android:layout_height="@dimen/alw" />
+    <com.tencent.wework.common.views.CommonItemView android:id="@id/h6" android:layout_width="fill_parent" android:layout_height="56.0dip" android:layout_marginTop="@dimen/aj4" app:hasBottomLine="false" app:hasTopLine="true" app:rightIconType="dkj" app:topLineType="g34" />
+    <com.tencent.wework.common.views.CommonItemView android:id="@id/ea0" android:layout_width="fill_parent" android:layout_height="56.0dip" app:bottomLineType="g34" app:hasBottomLine="true" app:hasTopLine="true" app:rightIconType="dkj" app:topLineType="cdq" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0sp" android:textColor="#ff888888" android:id="@id/ea1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/fa3" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" />
+</LinearLayout>

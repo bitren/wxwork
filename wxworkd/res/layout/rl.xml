@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="@dimen/mf" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.ConfigurableEditText android:textSize="18.0sp" android:gravity="center|left|top" android:id="@id/agy" android:background="@color/ar4" android:layout_width="fill_parent" android:layout_height="@dimen/mc" android:layout_marginLeft="@dimen/md" android:layout_marginTop="@dimen/md" android:layout_marginRight="@dimen/md" android:layout_marginBottom="10.0dip" />
+    <com.tencent.wework.enterprise.attendance.view.AttendancePhotoAdder android:id="@id/dto" android:background="#ffff0000" android:layout_width="fill_parent" android:layout_height="@dimen/me" android:layout_marginLeft="@dimen/md" android:layout_marginRight="@dimen/md" />
+    <LinearLayout android:orientation="horizontal" android:background="@color/i8" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginTop="20.0dip">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="17.0sp" android:textColor="#ff2f7dce" android:gravity="center" android:id="@id/a8u" android:background="#ffffffff" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginTop="1.0px" android:text="@string/b8t" android:layout_weight="1.0" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="17.0sp" android:textColor="#ff2f7dce" android:gravity="center" android:id="@id/ah7" android:background="#ffffffff" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="1.0px" android:layout_marginTop="1.0px" android:text="@string/adx" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

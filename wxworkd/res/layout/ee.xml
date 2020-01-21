@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" android:layout_width="fill_parent" android:layout_height="@dimen/alo" />
+    <RelativeLayout android:id="@id/ben" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bcv" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="18.0sp" android:textColor="#ff000000" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:text="@string/eqx" android:lineSpacingMultiplier="1.5" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="16.0sp" android:textColor="#ff477bb3" android:id="@id/a5j" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/etd" />
+            <Button android:id="@id/e0" android:layout_width="240.0dip" android:layout_height="44.0dip" android:layout_marginTop="114.0dip" android:text="@string/bm2" style="@style/xr" />
+        </LinearLayout>
+    </RelativeLayout>
+    <android.support.v7.widget.RecyclerView android:id="@id/cr7" android:background="#fff2f3f5" android:paddingTop="16.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

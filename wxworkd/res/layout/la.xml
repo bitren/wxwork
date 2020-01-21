@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/bk" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="82.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/cbj" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="15.0dip" android:layout_marginBottom="16.0dip" android:layout_alignParentTop="true" />
+    <FrameLayout android:id="@id/anw" android:paddingRight="20.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="50.0dip" android:layout_toRightOf="@id/cbj" android:layout_alignTop="@id/cbj">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="8.0dip" android:layout_weight="1.0">
+                <TextView android:textSize="17.0dip" android:textStyle="normal" android:textColor="#ff000000" android:ellipsize="end" android:id="@id/dht" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minWidth="100.0dip" android:maxLines="1" android:layout_weight="1.0" />
+                <LinearLayout android:orientation="horizontal" android:id="@id/nm" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="8.0dip">
+                    <TextView android:textSize="12.0dip" android:textColor="@color/gt" android:ellipsize="end" android:gravity="center" android:id="@id/aae" android:background="@color/gs" android:layout_width="fill_parent" android:layout_height="@dimen/l0" android:layout_marginLeft="@dimen/l2" android:layout_marginRight="@dimen/l2" android:maxLines="1" android:layout_weight="1.0" />
+                </LinearLayout>
+            </LinearLayout>
+            <TextView android:textSize="13.0dip" android:textColor="#ff888888" android:ellipsize="end" android:id="@id/b2t" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:maxLines="2" android:layout_weight="1.0" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ef9" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="10.0dip">
+                <TextView android:textSize="13.0dip" android:textColor="#ff888888" android:ellipsize="end" android:id="@id/efa" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+                <RatingBar android:id="@id/ef_" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="20.0dip" android:layout_centerVertical="true" style="@style/kf" />
+            </LinearLayout>
+            <TextView android:textSize="13.0dip" android:textColor="@color/gu" android:ellipsize="end" android:id="@id/g3u" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:layout_weight="1.0" />
+        </LinearLayout>
+    </FrameLayout>
+    <View android:id="@id/b5z" android:background="#19000000" android:layout_width="fill_parent" android:layout_height="0.70000005dip" android:layout_alignLeft="@id/anw" android:layout_alignParentBottom="true" android:layout_alignStart="@id/anw" />
+</RelativeLayout>

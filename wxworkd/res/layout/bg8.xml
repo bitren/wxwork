@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/fmw" android:background="@color/a3a" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ww="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" android:layout_width="fill_parent" android:layout_height="@dimen/alo" android:layout_alignParentTop="true" />
+    <View android:id="@id/cqf" android:background="@color/a47" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/a61" android:layout_marginTop="16.0dip" android:layout_below="@id/ff6" />
+    <com.tencent.wework.common.views.CommonEditTextItemView android:id="@id/e4b" android:clickable="true" android:layout_width="wrap_content" android:layout_height="@dimen/rx" android:layout_below="@id/cqf" ww:contentTextHint="@string/ily" ww:labelText="@string/ilz" />
+    <com.tencent.wework.common.views.CommonEditTextItemView android:id="@id/e4a" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="@dimen/rx" android:digits="0123456789x" android:layout_below="@id/e4b" ww:contentTextHint="@string/ilk" ww:labelText="@string/ilj" />
+    <com.tencent.wework.common.views.WWIconButton android:enabled="true" android:id="@id/bv" android:layout_marginLeft="16.0dip" android:layout_marginTop="32.0dip" android:layout_marginRight="16.0dip" android:text="@string/bq4" android:layout_below="@id/e4a" style="@style/z3" />
+</RelativeLayout>

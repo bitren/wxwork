@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="30px" viewBox="0 0 42 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>sns_sight_icon_mark</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="-----Assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="sns_sight_icon_mark" fill="#FFFFFF">
+            <g id="Group" transform="translate(0.000000, 3.000000)">
+                <path d="M3,21 L25,21 L25,3 L3,3 L3,21 Z M0,2.00494659 C0,0.897645164 0.899897516,0 1.99124431,0 L26.0087557,0 C27.1084896,0 28,0.897026226 28,2.00494659 L28,21.9950534 C28,23.1023548 27.1001025,24 26.0087557,24 L1.99124431,24 C0.891510444,24 0,23.1029738 0,21.9950534 L0,2.00494659 Z" id="Rectangle"></path>
+                <path d="M34,14.9144926 L39,18.3235836 L39,5.67641644 L34,9.08550735 L34,14.9144926 Z M31,7.5 L39.5176696,1.69249799 C40.8886228,0.757757159 42,1.34177063 42,2.99109042 L42,21.0089096 C42,22.6608432 40.8847265,23.2395863 39.5176696,22.307502 L31,16.5 L31,7.5 Z" id="Rectangle"></path>
+            </g>
+        </g>
+    </g>
+</svg>

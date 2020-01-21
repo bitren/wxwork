@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.msg.views.MessageListInfoItemView android:id="@id/dab" android:paddingBottom="@dimen/a9j" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    <com.tencent.wework.common.views.BaseLinearLayout android:gravity="center_vertical" android:id="@id/da_" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/dab">
+        <ViewStub android:id="@id/fxi" android:layout="@layout/z6" android:inflatedId="@id/d5p" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/a_9" />
+        <com.tencent.wework.common.views.BaseRelativeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginBottom="2.0dip" android:layout_weight="1.0">
+            <com.tencent.wework.msg.views.MessageListInfoItemView android:id="@id/da9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+        </com.tencent.wework.common.views.BaseRelativeLayout>
+    </com.tencent.wework.common.views.BaseLinearLayout>
+    <ViewStub android:id="@id/fy9" android:layout="@layout/avg" android:inflatedId="@id/daa" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/aag" android:layout_marginTop="@dimen/a9j" android:layout_marginRight="@dimen/aag" android:layout_below="@id/da_" android:layout_centerHorizontal="true" />
+</merge>

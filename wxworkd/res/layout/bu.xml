@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/edh" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:background="@drawable/kh" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/ff6" style="@style/yb">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <FrameLayout android:id="@id/byi" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/ekt" />
+            <TextView android:textSize="@dimen/yf" android:textColor="@color/qv" android:gravity="center" android:id="@id/fb" android:layout_width="fill_parent" android:layout_height="@dimen/rx" android:layout_marginTop="@dimen/s8" android:text="@string/b3r" />
+            <ViewStub android:id="@id/fyr" android:inflatedId="@id/ekt" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/fb" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:id="@id/az" android:layout_width="fill_parent" android:layout_height="@dimen/tt" android:layout_marginLeft="18.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="18.0dip" android:text="@string/bnk" android:layout_below="@id/byi" style="@style/xr" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/a1c" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_below="@id/az">
+                <CheckBox android:id="@id/b_" android:background="@drawable/ad" android:layout_width="@dimen/y9" android:layout_height="@dimen/y9" android:checked="true" android:button="@null" />
+                <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/y1" android:textColor="#ff494a4b" android:id="@id/a1b" android:paddingLeft="@dimen/zk" android:paddingRight="@dimen/zk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bg" />
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" android:layout_width="fill_parent" android:layout_height="@dimen/alo" />
+</RelativeLayout>

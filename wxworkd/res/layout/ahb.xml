@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:id="@id/edh" android:background="@color/ej" android:paddingBottom="0.0dip" android:scrollbars="none" android:descendantFocusability="afterDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:background="@color/atc" android:layout_width="fill_parent" android:layout_height="49.5dip">
+            <LinearLayout android:orientation="horizontal" android:id="@id/f52" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+                <TextView android:textSize="15.0sp" android:textColor="#ff8d8d8d" android:gravity="center" android:id="@id/f4w" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/eh5" android:maxLines="1" android:singleLine="true" android:includeFontPadding="false" />
+                <TextView android:textSize="15.0sp" android:textColor="#ff8d8d8d" android:gravity="center" android:id="@id/f4u" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/eh3" android:maxLines="1" android:singleLine="true" android:includeFontPadding="false" />
+                <TextView android:textSize="15.0sp" android:textColor="#ff8d8d8d" android:gravity="center" android:id="@id/f4v" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/eh4" android:maxLines="1" android:singleLine="true" android:includeFontPadding="false" />
+                <TextView android:textSize="15.0sp" android:textColor="#ff8d8d8d" android:gravity="center" android:id="@id/f55" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/eh6" android:maxLines="1" android:singleLine="true" android:includeFontPadding="false" />
+            </LinearLayout>
+            <View android:id="@id/fq9" android:background="#ff4a90e2" android:layout_width="20.0dip" android:layout_height="2.0dip" android:layout_below="@id/f52" />
+        </RelativeLayout>
+        <View android:background="#ffd9d9d9" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" />
+    </LinearLayout>
+</merge>

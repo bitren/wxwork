@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:paddingLeft="@dimen/dl" android:paddingTop="@dimen/do" android:paddingRight="@dimen/dl" android:paddingBottom="@dimen/dl" style="@style/lz"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:background="@drawable/pc" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.tencent.mm.ui.base.MMClearEditText android:id="@id/e95" android:background="@null" android:paddingLeft="85.0dip" android:hint="@string/hbe" style="@style/jl" />
+        <TextView android:textSize="@dimen/el" android:textColor="@color/jf" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:background="@drawable/za" android:paddingLeft="10.0dip" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:text="@string/hbd" android:singleLine="false" style="@style/jl" />
+    </FrameLayout>
+    <FrameLayout android:background="@drawable/pc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dl">
+        <com.tencent.mm.ui.base.MMClearEditText android:id="@id/e94" android:background="@null" android:paddingLeft="85.0dip" android:hint="@string/hbl" android:imeOptions="actionNext" style="@style/jk" />
+        <TextView android:textSize="@dimen/el" android:textColor="@color/jf" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:background="@drawable/za" android:paddingLeft="10.0dip" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:text="@string/hbk" android:singleLine="false" style="@style/jl" />
+    </FrameLayout>
+    <LinearLayout android:gravity="left" android:orientation="horizontal" android:layout_marginTop="@dimen/dl" style="@style/jj">
+        <CheckBox android:textSize="@dimen/fl" android:textColor="@color/jf" android:id="@id/g6" android:checked="true" android:text="@string/fjf" style="@style/nn" />
+        <Button android:textSize="@dimen/fl" android:id="@id/g5" android:paddingLeft="5.0dip" android:paddingRight="0.0dip" android:paddingBottom="5.0dip" android:text="@string/fjh" style="@style/no" />
+    </LinearLayout>
+    <Button android:id="@id/dj6" android:layout_marginTop="@dimen/dl" android:text="@string/t0" style="@style/kn" />
+    <Button android:layout_gravity="bottom|center|left" android:id="@id/cvz" android:paddingLeft="0.0dip" android:visibility="gone" android:layout_marginLeft="10.0dip" android:text="@string/fr1" style="@style/no" />
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/dcr" android:background="@color/aos" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/dcq" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <RelativeLayout android:id="@id/dwe" android:background="#fffa9d3b" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/dwc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            <TextView android:textSize="15.0dip" android:textColor="@color/atc" android:ellipsize="end" android:gravity="left" android:id="@id/dwd" android:paddingLeft="@dimen/ek" android:paddingTop="@dimen/ek" android:paddingRight="4.0dip" android:paddingBottom="@dimen/ek" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/dwc" />
+        </RelativeLayout>
+        <com.tencent.mm.ui.widget.listview.PullDownListView android:id="@android:id/list" android:cacheColorHint="#00000000" android:layout_weight="1.0" android:layout_alignParentTop="true" android:overScrollMode="never" style="@style/jn" />
+        <FrameLayout android:id="@id/dwa" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>

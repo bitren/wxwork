@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.pb.paintpad.PaintToolItemView android:id="@id/eg4" android:background="@drawable/a8x" android:layout_width="38.0dip" android:layout_height="38.0dip" android:layout_marginBottom="16.0dip" android:src="@drawable/a8k" android:scaleType="center" app:pt_type="TYPE_MOSAIC" />
+    <ImageView android:id="@id/eg9" android:background="@drawable/a8x" android:layout_width="38.0dip" android:layout_height="38.0dip" android:layout_marginBottom="16.0dip" android:src="@drawable/a8i" android:scaleType="center" />
+    <ImageView android:id="@id/eg6" android:background="@drawable/a8x" android:layout_width="38.0dip" android:layout_height="38.0dip" android:layout_marginBottom="16.0dip" android:src="@drawable/a8m" android:scaleType="center" />
+    <com.tencent.pb.paintpad.PaintToolItemView android:id="@id/eg3" android:background="@drawable/a8x" android:layout_width="38.0dip" android:layout_height="38.0dip" android:layout_marginBottom="16.0dip" app:pt_style="STYLE_BORDER" app:pt_type="TYPE_OVAL" />
+    <ImageView android:id="@id/eg2" android:background="@drawable/a8x" android:layout_width="38.0dip" android:layout_height="38.0dip" android:layout_marginBottom="16.0dip" android:src="@drawable/a8g" android:scaleType="center" />
+    <ImageView android:id="@id/eg8" android:background="@drawable/a8x" android:visibility="gone" android:layout_width="38.0dip" android:layout_height="38.0dip" android:src="@drawable/a8n" android:scaleType="center" />
+</LinearLayout>

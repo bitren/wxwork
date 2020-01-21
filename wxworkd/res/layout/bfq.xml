@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.rockerhieu.emojicon.EmojiconTextView android:textSize="@dimen/alr" android:textColor="@color/ar0" android:ellipsize="end" android:gravity="left" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:drawablePadding="4.0dip" ww:configurable="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ww="http://schemas.android.com/apk/res-auto" />

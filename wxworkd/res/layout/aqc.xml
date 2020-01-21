@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:background="@color/a84" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.rockerhieu.emojicon.EmojiconTextView android:id="@id/d54" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/a_3" android:layout_marginTop="@dimen/a_4" android:layout_marginRight="@dimen/a_3" android:text="@string/ib_" android:singleLine="true" style="@style/zg" />
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/a_3" android:layout_marginTop="@dimen/a_4" android:layout_marginRight="@dimen/a_3">
+        <com.tencent.wework.common.views.PhotoImageView android:id="@id/d52" android:layout_width="@dimen/a_2" android:layout_height="@dimen/a_2" android:contentDescription="@null" />
+        <com.rockerhieu.emojicon.EmojiconTextView android:id="@id/d53" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/a_3" android:text="@string/ib_" android:singleLine="true" android:layout_toRightOf="@id/d52" style="@style/zc" />
+        <com.rockerhieu.emojicon.EmojiconTextView android:id="@id/d51" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/a_3" android:text="@string/iba" android:layout_toRightOf="@id/d52" android:layout_below="@id/d53" style="@style/zb" />
+    </RelativeLayout>
+    <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginTop="@dimen/a_4" />
+</merge>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/atc" android:paddingLeft="@dimen/ek" android:paddingRight="@dimen/ek" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="@dimen/e6"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:form="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_width="fill_parent" android:layout_height="@dimen/od" android:layout_marginTop="38.0dip" android:src="#ffe5e5e5" />
+    <com.tencent.mm.ui.base.MMFormVerifyCodeInputView android:id="@id/mu" android:focusableInTouchMode="false" android:layout_height="60.0dip" form:form_btn_title="@string/wp" form:form_hint="@string/wo" form:form_layout="@layout/ax8" form:form_title="@string/wq" style="@style/ja" />
+    <com.tencent.mm.ui.base.MMFormInputView android:id="@id/mw" android:focusableInTouchMode="false" android:layout_height="60.0dip" form:form_hint="@string/ww" form:form_layout="@layout/ax4" form:form_title="@string/wy" style="@style/ja" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="60.0dip">
+        <TextView android:textSize="@dimen/el" android:textColor="@color/ait" android:gravity="center" android:paddingLeft="8.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/wd" />
+        <com.tencent.mm.ui.widget.MMSwitchBtn android:id="@id/mv" android:layout_width="@dimen/fu" android:layout_height="@dimen/fr" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <ImageView android:layout_width="fill_parent" android:layout_height="@dimen/od" android:src="#ffe5e5e5" />
+    <Button android:enabled="false" android:layout_gravity="center" android:id="@id/mt" android:layout_marginTop="40.0dip" android:text="@string/wl" style="@style/ko" />
+</LinearLayout>

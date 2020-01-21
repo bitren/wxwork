@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.wework.common.views.BaseFrameLayout android:background="@color/a5k" android:paddingTop="25.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.BaseRelativeLayout android:orientation="vertical" android:id="@id/an8" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/zf" android:background="@color/atc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <com.tencent.wework.common.views.BottomButton android:textColor="@drawable/ld" android:id="@id/ana" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <Button android:id="@id/anb" android:layout_width="fill_parent" android:layout_height="46.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="16.0dip" style="@style/xr" />
+        </RelativeLayout>
+        <com.tencent.wework.contact.views.ContactNonactivatedListTitleView android:id="@id/ang" android:background="@drawable/kh" android:layout_width="fill_parent" android:layout_height="wrap_content" app:bottomDividerSize="@dimen/a61" />
+        <com.tencent.wework.common.views.SuperListView android:id="@id/anc" android:background="@drawable/kh" android:layout_width="wrap_content" android:layout_height="fill_parent" android:divider="@null" android:layout_above="@id/zf" android:layout_below="@id/ang" style="@style/yb" />
+        <com.tencent.wework.common.views.SuperListView android:id="@id/ane" android:background="@color/a5n" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" android:layout_alignParentTop="true" style="@style/yb" />
+        <com.tencent.wework.common.views.EmptyView android:id="@id/bez" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/zf" android:layout_below="@id/ang" />
+    </com.tencent.wework.common.views.BaseRelativeLayout>
+</com.tencent.wework.common.views.BaseFrameLayout>

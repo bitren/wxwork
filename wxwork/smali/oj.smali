@@ -1,0 +1,67 @@
+.class public Loj;
+.super Ljava/lang/Object;
+.source "AppendableSerializer.java"
+
+# interfaces
+.implements Lpx;
+
+
+# static fields
+.field public static final akZ:Loj;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    .line 8
+    new-instance v0, Loj;
+
+    invoke-direct {v0}, Loj;-><init>()V
+
+    sput-object v0, Loj;->akZ:Loj;
+
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 0
+
+    .line 6
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public a(Lpm;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/reflect/Type;I)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+
+    if-nez p2, :cond_0
+
+    .line 12
+    iget-object p1, p1, Lpm;->alT:Lqh;
+
+    .line 13
+    sget-object p2, Lcom/alibaba/fastjson/serializer/SerializerFeature;->WriteNullStringAsEmpty:Lcom/alibaba/fastjson/serializer/SerializerFeature;
+
+    invoke-virtual {p1, p2}, Lqh;->b(Lcom/alibaba/fastjson/serializer/SerializerFeature;)V
+
+    return-void
+
+    .line 17
+    :cond_0
+    invoke-virtual {p2}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    move-result-object p2
+
+    invoke-virtual {p1, p2}, Lpm;->write(Ljava/lang/String;)V
+
+    return-void
+.end method

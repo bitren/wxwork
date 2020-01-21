@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <layer-list>
+            <item android:drawable="@color/alc" />
+            <item android:drawable="@color/a67" android:top="@dimen/ag6" android:bottom="@dimen/ag6" />
+            <item android:drawable="@color/alb" android:left="4.0dip" android:top="@dimen/ag6" android:bottom="@dimen/ag6" />
+        </layer-list>
+    </item>
+    <item>
+        <layer-list>
+            <item android:drawable="@color/a67" android:top="@dimen/ag6" android:bottom="@dimen/ag6" />
+            <item android:drawable="@color/al9" android:left="4.0dip" />
+        </layer-list>
+    </item>
+</selector>

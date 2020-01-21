@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/atc" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ffz" android:layout_width="fill_parent" android:layout_height="@dimen/alo" />
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <android.support.v7.widget.RecyclerView android:id="@id/esn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignWithParentIfMissing="true" android:overScrollMode="never" />
+        <RelativeLayout android:id="@id/crt" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="40.0dip">
+            <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminateDrawable="@drawable/a1r" android:layout_above="@id/ctf" android:layout_centerHorizontal="true" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="16.0sp" android:textColor="#ff78808a" android:gravity="center" android:id="@id/ctf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/fkx" android:layout_centerInParent="true" android:lineSpacingExtra="4.0dip" />
+        </RelativeLayout>
+        <com.tencent.wework.common.views.EmptyViewStub android:id="@id/afe" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </RelativeLayout>
+</LinearLayout>

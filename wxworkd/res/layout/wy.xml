@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/byi" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/f3k" />
+    <com.tencent.wework.common.views.SwitchTab android:id="@id/f3k" android:background="@drawable/iu" android:layout_width="fill_parent" android:layout_height="@dimen/a7t" android:layout_alignParentBottom="true" />
+</RelativeLayout>

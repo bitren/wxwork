@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/dq8" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center" android:id="@id/dq6" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="matrix" android:layout_alignLeft="@id/dq7" android:layout_alignTop="@id/dq7" android:layout_alignRight="@id/dq7" android:layout_alignBottom="@id/dq7" android:layout_centerInParent="true" />
+    <com.tencent.wework.common.views.bigimage.bigimagenew.subscaleview.SubsamplingScaleImageView android:id="@id/wv" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <com.tencent.pb.emoji.ui.EmojiGifView android:id="@id/blg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerCrop" android:layout_centerInParent="true" />
+    <ImageView android:layout_gravity="center" android:id="@id/dq7" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="matrix" android:layout_centerInParent="true" />
+    <ProgressBar android:id="@id/dym" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="?android:progressBarStyle" />
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="50.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="11.0sp" android:textColor="@color/atc" android:gravity="center" android:id="@id/etz" android:background="@drawable/a5d" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="30.0dip" android:minWidth="90.0dip" android:singleLine="true" />
+        <ImageView android:layout_gravity="center|right" android:id="@id/b9w" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:src="@drawable/bi6" />
+    </FrameLayout>
+    <RelativeLayout android:id="@id/etr" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:id="@id/etu" android:layout_width="120.0dip" android:layout_height="90.0dip" android:src="@drawable/c3x" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="12.0sp" android:textColor="@color/a4h" android:id="@id/etv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/ibc" android:layout_below="@id/etu" android:layout_centerHorizontal="true" />
+        <FrameLayout android:id="@id/do7" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="50.0dip" android:layout_marginRight="50.0dip" android:layout_below="@id/etv" android:layout_centerHorizontal="true">
+            <com.rockerhieu.emojicon.EmojiconTextView android:textColor="@color/a3f" android:gravity="center" android:id="@id/ets" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/a2x" android:text="@string/e1n" />
+            <com.tencent.wework.common.views.DownloadProgressBar android:id="@id/ett" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </FrameLayout>
+    </RelativeLayout>
+</RelativeLayout>

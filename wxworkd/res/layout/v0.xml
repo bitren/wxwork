@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:background="@drawable/g9" android:layout_width="fill_parent" android:layout_height="@dimen/w5">
+        <com.tencent.wework.common.views.ConfigurableTextView android:text="@string/b6b" style="@style/a1f" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:text="@string/b68" style="@style/a1e" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:text="@string/b6f" style="@style/a1e" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:text="@string/b6h" style="@style/a1e" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:text="@string/b6d" style="@style/a1e" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:text="@string/b66" style="@style/a1e" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:text="@string/b6_" style="@style/a1f" />
+    </LinearLayout>
+</merge>

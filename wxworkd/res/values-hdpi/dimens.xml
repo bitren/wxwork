@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="a05">34.0dip</dimen>
+    <dimen name="a06">57.0dip</dimen>
+    <dimen name="a0_">176.0dip</dimen>
+    <dimen name="a0b">20.0dip</dimen>
+    <dimen name="a0d">20.0dip</dimen>
+    <dimen name="a0g">176.0dip</dimen>
+    <dimen name="a42">8.0dip</dimen>
+    <dimen name="a_h">218.0dip</dimen>
+    <dimen name="a_i">213.0dip</dimen>
+    <dimen name="alg">210.0dip</dimen>
+    <dimen name="apn">260.0dip</dimen>
+    <dimen name="apo">210.0dip</dimen>
+    <dimen name="app">-8.0dip</dimen>
+    <dimen name="apq">5.0dip</dimen>
+    <dimen name="apr">295.0dip</dimen>
+    <dimen name="aps">175.0dip</dimen>
+    <dimen name="apt">356.0dip</dimen>
+    <dimen name="apu">330.0dip</dimen>
+    <dimen name="apv">84.0dip</dimen>
+    <dimen name="apw">21.0dip</dimen>
+    <dimen name="apx">3.0dip</dimen>
+    <dimen name="apy">6.0dip</dimen>
+    <dimen name="apz">43.0dip</dimen>
+    <dimen name="aq0">11.0dip</dimen>
+    <dimen name="aq1">10.0dip</dimen>
+    <dimen name="aq2">48.0dip</dimen>
+</resources>

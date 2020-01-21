@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/atc" android:layout_width="fill_parent" android:layout_height="184.66998dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="16.0sp" android:textColor="@color/ah_" android:id="@id/cmq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="27.0dip" android:text="@string/gj3" android:layout_centerHorizontal="true" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/f69" android:layout_width="wrap_content" android:layout_height="31.0dip" android:layout_marginTop="20.0dip" android:layout_below="@id/cmq" android:layout_centerHorizontal="true">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="13.0sp" android:textColor="@color/ai6" android:gravity="center" android:id="@id/f5o" android:background="@drawable/a09" android:layout_width="86.0dip" android:layout_height="fill_parent" android:text="" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="13.0sp" android:textColor="@color/ai6" android:gravity="center" android:id="@id/f5p" android:background="@drawable/a09" android:layout_width="86.0dip" android:layout_height="fill_parent" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:text="" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="13.0sp" android:textColor="@color/ai6" android:gravity="center" android:id="@id/f5q" android:background="@drawable/a09" android:layout_width="86.0dip" android:layout_height="fill_parent" android:text="" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/f6_" android:layout_width="wrap_content" android:layout_height="31.0dip" android:layout_marginTop="12.0dip" android:layout_below="@id/f69" android:layout_centerHorizontal="true">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="13.0sp" android:textColor="@color/ai6" android:gravity="center" android:id="@id/f5r" android:background="@drawable/a09" android:layout_width="86.0dip" android:layout_height="fill_parent" android:text="" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="13.0sp" android:textColor="@color/ai6" android:gravity="center" android:id="@id/f5s" android:background="@drawable/a09" android:layout_width="86.0dip" android:layout_height="fill_parent" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:text="" />
+        <com.tencent.wework.namecard.view.DrawableTextView android:textSize="13.0sp" android:textColor="@color/ai6" android:gravity="center_vertical" android:id="@id/f5t" android:background="@drawable/a09" android:layout_width="86.0dip" android:layout_height="fill_parent" android:drawableLeft="@drawable/bv6" android:drawablePadding="4.0dip" />
+    </LinearLayout>
+    <ImageView android:id="@id/em3" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginTop="17.329987dip" android:src="@drawable/bvl" android:layout_below="@id/f6_" android:layout_centerHorizontal="true" />
+</RelativeLayout>

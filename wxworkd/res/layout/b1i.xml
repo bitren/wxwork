@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/atc" android:layout_width="fill_parent" android:layout_height="40.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.ConfigurableTextView android:id="@id/f_" android:background="@drawable/bvr" android:layout_width="14.0dip" android:layout_height="14.0dip" android:layout_marginLeft="16.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="12.0sp" android:textColor="@color/ai0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:text="@string/git" android:layout_toRightOf="@id/f_" android:layout_centerVertical="true" />
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="96px" height="96px" viewBox="0 0 96 96" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>buttonsheet_icon_exit</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Buttonsheet" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="buttonsheet_icon_exit" fill="#7C8085">
+            <path d="M72,44 L47,44 L47,52 L72,52 L72,60 L87.3907635,48 L72,36 L72,44 Z M80,26 L80,23.990396 C80,17.3822567 74.6272597,12 67.9996487,12 L28.0003513,12 C21.3739559,12 16,17.3682831 16,23.990396 L16,72.009604 C16,78.6177433 21.3727403,84 28.0003513,84 L67.9996487,84 C74.6260441,84 80,78.6317169 80,72.009604 L80,70 L72,70 L72,71.9950917 C72,74.2069415 70.2059475,76 67.9901068,76 L28.0098932,76 C25.7952903,76 24,74.200205 24,71.9950917 L24,24.0049083 C24,21.7930585 25.7940525,20 28.0098932,20 L67.9901068,20 C70.2047097,20 72,21.799795 72,24.0049083 L72,26 L80,26 Z" id="Combined-Shape"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/atc" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ww="http://schemas.android.com/apk/res-auto">
+    <com.rockerhieu.emojicon.EmojiconTextView android:textSize="@dimen/ah_" android:textColor="@color/jf" android:id="@id/e3l" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/aha" android:layout_marginRight="@dimen/aha" android:text="1" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <com.tencent.wework.common.views.PhotoImageView android:id="@id/ccy" android:duplicateParentState="true" android:layout_width="@dimen/ah7" android:layout_height="@dimen/ah7" android:layout_marginTop="@dimen/ah8" android:layout_marginBottom="@dimen/ah8" android:src="@drawable/b0q" android:layout_toRightOf="@id/e3l" />
+    <com.rockerhieu.emojicon.EmojiconTextView android:textSize="@dimen/ah_" android:textColor="@color/jf" android:id="@id/e3k" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/aha" android:layout_marginRight="@dimen/aha" android:text="ten" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <com.rockerhieu.emojicon.EmojiconTextView android:textSize="@dimen/ah_" android:textColor="@color/jf" android:ellipsize="end" android:id="@id/e3i" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ah9" android:layout_marginRight="@dimen/aha" android:text="riosh" android:layout_toLeftOf="@id/e3k" android:layout_toRightOf="@id/ccy" android:layout_centerVertical="true" />
+    <View android:id="@id/a01" android:background="@color/a47" android:layout_width="fill_parent" android:layout_height="@dimen/a61" android:layout_below="@id/ccy" />
+</RelativeLayout>

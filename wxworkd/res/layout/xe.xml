@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/a38" android:paddingTop="@dimen/y3" android:paddingBottom="@dimen/xx" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.ConfigurableEditText android:textSize="22.0sp" android:textColor="#ff2d3034" android:textColorHint="#ffd9dad9" android:id="@id/agh" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:hint="@string/bl9" android:maxLength="50" android:imeOptions="actionNext" />
+</LinearLayout>

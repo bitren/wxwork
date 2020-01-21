@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ffz" android:layout_width="fill_parent" android:layout_height="@dimen/alo" />
+    <com.tencent.qmui.widget.recyclerview.QMUIRecyclerView android:id="@id/ewy" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/ffz" />
+    <RelativeLayout android:id="@id/crt" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="40.0dip" android:layout_below="@id/ffz">
+        <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminateDrawable="@drawable/a1r" android:layout_above="@id/ctf" android:layout_centerHorizontal="true" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="16.0sp" android:textColor="#ff78808a" android:gravity="center" android:id="@id/ctf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/fkx" android:layout_centerInParent="true" android:lineSpacingExtra="4.0dip" />
+    </RelativeLayout>
+</RelativeLayout>

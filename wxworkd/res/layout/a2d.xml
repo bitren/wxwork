@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/atc" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ww="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" android:layout_width="fill_parent" android:layout_height="@dimen/alo" android:layout_alignParentTop="true" ww:extraLayout="@layout/bfo" />
+    <com.tencent.wework.common.views.PhotoImageView android:id="@id/apt" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/up" android:src="@drawable/c2m" android:layout_below="@id/ff6" android:layout_centerHorizontal="true" />
+    <com.tencent.wework.common.views.EmptyViewStub android:id="@id/apu" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/ff6" />
+    <com.tencent.wework.common.views.DragLayout android:id="@id/b_c" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/ff6">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="100.0dip">
+            <com.tencent.wework.setting.views.WorkStatusDragView2 android:id="@id/g3z" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <View android:background="#ffccccce" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <com.tencent.wework.common.views.ScrollListView android:id="@id/apq" android:background="@color/ar4" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" style="@style/yb" />
+    </com.tencent.wework.common.views.DragLayout>
+    <com.tencent.wework.msg.views.ErrorNoticeView android:id="@id/bjv" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" android:layout_below="@id/ff6" />
+</RelativeLayout>

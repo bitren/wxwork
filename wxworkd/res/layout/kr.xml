@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/atc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:showDividers="middle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/dxr" android:layout_width="55.0dip" android:layout_height="55.0dip" android:layout_marginTop="20.0dip" android:layout_marginBottom="10.0dip" />
+        <TextView android:textAppearance="@style/ow" android:gravity="center" android:id="@id/dxz" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:maxLines="2" />
+        <TextView android:textAppearance="@style/ov" android:gravity="center" android:id="@id/dxl" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:layout_marginBottom="23.0dip" />
+    </LinearLayout>
+    <TableLayout android:id="@id/dye" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/bm" android:stretchColumns="1" android:showDividers="beginning|middle">
+        <TableRow android:id="@id/dy7" android:paddingTop="@dimen/kl" android:paddingBottom="@dimen/kl" style="@style/u5">
+            <TextView android:gravity="top" android:layout_gravity="top" android:id="@id/dy9" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/o0" style="@style/ox" />
+            <TextView android:textAppearance="@style/oy" android:ellipsize="end" android:gravity="start|center" android:layout_gravity="center_vertical" android:id="@id/dy8" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="3" android:layout_weight="1.0" />
+        </TableRow>
+        <TableRow android:id="@id/dxn" style="@style/u5">
+            <TextView android:background="@drawable/bk" android:paddingTop="@dimen/kl" android:paddingBottom="@dimen/kl" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/nr" style="@style/ox" />
+            <TextView android:textAppearance="@style/oy" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/dxo" android:background="@drawable/bk" android:paddingTop="@dimen/kl" android:paddingBottom="@dimen/kl" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1.0" />
+        </TableRow>
+        <TableRow android:id="@id/dy2" style="@style/u5">
+            <TextView android:background="@drawable/bk" android:paddingTop="@dimen/kl" android:paddingBottom="@dimen/kl" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/ny" style="@style/ox" />
+            <TextView android:textAppearance="@style/oy" android:textColor="@color/ad4" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/dy3" android:background="@drawable/bk" android:paddingTop="@dimen/kl" android:paddingBottom="@dimen/kl" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1.0" />
+        </TableRow>
+        <TableRow android:id="@id/dxf" style="@style/u5">
+            <TextView android:ellipsize="end" android:paddingTop="@dimen/kl" android:paddingBottom="@dimen/kl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nk" style="@style/ox" />
+            <com.tencent.mm.plugin.appbrand.widget.WxaBindBizInfoView android:gravity="start|center" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/dxb" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

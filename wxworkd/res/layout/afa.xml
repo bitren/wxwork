@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/aas" android:layout_width="1.0dip" android:layout_height="1.0dip" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/bza" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/cmu" android:scaleType="fitXY" />
+    <RelativeLayout android:id="@id/bz9" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/bzg" android:paddingLeft="@dimen/apq" android:paddingTop="@dimen/apq" android:paddingRight="@dimen/apq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ac" />
+        <ImageView android:id="@id/bzi" android:paddingLeft="@dimen/apq" android:paddingTop="@dimen/apq" android:paddingRight="@dimen/apq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a1d" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <com.tencent.wework.common.views.BusinessCardView android:id="@id/cww" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/app" android:layout_below="@id/aas" android:layout_centerHorizontal="true" />
+    <com.tencent.wework.common.views.BusinessCardView android:id="@id/fma" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/app" android:layout_above="@id/aas" android:layout_centerHorizontal="true" />
+    <LinearLayout android:orientation="vertical" android:id="@id/bzc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/a3y" android:layout_below="@id/cww" android:layout_centerHorizontal="true">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3f" android:textColor="@color/atc" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/bzb" android:background="@drawable/en" android:layout_width="fill_parent" android:layout_height="42.0dip" android:layout_marginLeft="13.0dip" android:layout_marginRight="13.0dip" android:text="@string/e70" />
+    </LinearLayout>
+    <ViewStub android:id="@id/fx1" android:layout="@layout/ub" android:inflatedId="@id/bzf" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+</merge>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="50.0dip">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3f" android:textColor="@color/ux" android:id="@id/emn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/s2" />
+        <com.tencent.wework.common.views.PhotoImageView android:id="@id/emj" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginLeft="10.0dip" android:scaleType="centerCrop" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3f" android:textColor="@color/a3c" android:textColorHint="@color/yr" android:ellipsize="none" android:id="@id/emk" android:background="@android:color/transparent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:maxLines="1" android:singleLine="true" android:layout_weight="1.0" />
+        <com.tencent.wework.common.views.ConfigurableEditText android:textSize="@dimen/a3f" android:textColorHint="@color/yr" android:id="@id/emi" android:background="@android:color/transparent" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:maxLines="1" android:singleLine="true" android:layout_weight="1.0" />
+        <View android:layout_gravity="center|right" android:id="@id/eml" android:background="@color/a47" android:layout_width="@dimen/sm" android:layout_height="26.0dip" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3d" android:textColor="@color/a5d" android:layout_gravity="center|right" android:id="@id/emm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/s2" android:layout_marginRight="@dimen/s2" android:drawablePadding="7.0dip" />
+    </LinearLayout>
+    <View android:background="@color/a47" android:layout_width="fill_parent" android:layout_height="@dimen/rw" android:layout_marginLeft="@dimen/s2" />
+</merge>

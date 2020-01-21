@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#fff2f3f5" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/fe0" android:layout_width="fill_parent" android:layout_height="@dimen/alw" />
+    <com.tencent.wework.common.views.CommonItemView android:id="@id/ef2" android:layout_width="fill_parent" android:layout_height="@dimen/rx" android:layout_marginTop="20.0dip" />
+    <com.tencent.wework.common.views.CommonItemView android:id="@id/ef3" android:layout_width="fill_parent" android:layout_height="@dimen/rx" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:text="@string/ap6" style="@style/y7" />
+    <com.tencent.wework.common.views.CommonItemView android:id="@id/ba1" android:layout_width="fill_parent" android:layout_height="@dimen/rx" android:layout_marginTop="30.0dip" />
+    <com.tencent.wework.common.views.CommonItemView android:id="@id/f3p" android:layout_width="fill_parent" android:layout_height="@dimen/rx" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:id="@id/f3q" style="@style/y7" />
+    <com.tencent.wework.common.views.CommonItemView android:id="@id/hr" android:layout_width="fill_parent" android:layout_height="@dimen/rx" android:layout_marginTop="30.0dip" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:id="@id/hs" style="@style/y7" />
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/fxq" android:layout="@layout/asz" android:inflatedId="@id/d6q" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/a9j" android:layout_alignParentTop="true" />
+    <ViewStub android:id="@id/fxi" android:layout="@layout/z6" android:inflatedId="@id/d5p" android:layout_width="wrap_content" android:layout_height="@dimen/a9b" android:layout_marginLeft="@dimen/a_9" android:layout_below="@id/d6q" android:layout_alignParentLeft="true" />
+    <com.tencent.wework.common.views.PhotoImageView android:id="@id/d8d" android:layout_width="@dimen/a9b" android:layout_height="@dimen/a9b" android:layout_marginLeft="@dimen/a98" android:layout_marginRight="@dimen/a9a" android:layout_toRightOf="@id/d5p" android:layout_below="@id/d6q" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/d8d" android:layout_below="@id/d6q">
+        <com.rockerhieu.emojicon.EmojiconTextView android:id="@id/dad" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.tencent.wework.msg.views.MessageListJoinNotifyView android:id="@id/d7y" android:background="@drawable/xe" android:layout_width="@dimen/a_1" android:layout_height="wrap_content" />
+    </LinearLayout>
+</merge>

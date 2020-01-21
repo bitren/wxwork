@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/c6d" android:background="@drawable/kb" android:layout_width="fill_parent" android:layout_height="66.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.PhotoImageView android:id="@id/cb1" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginLeft="16.0dip" android:layout_centerVertical="true" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_toRightOf="@id/cb1" android:layout_centerVertical="true">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="16.0sp" android:textColor="#ff000000" android:id="@id/f7s" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0sp" android:textColor="#ff9ba1a8" android:id="@id/f7t" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <ImageView android:layout_width="wrap_content" android:layout_height="13.0dip" android:layout_marginRight="16.0dip" android:src="@drawable/c3h" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <View android:id="@id/ffa" android:background="@color/a47" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentTop="true" />
+    <View android:id="@id/zz" android:background="@color/a47" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentBottom="true" />
+</RelativeLayout>

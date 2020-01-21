@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/atc" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" android:layout_width="fill_parent" android:layout_height="@dimen/alo" android:layout_alignParentTop="true" />
+    <GridView android:gravity="center" android:id="@id/du5" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="7.0dip" android:layout_marginBottom="8.0dip" android:listSelector="@null" android:verticalSpacing="12.0dip" android:stretchMode="columnWidth" android:columnWidth="110.0dip" android:numColumns="auto_fit" android:layout_below="@id/ff6" />
+    <RelativeLayout android:orientation="vertical" android:id="@id/cru" android:background="@color/atc" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/ff6">
+        <ImageView android:id="@id/d0i" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="170.0dip" android:src="@drawable/bum" android:scaleType="centerCrop" android:layout_centerHorizontal="true" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3e" android:textColor="#ff78808a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="22.0dip" android:text="@string/ghy" android:layout_below="@id/d0i" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</RelativeLayout>

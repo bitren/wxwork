@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/lz"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:scrollbars="none" style="@style/kg">
+        <LinearLayout style="@style/im">
+            <TextView android:id="@id/ep1" android:text="@string/avv" style="@style/jm" />
+            <View style="@style/jh" />
+            <LinearLayout android:orientation="horizontal" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" style="@style/im">
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/arm" android:background="@drawable/yz" android:layout_width="wrap_content" android:layout_height="50.0dip">
+                    <TextView android:textSize="15.0dip" android:textColor="@color/jf" android:gravity="center_horizontal" android:id="@id/arl" android:layout_width="48.0dip" android:layout_height="wrap_content" android:text="@string/c9e" android:singleLine="true" />
+                    <TextView android:textSize="8.0dip" android:textColor="@color/jf" android:gravity="center_horizontal" android:id="@id/arp" android:layout_width="48.0dip" android:layout_height="wrap_content" android:text="@string/c9f" android:singleLine="true" />
+                </LinearLayout>
+                <EditText android:id="@id/xf" android:layout_height="50.0dip" android:layout_marginLeft="10.0dip" android:layout_marginBottom="10.0dip" android:hint="@string/ax7" android:inputType="phone" style="@style/jl" />
+            </LinearLayout>
+            <Button android:id="@id/xp" android:visibility="gone" android:text="@string/ax0" style="@style/kv" />
+            <LinearLayout android:orientation="vertical" android:id="@id/xd" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip">
+                <CheckBox android:textColor="@color/jf" android:id="@id/xc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="@string/hzv" style="@style/fa" />
+                <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/hbp" style="@style/in" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

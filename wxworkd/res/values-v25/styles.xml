@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="m3" parent="@style/a1y" />
+    <style name="m4" parent="@style/a1z" />
+    <style name="a1y" parent="@android:style/Theme.Material.NoActionBar" />
+    <style name="a1z" parent="@android:style/Theme.Material.Light.NoActionBar" />
+</resources>

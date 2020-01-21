@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>icons_filled_camera</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icons_filled_camera" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon20" fill="#000000">
+            <path d="M44.1972244,12 C44.6987541,12 45.1671011,12.2506517 45.4452998,12.6679497 L51,21 L63,21 C64.6568542,21 66,22.3431458 66,24 L66,57 C66,58.6568542 64.6568542,60 63,60 L9,60 C7.34314575,60 6,58.6568542 6,57 L6,24 C6,22.3431458 7.34314575,21 9,21 L21,21 L26.5547002,12.6679497 C26.8328989,12.2506517 27.3012459,12 27.8027756,12 L44.1972244,12 Z M36,49.5 C41.7989899,49.5 46.5,44.7989899 46.5,39 C46.5,33.2010101 41.7989899,28.5 36,28.5 C30.2010101,28.5 25.5,33.2010101 25.5,39 C25.5,44.7989899 30.2010101,49.5 36,49.5 Z" id="Combined-Shape"></path>
+        </g>
+    </g>
+</svg>

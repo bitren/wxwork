@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.CommonItemView android:id="@id/bf6" android:layout_width="fill_parent" android:layout_height="@dimen/rx" android:layout_marginTop="20.0dip" app:bottomLineType="g34" app:hasTopLine="true" app:leftTitle="@string/ank" app:topLineType="g34" />
+    <com.tencent.wework.common.views.CommonItemView android:id="@id/ea3" android:layout_width="fill_parent" android:layout_height="@dimen/rx" app:bottomLineType="dkj" app:hasBottomLine="false" app:hasTopLine="true" app:leftTitle="@string/j4f" app:rightIconType="re" app:topLineType="cdq" />
+    <com.tencent.wework.common.views.CommonItemView android:id="@id/ea2" android:layout_width="fill_parent" android:layout_height="@dimen/rx" app:hasTopLine="true" app:leftTitle="@string/j7e" app:rightIconType="re" app:topLineType="cdq" />
+    <com.tencent.wework.setting.views.CommonListTipView android:id="@id/f_t" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" />
+</merge>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/aoz" android:background="@color/atc" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="15.0sp" android:textColor="@color/atw" android:layout_gravity="center_vertical" android:id="@id/f7r" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="22.0dip" android:text="部分功能暂时无法使用，企业微信团队正在处理，请稍后再试。" android:layout_toLeftOf="@id/ccf" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/ccf" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginRight="18.0dip" android:src="@drawable/bef" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View android:background="@color/atx" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_below="@id/aoz" />
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3d" android:textColor="@color/jf" android:id="@id/av8" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/c_u" android:layout_centerVertical="true" />
+    <Button android:textColor="@color/atc" android:id="@id/av_" android:background="@drawable/lf" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/vg" android:text="@string/bso" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</merge>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/atc" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="20.0sp" android:textColor="@color/jf" android:id="@id/fbv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="70.0dip" android:text="@string/em4" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="15.0sp" android:textColor="#ff373e45" android:gravity="center_horizontal" android:id="@id/f0z" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="50.0dip" android:layout_marginTop="22.0dip" android:layout_marginRight="50.0dip" android:text="@string/emi" android:layout_below="@id/fbv" android:layout_centerHorizontal="true" android:lineSpacingMultiplier="1.4" />
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="60.0dip" android:src="@drawable/c2f" android:layout_below="@id/f0z" android:layout_centerHorizontal="true" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:id="@id/ex" android:layout_width="fill_parent" android:layout_height="46.0dip" android:layout_marginLeft="42.0dip" android:layout_marginRight="42.0dip" android:layout_marginBottom="40.0dip" android:text="@string/el9" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/xr" />
+</RelativeLayout>

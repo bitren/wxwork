@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/qt" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.BaseLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" app:topDividerSize="@dimen/t0">
+        <com.tencent.wework.common.views.CommonItemView android:id="@id/azz" android:layout_width="fill_parent" android:layout_height="@dimen/rx" android:layout_marginTop="@dimen/ajd" app:bottomLineType="cdq" app:hasTopLine="true" app:leftContent="@string/b27" app:rightIconType="re" app:topLineType="g34" />
+        <com.tencent.wework.common.views.CommonItemView android:id="@id/b01" android:layout_width="fill_parent" android:layout_height="@dimen/rx" app:bottomLineType="cdq" app:leftContent="@string/b29" app:rightIconType="re" />
+        <com.tencent.wework.common.views.CommonItemView android:id="@id/b02" android:layout_width="fill_parent" android:layout_height="@dimen/rx" app:bottomLineType="cdq" app:leftContent="@string/b1s" app:rightIconType="re" />
+        <com.tencent.wework.common.views.CommonItemView android:id="@id/b00" android:layout_width="fill_parent" android:layout_height="@dimen/rx" app:leftContent="@string/b20" app:rightIconType="re" />
+    </com.tencent.wework.common.views.BaseLinearLayout>
+</ScrollView>

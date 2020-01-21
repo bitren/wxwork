@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="@dimen/z0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/yd" android:paddingRight="@dimen/yd" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/bkm" android:clickable="true" android:layout_width="@dimen/z1" android:layout_height="fill_parent" android:src="@drawable/wj" android:scaleType="center" />
+        <View android:id="@id/bvx" android:background="@color/zo" android:layout_width="@dimen/a61" android:layout_height="fill_parent" android:layout_marginTop="14.0dip" android:layout_marginBottom="14.0dip" />
+        <com.tencent.wework.wedoc.view.DocToolLayout android:orientation="horizontal" android:id="@id/fd_" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <ImageView android:id="@id/bkk" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/wg" android:scaleType="center" android:layout_weight="1.0" />
+            <ImageView android:id="@id/bkl" android:visibility="visible" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/wh" android:scaleType="center" android:layout_weight="1.0" />
+            <View android:id="@id/eio" android:background="@color/zo" android:visibility="gone" android:layout_width="@dimen/a61" android:layout_height="fill_parent" android:layout_marginTop="14.0dip" android:layout_marginBottom="14.0dip" />
+            <ImageView android:id="@id/bko" android:visibility="visible" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/wm" android:scaleType="center" android:layout_weight="1.0" />
+            <ImageView android:id="@id/bkn" android:visibility="visible" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/wl" android:scaleType="center" android:layout_weight="1.0" />
+            <ImageView android:id="@id/bkj" android:visibility="visible" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/wf" android:scaleType="center" android:layout_weight="1.0" />
+        </com.tencent.wework.wedoc.view.DocToolLayout>
+    </LinearLayout>
+    <View android:id="@id/c0o" android:background="@color/zo" android:visibility="gone" android:layout_width="@dimen/a61" android:layout_height="fill_parent" android:layout_marginLeft="4.0dip" android:layout_marginTop="14.0dip" android:layout_marginRight="4.0dip" android:layout_marginBottom="14.0dip" />
+</merge>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="#66181818" android:layout_width="fill_parent" android:layout_height="58.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/dud" android:paddingLeft="19.0dip" android:layout_width="34.0dip" android:layout_height="wrap_content" android:src="@raw/app_brand_video_play_btn" android:layout_centerVertical="true" />
+    <TextView android:textSize="13.0dip" android:textColor="@color/atc" android:id="@id/dug" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:text="00:00" android:layout_toRightOf="@id/dud" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/c0h" android:paddingRight="16.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="14.0dip" android:src="@raw/app_brand_video_op_fullscreen_btn" android:scaleType="fitCenter" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/axc" android:layout_width="16.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:src="@raw/app_brand_video_danmaku_showed_btn" android:scaleType="fitCenter" android:layout_toLeftOf="@id/c0h" android:layout_centerVertical="true" />
+    <TextView android:textSize="13.0dip" android:textColor="@color/atc" android:id="@id/dui" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00" android:layout_toLeftOf="@id/axc" android:layout_centerVertical="true" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/dui" android:layout_toRightOf="@id/dug" android:layout_centerVertical="true">
+        <ImageView android:layout_gravity="center|left" android:id="@id/dun" android:background="#7fffffff" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="13.0dip" android:layout_marginRight="10.0dip" />
+        <ImageView android:layout_gravity="center|left" android:id="@id/duo" android:background="@color/atc" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="13.0dip" android:layout_marginRight="10.0dip" />
+        <ImageView android:id="@id/duq" android:paddingLeft="@dimen/k" android:paddingTop="@dimen/k" android:paddingRight="@dimen/k" android:paddingBottom="@dimen/k" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ff" android:src="@raw/media_player_control_btn" />
+    </FrameLayout>
+</RelativeLayout>

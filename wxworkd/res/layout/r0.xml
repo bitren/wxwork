@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/kb" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="12.0sp" android:textColor="@color/i_" android:gravity="center_vertical" android:id="@id/c6y" android:background="@color/ia" android:paddingLeft="17.0dip" android:layout_width="fill_parent" android:layout_height="21.0dip" />
+    <RelativeLayout android:background="@color/atc" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/jf" android:id="@id/f9o" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_centerVertical="true" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/jf" android:ellipsize="end" android:id="@id/faj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="15.0dip" android:lines="1" android:layout_toLeftOf="@id/ccf" android:layout_toRightOf="@id/f9o" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="12.0sp" android:textColor="@color/ib" android:ellipsize="end" android:id="@id/ff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="2.0dip" android:lines="1" android:layout_toLeftOf="@id/ccf" android:layout_toRightOf="@id/f9o" android:layout_below="@id/faj" />
+        <com.tencent.wework.common.views.PhotoImageView android:id="@id/ccf" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_marginRight="16.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <View android:id="@id/b5p" android:background="@color/ic" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="15.0dip" android:layout_below="@id/ff" android:layout_alignLeft="@id/faj" />
+    </RelativeLayout>
+</LinearLayout>

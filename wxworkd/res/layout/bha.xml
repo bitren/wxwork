@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:gravity="center" android:id="@id/fa7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_centerHorizontal="true" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="70.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/fab" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:layout_centerHorizontal="true" />
+    <RelativeLayout android:id="@id/f_v" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_centerHorizontal="true">
+        <ImageView android:id="@id/f_x" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/c5q" />
+        <com.tencent.wework.msg.views.VoiceRecordAnim android:id="@id/f_y" android:layout_width="40.0dip" android:layout_height="72.0dip" android:layout_marginLeft="9.0dip" android:layout_marginBottom="9.0dip" android:layout_toRightOf="@id/f_x" android:layout_alignBottom="@id/f_x" />
+    </RelativeLayout>
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="13.0dip" android:textColor="@color/atc" android:gravity="center" android:id="@id/fae" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="9.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</merge>

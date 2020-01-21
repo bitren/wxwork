@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.wework.common.views.BaseRelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/cz0" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <include android:id="@id/dad" android:visibility="gone" layout="@layout/at5" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:baselineAligned="false">
+            <com.tencent.wework.msg.views.MessageItemTextView android:autoLink="web" android:id="@id/d3w" android:background="@drawable/xv" android:paddingLeft="@dimen/aal" android:paddingTop="@dimen/aap" android:paddingRight="@dimen/aam" android:paddingBottom="@dimen/aao" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/a9g" android:minWidth="@dimen/aan" android:minHeight="@dimen/a9b" android:singleLine="false" app:clipType="cp1" app:maxLevelIncrement="@dimen/aar" style="@style/ze" />
+        </LinearLayout>
+    </LinearLayout>
+    <ViewStub android:id="@id/fz0" android:layout="@layout/bew" android:inflatedId="@id/f8s" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/a5a" android:layout_marginTop="4.0dip" android:layout_below="@id/cz0" />
+</com.tencent.wework.common.views.BaseRelativeLayout>

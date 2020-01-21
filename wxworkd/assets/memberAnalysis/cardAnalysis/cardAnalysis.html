@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../lib/reset.css">
+    <link rel="stylesheet" href="cardAnalysis.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="format-detection" content="telephone=no" />
+</head>
+<body style="visibility: hidden;">
+
+<div class="main">
+    <!-- 标题 start -->
+    <div class="analysisTitle">
+        <label class='i18n analysisTitle_title' name='DailyIncrease' style="margin-top: 2px;text-shadow: 0px 0px 0px #ddd;display: inline-block;font-size:$fontSize$"></label>
+        <!-- 导航栏tab start -->
+        <div id='js_partSwitchTab' class="ww_horizontalTab">
+            <div class="ww_horizontalTab_title">
+                <ul class="ww_horizontalTab_tabNav">
+                    <li data-date='week'
+                        class="ww_horizontalTab_Nav_item ww_horizontalTab_Nav_item_left ww_horizontalTab_Nav_item_Curr">
+                        <a href="javascript:;" class="ww_horizontalTab_Nav_itemLink" style="font-size:$dateTabFontSize$"><label class='i18n'
+                                                                                            name='nearWeek'></label></a>
+                    </li>
+                    <li data-date='month'
+                        class="ww_horizontalTab_Nav_item ww_horizontalTab_Nav_item_right js_weworkChoose">
+                        <a href="javascript:;" class="ww_horizontalTab_Nav_itemLink" style="font-size:$dateTabFontSize$"><label class='i18n'
+                                                                                            name='nearMonth'></label></a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+        <!-- 导航栏tab  end -->
+    </div>
+    <!-- 标题 end -->
+    <div id="use_analysis_container"></div>
+</div>
+
+</body>
+
+<script>
+    var CONTENT = $content$
+    var LANGUAGE = '$language$';
+    var PLATFORM = $platform$;
+</script>
+
+<script>
+    var loadJS = function (url, success) {
+        var domScript = document.createElement('script');
+        domScript.src = url;
+        success = success || function () {
+        };
+        domScript.onload = domScript.onreadystatechange = function () {
+            if (!this.readyState || 'loaded' === this.readyState || 'complete' === this.readyState) {
+                success();
+                this.onload = this.onreadystatechange = null;
+                this.parentNode.removeChild(this);
+            }
+        }
+        document.getElementsByTagName('head')[0].appendChild(domScript);
+    }
+    // 1:ios 2：android 3:pc 4:mac dev：本地开发 其他：远程js
+    if (PLATFORM - 0 == 2) {
+        //根据平台加载基础库
+        loadJS('file:///android_asset/memberAnalysis/lib/zepto.min.js', function () {
+            loadJS('file:///android_asset/memberAnalysis/lib/zepto.touch.js',function(){
+                $('head').append('<link rel="stylesheet" href="file:///android_asset/memberAnalysis/lib/reset.css" type="text/css" />');
+                $('head').append('<link rel="stylesheet" href="file:///android_asset/memberAnalysis/cardAnalysis/cardAnalysis.css" type="text/css" />');
+                loadJS('file:///android_asset/memberAnalysis/lib/highcharts.js',function () {
+                    loadJS('file:///android_asset/memberAnalysis/lib/i18n.js',function () {
+                        loadJS('file:///android_asset/memberAnalysis/cardAnalysis/cardAnalysis.js');
+                    });
+                });
+            });
+        });
+    }else{
+        loadJS('../lib/zepto.min.js', function () {
+            loadJS('../lib/zepto.touch.js',function(){
+                loadJS('../lib/highcharts.js',function () {
+                    loadJS('../lib/i18n.js',function () {
+                        loadJS('cardAnalysis.js');
+                    });
+                });
+            });
+        });
+    }
+</script>
+
+</html>

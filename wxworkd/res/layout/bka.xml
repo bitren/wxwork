@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@color/a38" android:layout_width="fill_parent" android:layout_height="30.0dip">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerVertical="true">
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="13.0sp" android:textColor="@color/wn" android:ellipsize="end" android:id="@id/c4b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:singleLine="true" />
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/c54" android:layout_width="14.0dip" android:layout_height="14.0dip" android:layout_marginLeft="6.0dip" android:src="@drawable/c5e" />
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/c4e" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="14.0dip" android:layout_marginLeft="6.0dip" android:src="@drawable/c5e" />
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="13.0sp" android:textColor="@color/au3" android:id="@id/ba9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:text="@string/box" android:drawableLeft="@drawable/aeu" android:drawablePadding="6.0dip" />
+        </LinearLayout>
+        <View android:background="@color/a0j" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentTop="true" />
+    </RelativeLayout>
+</merge>

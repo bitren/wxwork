@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ww="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" style="@style/a13" />
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bl1" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3d" android:textColor="@color/a4h" android:gravity="center_horizontal" android:id="@id/bjx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:maxWidth="240.0dip" android:layout_centerHorizontal="true" ww:maxLevelIncrement="@dimen/aar" />
+        <com.tencent.wework.common.views.WWIconButton android:textSize="15.0sp" android:gravity="center" android:id="@id/dnx" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="90.0dip" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/fk3" style="@style/a1g" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3d" android:textColor="@color/a4h" android:gravity="center_horizontal" android:id="@id/bjt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.5dip" android:text="@string/fk2" android:layout_centerHorizontal="true" ww:maxLevelIncrement="@dimen/aar" />
+    </LinearLayout>
+</LinearLayout>

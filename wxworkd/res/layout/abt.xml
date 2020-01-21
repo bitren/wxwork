@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/vy" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <com.tencent.mm.plugin.facedetectlight.ui.PreviewFrameLayout android:id="@id/boq" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.tencent.mm.ui.base.MMTextureView android:id="@id/bop" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.tencent.mm.plugin.facedetectlight.ui.PreviewFrameLayout>
+    <com.tencent.mm.plugin.facedetectlight.ui.FaceReflectMask android:id="@id/bor" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/bo7" android:visibility="invisible" android:layout_width="320.0dip" android:layout_height="320.0dip" android:layout_marginTop="135.0dip" android:src="@drawable/cm8" android:layout_centerHorizontal="true" />
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/bot" android:visibility="invisible" android:layout_width="278.0dip" android:layout_height="278.0dip" android:layout_marginTop="145.0dip" android:src="@drawable/cln" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="24.0dip" android:textColor="@color/atc" android:id="@id/bos" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/dta" android:layout_below="@id/bo7" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="@dimen/a2a" android:textColor="@color/atc" android:id="@id/c80" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/a2_" android:layout_centerHorizontal="true" android:fontFamily="sans-serif-thin" />
+</merge>

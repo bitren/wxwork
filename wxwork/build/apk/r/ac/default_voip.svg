@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="192px" height="192px" viewBox="0 0 192 192" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3 (11970) - http://www.bohemiancoding.com/sketch -->
+    <title>default_voip</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="模块/插件" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="default_voip" sketch:type="MSArtboardGroup">
+            <rect id="Path-2" fill="#45C01A" sketch:type="MSShapeGroup" x="0" y="0" width="192" height="192"></rect>
+            <path d="M125.051724,106.304429 C134.372024,117.361904 151.403388,137.344878 152.327586,139.009215 C156.126795,140.247452 158.948276,137.813167 158.948276,135.698871 L158.948276,56.2505947 C158.948276,53.6905299 155.829797,51.9420836 152.327586,52.9402499 C150.758847,54.9679697 134.145187,74.3513289 125.051724,85.3220464 L125.051724,106.304429 L125.051724,106.304429 Z M33.0517241,67.9731736 C33.0517241,61.3466176 38.4319732,55.9747326 45.0520554,55.9747326 L103.051393,55.9747326 C109.678993,55.9747326 115.051724,61.3479805 115.051724,67.9731736 L115.051724,123.976292 C115.051724,130.602848 109.671475,135.974733 103.051393,135.974733 L45.0520554,135.974733 C38.4244555,135.974733 33.0517241,130.601485 33.0517241,123.976292 L33.0517241,67.9731736 Z" id="Rectangle-122" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

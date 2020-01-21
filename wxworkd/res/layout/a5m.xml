@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/a3a" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:padding="30.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.tencent.wework.common.views.ConfigurableTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:text="图片资源透明点击态 " />
+        <ImageView android:id="@id/ccg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:layout_marginBottom="20.0dip" android:src="@drawable/aub" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:text="图片资源灰色遮罩点击态 " />
+        <ImageView android:id="@id/cch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:src="@drawable/aub" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:text="layout点击态" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/co3" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginBottom="20.0dip" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/co4" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginBottom="20.0dip" />
+    </LinearLayout>
+</ScrollView>

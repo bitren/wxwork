@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:id="@id/d_3" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/d9t" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.tencent.wework.common.views.BaseFrameLayout android:id="@id/d_4" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.tencent.wework.common.views.BaseRelativeLayout android:orientation="horizontal" android:id="@id/d_5" android:paddingTop="36.0dip" android:focusable="true" android:focusableInTouchMode="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="16.0sp" android:id="@id/d9z" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:paddingBottom="10.0dip" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/g6a" android:drawableLeft="@drawable/bq4" android:drawablePadding="12.0dip" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/tn" android:id="@id/d_6" android:paddingLeft="10.0dip" android:paddingRight="22.0dip" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" />
+        <TextView android:textSize="16.0sp" android:id="@id/d9v" android:paddingLeft="20.0dip" android:paddingRight="16.0dip" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableLeft="@drawable/aar" android:layout_toLeftOf="@id/d_6" android:layout_alignTop="@id/d_6" android:layout_alignBottom="@id/d_6" />
+    </com.tencent.wework.common.views.BaseRelativeLayout>
+    <com.tencent.wework.common.views.BaseRelativeLayout android:id="@id/d9y" android:paddingTop="5.0dip" android:focusable="true" android:focusableInTouchMode="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/d_5">
+        <android.support.v7.widget.RecyclerView android:id="@id/d9x" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:layout_alignParentBottom="true" />
+    </com.tencent.wework.common.views.BaseRelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/d_8" android:background="@drawable/aaw" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginTop="35.0dip" android:layout_marginRight="4.0dip" android:layout_marginBottom="35.0dip" android:src="@drawable/c7e" />
+    </LinearLayout>
+    <ImageView android:id="@id/d9u" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</merge>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>WAVideoFullExit@2x</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="=slice=" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="iPhone-X-Copy-2" transform="translate(-330.000000, -60.000000)">
+            <g id="sq" transform="translate(330.000000, 60.000000)">
+                <g id="Group-2">
+                    <rect id="Rectangle-9-Copy" x="0" y="0" width="24" height="24"></rect>
+                    <g id="Group-16" transform="translate(3.000000, 3.000000)" opacity="0.9" stroke="#FFFFFF" stroke-width="1.5">
+                        <g id="Group-9">
+                            <path d="M12,0 L12,5.38165468 C12,5.5473401 12.1343146,5.68165468 12.3,5.68165468 L17.9643913,5.68165468" id="Stroke-7"></path>
+                            <path d="M12,12 L12,17.3816547 C12,17.5473401 12.1343146,17.6816547 12.3,17.6816547 L17.9643913,17.6816547" id="Stroke-7-Copy" transform="translate(14.982196, 14.840827) scale(1, -1) translate(-14.982196, -14.840827) "></path>
+                            <path d="M5.9643913,17.6816547 L5.9643913,12.3 C5.9643913,12.1343146 5.83007673,12 5.6643913,12 L0,12" id="Stroke-1"></path>
+                            <path d="M5.96433913,0.0108776978 L5.96433913,5.39253237 C5.96433913,5.5582178 5.83002456,5.69253237 5.66433913,5.69253237 L-5.2173913e-05,5.69253237" id="Stroke-4"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

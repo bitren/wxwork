@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@color/aua" android:layout_width="fill_parent" android:layout_height="55.0dip">
+        <FrameLayout android:background="@drawable/cfm" android:layout_width="165.5dip" android:layout_height="44.0dip" android:layout_centerInParent="true">
+            <RelativeLayout android:layout_gravity="center" android:id="@id/ed8" android:background="@drawable/kb" android:clickable="true" android:layout_width="157.5dip" android:layout_height="35.0dip">
+                <com.tencent.wework.common.views.PhotoImageView android:id="@id/uj" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginLeft="5.0dip" android:layout_centerVertical="true" />
+                <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0sp" android:textColor="@color/au7" android:ellipsize="middle" android:id="@id/dfz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.5dip" android:lines="1" android:layout_toRightOf="@id/uj" android:layout_centerVertical="true" />
+                <ImageView android:layout_width="4.0dip" android:layout_height="8.0dip" android:layout_marginRight="8.0dip" android:src="@drawable/cfl" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+        </FrameLayout>
+    </RelativeLayout>
+</RelativeLayout>

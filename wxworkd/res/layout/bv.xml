@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ww="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.BaseRelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/fl6" android:layout_width="fill_parent" android:layout_height="@dimen/rx" ww:bottomDividerSize="@dimen/rw">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3f" android:textColor="@color/a4a" android:gravity="center_vertical" android:id="@id/ak0" android:layout_width="@dimen/ug" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/s2" android:text="@string/b4m" android:layout_centerVertical="true" />
+        <com.tencent.wework.setting.views.CommonHighlightItemView android:id="@id/bf" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/rw" android:text="@string/b4n" android:layout_toRightOf="@id/ak0" />
+    </com.tencent.wework.common.views.BaseRelativeLayout>
+    <ViewStub android:id="@id/fys" android:inflatedId="@id/eku" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</FrameLayout>

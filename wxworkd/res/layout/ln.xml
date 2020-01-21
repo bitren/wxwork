@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/cdb" android:layout_width="@dimen/kq" android:layout_height="@dimen/kp" android:scaleType="fitCenter" />
+    <ImageView android:layout_gravity="center" android:id="@id/dud" android:visibility="gone" android:layout_width="45.0dip" android:layout_height="45.0dip" android:src="@raw/app_brand_profile_preview_video_play_btn" />
+</FrameLayout>

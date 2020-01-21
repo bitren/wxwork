@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.PhotoImageView android:id="@id/dtu" android:layout_width="@dimen/a9b" android:layout_height="@dimen/a9b" android:layout_marginLeft="@dimen/us" android:layout_marginTop="@dimen/abg" android:layout_marginRight="@dimen/us" android:layout_alignParentLeft="true" android:layout_centerVertical="false" />
+    <com.rockerhieu.emojicon.EmojiconTextView android:id="@id/f_7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/abg" android:layout_marginRight="@dimen/us" android:text="@string/ibc" android:singleLine="true" android:layout_alignParentRight="true" style="@style/yg" />
+    <com.rockerhieu.emojicon.EmojiconTextView android:ellipsize="end" android:id="@id/cz7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/abg" android:layout_marginRight="@dimen/us" android:singleLine="true" android:layout_toLeftOf="@id/f_7" android:layout_toRightOf="@id/dtu" style="@style/yh" />
+    <com.rockerhieu.emojicon.EmojiconTextView android:ellipsize="end" android:id="@id/f0n" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginRight="@dimen/us" android:layout_marginBottom="@dimen/abg" android:text="@string/etq" android:maxLines="6" android:layout_toRightOf="@id/dtu" android:layout_below="@id/cz7" style="@style/yj" />
+    <View android:background="@color/a47" android:layout_width="fill_parent" android:layout_height="@dimen/rw" android:layout_marginLeft="@dimen/us" android:layout_below="@id/f0n" />
+</merge>

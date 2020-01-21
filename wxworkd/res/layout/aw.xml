@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" style="@style/a13" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="417.0">
+            <com.tencent.wework.enterprise.attendance.view.MapView2 android:id="@id/d08" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <View android:id="@id/aan" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_centerInParent="true" />
+            <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@id/aan" android:layout_centerHorizontal="true" android:translationY="-15.0dip">
+                <ImageView android:id="@id/clh" android:visibility="visible" android:layout_width="85.0dip" android:layout_height="41.5dip" android:src="@drawable/ash" />
+                <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0sp" android:textColor="@color/jf" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/aed" android:translationY="-5.0dip" />
+            </FrameLayout>
+            <ImageView android:id="@id/clg" android:visibility="gone" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="12.5dip" android:src="@drawable/uj" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="185.5">
+            <Button android:textSize="15.0sp" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/fm8" android:layout_width="255.0dip" android:layout_height="40.0dip" android:layout_marginTop="24.0dip" android:text="@string/asj" style="@style/xr" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="12.0sp" android:textColor="@color/ij" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="35.0dip" android:layout_marginTop="17.5dip" android:layout_marginRight="35.0dip" android:text="@string/aip" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

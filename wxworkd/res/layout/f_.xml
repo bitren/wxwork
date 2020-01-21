@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:orientation="vertical" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3i" android:textColor="@color/jf" android:layout_gravity="center_horizontal" android:id="@id/a8o" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/f13" />
+            <LinearLayout android:orientation="vertical" android:id="@id/a8p" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/yt" />
+            <Button android:layout_gravity="center_horizontal" android:id="@id/dj4" android:layout_width="fill_parent" android:layout_height="@dimen/z3" android:layout_marginLeft="@dimen/ys" android:layout_marginTop="@dimen/zc" android:layout_marginRight="@dimen/ys" android:layout_marginBottom="@dimen/yx" android:text="@string/bso" style="@style/xr" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" android:layout_width="fill_parent" android:layout_height="@dimen/alo" />
+    <RelativeLayout android:id="@id/fbn" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="16.0sp" android:textColor="@color/jf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="@string/bim" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/rl" android:background="@drawable/bfr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="16.0dip" android:textColor="@color/abs" android:id="@id/cnk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text="auto" android:layout_toLeftOf="@id/rl" android:layout_centerVertical="true" />
+        <View android:background="@color/aob" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <com.tencent.wework.common.views.codeview.CodeView android:id="@id/ag3" android:layout_width="fill_parent" android:layout_height="fill_parent" app:cv_show_line_number="true" app:cv_start_line_number="0" app:cv_wrap_line="true" app:cv_zoom_enable="true" />
+</LinearLayout>

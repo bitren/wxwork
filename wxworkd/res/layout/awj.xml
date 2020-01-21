@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/ei1" android:layout_height="wrap_content" style="@style/ki">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/v1" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginRight="@dimen/f3" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/f89" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:id="@id/fby" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/j6" />
+                <TextView android:id="@id/b32" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:singleLine="true" style="@style/j5" />
+                <TextView android:id="@id/eir" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" style="@style/p2" />
+            </LinearLayout>
+            <TextView android:id="@id/f6m" android:background="@drawable/bn" android:padding="2.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" style="@style/p3" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

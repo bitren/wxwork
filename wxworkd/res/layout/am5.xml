@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/g0z" android:background="@color/a5n" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:ww="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/g0w" android:layout_width="fill_parent" android:layout_height="@dimen/alo" android:layout_alignParentTop="true" />
+    <com.tencent.wework.setting.views.FontSizeSettingView android:id="@id/bx5" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" ww:autowithsys="false" />
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/w1" android:background="#ff851a28" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_below="@id/ff6">
+        <View android:id="@id/w7" android:background="@drawable/cao" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginLeft="12.0dip" />
+        <View android:id="@id/w6" android:background="@drawable/can" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginRight="12.0dip" android:layout_alignParentRight="true" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0sp" android:textColor="@color/atc" android:ellipsize="end" android:id="@id/w8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="7.5dip" android:layout_marginRight="7.5dip" android:singleLine="true" android:layout_toLeftOf="@id/w6" android:layout_toRightOf="@id/w7" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/g0y" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/w1">
+        <com.tencent.wework.common.views.WwWebView android:id="@id/g11" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/yb" />
+        <ProgressBar android:id="@id/dyh" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/an8" android:progressDrawable="@drawable/a1w" android:layout_alignParentTop="true" style="?android:progressBarStyleHorizontal" />
+    </RelativeLayout>
+    <com.tencent.android.support.widget.GravityLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingTop="@dimen/an8" android:paddingBottom="@dimen/an8" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/ff6">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ct4" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminateDrawable="@drawable/a1r" style="?android:progressBarStyle" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:textColor="@color/a4h" android:gravity="center" android:id="@id/ct5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" />
+        </LinearLayout>
+        <com.tencent.wework.common.views.EmptyViewStub android:textColor="@color/a4h" android:gravity="center" android:id="@id/g0x" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawablePadding="12.0dip" android:layout_centerInParent="true" ww:stubLayoutStyle="g17" />
+    </com.tencent.android.support.widget.GravityLayout>
+    <ImageView android:id="@id/dz2" android:background="@color/a85" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_alignParentLeft="true" />
+    <ImageView android:id="@id/dz3" android:background="@color/a85" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_alignParentRight="true" />
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/edh" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/fe9" android:layout_width="fill_parent" style="@style/a13" />
+    <ScrollView android:orientation="vertical" android:id="@id/f6e" android:background="@color/a3a" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3c" android:id="@id/f6i" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/ckn" style="@style/a0w" />
+            <com.tencent.wework.common.views.ConfigurableEditText android:textSize="@dimen/s4" android:textColorHint="@color/a4_" android:gravity="center_vertical" android:id="@id/f61" android:background="@drawable/kh" android:paddingLeft="@dimen/s2" android:paddingRight="@dimen/s2" android:layout_width="fill_parent" android:layout_height="46.0dip" android:hint="@string/ckn" android:singleLine="true" app:bottomDividerSize="@dimen/rw" app:inputLimit="32" app:topDividerSize="@dimen/rw" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3c" android:id="@id/f64" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/ckm" style="@style/a0w" />
+            <LinearLayout android:orientation="vertical" android:id="@id/f65" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="16.0sp" android:textColor="@color/aok" android:gravity="center" android:id="@id/f60" android:background="@drawable/kb" android:layout_width="fill_parent" android:layout_height="@dimen/rx" android:layout_marginTop="16.0dip" android:text="@string/ckl" app:bottomDividerSize="@dimen/rw" app:topDividerSize="@dimen/rw" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

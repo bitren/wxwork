@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/atc" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" android:layout_width="fill_parent" android:layout_height="@dimen/alo" android:layout_alignParentTop="true" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:layout_below="@id/ff6">
+        <RelativeLayout android:id="@id/cfe" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.rockerhieu.emojicon.EmojiconEditText android:textSize="@dimen/a3g" android:textColor="@color/jf" android:gravity="start" android:id="@id/e2i" android:background="@color/ar4" android:visibility="visible" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="16.0dip" android:singleLine="false" android:lineSpacingExtra="5.0dip" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/apf" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/ea9" android:padding="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a7v" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:id="@id/eaa" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ai4" android:layout_marginTop="55.0dip" android:layout_marginRight="@dimen/ai4" android:drawableLeft="@drawable/c0v" style="@style/nq" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:id="@id/eab" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ai4" android:layout_marginTop="@dimen/ai5" android:layout_marginRight="@dimen/ai4" android:drawableLeft="@drawable/c0u" style="@style/nq" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:id="@id/eac" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ai4" android:layout_marginTop="@dimen/ai5" android:layout_marginRight="@dimen/ai4" android:drawableLeft="@drawable/c0w" style="@style/nq" />
+        <com.tencent.wework.common.views.BaseLinearLayout android:orientation="horizontal" android:id="@id/eae" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ai4" android:layout_marginTop="@dimen/ai5" android:layout_marginRight="@dimen/ai4">
+            <com.tencent.wework.common.views.PhotoImageView android:id="@id/ea_" android:layout_width="48.0dip" android:layout_height="48.0dip" app:maskType="adm" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:layout_gravity="center_vertical" android:id="@id/ead" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="@string/hfq" style="@style/nq" />
+        </com.tencent.wework.common.views.BaseLinearLayout>
+        <com.tencent.wework.common.views.BaseLinearLayout android:orientation="vertical" android:id="@id/g46" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ai4" android:layout_marginTop="50.0dip" android:layout_marginRight="@dimen/ai4">
+            <View android:background="@color/zq" android:layout_width="fill_parent" android:layout_height="@dimen/t0" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="16.0sp" android:textColor="@color/sg" android:textColorHint="#383a4351" android:ellipsize="end" android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:id="@id/g47" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="14.0dip" android:layout_marginBottom="15.0dip" android:hint="@string/cw9" android:maxLines="1" android:singleLine="true" android:drawableLeft="@drawable/a89" android:drawableRight="@drawable/b_d" android:drawablePadding="24.0dip" />
+            <View android:background="@color/zq" android:layout_width="fill_parent" android:layout_height="@dimen/t0" />
+        </com.tencent.wework.common.views.BaseLinearLayout>
+    </LinearLayout>
+</ScrollView>

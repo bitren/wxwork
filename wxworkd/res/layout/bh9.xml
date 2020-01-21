@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#fff1f1f1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/fe9" android:layout_width="fill_parent" android:layout_height="@dimen/alo" />
+    <ScrollView android:id="@id/e0c" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:background="@drawable/cj_" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/yd" android:layout_marginTop="@dimen/yp" android:layout_marginRight="@dimen/yd">
+                <RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="335.0dip">
+                    <com.tencent.wework.common.views.PhotoImageView android:id="@id/dtl" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/auu" />
+                    <LinearLayout android:orientation="vertical" android:background="@drawable/e8" android:paddingLeft="17.0dip" android:paddingTop="15.0dip" android:paddingRight="17.0dip" android:paddingBottom="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+                        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="26.0sp" android:textColor="@color/atc" android:id="@id/dhc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" />
+                        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0sp" android:textColor="@color/atc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ghl" />
+                    </LinearLayout>
+                </RelativeLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="178.0dip">
+                    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0sp" android:textColor="#ff999999" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/ghk" android:lineSpacingExtra="8.0dip" />
+                    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <android.support.v7.widget.AppCompatButton android:textSize="17.0sp" android:textColor="@color/an0" android:gravity="center" android:layout_gravity="center" android:id="@id/a82" android:background="@drawable/e7" android:layout_width="110.0dip" android:layout_height="40.0dip" android:text="@string/gsv" android:layout_centerInParent="true" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <View android:layout_width="1.0px" android:layout_height="30.0dip" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

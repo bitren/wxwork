@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/czb" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/ffb" android:background="@color/a47" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/a61" android:layout_alignParentTop="true" />
+    <RelativeLayout android:id="@id/cir" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/ffb" android:layout_centerVertical="true">
+        <RelativeLayout android:id="@id/c7f" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.tencent.wework.common.views.ConfigurableTextView android:id="@id/c7d" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ty" android:layout_marginTop="@dimen/zk" android:layout_alignParentTop="true" style="@style/a0w" />
+            <View android:background="@color/a47" android:layout_width="fill_parent" android:layout_height="@dimen/a61" android:layout_below="@id/c7d" />
+        </RelativeLayout>
+        <com.tencent.wework.setting.views.SimpleItemView android:id="@id/cjz" android:background="@drawable/kb" android:layout_width="fill_parent" android:layout_height="@dimen/rx" android:layout_below="@id/c7f" android:layout_alignWithParentIfMissing="true" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:id="@id/bxo" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ty" android:layout_marginTop="@dimen/zk" android:layout_marginBottom="@dimen/zk" android:layout_below="@id/cjz" android:layout_alignWithParentIfMissing="true" style="@style/a0w" />
+    </RelativeLayout>
+    <View android:id="@id/b5z" android:background="@color/a47" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/a61" android:layout_marginLeft="@dimen/ty" android:layout_below="@id/cir" />
+</RelativeLayout>

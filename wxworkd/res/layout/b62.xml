@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/atc" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ww="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" android:layout_width="fill_parent" android:layout_height="@dimen/alo" />
+    <com.tencent.wework.msg.views.MessageListTopTipBarView android:id="@id/fgd" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/yi" style="@style/zz" />
+    <com.tencent.wework.qydisk.view.QyDiskNavigateBarView android:id="@id/dhw" android:background="@color/atc" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/yz" android:layout_alignParentTop="true" />
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <ViewStub android:id="@id/fw0" android:layout="@layout/arr" android:inflatedId="@id/afg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+        <FrameLayout android:id="@id/z8" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/afg" android:layout_alignWithParentIfMissing="true">
+            <com.tencent.wework.qydisk.view.QyDiskFragmentActionBar android:id="@id/z5" android:background="@color/atc" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/su" />
+            <RelativeLayout android:id="@id/dkp" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/su">
+                <com.tencent.wework.common.views.ConfigurableTextView android:enabled="false" android:textSize="17.0sp" android:textColor="@color/atc" android:gravity="center" android:id="@id/ejm" android:background="@drawable/en" android:layout_width="@dimen/ss" android:layout_height="@dimen/sr" android:layout_marginLeft="@dimen/a6b" android:layout_marginRight="@dimen/sq" android:text="@string/bso" android:layout_alignParentRight="true" android:layout_centerVertical="true" ww:configurable="false" />
+            </RelativeLayout>
+        </FrameLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/z8" android:layout_alignWithParentIfMissing="true">
+            <com.tencent.wework.common.views.SuperListView android:id="@id/bwu" android:background="@color/atc" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@color/ar4" android:dividerHeight="@dimen/r4" android:layout_alignWithParentIfMissing="true" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0sp" android:textColor="@color/yz" android:gravity="center" android:id="@id/zh" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/q0" android:layout_alignParentBottom="true" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/crt" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="40.0dip">
+            <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminateDrawable="@drawable/a1r" android:layout_above="@id/ctf" android:layout_centerHorizontal="true" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="16.0sp" android:textColor="#ff78808a" android:gravity="center" android:id="@id/ctf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/fkx" android:layout_centerInParent="true" android:lineSpacingExtra="4.0dip" />
+        </RelativeLayout>
+        <com.tencent.wework.common.views.EmptyViewStub android:id="@id/afe" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/z8" android:layout_alignWithParentIfMissing="true" />
+    </RelativeLayout>
+</LinearLayout>

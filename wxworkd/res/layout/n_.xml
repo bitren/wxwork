@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/c6y" layout="@layout/n9" />
+    <com.tencent.wework.common.views.CloudDiskMemberInfoView android:id="@id/ejg" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.tencent.wework.common.views.CommonItemView android:textSize="16.0sp" android:id="@id/db" android:clickable="true" android:layout_width="wrap_content" android:layout_height="@dimen/rx" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="13.0sp" android:textColor="@color/vx" android:id="@id/are" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginTop="5.0dip" />
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/a38" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/c6o" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:src="@drawable/ar9" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="18.0sp" android:id="@id/c6x" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:text="@string/a37" android:layout_below="@id/c6o" android:layout_centerHorizontal="true" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0sp" android:textColor="@color/a72" android:id="@id/c6u" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/a02" android:layout_below="@id/c6x" android:layout_centerHorizontal="true" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:id="@id/a29" android:layout_width="fill_parent" android:layout_height="46.0dip" android:layout_marginLeft="15.0dip" android:layout_marginTop="30.0dip" android:layout_marginRight="15.0dip" android:layout_marginBottom="30.0dip" android:text="@string/a3z" android:layout_below="@id/c6u" style="@style/xr" />
+</RelativeLayout>

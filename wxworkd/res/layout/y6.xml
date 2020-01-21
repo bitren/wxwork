@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/edh" android:background="@color/atc" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/ekl" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <com.tencent.wework.choosecontact.views.BottomBottomMultiSelectHListView android:id="@id/chf" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3f" android:textColor="@color/tx" android:gravity="center" android:layout_gravity="center" android:id="@id/z5" android:background="@drawable/l9" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/z5" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/ekk" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/ekl" />
+</RelativeLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="168px" height="168px" viewBox="0 0 168 168" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>Add_emoticon_button</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Add_emoticon_button" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(-2.000000, -2.000000)">
+            <path d="M5,152 C5,160.260854 11.6778153,166.96202 19.9297854,166.999839 L19.9405152,167.01065 L19.9405152,169.996869 L19.8937265,169.996869 C10.0112942,169.996869 2,161.985575 2,152.103143 C2,152.068762 2.00009909,152.034381 2.00029727,152 L5,152 Z" id="Combined-Shape" fill="#000000"></path>
+            <path d="M155,152 C155,160.260854 161.677815,166.96202 169.929785,166.999839 L169.940515,167.01065 L169.940515,169.996869 L169.893726,169.996869 C160.011294,169.996869 152,161.985575 152,152.103143 C152,152.068762 152.000099,152.034381 152.000297,152 L155,152 Z" id="Combined-Shape-Copy" fill="#000000" transform="translate(160.970258, 160.998435) scale(-1, 1) translate(-160.970258, -160.998435) "></path>
+            <path d="M155,2 C155,10.2608538 161.677815,16.9620203 169.929785,16.9998391 L169.940515,17.0106504 L169.940515,19.9968693 L169.893726,19.9968693 C160.011294,19.9968693 152,11.985575 152,2.1031428 C152,2.06876165 152.000099,2.03438058 152.000297,2 L155,2 Z" id="Combined-Shape-Copy-2" fill="#000000" transform="translate(160.970258, 10.998435) scale(-1, -1) translate(-160.970258, -10.998435) "></path>
+            <path d="M5,2 C5,10.2608538 11.6778153,16.9620203 19.9297854,16.9998391 L19.9405152,17.0106504 L19.9405152,19.9968693 L19.8937265,19.9968693 C10.0112942,19.9968693 2,11.985575 2,2.1031428 C2,2.06876165 2.00009909,2.03438058 2.00029727,2 L5,2 Z" id="Combined-Shape-Copy-3" fill="#000000" transform="translate(10.970258, 10.998435) scale(1, -1) translate(-10.970258, -10.998435) "></path>
+            <path d="M33.5,3.5 L48.5,3.5" id="Line-2-Copy" stroke="#000000" stroke-width="3" stroke-linecap="square"></path>
+            <path d="M33.5,168.5 L48.5,168.5" id="Line-2-Copy-3" stroke="#000000" stroke-width="3" stroke-linecap="square"></path>
+            <path d="M63.5,168.5 L78.5,168.5" id="Line-2-Copy-14" stroke="#000000" stroke-width="3" stroke-linecap="square"></path>
+            <path d="M93.5,3.5 L108.5,3.5" id="Line-2-Copy-2" stroke="#000000" stroke-width="3" stroke-linecap="square"></path>
+            <path d="M123.5,3.5 L138.5,3.5" id="Line-2-Copy-6" stroke="#000000" stroke-width="3" stroke-linecap="square"></path>
+            <path d="M123.5,168.5 L138.5,168.5" id="Line-2-Copy-4" stroke="#000000" stroke-width="3" stroke-linecap="square"></path>
+            <path d="M168.5,33.5 L168.5,48.5" id="Line-2-Copy-7" stroke="#000000" stroke-width="3" stroke-linecap="square"></path>
+            <path d="M3.5,63.5 L3.5,78.5" id="Line-2-Copy-10" stroke="#000000" stroke-width="3" stroke-linecap="square"></path>
+            <path d="M3.5,33.5 L3.5,48.5" id="Line-2-Copy-15" stroke="#000000" stroke-width="3" stroke-linecap="square"></path>
+            <path d="M93.5,168.5 L108.5,168.5" id="Line-2-Copy-5" stroke="#000000" stroke-width="3" stroke-linecap="square"></path>
+            <path d="M168.5,78.5 L168.5,63.5" id="Line-2-Copy-8" stroke="#000000" stroke-width="3" stroke-linecap="square"></path>
+            <path d="M3.5,108.5 L3.5,93.5" id="Line-2-Copy-11" stroke="#000000" stroke-width="3" stroke-linecap="square"></path>
+            <path d="M168.5,108.5 L168.5,93.5" id="Line-2-Copy-9" stroke="#000000" stroke-width="3" stroke-linecap="square"></path>
+            <path d="M3.5,138.5 L3.5,123.5" id="Line-2-Copy-12" stroke="#000000" stroke-width="3" stroke-linecap="square"></path>
+            <path d="M63.5,3.5 L78.5,3.5" id="Line-2" stroke="#000000" stroke-width="3" stroke-linecap="square"></path>
+            <path d="M168.5,138.5 L168.5,123.5" id="Line-2-Copy-13" stroke="#000000" stroke-width="3" stroke-linecap="square"></path>
+        </g>
+        <path d="M81.75,81.75 L81.75,50.4 L86.25,50.4 L86.25,81.75 L117.6,81.75 L117.6,86.25 L86.25,86.25 L86.25,117.6 L81.75,117.6 L81.75,86.25 L50.4,86.25 L50.4,81.75 L81.75,81.75 Z" id="Combined-Shape" fill="#000000"></path>
+    </g>
+</svg>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ed8" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/ciq" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="14.0dip" />
+    <LinearLayout android:orientation="horizontal" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="45.0dip">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="16.0sp" android:textColor="@color/a4h" android:ellipsize="end" android:gravity="center|left" android:id="@id/ckr" android:layout_width="@dimen/ot" android:layout_height="fill_parent" android:layout_marginLeft="18.0dip" android:maxLines="1" />
+        <com.tencent.wework.namecard.view.NameCardEditText android:textSize="16.0sp" android:textColor="@color/a3c" android:textColorHint="@color/ai7" android:layout_gravity="center_vertical" android:id="@id/cjc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/os" android:layout_marginTop="12.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="12.0dip" android:imeOptions="actionDone" style="@style/za" />
+    </LinearLayout>
+    <View android:id="@id/cj9" android:background="@color/ai_" android:layout_width="fill_parent" android:layout_height="@dimen/rw" android:layout_marginLeft="18.0dip" android:layout_marginRight="18.0dip" />
+</LinearLayout>

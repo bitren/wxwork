@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/jf" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/fps" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:id="@id/arx" android:background="#a4000000" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/ars" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/as1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <ImageView android:id="@id/as0" android:layout_width="36.0dip" android:layout_height="36.0dip" android:src="@drawable/aq1" />
+            <TextView android:textSize="@dimen/el" android:textColor="@color/atc" android:id="@id/as4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ff" />
+        </LinearLayout>
+    </RelativeLayout>
+    <com.tencent.mm.plugin.appbrand.jsapi.video.danmu.DanmuView android:id="@id/axd" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignLeft="@id/fps" android:layout_alignTop="@id/fps" android:layout_alignRight="@id/fps" android:layout_alignBottom="@id/fps" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/fx" android:background="@drawable/by" android:visibility="gone" android:layout_width="130.0dip" android:layout_height="130.0dip" android:layout_centerInParent="true">
+        <ImageView android:id="@id/fw" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginTop="21.0dip" android:scaleType="fitCenter" />
+        <TextView android:textSize="@dimen/el" android:textColor="@color/atc" android:id="@id/fv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/frs" />
+        <com.tencent.mm.plugin.appbrand.jsapi.video.AppBrandDotPercentIndicator android:id="@id/fy" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/el" android:textColor="@color/atc" android:gravity="center" android:id="@id/dyg" android:background="@drawable/by" android:paddingLeft="@dimen/ff" android:paddingTop="@dimen/ek" android:paddingRight="@dimen/ff" android:paddingBottom="@dimen/ek" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <FrameLayout android:id="@id/dul" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_alignParentBottom="true">
+        <ImageView android:layout_gravity="start|center" android:id="@id/duj" android:background="#10eeeeee" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:layout_gravity="start|center" android:id="@id/duk" android:background="#ffeeeeee" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+</RelativeLayout>

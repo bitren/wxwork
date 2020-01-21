@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>avatar_contacts_tags</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="avatar_contacts_tags" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-8" fill="#2782D7" x="0" y="0" width="120" height="120" rx="12"></rect>
+        <g id="icon28" transform="translate(24.000000, 24.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="Group-2" transform="translate(7.500000, 9.000000)">
+                <path d="M2.12132034,33.6213203 C0.949747468,32.4497475 0.949747468,30.5502525 2.12132034,29.3786797 L30.6213203,0.878679656 C31.1839295,0.316070521 31.9469912,3.04253145e-14 32.7426407,2.88657986e-14 L52.5,-1.77635684e-15 C54.1568542,-2.08071603e-15 55.5,1.34314575 55.5,3 L55.5,22.7573593 C55.5,23.5530088 55.1839295,24.3160705 54.6213203,24.8786797 L26.1213203,53.3786797 C24.9497475,54.5502525 23.0502525,54.5502525 21.8786797,53.3786797 L2.12132034,33.6213203 Z M40.5,19.5 C42.9852814,19.5 45,17.4852814 45,15 C45,12.5147186 42.9852814,10.5 40.5,10.5 C38.0147186,10.5 36,12.5147186 36,15 C36,17.4852814 38.0147186,19.5 40.5,19.5 Z" id="Combined-Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="90px" height="90px" viewBox="0 0 90 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>sight_icon_emoji</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="#ffffffff" sketch:type="MSLayerGroup" transform="translate(12.000000, 12.000000)" fill="#FFFFFF">
+            <path d="M26,1 C41.749998,-2.70201422 58.4515472,6.53044744 64,21 C69.3090552,34.8780058 64.1554915,51.7625077 52,60 C39.7786348,68.937087 21.5560339,67.7467696 11,57 C-0.249044363,47.6414089 -3.21109262,30.486835 4,18 C8.27685131,9.02111153 16.8427747,2.57939397 26,1 L26,1 Z M27,4 C12.1093854,6.78959797 1.30328234,21.5116278 3,36 C4.50915949,51.6443789 19.5298424,64.3602202 35,63 C51.3688964,62.1743731 64.9714032,46.1148843 63,30 C61.4059884,12.7582582 43.2293641,-0.47659707 27,4 L27,4 Z" id="Shape" sketch:type="MSShapeGroup"></path>
+            <path d="M19,19 C22.4414902,17.7156983 26.8716789,21.2413705 26,25 C25.2511349,28.6075071 20.4842097,30.2654124 18,28 C14.9280585,25.7324053 15.6331004,20.8111545 19,19 L19,19 Z" id="Shape" sketch:type="MSShapeGroup"></path>
+            <path d="M45,19 C48.1442839,18.2038597 51.8087877,21.3775563 51,24 C50.2337861,27.9807402 44.6792804,29.2596926 42,27 C39.7232754,24.2196728 41.2352769,19.7954449 45,19 L45,19 Z" id="Shape" sketch:type="MSShapeGroup"></path>
+            <path d="M15,36 C27.0033259,35.9949899 38.9966741,35.9949899 51,36 C50.8902439,43.4200076 46.0809313,50.5243767 39,53 C31.7527716,55.6948344 22.902439,52.9192205 18,46 C16.2073171,43.4701089 15.2195122,39.7325494 15,36 L15,36 Z" id="Shape" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

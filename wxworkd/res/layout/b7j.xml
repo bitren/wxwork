@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/als" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/arw" android:background="@color/am3" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/ff6">
+        <android.support.v7.widget.RecyclerView android:id="@id/arv" android:paddingBottom="@dimen/a4w" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </RelativeLayout>
+    <com.tencent.wework.common.views.TouchDelegateRelativeLayout android:id="@id/e5y" android:background="#ffffffff" android:clickable="true" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/ff6">
+        <com.tencent.wework.enterprise.redenvelopes.view.RedEnvelopReceiverListView android:id="@id/e7b" android:paddingBottom="15.0dip" android:scrollbars="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@null" android:layout_below="@id/e7_" />
+        <com.tencent.wework.enterprise.redenvelopes.view.RedEnvelopePersonalFloatView android:id="@id/e7_" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.tencent.wework.common.views.EmptyView android:id="@id/e7c" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/e7_" />
+    </com.tencent.wework.common.views.TouchDelegateRelativeLayout>
+    <View android:id="@id/e5z" android:background="@drawable/c3p" android:layout_width="fill_parent" android:layout_height="@dimen/a51" android:layout_alignTop="@id/e5y" android:alpha="0.3" />
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" android:background="@color/am3" android:layout_width="fill_parent" android:layout_height="@dimen/alo" android:layout_alignParentTop="true" />
+    <RelativeLayout android:id="@id/e6f" android:background="#ff823026" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="38.0dip" android:layout_below="@id/ff6">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textColor="@color/am4" android:ellipsize="end" android:gravity="center" android:id="@id/e70" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:singleLine="true" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</RelativeLayout>

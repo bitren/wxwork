@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/edh" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/fe9" android:layout_width="fill_parent" android:layout_height="@dimen/alo" android:layout_alignParentTop="true" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/eaw" android:background="#ffe6f2ff" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_below="@id/fe9">
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:src="@drawable/be0" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/f59" />
+    </LinearLayout>
+    <android.support.v7.widget.RecyclerView android:id="@id/e6b" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/eaw" />
+</RelativeLayout>

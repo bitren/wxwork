@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" android:layout_width="fill_parent" android:layout_height="@dimen/alo" android:layout_alignParentTop="true" />
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/fcm" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_alignParentBottom="true">
+        <View android:id="@id/z7" android:background="@color/a5e" android:layout_width="fill_parent" android:layout_height="@dimen/rw" android:layout_alignParentTop="true" />
+        <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/icon_todo_record_add" android:scaleType="center" />
+        <View android:id="@id/z6" android:background="@color/a5e" android:layout_width="fill_parent" android:layout_height="@dimen/rw" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <android.support.v7.widget.RecyclerView android:id="@id/fct" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/fcm" android:layout_below="@id/ff6" />
+    <com.tencent.wework.common.views.EmptyView android:id="@id/bez" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/fcm" android:layout_below="@id/ff6" />
+    <include android:id="@id/fcu" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/ff6" layout="@layout/bfc" />
+</RelativeLayout>

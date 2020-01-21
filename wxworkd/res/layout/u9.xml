@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@drawable/a5s" android:paddingLeft="@dimen/o_" android:paddingTop="8.0dip" android:paddingRight="@dimen/o_" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/o7"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/zt" android:layout_width="@dimen/o9" android:layout_height="@dimen/o9" android:layout_marginRight="@dimen/o8" android:scaleType="centerInside" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/oa" android:textColor="@color/aq3" android:ellipsize="middle" android:id="@id/zx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/zv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" />
+    <View android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <ViewStub android:id="@id/zw" android:layout="@layout/u_" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

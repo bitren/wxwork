@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="96px" height="96px" viewBox="0 0 96 96" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>photowall 3x</title>
+    <desc>Created with Sketch.</desc>
+    <g id="photowall-3x" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon34">
+            <rect id="Rectangle-11" fill-opacity="0.5" fill="#000000" x="0" y="0" width="96" height="96" rx="9.6"></rect>
+            <g id="Group-4" transform="translate(20.571429, 25.714286)">
+                <path d="M43.8857143,0 L52.1142857,0 C53.6291239,-2.47421131e-15 54.8571429,1.24720677 54.8571429,2.78571429 L54.8571429,30.6428571 C54.8571429,32.1813647 53.6291239,33.4285714 52.1142857,33.4285714 L13.7142857,33.4285714 C12.1994475,33.4285714 10.9714286,32.1813647 10.9714286,30.6428571 L10.9714286,22.2857143 L14.2628571,22.2857143 L14.2628571,30.0857143 L51.5657143,30.0857143 L51.5657143,3.34285714 L43.8857143,3.34285714 L43.8857143,0 Z" id="Combined-Shape" fill="#FFFFFF" fill-rule="nonzero" transform="translate(32.914286, 16.714286) scale(1, -1) translate(-32.914286, -16.714286) "></path>
+                <rect id="Combined-Shape" stroke="#FFFFFF" stroke-width="2.88" x="1.44" y="12.5828571" width="41.0057143" height="30.5485714" rx="2.4"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

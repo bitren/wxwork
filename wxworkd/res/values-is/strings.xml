@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a3">Fara heim</string>
+    <string name="a4">Fara upp</string>
+    <string name="abc_action_menu_overflow_description">Fleiri valkostir</string>
+    <string name="a5">Lokið</string>
+    <string name="a6">Sjá allt</string>
+    <string name="a7">Veldu forrit</string>
+    <string name="a8">SLÖKKT</string>
+    <string name="a9">KVEIKT</string>
+    <string name="al">Alt+</string>
+    <string name="an">Ctrl+</string>
+    <string name="ao">delete</string>
+    <string name="ap">enter</string>
+    <string name="aq">Aðgerðarlykill+</string>
+    <string name="ar">Meta+</string>
+    <string name="as">Shift+</string>
+    <string name="at">bilslá</string>
+    <string name="au">Sym+</string>
+    <string name="av">Valmynd+</string>
+    <string name="aw">Leita…</string>
+    <string name="ax">Hreinsa fyrirspurn</string>
+    <string name="ay">Leitarfyrirspurn</string>
+    <string name="az">Leita</string>
+    <string name="b0">Senda fyrirspurn</string>
+    <string name="b1">Raddleit</string>
+    <string name="b2">Deila með</string>
+    <string name="b3">Deila með %s</string>
+    <string name="b4">Minnka</string>
+    <string name="hlf">Leita</string>
+    <string name="i6c">999+</string>
+</resources>

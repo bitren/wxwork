@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/a_j" android:background="@drawable/vt" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="60.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/a47" android:layout_width="fill_parent" android:layout_height="@dimen/a61" android:layout_marginLeft="@dimen/a_6" android:layout_marginRight="@dimen/a_6" android:layout_alignParentTop="true" />
+    <com.rockerhieu.emojicon.EmojiconTextView android:textSize="16.0sp" android:textColor="@color/jf" android:ellipsize="end" android:id="@id/a_o" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/a_7" android:maxLines="2" android:maxLength="64" android:layout_toLeftOf="@id/a_n" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <com.tencent.wework.common.views.PhotoImageView android:id="@id/a_n" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="@dimen/a_7" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/ezy" android:layout="@layout/zi" android:inflatedId="@id/dfc" android:layout_width="fill_parent" android:layout_height="@dimen/a6c" />
+    <ViewStub android:id="@id/ezz" android:layout="@layout/zd" android:layout_width="fill_parent" android:layout_height="@dimen/a67" android:layout_below="@id/dfc" />
+</RelativeLayout>

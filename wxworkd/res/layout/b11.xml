@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#fff2f2f2" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:pb="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.RecyclerView android:id="@id/cs1" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.tencent.wework.common.views.EmptyViewStub android:id="@id/cre" android:background="@color/a4y" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/ff6" pb:empty_desc="@string/buc" pb:empty_icon="@drawable/b0f" pb:stubLayoutStyle="dkm" />
+</RelativeLayout>

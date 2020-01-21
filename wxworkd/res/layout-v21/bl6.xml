@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/bvn" android:paddingLeft="20.0dip" android:paddingTop="28.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minWidth="320.0dip" android:minHeight="120.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@android:style/TextAppearance.Material.Subhead" android:textSize="@dimen/el" android:textColor="@color/aci" android:id="@id/bvo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/i4q" android:layout_alignParentTop="true" android:layout_alignParentStart="true" />
+    <ImageView android:id="@id/bvp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:src="@drawable/cmp" android:layout_below="@id/bvo" android:layout_alignParentStart="true" />
+    <TextView android:textColor="@color/acg" android:gravity="center_vertical" android:id="@id/bvt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/i5_" android:layout_alignTop="@id/bvp" android:layout_alignBottom="@id/bvp" android:layout_marginStart="16.0dip" android:layout_toEndOf="@id/bvp" style="@android:style/TextAppearance.Material.Body1" />
+</RelativeLayout>

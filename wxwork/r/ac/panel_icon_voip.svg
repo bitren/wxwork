@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="192px" height="192px" viewBox="0 0 192 192" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>chatromm_toolpanel_icon_videovoip@3x</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="chatromm_toolpanel_icon_videovoip" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Picture" transform="translate(48.000000, 48.000000)">
+            <g id="Grid"></g>
+            <g id="Moive" transform="translate(6.000000, 24.000000)" fill="#333333">
+                <path d="M3,0 L57,0 C58.6568542,-3.04359188e-16 60,1.34314575 60,3 L60,45 C60,46.6568542 58.6568542,48 57,48 L3,48 C1.34314575,48 2.02906125e-16,46.6568542 0,45 L0,3 C-2.02906125e-16,1.34314575 1.34314575,3.04359188e-16 3,0 Z" id="Rectangle-8"></path>
+                <path d="M87,6.17239153 L87,41.8276085 C87,43.4844627 85.6568542,44.8276085 84,44.8276085 C83.3278083,44.8276085 82.675092,44.601858 82.1465353,44.1865635 L66,31.5 L66,24 L66,16.5 L82.1465353,3.81343652 C83.4493502,2.78979625 85.3353148,3.01611199 86.358955,4.31892688 C86.7742496,4.84748356 87,5.5001998 87,6.17239153 Z" id="Rectangle-9"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:layout_gravity="center_horizontal" android:id="@id/fxr" android:layout="@layout/aty" android:inflatedId="@id/d6r" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/aay" />
+    <ViewStub android:layout_gravity="center_horizontal" android:id="@id/fxs" android:layout="@layout/at0" android:inflatedId="@id/d6s" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/a9j" />
+</merge>

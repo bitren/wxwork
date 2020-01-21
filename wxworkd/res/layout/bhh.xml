@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/edh" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ys"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/dgo" android:background="@drawable/vt" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout style="@style/yt">
+            <ImageView android:id="@id/dgn" android:src="@drawable/bhl" style="@style/yu" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:text="@string/ity" style="@style/yw" />
+        </LinearLayout>
+    </FrameLayout>
+    <FrameLayout android:id="@id/ex3" android:background="@drawable/vt" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout style="@style/yt">
+            <ImageView android:id="@id/ex2" android:src="@drawable/bhf" style="@style/yu" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:text="@string/imt" style="@style/yw" />
+        </LinearLayout>
+    </FrameLayout>
+    <FrameLayout android:id="@id/bfp" android:background="@drawable/vt" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout style="@style/yt">
+            <ImageView android:src="@drawable/bhi" style="@style/yu" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:text="@string/itz" style="@style/yw" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

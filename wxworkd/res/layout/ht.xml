@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/ai_" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.RecyclerView android:id="@id/e6b" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/ff6" />
+    <RelativeLayout android:id="@id/ffg" android:background="@color/atc" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="51.0dip" android:layout_marginLeft="14.0dip" android:layout_marginRight="14.0dip" android:layout_below="@id/ff6">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="17.0sp" android:textColor="@color/a3c" android:ellipsize="middle" android:id="@id/ffh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginTop="18.0dip" android:maxLines="1" android:layout_alignParentLeft="true" />
+        <View android:id="@id/b5z" android:background="@color/a45" android:layout_width="fill_parent" android:layout_height="@dimen/rw" android:layout_marginLeft="18.0dip" android:layout_marginRight="18.0dip" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <com.tencent.wework.common.views.ContactIndexTitleView android:id="@id/cdw" android:visibility="gone" android:layout_width="12.0dip" android:layout_height="fill_parent" android:layout_marginTop="0.0dip" android:layout_marginRight="0.0dip" android:layout_marginBottom="@dimen/a64" android:layout_below="@id/ff6" android:layout_alignParentRight="true" />
+</RelativeLayout>

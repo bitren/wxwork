@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/a3a" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/fe9" android:layout_width="fill_parent" android:layout_height="@dimen/alo" />
+    <LinearLayout android:orientation="vertical" android:id="@id/apg" android:background="@color/atc" android:paddingBottom="@dimen/zb" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/fe9">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3g" android:textColor="@color/tb" android:ellipsize="end" android:id="@id/fby" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/y5" android:layout_marginTop="@dimen/y1" android:layout_marginRight="@dimen/y5" android:text="@string/cih" android:singleLine="true" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3d" android:textColor="@color/x2" android:ellipsize="end" android:id="@id/cqk" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/y5" android:layout_marginTop="@dimen/yc" android:layout_marginRight="@dimen/y5" android:text="@string/cii" android:singleLine="true" />
+    </LinearLayout>
+    <com.tencent.wework.common.views.CommonMemberInfoView android:id="@id/d2k" android:layout_width="fill_parent" android:layout_height="145.0dip" android:layout_below="@id/fe9" />
+    <com.tencent.wework.common.views.CommonItemView android:id="@id/d1y" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_below="@id/d2k" />
+</RelativeLayout>

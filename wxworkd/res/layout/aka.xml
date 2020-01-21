@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:id="@id/c__" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/ffb" android:background="@color/a47" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/r4" android:layout_alignParentTop="true" />
+    <com.tencent.wework.common.views.PhotoImageView android:id="@id/r" android:duplicateParentState="true" android:layout_width="@dimen/yu" android:layout_height="@dimen/yu" android:layout_marginLeft="@dimen/xx" android:layout_marginRight="@dimen/xx" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <LinearLayout android:gravity="center_vertical" android:id="@id/eco" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="18.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <com.rockerhieu.emojicon.EmojiconTextView android:textSize="@dimen/a6h" android:textColor="@color/a5g" android:ellipsize="middle" android:id="@id/drs" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/xu" android:singleLine="true" android:drawablePadding="7.0dip" />
+        <ImageView android:id="@id/ebd" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip" android:src="@drawable/icon_down_arrow" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/ty" android:layout_toLeftOf="@id/eco" android:layout_toRightOf="@id/r" android:layout_centerVertical="true">
+        <com.tencent.wework.common.views.CommonExternalContactDisplayView android:ellipsize="middle" android:gravity="center_vertical" android:id="@id/cyt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="200.0dip" android:singleLine="true" android:drawablePadding="@dimen/ty" app:leftTextColor="@color/a5f" app:leftTextSize="@dimen/u9" app:maxRightWidth="120.0dip" app:rightTextColor="@color/ajh" app:rightTextDrawablePadding="@dimen/aaw" app:rightTextSize="@dimen/a9n" app:space="@dimen/aaw" />
+        <com.rockerhieu.emojicon.EmojiconTextView android:textSize="@dimen/a6h" android:textColor="@color/a5g" android:ellipsize="middle" android:id="@id/b3l" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" android:singleLine="true" />
+    </LinearLayout>
+    <View android:id="@id/b5z" android:background="@color/a47" android:layout_width="fill_parent" android:layout_height="@dimen/r4" android:layout_marginLeft="@dimen/xx" android:layout_marginTop="9.0dip" android:layout_alignParentBottom="true" />
+</merge>

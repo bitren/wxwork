@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/ed8" android:background="@color/atc" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/a9v" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="12.0dip">
+        <ImageView android:id="@id/cpa" android:visibility="gone" android:layout_width="14.0dip" android:layout_height="14.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="14.0dip" android:layout_alignParentLeft="true" />
+        <android.support.v7.widget.RecyclerView android:id="@id/dgh" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <View android:background="@color/a47" android:layout_width="fill_parent" android:layout_height="@dimen/rw" android:layout_below="@id/a9v" />
+</RelativeLayout>

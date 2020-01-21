@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/a3a" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.BaseLinearLayout android:background="@color/atc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/s8" app:bottomDividerSize="@dimen/t0" app:topDividerSize="@dimen/t0">
+        <com.tencent.wework.common.views.ClearableEditText android:textSize="17.0sp" android:textColor="@color/jf" android:gravity="center|left" android:id="@id/c4i" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.5dip" android:layout_marginRight="6.0dip" android:minHeight="@dimen/rx" android:maxLines="1" android:singleLine="true" android:maxLength="16" />
+    </com.tencent.wework.common.views.BaseLinearLayout>
+    <com.tencent.wework.setting.views.CommonItemTextView android:id="@id/c4h" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/dqa" app:gravityStyle="bxb" />
+</LinearLayout>

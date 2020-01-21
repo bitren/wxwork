@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="90px" height="90px" viewBox="0 0 90 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>app_attach_file_icon_webpage</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="-----Android" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="app_attach_file_icon_webpage">
+            <rect id="bg" fill="#F2F2F2" x="0" y="0" width="90" height="90"></rect>
+            <g id="Group" opacity="0.600000024" transform="translate(45.084524, 45.084524) rotate(45.000000) translate(-45.084524, -45.084524) translate(36.084524, 21.084524)" fill="#000000" fill-rule="nonzero">
+                <path d="M0,33 L3.75,33 L3.75,39 C3.75,41.8994949 6.10050506,44.25 9,44.25 C11.8994949,44.25 14.25,41.8994949 14.25,39 L14.25,27 C14.25,24.1005051 11.8994949,21.75 9,21.75 L9,18 C13.9705627,18 18,22.0294373 18,27 L18,39 C18,43.9705627 13.9705627,48 9,48 C4.02943725,48 0,43.9705627 0,39 L0,33 Z M0,33 L3.75,33 L3.75,39 C3.75,41.8994949 6.10050506,44.25 9,44.25 C11.8994949,44.25 14.25,41.8994949 14.25,39 L14.25,27 C14.25,24.1005051 11.8994949,21.75 9,21.75 L9,18 C13.9705627,18 18,22.0294373 18,27 L18,39 C18,43.9705627 13.9705627,48 9,48 C4.02943725,48 0,43.9705627 0,39 L0,33 Z" id="Rectangle"></path>
+                <path d="M18,15 L14.25,15 L14.25,9 C14.25,6.10050506 11.8994949,3.75 9,3.75 C6.10050506,3.75 3.75,6.10050506 3.75,9 L3.75,21 C3.75,23.8994949 6.10050506,26.25 9,26.25 L9,30 C4.02943725,30 0,25.9705627 0,21 L0,9 C0,4.02943725 4.02943725,9.13077564e-16 9,0 C13.9705627,-9.13077564e-16 18,4.02943725 18,9 L18,15 Z" id="Rectangle"></path>
+            </g>
+        </g>
+    </g>
+</svg>

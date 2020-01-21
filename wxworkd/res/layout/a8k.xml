@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="@dimen/a15"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.mm.ui.MMImageView android:layout_gravity="center" android:id="@id/rq" android:padding="@dimen/fk" android:layout_width="65.0dip" android:layout_height="65.0dip" android:scaleType="fitCenter" />
+    <LinearLayout android:gravity="center" android:id="@id/bdp" android:background="#46ffffff" android:visibility="gone" android:layout_width="65.0dip" android:layout_height="65.0dip">
+        <ProgressBar android:id="@id/bdn" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/a0x" />
+        <ImageView android:id="@id/bdm" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a_8" android:contentDescription="@string/cys" />
+    </LinearLayout>
+</RelativeLayout>

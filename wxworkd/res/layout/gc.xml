@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:paddingBottom="@dimen/ape" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/ky" android:paddingBottom="@dimen/ag6" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/a5n" android:paddingLeft="@dimen/ra" android:paddingTop="@dimen/apb" android:paddingRight="@dimen/ra" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.tencent.wework.common.views.PhotoImageView android:id="@id/ass" android:layout_width="34.0dip" android:layout_height="34.0dip" android:src="@drawable/b0q" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="17.0sp" android:textColor="@color/a6_" android:ellipsize="middle" android:id="@id/faj" android:paddingLeft="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="26.0dip" android:singleLine="true" android:layout_weight="1.0" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3q" android:textColor="@color/atp" android:id="@id/f9o" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:background="@color/a5n" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View android:background="@color/a6j" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="16.0dip" />
+            <com.tencent.qmui.richeditor.QMUIRichEditor android:id="@id/aos" android:background="@color/a5n" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" app:previewOnly="true" style="@style/za" />
+        </LinearLayout>
+        <android.support.v7.widget.RecyclerView android:id="@id/dtp" android:background="@color/a5n" android:paddingLeft="@dimen/ra" android:paddingRight="@dimen/ra" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="13.0sp" android:textColor="@color/atp" android:id="@id/aaw" android:paddingLeft="18.0dip" android:paddingTop="10.0dip" android:paddingRight="18.0dip" android:paddingBottom="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" />
+        <RelativeLayout android:gravity="center_vertical" android:id="@id/aah" android:background="@drawable/l4" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="43.0dip">
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="13.0sp" android:textColor="@color/atp" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/aak" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginRight="18.0dip" android:maxLines="2" android:layout_alignParentTop="true" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="13.0sp" android:textColor="@color/no" android:gravity="center|top" android:id="@id/aaj" android:paddingBottom="8.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:text="@string/j5c" android:layout_below="@id/aak" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/atc" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.PhotoImageView android:id="@id/cb1" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginTop="16.0dip" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0sp" android:textColor="@color/am7" android:gravity="center" android:id="@id/fge" android:background="@drawable/bd8" android:layout_width="100.0dip" android:layout_height="25.0dip" android:layout_marginTop="50.0dip" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0sp" android:textColor="@color/a3c" android:id="@id/faj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_below="@id/fge" android:layout_centerHorizontal="true" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/ao3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_below="@id/faj" android:layout_centerHorizontal="true">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="24.0sp" android:textColor="@color/a3c" android:id="@id/ece" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="12.0sp" android:textColor="@color/a3c" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/h5x" />
+    </LinearLayout>
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0sp" android:textColor="@color/a4h" android:id="@id/b3f" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="20.0dip" android:layout_below="@id/ao3" android:layout_centerHorizontal="true" />
+    <View android:id="@id/eit" android:background="@color/a3a" android:layout_width="fill_parent" android:layout_height="10.0dip" android:layout_below="@id/b3f" />
+</RelativeLayout>

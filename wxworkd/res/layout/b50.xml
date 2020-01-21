@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/al9" android:paddingTop="?uw" android:paddingBottom="?uw" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <HorizontalScrollView android:scrollbars="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/a12" android:paddingLeft="?uu" android:paddingRight="?uu" android:paddingBottom="?uv" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </HorizontalScrollView>
+    <HorizontalScrollView android:scrollbars="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/a16" android:paddingLeft="?uu" android:paddingRight="?uu" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </HorizontalScrollView>
+</LinearLayout>

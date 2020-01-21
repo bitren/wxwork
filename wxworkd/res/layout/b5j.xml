@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/kb" android:addStatesFromChildren="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/rx"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:addStatesFromChildren="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/cj5" android:paddingTop="5.0dip" android:paddingRight="12.0dip" android:paddingBottom="5.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/ckg" android:paddingLeft="17.0dip" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="17.0sp" android:textColor="@color/jf" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/cj1" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:layout_toLeftOf="@id/ckg" android:layout_toRightOf="@id/cj5" android:layout_centerVertical="true" android:layout_alignWithParentIfMissing="true" android:lineSpacingExtra="3.0dip" />
+    </RelativeLayout>
+    <View android:id="@id/cj9" android:background="@color/a4s" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/rw" android:layout_marginLeft="@dimen/s2" android:layout_alignParentBottom="true" />
+</RelativeLayout>

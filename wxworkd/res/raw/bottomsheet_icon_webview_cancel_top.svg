@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="96px" height="96px" viewBox="0 0 96 96" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>btnsheet_icon_canceltop</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Buttonsheet" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="btnsheet_icon_canceltop" fill="#7C8085">
+            <path d="M10,15 L10,23 L84,23 L84,15 L10,15 Z M59,64.9892578 L69,64.9892578 L69,31.9892578 L77,31.9892578 L77,64.9892578 L88,64.9892578 L72.8950195,81 L59,64.9892578 Z M10,65 L50.1458333,65 L57,73 L10,73 L10,65 Z M10,40 L61,40 L61,48 L10,48 L10,40 Z" id="Page-1"></path>
+        </g>
+    </g>
+</svg>

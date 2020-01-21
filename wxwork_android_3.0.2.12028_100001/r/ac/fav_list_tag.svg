@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="15px" viewBox="0 0 15 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>标签_列表</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="切片" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="标签_列表">
+            <g id="icon28" transform="translate(1.000000, 1.000000)">
+                <path d="M13.1932691,0.477334279 L13.1932392,0.47733428 L8.75,0.47733428 C8.66561294,0.47733428 8.58468214,0.510856911 8.52501148,0.570527577 L0.570466024,8.52507303 C0.446208295,8.64933076 0.446208295,8.85079235 0.570467076,8.97505113 L5.01369139,13.4183031 C5.13794997,13.5425617 5.33941156,13.54256 5.46367338,13.4182982 L13.4178279,5.46372427 C13.4774891,5.40406009 13.5110091,5.32314173 13.5110156,5.2387593 L13.511421,0.795479168 C13.5114346,0.619755733 13.369009,0.477323258 13.1932691,0.477334279 Z" id="Combined-Shape" stroke="#B5B5B5" stroke-width="0.954545455"></path>
+                <circle id="Oval-5" fill="#B5B5B5" cx="10.1818182" cy="3.81818182" r="1"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

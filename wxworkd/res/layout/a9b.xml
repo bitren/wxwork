@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.setting.views.EnterpriseAppFeatureTitleItem android:id="@id/bsz" android:background="@drawable/abd" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.tencent.wework.setting.views.EnterpriseAppFeatureKeyValueItem android:id="@id/bsx" android:background="@drawable/f4" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

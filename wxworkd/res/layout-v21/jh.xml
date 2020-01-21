@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/ed8" android:background="@color/apg" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/efl" android:background="@null" android:visibility="visible" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/a2m" android:layout_centerHorizontal="true" android:overScrollMode="never">
+        <LinearLayout android:gravity="bottom|center" android:orientation="vertical" android:id="@id/a9u" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:id="@id/es9" android:background="@drawable/cvy" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="16.0dip">
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="26.0dip" android:layout_marginTop="38.0dip" android:layout_marginRight="24.0dip">
+                    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="13.0sp" android:textColor="#ff898e97" android:id="@id/dh8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/j_9" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:letterSpacing="0.2" />
+                    <com.tencent.wework.common.views.PhotoImageView android:id="@id/dgs" android:layout_width="34.0dip" android:layout_height="34.0dip" android:layout_marginTop="6.0dip" android:layout_below="@id/dh8" android:layout_alignParentRight="true" />
+                    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="23.0sp" android:textColor="@color/rr" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/eze" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginRight="8.0dip" android:layout_toLeftOf="@id/dgs" android:layout_below="@id/dh8" android:layout_alignLeft="@id/dh8" />
+                </RelativeLayout>
+                <View android:id="@id/cqf" android:background="#ffddddde" android:visibility="gone" android:layout_width="28.669983dip" android:layout_height="2.669983dip" android:layout_marginTop="16.669983dip" />
+                <RelativeLayout android:id="@id/wu" android:background="@color/ar4" android:layout_width="fill_parent" android:layout_height="195.0dip" android:layout_marginLeft="26.0dip" android:layout_marginTop="47.0dip">
+                    <com.tencent.wework.common.views.PhotoImageView android:id="@id/wt" android:layout_width="125.0dip" android:layout_height="125.0dip" android:layout_centerInParent="true" android:translationX="-13.0dip" />
+                </RelativeLayout>
+                <com.tencent.wework.setting.views.WorkStatusShareInscribeView android:id="@id/cg7" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="26.0dip" android:layout_marginTop="49.0dip" android:layout_marginRight="26.0dip" android:layout_marginBottom="35.0dip" android:minHeight="60.0dip" />
+            </LinearLayout>
+            <ImageView android:id="@id/op" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="50.0dip" android:layout_marginBottom="24.0dip" android:src="@drawable/bvx" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:orientation="vertical" android:id="@id/a2m" android:background="@color/atc" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="79.0dip">
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="16.0sp" android:textColor="@color/a3c" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="19.0dip" android:layout_marginRight="2.0dip" android:text="@string/hya" />
+            <ImageView android:id="@id/cfu" android:background="@drawable/a5f" android:padding="1.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="19.0dip" android:src="@drawable/ccd" />
+            <ImageView android:id="@id/cfz" android:padding="1.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="19.0dip" android:src="@drawable/ccf" />
+            <ImageView android:id="@id/cg3" android:padding="1.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="19.0dip" android:src="@drawable/cce" />
+        </LinearLayout>
+        <View android:background="@color/a47" android:layout_width="fill_parent" android:layout_height="@dimen/rw" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="54.0dip">
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="16.0sp" android:textColor="@color/amp" android:gravity="center" android:id="@id/a8z" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/bmz" android:layout_weight="1.0" />
+            <View android:background="@color/a47" android:layout_width="@dimen/rw" android:layout_height="19.0dip" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="16.0sp" android:textColor="@color/amp" android:gravity="center" android:id="@id/es8" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/izt" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

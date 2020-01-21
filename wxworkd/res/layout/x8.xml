@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/ed8" android:paddingLeft="@dimen/ra" android:paddingTop="18.0dip" android:paddingRight="@dimen/ra" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.PhotoImageView android:id="@id/uj" android:layout_marginRight="10.0dip" style="@style/xq" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="13.0sp" android:textColor="@color/a6f" android:id="@id/ass" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-2.0dip" android:layout_toRightOf="@id/uj" android:layout_alignTop="@id/uj" />
+    <com.tencent.wework.msg.views.MessageItemTextView android:textSize="15.0sp" android:textColor="@color/a6_" android:id="@id/ao3" android:paddingTop="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/uj" android:layout_below="@id/ass" android:lineSpacingExtra="@dimen/qk" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/qm" android:textColor="@color/a6g" android:id="@id/bws" android:paddingTop="@dimen/ql" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/ao3" android:layout_alignLeft="@id/ao3" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/qm" android:textColor="@color/a6o" android:id="@id/b0h" android:paddingTop="@dimen/ql" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/cs2" android:layout_toRightOf="@id/bws" android:layout_below="@id/ao3" />
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/a4c" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.SpecialCustomerServiceScrollView android:id="@id/ex4" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fillViewport="true" app:key="1234">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <android.support.v7.widget.RecyclerView android:id="@id/e6b" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <include android:layout_width="fill_parent" android:layout_height="@dimen/rx" android:layout_marginTop="@dimen/yd" android:layout_marginBottom="@dimen/yd" layout="@layout/bdn" />
+        </LinearLayout>
+    </com.tencent.wework.common.views.SpecialCustomerServiceScrollView>
+</RelativeLayout>

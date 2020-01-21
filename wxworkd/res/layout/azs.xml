@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/ed8" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.RecyclerView android:id="@id/btl" android:background="@color/a26" android:paddingLeft="12.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View android:background="@color/a47" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/rw" android:layout_below="@id/btl" />
+</RelativeLayout>

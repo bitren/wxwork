@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/bpq" android:background="@drawable/cm_" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:id="@id/bo9" android:background="@drawable/qm" android:layout_width="62.0dip" android:layout_height="fill_parent" android:alpha="0.75" />
+        <RelativeLayout android:background="@drawable/cm4" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/bpo" android:layout_marginLeft="@dimen/a2g" style="@style/hh" />
+            <ImageView android:id="@id/bpp" android:layout_marginRight="@dimen/a2g" android:layout_alignParentRight="true" style="@style/hh" />
+            <ImageView android:id="@id/bpi" android:layout_marginLeft="@dimen/a2g" android:layout_alignParentBottom="true" style="@style/hh" />
+            <ImageView android:id="@id/bpj" android:layout_marginRight="@dimen/a2g" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" style="@style/hh" />
+            <ImageView android:id="@id/bpl" android:layout_marginTop="@dimen/a2g" style="@style/hi" />
+            <ImageView android:id="@id/bpk" android:layout_marginBottom="@dimen/a2g" android:layout_alignParentBottom="true" style="@style/hi" />
+            <ImageView android:id="@id/bpn" android:layout_marginTop="@dimen/a2g" android:layout_alignParentRight="true" style="@style/hi" />
+            <ImageView android:id="@id/bpm" android:layout_marginBottom="@dimen/a2g" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" style="@style/hi" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/bo0" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </RelativeLayout>
+</merge>

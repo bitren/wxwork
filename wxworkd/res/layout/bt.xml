@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:background="@drawable/kh" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/ff6" style="@style/yb">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <FrameLayout android:id="@id/byi" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/fb" />
+            <TextView android:textSize="@dimen/yf" android:textColor="@color/qv" android:gravity="center" android:id="@id/fb" android:layout_width="fill_parent" android:layout_height="@dimen/rx" android:layout_marginTop="@dimen/s8" android:text="@string/b3r" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:id="@id/az" android:layout_width="fill_parent" android:layout_height="@dimen/tt" android:layout_marginLeft="18.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="18.0dip" android:text="@string/bnk" android:layout_below="@id/byi" style="@style/xr" />
+        </RelativeLayout>
+    </ScrollView>
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" android:layout_width="fill_parent" android:layout_height="@dimen/alo" />
+</RelativeLayout>

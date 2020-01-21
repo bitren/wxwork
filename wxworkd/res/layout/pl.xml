@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/ed8" android:background="@drawable/kb" android:layout_width="fill_parent" android:layout_height="46.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:layout_centerVertical="true">
+        <com.tencent.wework.common.views.PhotoImageView android:id="@id/cb1" android:layout_width="26.0dip" android:layout_height="26.0dip" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0sp" android:textColor="@color/qv" android:ellipsize="end" android:id="@id/f7r" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:lines="1" android:singleLine="true" android:layout_weight="1.0" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0sp" android:textColor="@color/wz" android:id="@id/eyz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:singleLine="true" />
+        <ImageView android:id="@id/ez9" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="8.0dip" android:layout_marginRight="5.0dip" />
+    </LinearLayout>
+    <View android:id="@id/fgg" android:background="@color/a0s" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentTop="true" />
+    <View android:id="@id/fg6" android:background="@color/a0s" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="15.0dip" android:layout_alignParentTop="true" />
+    <View android:id="@id/zz" android:background="@color/a0s" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.CommonItemView android:id="@id/dhf" android:layout_width="fill_parent" android:layout_height="@dimen/rx" />
+    <com.tencent.wework.common.views.CommonItemView android:id="@id/agi" android:layout_width="fill_parent" android:layout_height="@dimen/rx" />
+    <com.tencent.wework.common.views.CommonItemView android:id="@id/b2i" android:layout_width="fill_parent" android:layout_height="@dimen/rx" />
+    <com.tencent.wework.common.views.CommonItemView android:id="@id/ast" android:layout_width="fill_parent" android:layout_height="@dimen/rx" android:layout_marginTop="@dimen/y3" />
+    <com.tencent.wework.common.views.BaseLinearLayout android:gravity="center" android:id="@id/e2j" android:background="@drawable/kb" android:layout_width="fill_parent" android:layout_height="@dimen/z0" android:layout_marginTop="@dimen/y3" app:bottomDividerSize="@dimen/t0" app:topDividerSize="@dimen/t0">
+        <TextView android:textSize="17.0sp" android:textColor="#fff35543" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/b1i" android:includeFontPadding="false" />
+    </com.tencent.wework.common.views.BaseLinearLayout>
+</LinearLayout>

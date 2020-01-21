@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ffz" android:layout_width="fill_parent" android:layout_height="@dimen/alo" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/ffz">
+        <com.tencent.wework.common.views.WWPullRefreshLayout android:id="@id/e0d" android:background="@color/a3a" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <ListView android:id="@id/csc" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@color/ar4" android:dividerHeight="@dimen/r4" />
+        </com.tencent.wework.common.views.WWPullRefreshLayout>
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3f" android:textColor="@color/a6d" android:gravity="center" android:id="@id/dv7" android:background="@drawable/lq" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/tt" android:text="@string/bjd" android:layout_alignParentBottom="true" />
+    </LinearLayout>
+    <com.tencent.wework.common.views.EmptyViewStub android:id="@id/bez" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/ffz" />
+</RelativeLayout>

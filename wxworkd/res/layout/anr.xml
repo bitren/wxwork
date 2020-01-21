@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="center_horizontal" android:id="@id/cv5" android:background="@color/atc" android:layout_width="fill_parent" android:layout_height="208.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/a3a" android:layout_width="fill_parent" android:layout_height="10.0dip" />
+    <RelativeLayout android:id="@id/cuu" android:visibility="visible" android:layout_width="180.0dip" android:layout_height="86.0dip" android:layout_marginTop="@dimen/zd" android:layout_centerHorizontal="true">
+        <com.tencent.wework.enterprise.attendance.view.AttendanceRingChartView android:id="@id/aax" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:layout_width="12.0dip" android:layout_height="6.0dip" android:src="@drawable/dl" android:scaleType="fitXY" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+        <ImageView android:layout_width="12.0dip" android:layout_height="6.0dip" android:src="@drawable/dl" android:scaleType="fitXY" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+        <LinearLayout android:gravity="center|left" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3c" android:textColor="@color/vn" android:id="@id/fnw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:drawableLeft="@drawable/eq" android:drawablePadding="@dimen/zk" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3c" android:textColor="@color/vn" android:id="@id/fny" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableLeft="@drawable/a1h" android:drawablePadding="@dimen/zk" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/y9">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3f" android:textColor="@color/jf" android:gravity="center" android:id="@id/cv6" android:layout_width="wrap_content" android:layout_height="@dimen/yg" android:layout_marginLeft="@dimen/y_" android:text="@string/j61" />
+        <View android:id="@id/cuw" android:background="@drawable/t6" android:layout_width="@dimen/yc" android:layout_height="@dimen/yc" android:layout_marginLeft="@dimen/zb" android:layout_marginRight="@dimen/zb" android:layout_toRightOf="@id/cv6" android:layout_centerVertical="true" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3b" android:textColor="@color/z1" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/cu8" android:layout_width="wrap_content" android:layout_height="@dimen/yg" android:text="每天09：00-次日09：00进行统计" android:layout_toRightOf="@id/cuw" />
+    </RelativeLayout>
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3f" android:textColor="@color/q9" android:gravity="center" android:id="@id/cu9" android:background="@color/atc" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ze" android:text="@string/j5z" android:layout_centerHorizontal="true" />
+</RelativeLayout>

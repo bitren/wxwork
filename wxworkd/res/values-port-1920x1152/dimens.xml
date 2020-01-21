@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="mu">118.0dip</dimen>
+    <dimen name="mw">59.0dip</dimen>
+    <dimen name="mx">8.0dip</dimen>
+    <dimen name="n5">30.0dip</dimen>
+    <dimen name="ng">15.0dip</dimen>
+</resources>

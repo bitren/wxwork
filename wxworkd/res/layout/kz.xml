@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/bka" android:background="@drawable/b6" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip">
+        <ImageView android:layout_gravity="start|center" android:id="@id/bk6" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@raw/app_brand_evaluate_dialog_close" android:layout_marginStart="16.0dip" />
+        <TextView android:textSize="17.0dip" android:textColor="@color/jf" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/j9" />
+    </FrameLayout>
+    <TextView android:textSize="@dimen/fg" android:textColor="#4d000000" android:ellipsize="middle" android:layout_gravity="center" android:id="@id/bk7" android:paddingTop="8.0dip" android:paddingBottom="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/j6" android:singleLine="true" />
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:layout_marginBottom="32.0dip">
+        <RatingBar android:layout_gravity="center" android:id="@id/bk_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:numStars="5" android:rating="0.0" android:stepSize="1.0" style="@style/n" />
+        <TextView android:textSize="@dimen/fg" android:textColor="#ffefb600" android:layout_gravity="center" android:id="@id/bk8" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="@string/jb" />
+    </LinearLayout>
+    <FrameLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="32.0dip">
+        <FrameLayout android:layout_gravity="center" android:id="@id/bkc" android:paddingBottom="26.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="17.0dip" android:textStyle="bold" android:textColor="@color/atc" android:gravity="center" android:layout_gravity="center" android:id="@id/bkb" android:background="@drawable/b8" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/j7" android:paddingStart="74.0dip" android:paddingEnd="74.0dip" />
+        </FrameLayout>
+        <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/bk9" android:paddingTop="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <View android:layout_gravity="center_vertical" android:background="#1a000000" android:layout_width="40.0dip" android:layout_height="0.5dip" />
+            <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ch3" android:scaleType="fitCenter" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+            <View android:layout_gravity="center_vertical" android:background="#1a000000" android:layout_width="40.0dip" android:layout_height="0.5dip" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/dt" android:layout_width="154.0dip" android:layout_height="156.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="12.0dip">
+        <ImageView android:id="@id/bik" android:background="@drawable/q3" android:layout_width="fill_parent" android:layout_height="124.0dip" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="10.0sp" android:textColor="#ffb2b2b2" android:id="@id/bil" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="11.0dip" android:text="@string/c8i" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+        <ImageView android:id="@id/etq" android:visibility="visible" android:layout_width="136.0dip" android:layout_height="85.0dip" android:layout_marginTop="6.0dip" android:src="@drawable/ckx" android:scaleType="fitXY" android:layout_below="@id/bil" android:layout_centerHorizontal="true" />
+        <com.tencent.wework.common.views.PhotoImageView android:id="@id/eu0" android:visibility="gone" android:layout_width="130.0dip" android:layout_height="82.0dip" android:layout_marginTop="6.0dip" android:scaleType="centerCrop" android:layout_below="@id/bil" android:layout_centerHorizontal="true" />
+        <View android:background="#ffd8d8d8" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="-1.0dip" android:layout_below="@id/bik" />
+        <RelativeLayout android:background="@drawable/q4" android:layout_width="fill_parent" android:layout_height="31.0dip" android:layout_marginTop="0.0dip" android:layout_below="@id/bik">
+            <Button android:textSize="13.0sp" android:textColor="@drawable/jt" android:id="@id/bjh" android:background="@color/atc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bvc" android:drawableLeft="@drawable/q7" android:drawablePadding="2.0dip" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</merge>

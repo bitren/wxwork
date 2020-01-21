@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.wework.common.views.BaseFrameLayout android:background="@color/a3a" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.enterprise.view.EnterpriseAppManagerListView android:id="@id/bh8" android:layout_width="fill_parent" android:layout_height="fill_parent" app:hasFooter="true" app:hasHeader="true" />
+    <com.tencent.wework.common.views.EmptyViewStub android:gravity="center" android:id="@id/bh6" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" app:stubLayoutStyle="g30" />
+</com.tencent.wework.common.views.BaseFrameLayout>

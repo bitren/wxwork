@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="90px" height="90px" viewBox="0 0 90 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>app_attach_file_icon_ppt</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="-----Android" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="app_attach_file_icon_ppt">
+            <g id="Group" transform="translate(11.000000, 0.000000)">
+                <path d="M46,0 L68,22 L68,87 C68,88.6568542 66.6568542,90 65,90 L3,90 C1.34314575,90 2.02906125e-16,88.6568542 0,87 L0,3 C-2.02906125e-16,1.34314575 1.34314575,3.04359188e-16 3,0 L46,0 Z" id="Combined-Shape" fill="#F2613F"></path>
+                <path d="M68,22 L49,22 C47.3431458,22 46,20.6568542 46,19 L46,0 L68,22 Z" id="Rectangle" fill="#C14D32"></path>
+                <path d="M25.3779297,43.6347656 L35.2392578,43.6347656 C40.2841797,43.6347656 43.7822266,47.0625 43.7822266,52.125 C43.7822266,57.1875 40.1787109,60.6152344 35.0458984,60.6152344 L29.9130859,60.6152344 L29.9130859,69 L25.3779297,69 L25.3779297,43.6347656 Z M29.9130859,47.34375 L29.9130859,56.9589844 L34.0263672,56.9589844 C37.2783203,56.9589844 39.1767578,55.2011719 39.1767578,52.125 C39.1767578,49.0839844 37.2958984,47.34375 34.0439453,47.34375 L29.9130859,47.34375 Z" id="P" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

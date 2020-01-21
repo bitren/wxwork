@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/f5y" android:background="@color/a3a" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.CommonItemView android:textSize="14.0sp" android:id="@id/f5x" android:background="@color/atf" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <View android:background="@color/a4s" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_below="@id/f5x" />
+</RelativeLayout>

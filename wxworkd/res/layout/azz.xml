@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/any" android:background="@color/atc" android:paddingTop="@dimen/y5" android:paddingBottom="@dimen/y5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:id="@id/diz" android:background="@color/tc" android:visibility="gone" android:layout_width="3.0dip" android:layout_height="fill_parent" />
+        <com.tencent.wework.moments.views.MomentsListCommonContentView android:id="@id/de6" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <View android:background="#ffededed" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="@dimen/y5" android:layout_marginTop="10.0dip" android:layout_marginRight="@dimen/y5" android:layout_marginBottom="10.0dip" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/y5" android:layout_marginTop="13.0dip" android:layout_marginRight="@dimen/y5">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textColor="#ff999999" android:id="@id/f9o" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="5.0dip" android:layout_alignParentStart="true" />
+        <ImageView android:id="@id/ef8" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:src="@drawable/bs2" android:layout_toRightOf="@id/f9o" android:layout_centerVertical="true" />
+        <LinearLayout android:id="@id/bst" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true">
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0sp" android:textColor="#ff999999" android:id="@id/bss" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="5.0dip" android:drawableStart="@drawable/bs7" android:layout_marginEnd="15.0dip" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0sp" android:textColor="#ff999999" android:id="@id/ah4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="5.0dip" android:drawableStart="@drawable/brx" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/em8" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true">
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0sp" android:textColor="#ff999999" android:id="@id/em7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hoy" android:drawablePadding="5.0dip" android:drawableStart="@drawable/c36" />
+        </LinearLayout>
+    </RelativeLayout>
+    <com.tencent.wework.moments.views.MomentsFeedsListView android:id="@id/de8" android:background="@color/a26" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/y5" android:layout_marginTop="@dimen/xx" android:layout_marginRight="@dimen/y5" />
+</LinearLayout>

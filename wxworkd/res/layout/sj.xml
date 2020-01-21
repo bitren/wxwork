@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/ed_" android:background="#fff5f5f5" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" android:layout_width="fill_parent" android:layout_height="@dimen/alo" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/ff6">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.tencent.wework.common.views.CommonItemView android:id="@id/fl3" android:layout_width="fill_parent" android:layout_height="@dimen/rx" android:layout_marginTop="20.0dip" app:hasTopLine="true" app:leftTitle="@string/aon" app:topLineType="g34" />
+            <com.tencent.wework.common.views.CommonItemView android:id="@id/e2u" android:layout_width="fill_parent" android:layout_height="@dimen/rx" android:layout_marginTop="20.0dip" app:hasTopLine="true" app:leftTitle="@string/am_" app:topLineType="g34" />
+            <com.tencent.wework.common.views.CommonItemView android:id="@id/acy" android:layout_width="fill_parent" android:layout_height="@dimen/rx" android:layout_marginTop="20.0dip" app:hasTopLine="true" app:leftTitle="@string/adb" app:topLineType="g34" />
+            <com.tencent.wework.common.views.CommonItemView android:id="@id/dpj" android:layout_width="fill_parent" android:layout_height="@dimen/rx" android:layout_marginTop="20.0dip" app:hasTopLine="true" app:leftTitle="@string/alf" app:topLineType="g34" />
+            <com.tencent.wework.common.views.CommonItemView android:id="@id/e_r" android:layout_width="fill_parent" android:layout_height="@dimen/rx" android:layout_marginTop="20.0dip" app:hasTopLine="true" app:leftTitle="@string/apc" app:topLineType="g34" />
+            <com.tencent.wework.common.views.CommonItemView android:id="@id/dox" android:layout_width="fill_parent" android:layout_height="@dimen/rx" android:layout_marginTop="20.0dip" app:hasTopLine="true" app:leftTitle="@string/bsy" app:topLineType="g34" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0sp" android:textColor="#ff9ba2a8" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="6.0dip" android:text="@string/akz" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

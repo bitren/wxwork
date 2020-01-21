@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/m1" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ww="http://schemas.android.com/apk/res-auto">
+    <com.rockerhieu.emojicon.EmojiconTextView android:textSize="16.0sp" android:textColor="@color/jf" android:id="@id/f8r" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ahj" android:layout_marginTop="19.0dip" android:layout_marginBottom="15.0dip" android:text="@string/hct" android:singleLine="false" />
+    <com.tencent.wework.common.views.ScrollListView android:id="@id/axi" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@null" android:layout_below="@id/f8r" ww:maxHeight="@dimen/sf" />
+    <com.rockerhieu.emojicon.EmojiconTextView android:textSize="16.0sp" android:textColor="@color/a3q" android:gravity="center_vertical" android:id="@id/f8h" android:layout_width="wrap_content" android:layout_height="43.0dip" android:layout_marginRight="@dimen/ahj" android:text="@string/bv9" android:layout_below="@id/axi" android:layout_alignParentRight="true" />
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/ww" android:background="@color/atc" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/fvz" android:layout="@layout/bj2" android:inflatedId="@id/wy" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginBottom="120.0dip">
+        <ScrollView android:id="@id/efj" android:background="@color/ar4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" style="@style/yb">
+            <com.tencent.wework.msg.views.MessageItemTextView android:textSize="25.0sp" android:textColor="#ff000000" android:textColorLink="@color/a3l" android:autoLink="none" android:linksClickable="false" android:layout_gravity="center_horizontal" android:id="@id/wx" android:background="@color/ar4" android:paddingLeft="@dimen/nw" android:paddingRight="@dimen/nw" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:lineSpacingExtra="8.0dip" android:textIsSelectable="true" />
+        </ScrollView>
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" android:layout_alignParentBottom="true">
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/a6e" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.tencent.wework.common.views.AlphaImageView android:id="@id/a6a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/aw4" />
+            <com.tencent.qmui.alpha.QMUIAlphaTextView android:textSize="12.0sp" android:textColor="@color/f" android:gravity="center" android:id="@id/a6c" android:paddingLeft="@dimen/zb" android:paddingTop="@dimen/xt" android:paddingRight="@dimen/zb" android:paddingBottom="@dimen/xt" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/azq" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/fco" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.tencent.wework.common.views.AlphaImageView android:id="@id/fcm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/c6h" />
+            <com.tencent.qmui.alpha.QMUIAlphaTextView android:textSize="@dimen/a3b" android:textColor="@color/f" android:gravity="center" android:id="@id/fcn" android:paddingLeft="@dimen/zb" android:paddingTop="@dimen/xt" android:paddingRight="@dimen/zb" android:paddingBottom="@dimen/xt" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ie4" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/fsq" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.tencent.wework.common.views.AlphaImageView android:id="@id/fso" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/c9r" />
+            <com.tencent.qmui.alpha.QMUIAlphaTextView android:textSize="@dimen/a3b" android:textColor="@color/f" android:gravity="center" android:id="@id/fsp" android:paddingLeft="@dimen/zb" android:paddingTop="@dimen/xt" android:paddingRight="@dimen/zb" android:paddingBottom="@dimen/xt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/g0d" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

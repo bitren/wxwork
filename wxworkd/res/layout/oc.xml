@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/fbp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:minHeight="@dimen/fe"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center|left" android:id="@id/ao3" android:paddingLeft="@dimen/ea" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minHeight="@dimen/fe" android:layout_weight="1.0">
+        <TextView android:id="@android:id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" style="@style/iz" />
+        <TextView android:id="@android:id/summary" android:paddingTop="@dimen/ff" android:paddingRight="@dimen/ea" android:paddingBottom="@dimen/ff" android:singleLine="true" style="@style/j2" />
+    </LinearLayout>
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center|right" android:orientation="horizontal" android:id="@id/me" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <com.tencent.mm.plugin.appbrand.widget.AppBrandNearbyShowcaseView android:id="@id/mf" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <com.tencent.mm.ui.widget.ThreeDotsLoadingView android:layout_gravity="center|right" android:id="@id/mj" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+</LinearLayout>

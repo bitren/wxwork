@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/et1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <android.support.v7.widget.RecyclerView android:scrollbarSize="4.0dip" android:scrollbarThumbVertical="@color/a47" android:id="@id/et0" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="@dimen/ajp" />
+        <View android:background="@color/a47" android:layout_width="fill_parent" android:layout_height="@dimen/rw" />
+        <RelativeLayout android:id="@id/esz" android:layout_width="fill_parent" android:layout_height="@dimen/ajo">
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="17.0sp" android:textColor="@color/va" android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/bn9" />
+            <ImageView android:id="@id/esy" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ab1" android:layout_alignParentLeft="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</merge>

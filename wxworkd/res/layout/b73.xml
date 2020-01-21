@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.EmptyViewStub android:id="@id/be0" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.tencent.wework.common.views.EmptyViewStub android:id="@id/cst" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:id="@id/ct3" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <android.support.v7.widget.RecyclerView android:id="@id/e68" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</merge>

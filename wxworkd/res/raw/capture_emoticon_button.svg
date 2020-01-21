@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="168px" height="168px" viewBox="0 0 168 168" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>Takephoto_emoticon_button</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M46.6451915,7.06666667 L29.3548085,7.06666667 L22.0214752,18.0666667 L5.73333333,18.0666667 L5.73333333,56.9333333 L70.2666667,56.9333333 L70.2666667,18.0666667 L53.9785248,18.0666667 L46.6451915,7.06666667 Z M48.0188298,2.66666667 C48.6318106,2.66666667 49.2042347,2.97301875 49.5442553,3.48304964 L56.3333333,13.6666667 L71,13.6666667 C73.0250441,13.6666667 74.6666667,15.3082893 74.6666667,17.3333333 L74.6666667,57.6666667 C74.6666667,59.6917107 73.0250441,61.3333333 71,61.3333333 L5,61.3333333 C2.97495592,61.3333333 1.33333333,59.6917107 1.33333333,57.6666667 L1.33333333,17.3333333 C1.33333333,15.3082893 2.97495592,13.6666667 5,13.6666667 L19.6666667,13.6666667 L26.4557447,3.48304964 C26.7957653,2.97301875 27.3681894,2.66666667 27.9811702,2.66666667 L48.0188298,2.66666667 Z M38,45.9333333 C43.6701234,45.9333333 48.2666667,41.3367901 48.2666667,35.6666667 C48.2666667,29.9965432 43.6701234,25.4 38,25.4 C32.3298766,25.4 27.7333333,29.9965432 27.7333333,35.6666667 C27.7333333,41.3367901 32.3298766,45.9333333 38,45.9333333 Z M38,50.3333333 C29.8998237,50.3333333 23.3333333,43.766843 23.3333333,35.6666667 C23.3333333,27.5664903 29.8998237,21 38,21 C46.1001763,21 52.6666667,27.5664903 52.6666667,35.6666667 C52.6666667,43.766843 46.1001763,50.3333333 38,50.3333333 Z" id="path-1"></path>
+    </defs>
+    <g id="Takephoto_emoticon_button" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(-2.000000, -2.000000)">
+            <path d="M5,152 C5,160.260854 11.6778153,166.96202 19.9297854,166.999839 L19.9405152,167.01065 L19.9405152,169.996869 L19.8937265,169.996869 C10.0112942,169.996869 2,161.985575 2,152.103143 C2,152.068762 2.00009909,152.034381 2.00029727,152 L5,152 Z" id="Combined-Shape" fill="#000000"></path>
+            <path d="M155,152 C155,160.260854 161.677815,166.96202 169.929785,166.999839 L169.940515,167.01065 L169.940515,169.996869 L169.893726,169.996869 C160.011294,169.996869 152,161.985575 152,152.103143 C152,152.068762 152.000099,152.034381 152.000297,152 L155,152 Z" id="Combined-Shape-Copy" fill="#000000" transform="translate(160.970258, 160.998435) scale(-1, 1) translate(-160.970258, -160.998435) "></path>
+            <path d="M155,2 C155,10.2608538 161.677815,16.9620203 169.929785,16.9998391 L169.940515,17.0106504 L169.940515,19.9968693 L169.893726,19.9968693 C160.011294,19.9968693 152,11.985575 152,2.1031428 C152,2.06876165 152.000099,2.03438058 152.000297,2 L155,2 Z" id="Combined-Shape-Copy-2" fill="#000000" transform="translate(160.970258, 10.998435) scale(-1, -1) translate(-160.970258, -10.998435) "></path>
+            <path d="M5,2 C5,10.2608538 11.6778153,16.9620203 19.9297854,16.9998391 L19.9405152,17.0106504 L19.9405152,19.9968693 L19.8937265,19.9968693 C10.0112942,19.9968693 2,11.985575 2,2.1031428 C2,2.06876165 2.00009909,2.03438058 2.00029727,2 L5,2 Z" id="Combined-Shape-Copy-3" fill="#000000" transform="translate(10.970258, 10.998435) scale(1, -1) translate(-10.970258, -10.998435) "></path>
+            <path d="M33.5,3.5 L48.5,3.5" id="Line-2-Copy" stroke="#000000" stroke-width="3" stroke-linecap="square"></path>
+            <path d="M33.5,168.5 L48.5,168.5" id="Line-2-Copy-3" stroke="#000000" stroke-width="3" stroke-linecap="square"></path>
+            <path d="M63.5,168.5 L78.5,168.5" id="Line-2-Copy-14" stroke="#000000" stroke-width="3" stroke-linecap="square"></path>
+            <path d="M93.5,3.5 L108.5,3.5" id="Line-2-Copy-2" stroke="#000000" stroke-width="3" stroke-linecap="square"></path>
+            <path d="M123.5,3.5 L138.5,3.5" id="Line-2-Copy-6" stroke="#000000" stroke-width="3" stroke-linecap="square"></path>
+            <path d="M123.5,168.5 L138.5,168.5" id="Line-2-Copy-4" stroke="#000000" stroke-width="3" stroke-linecap="square"></path>
+            <path d="M168.5,33.5 L168.5,48.5" id="Line-2-Copy-7" stroke="#000000" stroke-width="3" stroke-linecap="square"></path>
+            <path d="M3.5,63.5 L3.5,78.5" id="Line-2-Copy-10" stroke="#000000" stroke-width="3" stroke-linecap="square"></path>
+            <path d="M3.5,33.5 L3.5,48.5" id="Line-2-Copy-15" stroke="#000000" stroke-width="3" stroke-linecap="square"></path>
+            <path d="M93.5,168.5 L108.5,168.5" id="Line-2-Copy-5" stroke="#000000" stroke-width="3" stroke-linecap="square"></path>
+            <path d="M168.5,78.5 L168.5,63.5" id="Line-2-Copy-8" stroke="#000000" stroke-width="3" stroke-linecap="square"></path>
+            <path d="M3.5,108.5 L3.5,93.5" id="Line-2-Copy-11" stroke="#000000" stroke-width="3" stroke-linecap="square"></path>
+            <path d="M168.5,108.5 L168.5,93.5" id="Line-2-Copy-9" stroke="#000000" stroke-width="3" stroke-linecap="square"></path>
+            <path d="M3.5,138.5 L3.5,123.5" id="Line-2-Copy-12" stroke="#000000" stroke-width="3" stroke-linecap="square"></path>
+            <path d="M63.5,3.5 L78.5,3.5" id="Line-2" stroke="#000000" stroke-width="3" stroke-linecap="square"></path>
+            <path d="M168.5,138.5 L168.5,123.5" id="Line-2-Copy-13" stroke="#000000" stroke-width="3" stroke-linecap="square"></path>
+        </g>
+        <g id="Icons/Outlined/camera" transform="translate(46.000000, 52.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="camera" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

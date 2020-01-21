@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.CommonListCheckBox android:id="@id/bu6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" />
+    <com.tencent.wework.common.views.PhotoImageView android:id="@id/bu8" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" />
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:layout_weight="1.0">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="16.0sp" android:textColor="@color/aq3" android:ellipsize="middle" android:id="@id/bu_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="13.0sp" android:textColor="@color/a4h" android:ellipsize="middle" android:id="@id/bu7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    </LinearLayout>
+    <ImageView android:id="@id/bu9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:src="@drawable/icon_item_more" android:scaleType="center" android:minWidth="40.0dip" android:minHeight="40.0dip" />
+</merge>

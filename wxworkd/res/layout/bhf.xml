@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.wework.multitalk.view.InnerMarginLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:minHeight="96.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3a" android:textColor="@drawable/ac5" android:gravity="center" android:layout_gravity="top" android:id="@id/fu2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:minWidth="80.0dip" android:drawablePadding="4.0dip" />
+    <ImageView android:layout_gravity="top" android:id="@id/fst" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ac3" android:scaleType="center" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3a" android:textColor="@drawable/ac5" android:gravity="center" android:layout_gravity="top" android:id="@id/fuo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:minWidth="80.0dip" android:drawablePadding="4.0dip" />
+</com.tencent.wework.multitalk.view.InnerMarginLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="#fffafafa" android:layout_width="fill_parent" android:layout_height="55.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="16.0dip" android:layout_marginRight="15.0dip">
+        <RelativeLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="16.0sp" android:textColor="@color/a5g" android:gravity="center" android:id="@id/e5f" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/h96" />
+            <View android:id="@id/e5g" android:background="#ffcccccc" android:layout_width="wrap_content" android:layout_height="2.0dip" android:layout_alignLeft="@id/e5f" android:layout_alignRight="@id/e5f" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <RelativeLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="16.0dip">
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="16.0sp" android:textColor="@color/a5g" android:gravity="center" android:id="@id/en1" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/h99" />
+            <View android:id="@id/en2" android:background="#ffcccccc" android:layout_width="wrap_content" android:layout_height="2.0dip" android:layout_alignLeft="@id/en1" android:layout_alignRight="@id/en1" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="15.0sp" android:textColor="#ff939393" android:id="@id/g4y" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:drawableRight="@drawable/aty" android:drawablePadding="4.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:drawableTint="#ff939393" />
+</RelativeLayout>

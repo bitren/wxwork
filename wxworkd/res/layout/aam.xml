@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="@dimen/rx"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/df1" android:layout_width="@dimen/s7" android:layout_height="@dimen/s7" android:layout_marginLeft="@dimen/s2" android:src="@drawable/icon_more_app" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/s4" android:textColor="@color/a4q" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="16.0dip" android:text="@string/hth" android:layout_toRightOf="@id/df1" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/ahx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/ajb" android:src="@drawable/c3h" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/ebt" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginRight="7.0dip" android:src="@drawable/bsu" android:layout_toLeftOf="@id/ahx" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/ebu" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginRight="7.0dip" android:src="@drawable/bsw" android:layout_toLeftOf="@id/ebt" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/ebv" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginRight="8.0dip" android:src="@drawable/bsv" android:layout_toLeftOf="@id/ebu" android:layout_centerVertical="true" />
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/ek" android:paddingTop="@dimen/dl" android:paddingRight="@dimen/ek" android:paddingBottom="@dimen/dl" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/amq" android:layout_width="@dimen/h" android:layout_height="@dimen/h" android:scaleType="centerCrop" />
+        <View android:layout_width="@dimen/dl" style="@style/kw" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:id="@id/ams" style="@style/j0" />
+            <View style="@style/kw" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:id="@id/amt" style="@style/j1" />
+                <View android:layout_width="fill_parent" android:layout_weight="1.0" style="@style/kw" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:gravity="center|left" android:id="@id/amr" android:background="@color/atc" android:paddingLeft="@dimen/f6" android:paddingTop="@dimen/ff" android:paddingRight="@dimen/f6" android:paddingBottom="@dimen/ff" android:minHeight="@dimen/fe" android:singleLine="false" style="@style/in" />
+</LinearLayout>

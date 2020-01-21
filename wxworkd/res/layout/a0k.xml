@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.BaseRelativeLayout android:background="@color/atc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ajd" android:layout_marginBottom="@dimen/ajd">
+        <com.tencent.wework.common.views.PhotoImageView android:id="@id/aju" android:layout_width="@dimen/sw" android:layout_height="@dimen/sw" />
+        <ImageView android:id="@id/ajv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignRight="@id/aju" android:layout_alignBottom="@id/aju" />
+    </com.tencent.wework.common.views.BaseRelativeLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="@dimen/ajd" android:layout_marginBottom="@dimen/ajd" android:minHeight="@dimen/sw">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="16.0sp" android:id="@id/ajx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="4.0dip" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="13.0sp" android:textColor="@color/a4h" android:id="@id/ajw" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</merge>

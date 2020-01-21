@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/ys" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <ImageView android:id="@id/za" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/be6" android:scaleType="fitXY" />
+        <View android:id="@id/a0s" android:background="#ffd84e43" android:layout_width="fill_parent" android:layout_height="@dimen/a4x" android:layout_marginTop="-1.0dip" android:layout_below="@id/za" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textColor="#ff9e362d" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/a4y" android:text="新增红包功能" android:layout_alignBottom="@id/a0s" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/fdx" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+        <RelativeLayout android:id="@id/ffn" android:background="#ffe1544a" android:layout_width="fill_parent" android:layout_height="@dimen/a50">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip" android:src="@drawable/be8" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <View android:id="@id/fg2" android:background="#ffe1544a" android:layout_width="fill_parent" android:layout_height="@dimen/a4z" />
+            <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-1.0dip" android:src="@drawable/be9" android:scaleType="fitXY" android:layout_below="@id/fg2" />
+            <ImageView android:id="@id/ca_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/be7" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/lz"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView style="@style/kg">
+        <LinearLayout style="@style/im">
+            <TextView android:textSize="@dimen/el" android:textColor="@color/aci" android:gravity="center|left|top" android:layout_gravity="center|left|top" android:id="@id/chr" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/fk0" />
+            <EditText android:id="@id/chq" android:layout_marginTop="@dimen/ek" android:hint="@string/fjz" style="@style/jl" />
+            <TextView android:textSize="@dimen/el" android:textColor="@color/aci" android:gravity="center|left|top" android:layout_gravity="center|left|top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/do" android:text="@string/fjw" />
+            <EditText android:id="@id/ch3" android:layout_marginTop="@dimen/ek" android:hint="@string/fjv" android:singleLine="false" style="@style/jl" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

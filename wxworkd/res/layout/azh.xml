@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/any" android:background="@color/atc" android:layout_width="fill_parent" android:layout_height="60.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.PhotoImageView android:id="@id/uk" android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginLeft="16.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" app:maskType="adm" />
+    <com.tencent.wework.common.views.PhotoImageView android:id="@id/ul" android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginLeft="-5.0dip" android:layout_toRightOf="@id/uk" android:layout_centerVertical="true" app:maskType="adm" />
+    <com.tencent.wework.common.views.PhotoImageView android:id="@id/um" android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginLeft="-5.0dip" android:layout_toRightOf="@id/ul" android:layout_centerVertical="true" app:maskType="adm" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textColor="@color/jf" android:ellipsize="middle" android:id="@id/ax9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:singleLine="true" android:layout_toLeftOf="@id/eyp" android:layout_toRightOf="@id/um" android:layout_centerVertical="true" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textColor="@color/a4h" android:ellipsize="middle" android:gravity="right" android:id="@id/eyp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:maxWidth="120.0dip" android:singleLine="true" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <View android:background="@color/a45" android:layout_width="fill_parent" android:layout_height="@dimen/t0" android:layout_marginLeft="16.0dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/edh" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/alw" />
+        <FrameLayout android:id="@id/byi" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <LinearLayout android:gravity="center|left" android:orientation="horizontal" android:id="@id/fzv" android:background="#ffe4f3ff" android:paddingLeft="@dimen/xx" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/yx">
+            <com.tencent.wework.msg.views.MessageItemTextView android:textSize="15.0sp" android:id="@id/fzt" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <com.tencent.wework.common.views.SwitchTab android:id="@id/f3k" android:background="@drawable/iu" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/a7t" android:layout_alignParentBottom="true" />
+        <RelativeLayout android:id="@id/z5" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="50.0dip">
+            <View android:id="@id/b6z" android:background="@color/a47" android:layout_width="fill_parent" android:layout_height="@dimen/rw" android:layout_alignParentTop="true" />
+            <TextView android:textSize="@dimen/a3e" android:textColor="@color/ag0" android:id="@id/z9" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gaf" android:drawableLeft="@drawable/zk" android:drawablePadding="10.0dip" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

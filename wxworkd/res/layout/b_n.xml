@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/bi8" android:background="@color/atc" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ww="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" android:layout_width="fill_parent" android:layout_height="@dimen/alo" />
+    <ScrollView android:id="@id/anw" android:background="@color/ar4" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <RelativeLayout android:orientation="vertical" android:id="@id/bas" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip">
+            <com.rockerhieu.emojicon.EmojiconEditText android:textColorHint="@color/amd" android:gravity="left" android:id="@id/c4c" android:paddingTop="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/aho" android:hint="@string/df6" android:lineSpacingMultiplier="1.5" ww:maxLevelIncrement="@dimen/aar" style="@style/a0v" />
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

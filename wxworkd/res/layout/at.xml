@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/a3a" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" android:layout_width="fill_parent" android:layout_height="@dimen/alo" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" android:layout_alignParentStart="true" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0sp" android:textColor="@color/a4h" android:id="@id/alp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:text="@string/af0" />
+    <com.tencent.wework.common.views.CommonItemView android:id="@id/b4h" android:visibility="visible" android:clickable="true" android:layout_width="wrap_content" android:layout_height="@dimen/rx" android:layout_marginTop="15.0dip" />
+    <com.tencent.wework.common.views.CommonItemView android:id="@id/b4f" android:visibility="visible" android:clickable="true" android:layout_width="wrap_content" android:layout_height="@dimen/rx" android:layout_marginTop="15.0dip" />
+    <com.tencent.wework.common.views.CommonItemView android:id="@id/b4e" android:visibility="visible" android:clickable="true" android:layout_width="wrap_content" android:layout_height="@dimen/rx" />
+    <com.tencent.wework.common.views.CommonItemView android:id="@id/b4g" android:visibility="visible" android:clickable="true" android:layout_width="wrap_content" android:layout_height="@dimen/rx" android:layout_marginTop="15.0dip" />
+    <com.tencent.wework.common.views.CommonItemView android:id="@id/b4d" android:visibility="visible" android:clickable="true" android:layout_width="wrap_content" android:layout_height="@dimen/rx" />
+    <com.tencent.wework.common.views.CommonItemView android:id="@id/b4i" android:visibility="visible" android:clickable="true" android:layout_width="wrap_content" android:layout_height="@dimen/rx" android:layout_marginTop="15.0dip" />
+    <com.tencent.wework.common.views.EmptyView android:id="@id/ben" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/f3k" app:desctext="@string/af1" app:image="@drawable/bvv" />
+</LinearLayout>

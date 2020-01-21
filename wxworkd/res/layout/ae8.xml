@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="#ffffffff" style="@style/lz"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:padding="18.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textColor="#ff3e3e3e" android:gravity="center" android:id="@id/ep1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:text="@string/e3x" style="@style/in" />
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:textSize="20.0dip" android:id="@id/ep2" android:background="@drawable/a9y" android:paddingLeft="50.0dip" android:text="@string/e3k" style="@style/kn" />
+                <ImageView android:layout_gravity="center_vertical" android:paddingLeft="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/an2" />
+                <ImageView android:layout_gravity="center_vertical" android:paddingLeft="62.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/an3" />
+            </FrameLayout>
+        </LinearLayout>
+        <RelativeLayout android:orientation="vertical" android:background="#fff3f3f3" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:gravity="left" android:id="@id/bvi" android:paddingLeft="14.0dip" android:paddingTop="20.0dip" android:paddingRight="14.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:text="@string/e3l" style="@style/in" />
+            <TextView android:gravity="center" android:id="@id/bvj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ek" android:text="@string/e40" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/i6" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

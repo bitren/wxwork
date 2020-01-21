@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:background="#fff5f5f5" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:background="@color/atc" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_horizontal" android:id="@id/f2w" android:paddingBottom="@dimen/y5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_centerHorizontal="true">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/den" android:layout_width="90.0dip" android:layout_height="wrap_content">
+                <ImageView android:id="@id/dem" android:background="@drawable/go" android:padding="1.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/awk" android:adjustViewBounds="true" />
+                <TextView android:textSize="13.0sp" android:textColor="@drawable/gn" android:ellipsize="end" android:gravity="center" android:id="@id/deq" android:background="@drawable/gl" android:layout_width="@dimen/ze" android:layout_height="@dimen/yk" android:layout_marginTop="10.0dip" android:text="@string/b46" android:maxLines="1" android:includeFontPadding="false" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/g29" android:layout_width="90.0dip" android:layout_height="wrap_content" android:layout_marginLeft="80.0dip" android:layout_toRightOf="@id/den" android:layout_alignTop="@id/den">
+                <ImageView android:id="@id/g27" android:background="@drawable/go" android:padding="1.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ax_" android:adjustViewBounds="true" />
+                <TextView android:textSize="13.0sp" android:textColor="@drawable/gn" android:ellipsize="end" android:gravity="center" android:id="@id/g2b" android:background="@drawable/gl" android:layout_width="@dimen/ze" android:layout_height="@dimen/yk" android:layout_marginTop="10.0dip" android:text="@string/b48" android:maxLines="1" android:includeFontPadding="false" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:background="#fff5f5f5" android:paddingBottom="50.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/f2w">
+            <com.tencent.wework.enterprise.todo.calendar.views.CalendarBookGroupLayout android:id="@id/e2o" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <LinearLayout android:orientation="vertical" android:id="@id/cx6" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.tencent.wework.enterprise.todo.calendar.views.CalendarBookGroupLayout android:id="@id/f40" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.tencent.wework.common.views.BaseLinearLayout android:gravity="center_vertical" android:id="@id/de" android:background="@color/atc" android:paddingLeft="@dimen/y3" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginTop="8.0dip" android:layout_below="@id/a62" app:bottomDividerSize="@dimen/t0" app:topDividerSize="@dimen/t0">
+                <ImageView android:id="@id/df" android:layout_width="@dimen/yd" android:layout_height="14.5dip" android:src="@drawable/bav" android:adjustViewBounds="true" android:layout_centerInParent="true" />
+                <TextView android:textSize="17.0sp" android:textColor="@color/jf" android:ellipsize="end" android:gravity="center" android:id="@id/ad_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginTop="1.0dip" android:text="@string/azp" android:maxLines="1" android:includeFontPadding="false" />
+            </com.tencent.wework.common.views.BaseLinearLayout>
+            <com.tencent.wework.common.views.CommonItemView android:id="@id/dew" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/rx" android:layout_marginTop="15.0dip" app:bottomLineType="cdq" app:topLineType="cdq" />
+        </LinearLayout>
+    </RelativeLayout>
+</merge>

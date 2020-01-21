@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="130px" height="96px" viewBox="0 0 130 96" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Wechatsystem POI @3x light</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Titlebar替换" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Slice" transform="translate(-238.000000, -166.000000)" fill="#000000">
+            <g id="Wechatsystem-Loaction-@3x-light" transform="translate(238.000000, 166.000000)">
+                <path d="M75.8990352,17.6511623 L92.8609829,63.1806008 L92.8609829,63.1806008 C93.0537904,63.698137 92.7905459,64.2739844 92.2730098,64.466792 C91.9683524,64.5802918 91.6275348,64.5386031 91.3592168,64.3550171 L74.9619531,53.1358367 L58.5646893,64.3550171 L58.5646893,64.3550171 C58.1088847,64.6668834 57.4865644,64.5501984 57.1746981,64.0943938 C56.9911121,63.8260758 56.9494234,63.4852583 57.0629233,63.1806008 L74.0248709,17.6511623 L74.0248709,17.6511623 C74.2176785,17.1336262 74.7935259,16.8703816 75.3110621,17.0631892 C75.5831097,17.1645403 75.7976841,17.3791147 75.8990352,17.6511623 Z" id="Combined-Shape" transform="translate(74.962086, 40.764903) rotate(45.000000) translate(-74.962086, -40.764903) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

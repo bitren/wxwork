@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="96px" height="96px" viewBox="0 0 96 96" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>actionbar_quit_webview_icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="#ffffffff" sketch:type="MSLayerGroup" transform="translate(24.000000, 24.000000)" fill="#FFFFFF">
+            <path d="M1,5.27089584 C2.42027432,3.84054865 3.84054865,2.42027432 5.27089584,1 C11.6873125,7.3962709 18.0835834,13.8126875 24.5,20.2190313 C30.9164166,13.8227604 37.3126875,7.3962709 43.7291042,1 C45.1594514,2.42027432 46.5797257,3.84054865 48,5.27089584 C41.6037291,11.6873125 35.1772396,18.0835834 28.7809687,24.5 C35.1772396,30.9164166 41.6037291,37.3126875 48,43.739177 C46.5797257,45.1594514 45.1594514,46.5797257 43.739177,48 C37.3126875,41.6037291 30.9164166,35.1772396 24.5,28.7809687 C18.0835834,35.1772396 11.6873125,41.6037291 5.27089584,48 C3.84054865,46.5797257 2.42027432,45.1594514 1,43.739177 C7.3962709,37.3126875 13.8227604,30.9164166 20.2190313,24.5 C13.8227604,18.0835834 7.3962709,11.6873125 1,5.27089584 L1,5.27089584 Z" id="Shape" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

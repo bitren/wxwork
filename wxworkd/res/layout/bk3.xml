@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="left" android:orientation="vertical" android:id="@id/cfy" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3b" android:textColor="@color/a4h" android:id="@id/cfv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ib9" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3b" android:textColor="@color/a4h" android:id="@id/cfw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/ib9" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3b" android:textColor="@color/a4h" android:id="@id/cfx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/ib9" />
+    </LinearLayout>
+    <LinearLayout android:gravity="bottom|center|left" android:orientation="vertical" android:id="@id/cg2" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3l" android:textColor="@color/a4h" android:id="@id/cg0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ib9" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3b" android:textColor="@color/a4h" android:id="@id/cg1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/ib9" />
+    </LinearLayout>
+    <LinearLayout android:gravity="bottom|center|right" android:orientation="vertical" android:id="@id/cg6" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3e" android:textColor="@color/a4h" android:id="@id/cg4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ib9" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3b" android:textColor="@color/a4h" android:id="@id/cg5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/ib9" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.wework.common.views.MeasureSpecExactlyLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.mm.plugin.voip.video.OpenGlView android:id="@id/fsj" android:visibility="gone" android:layout_width="120.0dip" android:layout_height="120.0dip" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" app:glversion="2" />
+    <com.tencent.wework.common.views.MaskedImageView android:id="@id/fse" android:background="@color/jf" android:layout_width="120.0dip" android:layout_height="120.0dip" android:src="@drawable/b0q" android:scaleType="centerCrop" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="16.0dip" android:layout_below="@id/fse" android:layout_centerHorizontal="true">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3i" android:textColor="@color/atc" android:ellipsize="end" android:id="@id/fsg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Unkown" android:maxLines="1" android:singleLine="true" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3d" android:textColor="@color/atc" android:id="@id/fsh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Unkown" android:maxLines="1" android:singleLine="true" />
+    </LinearLayout>
+</com.tencent.wework.common.views.MeasureSpecExactlyLayout>

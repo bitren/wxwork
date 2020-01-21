@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>webviewtab_back_disable</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="webviewtab_back_disable" sketch:type="MSLayerGroup" transform="translate(2.000000, 4.000000)" fill="#FFFFFF" opacity="0.8">
+            <g id="Page-1" sketch:type="MSShapeGroup">
+                <g id="#4d4d4d4d">
+                    <path d="M31,0 C33.465937,1.56268587 35.1562369,3.62623259 37,6 C29.6452592,12.9923306 22.2939551,20.395054 15,28 C32.3857454,28.008139 49.688815,27.9380185 67,28 C67.0118882,30.6426671 67.0018865,33.3072468 67,36 C49.6788133,36.0018782 32.3757436,35.9517921 15,36 C22.2739515,43.6149632 29.7952858,50.9175145 37,59 C35.1562369,60.353733 33.3659193,62.1668493 32,64 C20.9737208,53.4218188 10.5318684,42.6533104 0,32 C10.4018453,21.2665519 21.0237297,10.7785256 31,0 L31,0 L31,0 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

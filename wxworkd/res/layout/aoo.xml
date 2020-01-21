@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="center_horizontal" android:id="@id/edd" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ww="http://schemas.android.com/apk/res-auto">
+    <ViewStub android:id="@id/fxd" android:layout="@layout/aon" android:inflatedId="@id/cwo" android:layout_width="fill_parent" android:layout_height="@dimen/apt" android:layout_marginTop="-16.0dip" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="12.0sp" android:textColor="@color/lf" android:id="@id/f35" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="28.0dip" android:layout_marginRight="14.0dip" android:text="@string/i8q" android:layout_alignParentRight="true" />
+    <com.tencent.wework.common.views.WWIconButton android:textSize="17.0sp" android:gravity="center" android:id="@id/tv" android:layout_width="fill_parent" android:layout_height="@dimen/a70" android:layout_marginLeft="17.0dip" android:layout_marginRight="17.0dip" android:layout_marginBottom="109.0dip" android:text="@string/fqy" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" ww:iconPadding="@dimen/a6v" style="@style/xr" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="68.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="12.0sp" android:textColor="@color/lf" android:id="@id/dst" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:text="@string/fnh" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/g_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="14.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <CheckBox android:id="@id/g6" android:padding="2.0dip" android:focusable="true" android:focusableInTouchMode="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:button="@drawable/a4q" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a74" android:textColor="@color/a4h" android:id="@id/e44" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/fya" android:visibility="gone" android:layout="@layout/aty" android:inflatedId="@id/dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/aay" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    <com.tencent.wework.msg.views.MessageListInfoItemView android:id="@id/dab" android:paddingBottom="@dimen/a9j" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/dip" />
+    <ViewStub android:id="@id/fxi" android:layout="@layout/z6" android:inflatedId="@id/d5p" android:layout_width="wrap_content" android:layout_height="@dimen/a9b" android:layout_marginLeft="@dimen/a_9" android:layout_below="@id/dab" />
+    <com.tencent.wework.common.views.PhotoImageView android:id="@id/d8d" android:layout_width="@dimen/a9b" android:layout_height="@dimen/a9b" android:layout_marginLeft="@dimen/a98" android:layout_marginTop="2.0dip" android:layout_marginRight="@dimen/a9a" android:layout_toRightOf="@id/d5p" android:layout_below="@id/dab" />
+    <LinearLayout android:orientation="vertical" android:layout_width="@dimen/a8u" android:layout_height="wrap_content" android:layout_marginTop="-2.0dip" android:layout_toRightOf="@id/d8d" android:layout_alignTop="@id/d8d">
+        <com.tencent.wework.common.views.ConfigurableTextView android:id="@id/dad" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ibc" style="@style/a01" />
+        <com.tencent.wework.msg.views.MessageListAppCardItemView android:id="@id/d55" android:background="@drawable/xe" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" />
+    </LinearLayout>
+</merge>

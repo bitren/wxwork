@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/edh" android:background="@color/a1x" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.friends.views.ElectronicCardShareAnimationView android:id="@id/bzd" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="vertical" android:id="@id/aa1" android:background="@color/atc" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <RelativeLayout android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="@dimen/z5" android:layout_centerHorizontal="true">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/dhk" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center_horizontal" android:layout_width="@dimen/yg" android:layout_height="@dimen/yg" android:src="@drawable/a9o" />
+                <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3f" android:textColor="@color/qv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/zb" android:text="@string/iio" />
+            </LinearLayout>
+        </RelativeLayout>
+        <View style="@style/xx" />
+        <Button android:textSize="18.0sp" android:textColor="@color/jf" android:gravity="center" android:id="@id/dhj" android:background="@color/atc" android:layout_width="fill_parent" android:layout_height="@dimen/z5" android:text="@string/pv" />
+    </LinearLayout>
+</RelativeLayout>

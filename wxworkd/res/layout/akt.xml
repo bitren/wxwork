@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0sp" android:textColor="@color/tj" android:id="@id/ccd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="50.0dip" android:layout_marginBottom="5.0dip" android:text="@string/ib_" android:lineSpacingMultiplier="1.1" />
+    <ImageView android:id="@id/ccc" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/icon_searchbar_delete" android:scaleType="centerInside" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</merge>

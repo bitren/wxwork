@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/fp9" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/v2" android:background="@color/ars" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:layout_width="1.0px" android:layout_height="0.0dip" android:layout_weight="2.0" />
+        <com.tencent.wework.common.views.PhotoImageView android:id="@id/uj" android:layout_width="120.0dip" android:layout_height="120.0dip" android:src="@drawable/b0q" app:maskType="edm" app:radius="4.0dip" />
+        <View android:layout_width="1.0px" android:layout_height="0.0dip" android:layout_weight="3.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/atm" android:paddingLeft="28.0dip" android:paddingRight="28.0dip" android:layout_width="fill_parent" android:layout_height="84.0dip" android:layout_marginBottom="89.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <com.tencent.wework.multitalk.view.ClickStyleLayout android:id="@id/dag" android:background="@drawable/acz" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0dip" android:textColor="@color/atc" android:layout_gravity="center" android:id="@id/daf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/io4" android:drawableTop="@drawable/a6t" android:drawablePadding="8.0dip" />
+        </com.tencent.wework.multitalk.view.ClickStyleLayout>
+        <View android:background="#26ffffff" android:layout_width="1.0px" android:layout_height="fill_parent" />
+        <com.tencent.wework.multitalk.view.ClickStyleLayout android:id="@id/eaq" android:background="#80000000" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0dip" android:textColor="@color/atc" android:layout_gravity="center" android:id="@id/cdh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/io5" android:drawableTop="@drawable/a6s" android:drawablePadding="8.0dip" />
+        </com.tencent.wework.multitalk.view.ClickStyleLayout>
+        <View android:background="#26ffffff" android:layout_width="1.0px" android:layout_height="fill_parent" />
+        <com.tencent.wework.multitalk.view.ClickStyleLayout android:id="@id/a8c" android:background="@drawable/ad0" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0dip" android:textColor="@color/an1" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/io7" android:drawableTop="@drawable/a6q" android:drawablePadding="8.0dip" />
+        </com.tencent.wework.multitalk.view.ClickStyleLayout>
+    </LinearLayout>
+    <RelativeLayout android:id="@id/zk" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentBottom="true">
+        <ImageView android:id="@id/f71" android:background="@drawable/acq" android:padding="4.0dip" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="20.0dip" android:src="@drawable/bh5" android:scaleType="centerInside" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+        <com.tencent.wework.multitalk.view.ClickStyleLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/f71" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true">
+            <com.tencent.wework.common.views.WeightHLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/a0q" android:paddingLeft="20.0dip" android:paddingTop="20.0dip" android:paddingBottom="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+                <com.tencent.wework.common.views.PhotoImageView android:layout_gravity="center|right" android:id="@id/v3" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/b0q" app:maskType="edm" app:radius="2.0dip" />
+                <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0dip" android:textColor="@color/atc" android:ellipsize="end" android:id="@id/dhc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:singleLine="true" android:shadowColor="@color/abx" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="2.0" android:layout_weight="2.0" />
+                <com.tencent.wework.common.views.ConfigurableTextView android:textSize="12.0dip" android:textColor="@color/a54" android:ellipsize="end" android:id="@id/aqc" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:shadowColor="@color/abx" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="2.0" android:layout_weight="1.0" />
+                <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0dip" android:textColor="@color/atc" android:ellipsize="end" android:id="@id/clu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:singleLine="true" android:shadowColor="@color/abx" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="2.0" />
+            </com.tencent.wework.common.views.WeightHLinearLayout>
+        </com.tencent.wework.multitalk.view.ClickStyleLayout>
+    </RelativeLayout>
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3d" android:textColor="@color/atc" android:gravity="center_horizontal" android:id="@id/fus" android:background="@drawable/acw" android:paddingLeft="8.0dip" android:paddingTop="4.0dip" android:paddingRight="8.0dip" android:paddingBottom="4.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="28.0dip" android:layout_marginRight="28.0dip" android:layout_marginBottom="195.0dip" android:maxLines="1" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:lineSpacingExtra="4.0dip" />
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/atc" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" android:layout_alignParentTop="true" style="@style/a13" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3j" android:textColor="@color/jf" android:id="@id/fav" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="58.0dip" android:layout_marginRight="20.0dip" android:text="@string/c4z" android:layout_centerHorizontal="true" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3g" android:textColor="#ff5d5d5d" android:gravity="center_horizontal" android:id="@id/b2f" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="20.0dip" android:text="@string/c45" android:layout_centerHorizontal="true" />
+        <com.tencent.wework.common.views.PhotoImageView android:id="@id/cb1" android:layout_width="166.0dip" android:layout_height="166.0dip" android:layout_marginTop="70.0dip" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3e" android:textColor="@color/aoj" android:id="@id/e8_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="21.0dip" android:text="@string/c3s" />
+        <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="2.0" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3e" android:textColor="#ff9b9b9b" android:gravity="center_horizontal" android:id="@id/aql" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="75.0dip" android:layout_centerHorizontal="true" />
+    </LinearLayout>
+</LinearLayout>

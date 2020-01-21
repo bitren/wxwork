@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ag9" android:layout_width="fill_parent" android:layout_height="@dimen/alo" android:layout_alignParentTop="true" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/ag9">
+        <android.support.v7.widget.RecyclerView android:id="@id/cr7" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginBottom="15.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/axu" android:background="#fff7f7f7" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <LinearLayout android:gravity="end|center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/z2">
+            <Button android:textSize="17.0sp" android:textColor="@color/a38" android:gravity="center" android:id="@id/axv" android:layout_width="55.0dip" android:layout_height="35.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="@dimen/y3" android:layout_marginBottom="10.0dip" android:text="@string/bx2" style="@style/xr" />
+        </LinearLayout>
+        <View android:id="@id/b5z" android:background="#ffd9d9d9" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        <DatePicker android:id="@id/axt" android:background="@color/a38" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="240.0dip" android:calendarViewShown="false" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>wiki</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="安卓" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="wiki" stroke="#BFBFBF" stroke-width="2.02666667">
+            <g id="Group" transform="translate(4.000000, 1.000000)">
+                <g transform="translate(18.000000, 1.000000)">
+                    <rect id="Rectangle-path" transform="translate(7.632769, 18.505126) rotate(-11.735803) translate(-7.632769, -18.505126) " x="3.90456239" y="0.860310135" width="7.45641328" height="35.2896318"></rect>
+                    <path d="M7.61538462,29.1705357 L12.7704142,27.9849206" id="Shape"></path>
+                    <path d="M2.55240913,8.87559524 L7.61538462,7.82946429" id="Shape"></path>
+                </g>
+                <g transform="translate(10.000000, 3.000000)">
+                    <rect id="Rectangle-path" x="0.304615385" y="0.701538462" width="7.31076923" height="34.656"></rect>
+                    <path d="M0.304615385,28.6628571 L7.61538462,28.6628571" id="Shape"></path>
+                    <path d="M0.304615385,7.81714286 L7.61538462,7.81714286" id="Shape"></path>
+                </g>
+                <g>
+                    <rect id="Rectangle-path" x="0.423076923" y="0.557528958" width="6.6" height="37.3544402"></rect>
+                    <path d="M0.423076923,30.8034749 L7.02307692,30.8034749" id="Shape"></path>
+                    <path d="M0.423076923,7.66602317 L7.02307692,7.66602317" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

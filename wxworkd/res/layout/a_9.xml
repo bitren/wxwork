@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.wework.common.views.BaseLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="120.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/bh0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/py" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="16.0sp" android:textColor="#ff747f8b" android:id="@id/bgq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="10.0dip" />
+    <com.tencent.wework.common.views.DownloadProgressBar android:id="@id/bh1" android:layout_width="fill_parent" android:layout_height="wrap_content" app:hasStopBtn="false" />
+</com.tencent.wework.common.views.BaseLinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/byf" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="0.0px" android:layout_height="0.0px" />
+    <EditText android:textSize="@dimen/el" android:textColor="@color/ait" android:textColorHint="@color/aci" android:id="@id/bbe" android:background="@null" android:paddingTop="@dimen/g" android:paddingBottom="@dimen/g" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/g" android:hint="@string/dv4" android:textCursorDrawable="@null" />
+</LinearLayout>

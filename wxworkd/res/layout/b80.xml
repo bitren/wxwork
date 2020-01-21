@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/lz"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView style="@style/kg">
+        <LinearLayout style="@style/im">
+            <TextView android:id="@id/e8s" android:padding="0.0dip" android:text="@string/hb1" android:layout_weight="1.0" style="@style/jm" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/b0" android:background="@drawable/ahf" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ek" android:minHeight="@dimen/fe">
+                <TextView android:textSize="@dimen/el" android:textColor="@color/aci" android:id="@id/bi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dl" android:text="@string/i15" />
+                <TextView android:textSize="@dimen/l" android:textColor="@color/aci" android:gravity="left" android:id="@id/fna" android:paddingRight="@dimen/dl" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/e8q" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ek">
+                <TextView android:textSize="@dimen/el" android:textColor="@color/jf" android:id="@id/dma" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dl" android:text="@string/hay" />
+                <EditText android:id="@id/e8w" android:minHeight="@dimen/df" android:hint="@string/hat" style="@style/jk" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ek">
+                <TextView android:textSize="@dimen/el" android:textColor="@color/jf" android:id="@id/dr6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dl" android:text="@string/haw" />
+                <EditText android:id="@id/e8y" android:minHeight="@dimen/df" android:hint="@string/has" style="@style/jk" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ek">
+                <TextView android:textSize="@dimen/el" android:textColor="@color/jf" android:id="@id/aln" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dl" android:text="@string/har" />
+                <EditText android:id="@id/e8x" android:minHeight="@dimen/df" android:hint="@string/hau" style="@style/jk" />
+            </LinearLayout>
+            <TextView android:textSize="@dimen/d8" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ek" android:text="@string/ijy" />
+            <TextView android:textSize="@dimen/d8" android:textColor="@color/ad6" android:id="@id/bxv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/e6g" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

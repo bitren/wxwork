@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/m1" android:layout_width="@dimen/re" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ww="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3h" android:textColor="@color/jf" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/faj" android:paddingTop="@dimen/aiv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/aiv" android:layout_marginRight="@dimen/aiv" android:singleLine="true" />
+    <com.rockerhieu.emojicon.EmojiconTextView android:textSize="@dimen/a3f" android:textColor="@color/a5f" android:gravity="center_vertical" android:id="@id/ao3" android:paddingRight="@dimen/aiv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/aiv" android:layout_marginTop="6.0dip" android:layout_below="@id/faj" android:layout_centerVertical="true" ww:configurable="false" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/cfe" android:layout_width="fill_parent" android:layout_height="28.0dip" android:layout_marginLeft="@dimen/aiv" android:layout_marginTop="@dimen/aiv" android:layout_marginRight="@dimen/aiv" android:layout_below="@id/ao3">
+        <RelativeLayout android:id="@id/cgg" android:background="@drawable/us" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0sp" android:textColor="#ff000000" android:id="@id/cgf" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="7.0dip" android:src="@drawable/cqp" android:layout_toRightOf="@id/cgf" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/dsl" android:background="@drawable/w6" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="11.0dip" android:layout_weight="1.0">
+            <EditText android:textSize="14.0sp" android:id="@id/dsz" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/h2p" android:inputType="phone" android:imeOptions="actionNext" />
+        </RelativeLayout>
+    </LinearLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/aiv" android:layout_below="@id/cfe">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3f" android:textColor="@color/a7o" android:gravity="center" android:id="@id/dv4" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:paddingBottom="@dimen/aiv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="14.0dip" android:singleLine="true" android:layout_alignParentRight="true" ww:configurable="false" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3f" android:textColor="@color/a7o" android:gravity="center" android:id="@id/die" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:paddingBottom="@dimen/aiv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="14.0dip" android:singleLine="true" android:layout_toLeftOf="@id/dv4" ww:configurable="false" />
+    </RelativeLayout>
+</RelativeLayout>

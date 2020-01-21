@@ -1,0 +1,190 @@
+.class final Ldbf$18;
+.super Lffz;
+.source "AppStoreUtil.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Ldbf;->openSelectOneAdminAndDoSomething(Lcom/tencent/wework/common/controller/SuperActivity;Lczp;Ldqp;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x8
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic evA:Ldqp;
+
+.field final synthetic evf:Lcom/tencent/wework/common/controller/SuperActivity;
+
+.field final synthetic evn:Lczp;
+
+
+# direct methods
+.method constructor <init>(Lcom/tencent/wework/common/controller/SuperActivity;Lczp;Ldqp;)V
+    .locals 0
+
+    .line 1273
+    iput-object p1, p0, Ldbf$18;->evf:Lcom/tencent/wework/common/controller/SuperActivity;
+
+    iput-object p2, p0, Ldbf$18;->evn:Lczp;
+
+    iput-object p3, p0, Ldbf$18;->evA:Ldqp;
+
+    invoke-direct {p0}, Lffz;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public a(Lcom/tencent/wework/contact/api/IContactItem;Ljava/util/List;)V
+    .locals 7
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lcom/tencent/wework/contact/api/IContactItem;",
+            "Ljava/util/List<",
+            "Lcom/tencent/wework/contact/api/IContactItem;",
+            ">;)V"
+        }
+    .end annotation
+
+    const/4 v0, 0x1
+
+    .line 1284
+    :try_start_0
+    iget-object v1, p0, Ldbf$18;->evf:Lcom/tencent/wework/common/controller/SuperActivity;
+
+    invoke-virtual {v1}, Lcom/tencent/wework/common/controller/SuperActivity;->dismissProgress()V
+
+    if-nez p2, :cond_0
+
+    .line 1287
+    new-instance p2, Ljava/util/ArrayList;
+
+    invoke-direct {p2}, Ljava/util/ArrayList;-><init>()V
+
+    :cond_0
+    if-eqz p1, :cond_1
+
+    .line 1289
+    invoke-interface {p2, p1}, Ljava/util/List;->contains(Ljava/lang/Object;)Z
+
+    move-result v1
+
+    if-nez v1, :cond_1
+
+    const/4 v1, 0x0
+
+    .line 1290
+    invoke-interface {p2, v1, p1}, Ljava/util/List;->add(ILjava/lang/Object;)V
+
+    .line 1293
+    :cond_1
+    invoke-interface {p2}, Ljava/util/List;->size()I
+
+    move-result p1
+
+    if-nez p1, :cond_2
+
+    .line 1294
+    iget-object p1, p0, Ldbf$18;->evf:Lcom/tencent/wework/common/controller/SuperActivity;
+
+    iget-object p2, p0, Ldbf$18;->evn:Lczp;
+
+    invoke-static {p1, v0, p2}, Ldbf;->b(Lcom/tencent/wework/common/controller/SuperActivity;ILczp;)V
+
+    goto :goto_0
+
+    .line 1296
+    :cond_2
+    iget-object p1, p0, Ldbf$18;->evn:Lczp;
+
+    if-eqz p1, :cond_3
+
+    .line 1297
+    iget-object p1, p0, Ldbf$18;->evn:Lczp;
+
+    invoke-interface {p1}, Lczp;->onSelectAdmin()V
+
+    .line 1300
+    :cond_3
+    invoke-static {}, Lcom/tencent/wework/contact/api/ISelectFactory$-CC;->get()Lcom/tencent/wework/contact/api/ISelectFactory;
+
+    move-result-object v1
+
+    iget-object v2, p0, Ldbf$18;->evf:Lcom/tencent/wework/common/controller/SuperActivity;
+
+    const/4 v3, 0x0
+
+    const p1, 0x7f110518
+
+    .line 1301
+    invoke-static {p1}, Lduo;->getString(I)Ljava/lang/String;
+
+    move-result-object v4
+
+    .line 1302
+    invoke-static {}, Lcom/tencent/wework/contact/api/IContact$-CC;->get()Lcom/tencent/wework/contact/api/IContact;
+
+    move-result-object p1
+
+    invoke-interface {p2}, Ljava/util/List;->size()I
+
+    move-result v5
+
+    invoke-interface {p1, v5}, Lcom/tencent/wework/contact/api/IContact;->initContactItems(I)[Lcom/tencent/wework/contact/api/IContactItem;
+
+    move-result-object p1
+
+    invoke-interface {p2, p1}, Ljava/util/List;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
+
+    move-result-object p1
+
+    move-object v5, p1
+
+    check-cast v5, [Lcom/tencent/wework/contact/api/IContactItem;
+
+    new-instance v6, Ldbf$18$1;
+
+    invoke-direct {v6, p0}, Ldbf$18$1;-><init>(Ldbf$18;)V
+
+    .line 1300
+    invoke-interface/range {v1 .. v6}, Lcom/tencent/wework/contact/api/ISelectFactory;->openOneUserPicker(Landroid/app/Activity;Ljava/lang/Class;Ljava/lang/String;[Lcom/tencent/wework/contact/api/IContactItem;Lcom/tencent/wework/contact/api/SelectFactoryConstant$c;)V
+    :try_end_0
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
+
+    goto :goto_0
+
+    .line 1333
+    :catch_0
+    iget-object p1, p0, Ldbf$18;->evf:Lcom/tencent/wework/common/controller/SuperActivity;
+
+    iget-object p2, p0, Ldbf$18;->evn:Lczp;
+
+    invoke-static {p1, v0, p2}, Ldbf;->b(Lcom/tencent/wework/common/controller/SuperActivity;ILczp;)V
+
+    :goto_0
+    return-void
+.end method
+
+.method public onError(I)V
+    .locals 2
+
+    .line 1277
+    iget-object v0, p0, Ldbf$18;->evf:Lcom/tencent/wework/common/controller/SuperActivity;
+
+    invoke-virtual {v0}, Lcom/tencent/wework/common/controller/SuperActivity;->dismissProgress()V
+
+    .line 1278
+    iget-object v0, p0, Ldbf$18;->evf:Lcom/tencent/wework/common/controller/SuperActivity;
+
+    iget-object v1, p0, Ldbf$18;->evn:Lczp;
+
+    invoke-static {v0, p1, v1}, Ldbf;->b(Lcom/tencent/wework/common/controller/SuperActivity;ILczp;)V
+
+    return-void
+.end method

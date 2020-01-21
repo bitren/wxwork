@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ala" android:background="@color/ao2" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/mg">
+        <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/du" android:paddingTop="@dimen/du" android:paddingRight="@dimen/du" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/bh" android:id="@id/ali" android:layout_marginBottom="@dimen/dl" android:text="hello" style="@style/go" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dl">
+                <com.tencent.mm.ui.MMImageView android:id="@id/alh" android:layout_width="@dimen/ec" android:layout_height="@dimen/ec" android:src="@drawable/aju" style="@style/gn" />
+                <LinearLayout android:gravity="center_vertical" android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <com.tencent.mm.ui.base.NoMeasuredTextView android:textColor="@color/ait" android:ellipsize="end" android:gravity="left" android:id="@id/alf" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ff" android:layout_marginTop="0.0dip" android:layout_marginRight="0.0dip" android:text="message" android:singleLine="true" style="@style/go" />
+                    <TextView android:textSize="@dimen/d8" android:id="@id/alc" android:layout_marginLeft="@dimen/ff" android:layout_marginTop="@dimen/g" style="@style/gl" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <include layout="@layout/a10" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ww="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.CommonItemView android:id="@id/db5" android:clickable="true" android:layout_width="wrap_content" android:layout_height="@dimen/aje" />
+    <com.tencent.wework.common.views.CommonItemView android:id="@id/db7" android:clickable="true" android:layout_width="wrap_content" android:layout_height="@dimen/rx" />
+    <com.tencent.wework.common.views.CommonItemView android:id="@id/db8" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/rx" ww:hasBottomLine="false" />
+    <com.tencent.wework.common.views.CommonItemView android:id="@id/db4" android:clickable="true" android:layout_width="wrap_content" android:layout_height="@dimen/rx" ww:hasBottomLine="false" ww:hasTopLine="true" ww:topLineType="cdq" />
+    <com.tencent.wework.common.views.CommonItemView android:id="@id/dbb" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/rx" ww:hasBottomLine="false" ww:hasTopLine="true" ww:topLineType="cdq" />
+    <com.tencent.wework.common.views.CommonItemView android:id="@id/don" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/rx" />
+    <View android:background="@color/a4s" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/rw" />
+    <com.tencent.wework.common.views.CommonItemView android:id="@id/db2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/s8" android:minHeight="@dimen/rx" ww:bottomLineType="g34" ww:hasTopLine="true" ww:leftTitle="@string/gus" ww:rightIconType="re" />
+    <com.tencent.wework.common.views.CommonItemView android:id="@id/dh9" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/rx" android:layout_marginTop="@dimen/s8" ww:bottomLineType="cdq" ww:hasTopLine="true" ww:leftTitle="@string/hy2" ww:rightIconType="re" />
+    <com.tencent.wework.common.views.CommonItemView android:id="@id/dgy" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/rx" ww:hasTopLine="false" />
+    <com.tencent.wework.common.views.CommonItemView android:id="@id/e4w" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/rx" />
+    <View android:background="@color/a4s" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/rw" android:layout_marginTop="@dimen/s8" />
+    <com.tencent.wework.common.views.CommonItemView android:id="@id/edo" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/rx" ww:bottomLineType="cdq" ww:hasBottomLine="true" ww:hasTopLine="false" />
+    <com.tencent.wework.common.views.CommonItemView android:id="@id/db3" android:clickable="false" android:layout_width="fill_parent" android:layout_height="@dimen/rx" />
+    <com.tencent.wework.common.views.CommonItemView android:id="@id/db_" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/rx" />
+    <com.tencent.wework.common.views.CommonItemView android:id="@id/dba" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/rx" />
+    <com.tencent.wework.common.views.CommonItemView android:id="@id/db1" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/rx" />
+    <com.tencent.wework.common.views.CommonItemView android:id="@id/db9" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/rx" />
+    <com.tencent.wework.common.views.CommonItemView android:id="@id/dax" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/rx" />
+    <View android:id="@id/dbc" android:layout_width="fill_parent" android:layout_height="@dimen/s8" />
+    <LinearLayout android:orientation="vertical" android:id="@id/daz" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/s8" android:layout_below="@id/db9" />
+    <com.tencent.wework.common.views.CommonItemView android:id="@id/db6" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/rx" ww:leftTitle="@string/hwi" />
+</LinearLayout>

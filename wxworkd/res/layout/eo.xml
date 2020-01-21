@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/a88" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" android:layout_width="fill_parent" android:layout_height="@dimen/alo" android:layout_alignParentTop="true" />
+    <com.tencent.wework.common.views.EmptyViewStub android:id="@id/c8o" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <android.support.v4.widget.NestedScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:layout_below="@id/ff6">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/bkh" android:background="@color/a88" android:paddingBottom="@dimen/ys" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3j" android:id="@id/c7d" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/a6b" android:text="@string/faw" android:paddingStart="@dimen/y5" android:paddingEnd="@dimen/y5" />
+                <com.tencent.wework.common.views.ConfigurableTextView android:textColor="@color/x2" android:id="@id/c7b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/a6b" android:lineSpacingMultiplier="1.2" android:paddingStart="@dimen/y5" android:paddingEnd="@dimen/y5" />
+                <ImageView android:id="@id/c7i" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/xt" android:src="@drawable/akw" android:layout_marginStart="@dimen/y5" android:layout_marginEnd="@dimen/y5" />
+            </LinearLayout>
+            <View android:id="@id/bkf" android:background="@color/a47" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/rw" />
+            <com.tencent.wework.common.views.CommonItemView android:id="@id/c_h" android:layout_width="fill_parent" android:layout_height="@dimen/rx" />
+            <android.support.v7.widget.RecyclerView android:id="@id/c8p" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:textColor="@color/a4i" android:id="@id/c8q" android:paddingTop="@dimen/zk" android:paddingBottom="@dimen/y5" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/eum" android:paddingStart="@dimen/y5" android:paddingEnd="@dimen/y5" />
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/be2" android:background="@color/a3a" android:padding="@dimen/y5" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ys" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/y5" android:layout_marginEnd="@dimen/y5">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/y5" android:textColor="@color/a4i" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/euo" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/y5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/zk" android:text="@string/eup" />
+    </LinearLayout>
+</RelativeLayout>

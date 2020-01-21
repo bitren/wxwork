@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/a88" android:padding="@dimen/y5" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.PhotoImageView android:id="@id/alx" android:layout_width="@dimen/z_" android:layout_height="@dimen/z_" android:layout_alignParentStart="true" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="@dimen/z_" android:layout_marginStart="@dimen/y5" android:layout_toEndOf="@id/alx">
+        <com.tencent.wework.common.views.CommonExternalContactDisplayView android:textSize="@dimen/y9" android:ellipsize="middle" android:layout_gravity="start" android:id="@id/c9n" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" app:leftTextColor="@color/a5f" app:leftTextSize="@dimen/u9" app:rightTextColor="@color/ajh" app:rightTextDrawablePadding="@dimen/aaw" app:rightTextSize="@dimen/a9n" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/y1" android:textColor="@color/a4h" android:id="@id/g23" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/zk" android:singleLine="true" />
+    </LinearLayout>
+</RelativeLayout>

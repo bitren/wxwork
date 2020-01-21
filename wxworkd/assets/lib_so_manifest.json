@@ -1,0 +1,470 @@
+{
+	"manifest":{
+		"default":{
+			"system":true,
+			"keep":true
+		},
+		"system":[
+			"libcommonimgdec.so",
+			"libwechatcommon.so",
+			"libwechatxlog.so",
+			"libstlport_shared.so",
+			"libhardcoder.so",
+			"libmmkv.so",
+			"libwechatsvg2.so",
+			"libwcdb.so",
+			"libwechatnormsg.so",
+			"libappbrandcommon.so",
+			"libwebp_base_so",
+			"libwechatzstd.so",
+			"libwework_framework.so",
+			"libBugly-rqd.so",
+			"libpbktcc.so",
+			"libpbkpy.so",
+			"libpbcxlog.so",
+			"libpbcmm.so",
+			"libwxpbxlog.so",
+			"libc++_shared.so"
+		],
+		"library":[
+			{
+				"system":true,
+				"download_md5":"",
+				"name":"libcommonimgdec.so",
+				"verify_md5":""
+			},
+			{
+				"system":true,
+				"download_md5":"",
+				"name":"libwechatcommon.so",
+				"verify_md5":""
+			},
+			{
+				"download_md5":"9dc5451cbfc82fa2b3a406bf0848fcbf",
+				"name":"libnode.so",
+				"verify_md5":"dd265e525639111e574e0070bd1214cc",
+                "keep": true,
+				"url":"https://dldir1.qq.com/foxmail/wxwork/android/dist/rev/3cdcd5a2/type/1/name/dd265e525639111e574e0070bd1214cc.zip"
+			},
+			{
+				"download_md5":"e4ef894ef1719607cc05df9806302dd5",
+				"name":"libYTCommonEx.so",
+				"verify_md5":"a14cca8790b6e49da9497b649039696f",
+				"url":"https://dldir1.qq.com/foxmail/wxwork/android/dist/rev/3cdcd5a2/type/1/name/a14cca8790b6e49da9497b649039696f.zip",
+                "preload": true
+			},
+			{
+				"download_md5":"80c4a60b8267c410b037cc56d4718299",
+				"name":"libtraeimp-rtmp-armeabi.so",
+				"verify_md5":"fd98cdc1d0ea13d2889e84b72b723a98",
+				"url":"https://dldir1.qq.com/foxmail/wxwork/android/dist/rev/3cdcd5a2/type/1/name/fd98cdc1d0ea13d2889e84b72b723a98.zip",
+                "preload": true
+			},
+			{
+				"download_md5":"5cb3c727495573cca6c9cabdb8c4b4fe",
+				"name":"libbspatch_utils.so",
+				"verify_md5":"578775c1bf5fcac490dca407b7a58f19",
+				"url":"https://dldir1.qq.com/foxmail/wxwork/android/dist/rev/3cdcd5a2/type/1/name/578775c1bf5fcac490dca407b7a58f19.zip",
+                "preload": true
+			},
+			{
+				"download_md5":"09619ba09973cc6fffdeac2b517748e6",
+				"name":"libmm_gl_disp.so",
+				"verify_md5":"24d57bd5a711686d2d36b048b1e333dc",
+			  	"url":"https://dldir1.qq.com/foxmail/wxwork/android/dist/rev/3cdcd5a2/type/1/name/24d57bd5a711686d2d36b048b1e333dc.zip",
+                "system":true
+			},
+			{
+				"download_md5":"2d09f86330624a0dda97a24971e9af99",
+				"name":"libj2v8.so",
+				"verify_md5":"a08cf6956feae8e037c987b3ed80b1a9",
+                "keep": true,
+				"url":"https://dldir1.qq.com/foxmail/wxwork/android/dist/rev/3cdcd5a2/type/1/name/a08cf6956feae8e037c987b3ed80b1a9.zip"
+			},
+			{
+				"download_md5":"3e649ded812669667677e6bd6cea847e",
+				"name":"libwechatvoicesilk.so",
+				"verify_md5":"02c3dc754881482a5c18756560612b9d",
+				"url":"https://dldir1.qq.com/foxmail/wxwork/android/dist/rev/3cdcd5a2/type/1/name/02c3dc754881482a5c18756560612b9d.zip",
+                "preload": true
+			},
+			{
+				"download_md5":"96be1da5b15bc43b17695921e8265337",
+				"name":"libqm_native_decoder_ape.so",
+				"verify_md5":"2441137c4dcab81f8e89968edf6ebd15",
+				"url":"https://dldir1.qq.com/foxmail/wxwork/android/dist/rev/3cdcd5a2/type/1/name/2441137c4dcab81f8e89968edf6ebd15.zip",
+                "preload": true
+			},
+			{
+				"download_md5":"cc5445dd440b5ca57d90f83f5fa9fe7c",
+				"name":"libwechatsight.so",
+				"verify_md5":"c2d3d7ffc87ebe4ab5ae6c4189f3cfdd",
+				"url":"https://dldir1.qq.com/foxmail/wxwork/android/dist/rev/3cdcd5a2/type/1/name/c2d3d7ffc87ebe4ab5ae6c4189f3cfdd.zip",
+                "preload": true
+			},
+			{
+				"download_md5":"22fd7806336f1a3862d7ccb4f532c825",
+				"name":"libFormatDetector.so",
+				"verify_md5":"b5900906644f628cdcb360305deda2b7",
+				"url":"https://dldir1.qq.com/foxmail/wxwork/android/dist/rev/3cdcd5a2/type/1/name/b5900906644f628cdcb360305deda2b7.zip",
+                "preload": true
+			},
+			{
+				"download_md5":"ba23bab79923e06a511c85b33a683f15",
+				"name":"libapmioFake.so",
+				"verify_md5":"39591bd25316c4b090740e6afb05373b",
+				"url":"https://dldir1.qq.com/foxmail/wxwork/android/dist/rev/3cdcd5a2/type/1/name/39591bd25316c4b090740e6afb05373b.zip",
+                "preload": true
+			},
+			{
+				"download_md5":"d6f0a8d2ad3e6daf45045fec1594e925",
+				"name":"libhiddenwatermark.so",
+				"verify_md5":"a9b8a95a5ff13746f330bcc994e0c1f1",
+				"url":"https://dldir1.qq.com/foxmail/wxwork/android/dist/rev/3cdcd5a2/type/1/name/a9b8a95a5ff13746f330bcc994e0c1f1.zip",
+                "preload": true
+			},
+			{
+				"download_md5":"227cce6240d06c641771dc3a8c714b5b",
+				"name":"libaudio_common.so",
+				"verify_md5":"96adf68b1bc3017268cd04bf9af75e91",
+				"url":"https://dldir1.qq.com/foxmail/wxwork/android/dist/rev/3cdcd5a2/type/1/name/96adf68b1bc3017268cd04bf9af75e91.zip",
+                "preload": true
+			},
+			{
+				"download_md5":"3b2171603bf175b7d7ef09c9b1dbde8c",
+				"name":"libwechatsvg.so",
+				"verify_md5":"8ccf54f9c378a46daadb490cadca82bb",
+				"url":"https://dldir1.qq.com/foxmail/wxwork/android/dist/rev/3cdcd5a2/type/1/name/8ccf54f9c378a46daadb490cadca82bb.zip",
+                "preload": true
+			},
+			{
+				"download_md5":"a90c8564e5279d579ed489557b940841",
+				"name":"libqm_native_decoder_mp3.so",
+				"verify_md5":"05675b46388f527397ba8ca2ea50798e",
+				"url":"https://dldir1.qq.com/foxmail/wxwork/android/dist/rev/3cdcd5a2/type/1/name/05675b46388f527397ba8ca2ea50798e.zip",
+                "preload": true
+			},
+			{
+				"download_md5":"f04d64ec5db2737804ae71f5eb04ce92",
+				"name":"libtpnsSecurity.so",
+				"verify_md5":"3d1f0b62be8d71c15d036160cadab3e1",
+				"url":"https://dldir1.qq.com/foxmail/wxwork/android/dist/rev/3cdcd5a2/type/1/name/3d1f0b62be8d71c15d036160cadab3e1.zip",
+                "preload": true
+			},
+			{
+				"download_md5":"3f61599b44faa2ed29191c3d0e92684c",
+				"name":"libqqpbcore.so",
+				"verify_md5":"c7421e4a8e5e92cfcce61ee431f6196e",
+				"url":"https://dldir1.qq.com/foxmail/wxwork/android/dist/rev/3cdcd5a2/type/1/name/c7421e4a8e5e92cfcce61ee431f6196e.zip",
+                "preload": true
+			},
+			{
+				"download_md5":"a106a95674e2c74840475e1c4d00f720",
+				"name":"libtxffmpeg.so",
+				"verify_md5":"b88f9e8e686323d560671ed71666122c",
+				"url":"https://dldir1.qq.com/foxmail/wxwork/android/dist/rev/3cdcd5a2/type/1/name/b88f9e8e686323d560671ed71666122c.zip",
+                "preload": true
+			},
+			{
+				"download_md5":"9ed0f73e97c9c7ccc6bc4136d40d7ad1",
+				"name":"librecovery.so",
+				"verify_md5":"c844859335acbca2a164f8b7ba1f7c72",
+				"url":"https://dldir1.qq.com/foxmail/wxwork/android/dist/rev/3cdcd5a2/type/1/name/c844859335acbca2a164f8b7ba1f7c72.zip",
+                "preload": true
+			},
+			{
+				"download_md5":"b83b20b21cb50169748c39af831de504",
+				"name":"libYTFaceTrace.so",
+				"verify_md5":"3552b1ff67c05774be316400b532a18a",
+				"url":"https://dldir1.qq.com/foxmail/wxwork/android/dist/rev/3cdcd5a2/type/1/name/3552b1ff67c05774be316400b532a18a.zip",
+                "preload": true
+			},
+			{
+				"download_md5":"455e3c39a5bcb7dc2a35a81753ca3801",
+				"name":"libwechatmm.so",
+				"verify_md5":"68b03acd4f3a8f71d24c8b3cdd73f42c",
+				"url":"https://dldir1.qq.com/foxmail/wxwork/android/dist/rev/3cdcd5a2/type/1/name/68b03acd4f3a8f71d24c8b3cdd73f42c.zip",
+                "preload": true
+			},
+			{
+				"download_md5":"80d559086083623c7dac55ef452db378",
+				"name":"libsaturn.so",
+				"verify_md5":"0c6fbb163d6d3021be67317b9def0b45",
+				"url":"https://dldir1.qq.com/foxmail/wxwork/android/dist/rev/3cdcd5a2/type/1/name/0c6fbb163d6d3021be67317b9def0b45.zip",
+                "preload": true
+			},
+			{
+				"download_md5":"97c8c6bfcf5db73b0efd730e0055a98a",
+				"name":"libqm_native_decoder_flac.so",
+				"verify_md5":"d0fbcb33743550598d5daf4f803cc018",
+				"url":"https://dldir1.qq.com/foxmail/wxwork/android/dist/rev/3cdcd5a2/type/1/name/d0fbcb33743550598d5daf4f803cc018.zip",
+                "preload": true
+			},
+			{
+				"download_md5":"41f00b091d05a69fc867523745d11b44",
+				"name":"libmatrixmrs.so",
+				"verify_md5":"eac31e964c195a0b1a03cbf8be77916f",
+				"url":"https://dldir1.qq.com/foxmail/wxwork/android/dist/rev/3cdcd5a2/type/1/name/eac31e964c195a0b1a03cbf8be77916f.zip",
+                "preload": true
+			},
+			{
+				"download_md5":"a36a3b07ba98aa1519fbad41f28e41f5",
+				"name":"libwechataccessory.so",
+				"verify_md5":"100695d1308a5d7862ad9e4c5b826512",
+				"url":"https://dldir1.qq.com/foxmail/wxwork/android/dist/rev/3cdcd5a2/type/1/name/100695d1308a5d7862ad9e4c5b826512.zip",
+                "preload": true
+			},
+			{
+				"download_md5":"ec2958e9e90ab837d74b1a6d1974e916",
+				"name":"libmagicbrush.so",
+				"verify_md5":"c8d656fe64781ccc1f43de5937a7ee6d",
+				"url":"https://dldir1.qq.com/foxmail/wxwork/android/dist/rev/3cdcd5a2/type/1/name/c8d656fe64781ccc1f43de5937a7ee6d.zip",
+                "preload": true
+			},
+			{
+				"download_md5":"2e0826926e85662589141f4fde77615d",
+				"name":"libapmdalvik.so",
+				"verify_md5":"9fda06f19f28c7fa1803f83ffe38859b",
+				"url":"https://dldir1.qq.com/foxmail/wxwork/android/dist/rev/3cdcd5a2/type/1/name/9fda06f19f28c7fa1803f83ffe38859b.zip",
+                "preload": true
+			},
+			{
+				"download_md5":"92e863b82f71f37b14d8581c7fc38173",
+				"name":"libvoipGLRender.so",
+				"verify_md5":"b6b3d415e3ccc23ca508f6f00810147c",
+				"url":"https://dldir1.qq.com/foxmail/wxwork/android/dist/rev/3cdcd5a2/type/1/name/b6b3d415e3ccc23ca508f6f00810147c.zip",
+                "preload": true
+			},
+			{
+				"download_md5":"2309ae4d5332eb38f308b1d40721d9ee",
+				"name":"libqm_native_decoder_ffmpeg.so",
+				"verify_md5":"3821b8a0e7766a10b7ee4b508f788c6f",
+				"url":"https://dldir1.qq.com/foxmail/wxwork/android/dist/rev/3cdcd5a2/type/1/name/3821b8a0e7766a10b7ee4b508f788c6f.zip",
+                "preload": true
+			},
+			{
+				"download_md5":"b28e371dcb8a1cf447e9d1b621e8927e",
+				"name":"libwechatCrashForJni.so",
+				"verify_md5":"a2b0e09b63c6fd6838e337cdb5ecd106",
+				"url":"https://dldir1.qq.com/foxmail/wxwork/android/dist/rev/3cdcd5a2/type/1/name/a2b0e09b63c6fd6838e337cdb5ecd106.zip",
+                "preload": true
+			},
+			{
+				"download_md5":"d65b2ebf5439ff297a727df6a9a7128f",
+				"name":"libliteavsdk.so",
+				"verify_md5":"b4418a96ff3d30ca37cf19ab0463ba23",
+				"url":"https://dldir1.qq.com/foxmail/wxwork/android/dist/rev/3cdcd5a2/type/1/name/b4418a96ff3d30ca37cf19ab0463ba23.zip",
+                "preload": true
+			},
+			{
+				"download_md5":"f9bdd9edc853b4fe47df55c9054cf48b",
+				"name":"libqqmusic_decoder_jni.so",
+				"verify_md5":"60644078761893574a0192b6415488fb",
+				"url":"https://dldir1.qq.com/foxmail/wxwork/android/dist/rev/3cdcd5a2/type/1/name/60644078761893574a0192b6415488fb.zip",
+                "preload": true
+			},
+			{
+				"download_md5":"384bccc8353131ca691eff551c4b3a49",
+				"name":"libjsengine.so",
+				"verify_md5":"f0abd8a3a5267b14db517006bfb3ca78",
+				"url":"https://dldir1.qq.com/foxmail/wxwork/android/dist/rev/3cdcd5a2/type/1/name/f0abd8a3a5267b14db517006bfb3ca78.zip",
+                "preload": true
+			},
+			{
+				"download_md5":"3b982fb4ad0b361688f914d6115edcfd",
+				"name":"libcodec_factory.so",
+				"verify_md5":"9ee4f8700b85d592d8205c4f4f363333",
+				"url":"https://dldir1.qq.com/foxmail/wxwork/android/dist/rev/3cdcd5a2/type/1/name/9ee4f8700b85d592d8205c4f4f363333.zip",
+                "preload": true
+			},
+            {
+                "download_md5":"3139eb3e52e29a3df2d1b0ac5f69c3eb",
+                "name":"libocr_v7a.so",
+                "verify_md5":"2da673ffb759c8ced26b49026522b319",
+                "url":"https://dldir1.qq.com/foxmail/wxwork/android/dist/rev/3cdcd5a2/type/1/name/2da673ffb759c8ced26b49026522b319.zip",
+                "keep": true
+            },
+            {
+				"download_md5":"a4538b5ec51f170989c2fe627440cc88",
+				"name":"libapmart.so",
+				"verify_md5":"398692c02908f1f2de6d67f103c1ca6b",
+				"url":"https://dldir1.qq.com/foxmail/wxwork/android/dist/rev/3cdcd5a2/type/1/name/398692c02908f1f2de6d67f103c1ca6b.zip",
+                "preload": true
+			},
+			{
+				"download_md5":"175b116a1baa8e139f8b462e3143816b",
+				"name":"libmp3lame.so",
+				"verify_md5":"828d87feb928673750d276b3162c282c",
+				"url":"https://dldir1.qq.com/foxmail/wxwork/android/dist/rev/3cdcd5a2/type/1/name/828d87feb928673750d276b3162c282c.zip",
+                "preload": true
+			},
+			{
+				"download_md5":"493ed0f6820a4ebc6e896f32e95a188e",
+				"name":"libmmv8.so",
+				"verify_md5":"f58bcce3d2dd574439c4fc85ce862f73",
+                "keep": true,
+				"url":"https://dldir1.qq.com/foxmail/wxwork/android/dist/rev/3cdcd5a2/type/1/name/f58bcce3d2dd574439c4fc85ce862f73.zip"
+			},
+			{
+				"download_md5":"bfb763942623a7733597514aab00785d",
+				"name":"libNLog.so",
+				"verify_md5":"b26e7822b92e65b16942073c35b68a6d",
+				"url":"https://dldir1.qq.com/foxmail/wxwork/android/dist/rev/3cdcd5a2/type/1/name/b26e7822b92e65b16942073c35b68a6d.zip",
+                "preload": true
+			},
+            {
+                "download_md5":"54358301122c30dc873ece37176aadf2",
+                "name":"libFFmpeg.so",
+                "verify_md5":"4b2210c7a8b6ff53ce4bf8dd3121b60b",
+                "url":"https://dldir1.qq.com/foxmail/wxwork/android/dist/rev/3cdcd5a2/type/1/name/4b2210c7a8b6ff53ce4bf8dd3121b60b.zip",
+                "keep": true
+            },
+            {
+                "download_md5":"59f773a0cad62896621499f519e32856",
+                "name":"libapmcommon.so",
+                "verify_md5":"f7de0e6116a3f5ae7835dd5a10913f46",
+                "url":"https://dldir1.qq.com/foxmail/wxwork/android/dist/rev/3cdcd5a2/type/1/name/f7de0e6116a3f5ae7835dd5a10913f46.zip",
+                "keep": true
+            },
+            {
+                "download_md5":"901304411a5fcd90037e5b96b8b96424",
+                "name":"libencrypt.so",
+                "verify_md5":"f9ec415ef1bf0c6c287bf70451d46436",
+                "url":"https://dldir1.qq.com/foxmail/wxwork/android/dist/rev/3cdcd5a2/type/1/name/f9ec415ef1bf0c6c287bf70451d46436.zip",
+                "keep": true
+            },
+            {
+                "download_md5":"496470b727a29b21b22408e463b3af08",
+                "name":"libvoipMain.so",
+                "verify_md5":"2f9ae142165cc96692964c920c00d41d",
+                "url":"https://dldir1.qq.com/foxmail/wxwork/android/dist/rev/3cdcd5a2/type/1/name/2f9ae142165cc96692964c920c00d41d.zip",
+                "keep": true
+            },
+            {
+                "download_md5":"40a8992b1c0ef6104407fd953385283a",
+                "name":"libwechatImgProcessScan.so",
+                "verify_md5":"aa1b0c5b252a8071a141eb750c929d1d",
+                "url":"https://dldir1.qq.com/foxmail/wxwork/android/dist/rev/3cdcd5a2/type/1/name/aa1b0c5b252a8071a141eb750c929d1d.zip",
+                "keep": true
+            },
+            {
+                "download_md5":"020dbea509269de93feb06bcc7a11785",
+                "name":"libpl_droidsonroids_gif.so",
+                "verify_md5":"5b35f616dec616f903301be0abe8e92f",
+                "url":"https://dldir1.qq.com/foxmail/wxwork/android/dist/rev/3cdcd5a2/type/1/name/5b35f616dec616f903301be0abe8e92f.zip",
+                "keep": true
+            },
+            {
+                "download_md5":"aa7e1014a2be5037228f71820ddc45dc",
+                "name":"libtencentloc.so",
+                "verify_md5":"664a8f4aec092c313998423b1f16ae12",
+                "url":"https://dldir1.qq.com/foxmail/wxwork/android/dist/rev/3cdcd5a2/type/1/name/664a8f4aec092c313998423b1f16ae12.zip",
+               "keep": true
+            },
+            {
+                "download_md5":"31c439f476f5d11572dd4ac395b4fa94",
+                "name":"libtxmapengine.so",
+                "verify_md5":"9457287c32d6991a4e1e32afcf61e496",
+                "url":"https://dldir1.qq.com/foxmail/wxwork/android/dist/rev/3cdcd5a2/type/1/name/9457287c32d6991a4e1e32afcf61e496.zip",
+                "keep": true
+            },
+            {
+                "download_md5":"e0a7427be98f71fc421dc7759e88882f",
+                "name":"libvoipService.so",
+                "verify_md5":"4a6717b8303577cbfa2b48e3520caebe",
+                "url":"https://dldir1.qq.com/foxmail/wxwork/android/dist/rev/3cdcd5a2/type/1/name/4a6717b8303577cbfa2b48e3520caebe.zip",
+                "keep": true
+            },
+            {
+                "download_md5":"4162fa3619b5734a7a2f5297e9b44a70",
+                "name":"libmarswechatxlog.so",
+                "verify_md5":"16b2c413312b4833234d34480b160d7b",
+                "url":"https://dldir1.qq.com/foxmail/wxwork/android/dist/rev/3cdcd5a2/type/1/name/16b2c413312b4833234d34480b160d7b.zip",
+                "keep": true
+            },
+            {
+                "download_md5":"9382e3fe843d583449ba75d1946f975e",
+                "name":"libwechatpack.so",
+                "verify_md5":"0e3306bc8ff94fab6d09d3b4eb103e4f",
+                "url":"https://dldir1.qq.com/foxmail/wxwork/android/dist/rev/3cdcd5a2/type/1/name/0e3306bc8ff94fab6d09d3b4eb103e4f.zip",
+                "keep": true
+            },
+            {
+                "download_md5":"95f3890f6c2332e7e0768562615eccab",
+                "name":"libwechatQrMod.so",
+                "verify_md5":"d51af841e851ff037de00add23269cfd",
+                "url":"https://dldir1.qq.com/foxmail/wxwork/android/dist/rev/3cdcd5a2/type/1/name/d51af841e851ff037de00add23269cfd.zip",
+                "keep": true
+            },
+            {
+                "download_md5":"aa9b06cf079418bacf66bd8724c481ce",
+                "name":"libwechatvoicereco.so",
+                "verify_md5":"55abd3548e947cad7f8c123511d15122",
+                "url":"https://dldir1.qq.com/foxmail/wxwork/android/dist/rev/3cdcd5a2/type/1/name/55abd3548e947cad7f8c123511d15122.zip",
+                "keep": true
+            },
+            {
+                "download_md5":"3a4138e547860d7b23897e0b595fa71a",
+                "name":"libwxpbnetwork.so",
+                "verify_md5":"0cf547d935c2918b86d2f91bdaf6c1af",
+                "url":"https://dldir1.qq.com/foxmail/wxwork/android/dist/rev/3cdcd5a2/type/1/name/0cf547d935c2918b86d2f91bdaf6c1af.zip",
+                "keep": true
+            },
+            {
+                "download_md5":"5ab8e5ec5f95e82238295af2d6d3bf52",
+                "name":"libxcast.so",
+                "verify_md5":"a391165b974b69835ca18fa3a9eb027b",
+                "url":"https://dldir1.qq.com/foxmail/wxwork/android/dist/rev/3cdcd5a2/type/1/name/a391165b974b69835ca18fa3a9eb027b.zip",
+                "keep": true
+            },
+            {
+                "download_md5":"c4b402807a1b69e2268d83aa1eb7c3f7",
+                "name":"libwechatnetwork.so",
+                "verify_md5":"8b63d87f6b988d3b75f8c5744b20d405",
+                "url":"https://dldir1.qq.com/foxmail/wxwork/android/dist/rev/3cdcd5a2/type/1/name/8b63d87f6b988d3b75f8c5744b20d405.zip",
+                "keep": true
+            },
+            {
+                "download_md5":"911941013d862869bdae71a4b540970d",
+                "name":"libwechatnormsg_stl.so",
+                "verify_md5":"71be803d389e5147572c66503a7898c3",
+                "url":"https://dldir1.qq.com/foxmail/wxwork/android/dist/rev/3cdcd5a2/type/1/name/71be803d389e5147572c66503a7898c3.zip",
+                "keep": true
+            }
+        ],
+		"keep":[
+			"liblinuxtoolsfortbssdk_jni_so",
+			"libvoipCodec.so",
+			"libvoipCodec_v7a.so",
+			"libwechatvoicesilk_v7a.so",
+			"libwechatsight_v7a.so"
+		],
+        "intent": [
+          {
+            "activity": "CustomCameraActivity",
+            "soList": ["FFmpeg", "wechatpack"],
+            "enable": true
+          },
+          {
+            "activity": "VoipCallActivity",
+            "soList": ["FFmpeg", "wechatpack"],
+            "enable": true
+          },
+          {
+            "activity": "NameCardAlbumPreviewActivity",
+            "soList": ["ocr_v7a"],
+            "enable": true
+          },
+          {
+            "activity": "ScanRegionCameraActivity",
+            "soList": ["ocr_v7a"],
+            "enable": true
+          },
+          {
+            "activity": "LoginScannerActivity",
+            "soList": ["ocr_v7a","wechatQrMod","wechatImgProcessScan"],
+            "enable": true
+          }
+        ]
+	}
+}

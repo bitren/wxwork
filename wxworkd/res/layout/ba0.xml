@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/anw" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.pb.paintpad.PaintPad android:id="@id/egc" android:background="#ff2e2e2e" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentBottom="true" />
+    <com.tencent.pb.paintpad.PaintPadEditText android:id="@id/egf" android:background="@drawable/a8v" android:paddingLeft="10.0dip" android:paddingTop="4.0dip" android:paddingRight="10.0dip" android:paddingBottom="4.0dip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <include android:id="@id/efp" android:background="@color/anp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginBottom="16.0dip" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" layout="@layout/ba2" />
+    <com.tencent.pb.paintpad.PaintToolItemView android:id="@id/egl" android:background="@drawable/a8y" android:visibility="gone" android:layout_width="38.0dip" android:layout_height="38.0dip" android:layout_marginLeft="16.0dip" android:layout_marginBottom="16.0dip" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" app:pt_type="TYPE_ENTRY" />
+    <include android:id="@id/eh0" android:background="@color/anp" android:visibility="gone" android:layout_width="38.0dip" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" layout="@layout/ba1" />
+    <ProgressBar android:id="@id/egd" android:visibility="gone" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginTop="0.0dip" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    <RelativeLayout android:id="@id/eh1" android:background="#d82e2e2e" android:layout_width="fill_parent" android:layout_height="@dimen/ain">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="16.0sp" android:textColor="@color/anf" android:gravity="center" android:id="@id/eg0" android:paddingLeft="14.0dip" android:paddingRight="14.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/hj1" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+            <ImageView android:id="@id/eg_" android:layout_width="48.0dip" android:layout_height="fill_parent" android:src="@drawable/a8r" android:scaleType="center" />
+            <ImageView android:id="@id/eg7" android:layout_width="48.0dip" android:layout_height="fill_parent" android:src="@drawable/a8f" android:scaleType="center" />
+        </LinearLayout>
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="30.0dip" android:gravity="center" android:id="@id/eh2" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text=" + " android:layout_toLeftOf="@id/eg1" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="16.0sp" android:textColor="@color/anf" android:gravity="center" android:id="@id/eg1" android:paddingLeft="14.0dip" android:paddingRight="14.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="发送" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <com.tencent.pb.paintpad.CropTool android:id="@id/efv" android:background="#ff000000" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:id="@id/efw" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <ImageView android:id="@id/eft" android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@drawable/csk" android:scaleType="center" />
+        <ImageView android:id="@id/efr" android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@drawable/csj" android:scaleType="center" android:layout_below="@id/eft" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="17.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/efs" android:paddingLeft="14.0dip" android:paddingRight="14.0dip" android:layout_width="wrap_content" android:layout_height="50.0dip" android:text="@string/hj_" android:layout_below="@id/eft" android:layout_centerHorizontal="true" />
+        <ImageView android:id="@id/efu" android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@drawable/csl" android:scaleType="center" android:layout_below="@id/eft" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <com.tencent.pb.paintpad.PaintPadToolView android:id="@id/dqa" android:layout_width="fill_parent" android:layout_height="170.0dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

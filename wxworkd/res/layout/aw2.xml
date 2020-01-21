@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.wework.common.views.BaseRelativeLayout android:orientation="horizontal" android:background="@drawable/j7" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/d_n" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/s2" android:layout_centerVertical="true" />
+    <com.tencent.wework.common.views.BaseLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/s2" android:layout_marginTop="@dimen/s2" android:layout_marginRight="@dimen/s2" android:layout_marginBottom="@dimen/s2" android:layout_toRightOf="@id/d_n" android:layout_alignWithParentIfMissing="true">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="15.0sp" android:textColor="@color/aq3" android:id="@id/d_o" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="12.0sp" android:textColor="@color/ux" android:id="@id/d_m" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" />
+    </com.tencent.wework.common.views.BaseLinearLayout>
+</com.tencent.wework.common.views.BaseRelativeLayout>

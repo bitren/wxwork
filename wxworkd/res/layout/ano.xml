@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/cv3" android:background="@drawable/kb" android:layout_width="fill_parent" android:layout_height="@dimen/z_"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.PhotoImageView android:id="@id/cux" android:layout_width="@dimen/yu" android:layout_height="@dimen/yu" android:layout_marginLeft="@dimen/xx" android:src="@drawable/b0q" android:layout_alignParentLeft="true" android:layout_centerVertical="true" app:radius="@dimen/yc" />
+    <LinearLayout android:gravity="center|left" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/xx" android:layout_toLeftOf="@id/cv2" android:layout_toRightOf="@id/cux" android:layout_centerVertical="true">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3g" android:textColor="#ff2f2f2f" android:ellipsize="end" android:gravity="left" android:id="@id/cv0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3d" android:textColor="#ff9d9d9d" android:id="@id/cv1" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3f" android:textColor="#ffff4b4f" android:id="@id/cv2" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/yr" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/cu5" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/y3" android:src="@drawable/c3h" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+    <View android:id="@id/ffc" android:background="@color/a0j" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="@dimen/a61" android:layout_alignParentTop="true" />
+    <View android:id="@id/a04" android:background="@color/a0j" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/a61" android:layout_marginLeft="@dimen/xx" android:layout_alignParentBottom="true" />
+</RelativeLayout>

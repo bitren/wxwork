@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/efq" android:layout_width="fill_parent" android:layout_height="38.0dip" android:layout_marginBottom="113.0dip" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true">
+        <View android:id="@id/ega" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+        <com.tencent.pb.paintpad.PaintToolItemView android:id="@id/egh" android:layout_width="@dimen/aik" android:layout_height="@dimen/aik" android:layout_marginRight="75.0dip" android:layout_toLeftOf="@id/ega" android:layout_alignParentRight="true" app:pt_color="@color/ang" app:pt_type="TYPE_COLOR" />
+        <com.tencent.pb.paintpad.PaintToolItemView android:id="@id/egy" android:layout_width="@dimen/aik" android:layout_height="@dimen/aik" android:layout_marginRight="75.0dip" android:layout_toLeftOf="@id/ega" app:pt_color="@color/ann" app:pt_fillcolor="#ff000000" app:pt_type="TYPE_COLOR" />
+        <com.tencent.pb.paintpad.PaintToolItemView android:id="@id/egi" android:layout_width="@dimen/aik" android:layout_height="@dimen/aik" android:layout_marginRight="75.0dip" android:layout_toLeftOf="@id/ega" app:pt_color="@color/anh" app:pt_type="TYPE_COLOR" />
+        <com.tencent.pb.paintpad.PaintToolItemView android:id="@id/egm" android:visibility="gone" android:layout_width="@dimen/aik" android:layout_height="@dimen/aik" android:layout_marginRight="75.0dip" android:layout_toLeftOf="@id/ega" app:pt_color="@color/ank" app:pt_type="TYPE_COLOR" />
+        <com.tencent.pb.paintpad.PaintToolItemView android:id="@id/egz" android:layout_width="@dimen/aik" android:layout_height="@dimen/aik" android:layout_marginRight="75.0dip" android:layout_toLeftOf="@id/ega" app:pt_color="@color/ano" app:pt_fillcolor="#ff000000" app:pt_type="TYPE_COLOR" />
+        <com.tencent.pb.paintpad.PaintToolItemView android:id="@id/egq" android:visibility="gone" android:layout_width="@dimen/aik" android:layout_height="@dimen/aik" android:layout_marginRight="75.0dip" android:layout_toLeftOf="@id/ega" app:pt_color="@color/anl" app:pt_type="TYPE_COLOR" />
+        <com.tencent.pb.paintpad.PaintToolItemView android:id="@id/egu" android:layout_width="@dimen/aik" android:layout_height="@dimen/aik" android:layout_marginRight="75.0dip" android:layout_toLeftOf="@id/ega" app:pt_color="@color/anm" app:pt_type="TYPE_COLOR" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/ege" android:layout_width="fill_parent" android:layout_height="38.0dip" android:layout_marginBottom="113.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+        <View android:id="@id/egb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+        <com.tencent.pb.paintpad.PaintToolItemView android:id="@id/egw" android:background="@drawable/a8y" android:layout_width="@dimen/aim" android:layout_height="@dimen/aim" android:layout_marginLeft="75.0dip" android:layout_toRightOf="@id/egb" app:pt_size="SMALL" app:pt_type="TYPE_STROKE_SIZE" />
+        <com.tencent.pb.paintpad.PaintToolItemView android:id="@id/egp" android:background="@drawable/a8y" android:layout_width="@dimen/aim" android:layout_height="@dimen/aim" android:layout_marginLeft="75.0dip" android:layout_toRightOf="@id/egb" app:pt_size="NORMAL" app:pt_type="TYPE_STROKE_SIZE" />
+        <com.tencent.pb.paintpad.PaintToolItemView android:id="@id/egg" android:background="@drawable/a8y" android:layout_width="@dimen/aim" android:layout_height="@dimen/aim" android:layout_marginLeft="75.0dip" android:layout_toRightOf="@id/egb" app:pt_size="BIG" app:pt_type="TYPE_STROKE_SIZE" />
+    </RelativeLayout>
+</RelativeLayout>

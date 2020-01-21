@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a3">Navegar para a página inicial</string>
+    <string name="a4">Navegar para cima</string>
+    <string name="abc_action_menu_overflow_description">Mais opções</string>
+    <string name="a5">Concluído</string>
+    <string name="a6">Ver tudo</string>
+    <string name="a7">Selecione um app</string>
+    <string name="a8">DESATIVAR</string>
+    <string name="a9">ATIVAR</string>
+    <string name="al">Alt+</string>
+    <string name="an">Ctrl+</string>
+    <string name="ao">delete</string>
+    <string name="ap">enter</string>
+    <string name="aq">Function+</string>
+    <string name="ar">Meta+</string>
+    <string name="as">Shift+</string>
+    <string name="at">espaço</string>
+    <string name="au">Sym+</string>
+    <string name="av">Menu+</string>
+    <string name="aw">Pesquisar...</string>
+    <string name="ax">Limpar consulta</string>
+    <string name="ay">Consulta de pesquisa</string>
+    <string name="az">Pesquisar</string>
+    <string name="b0">Enviar consulta</string>
+    <string name="b1">Pesquisa por voz</string>
+    <string name="b2">Compartilhar com</string>
+    <string name="b3">Compartilhar com %s</string>
+    <string name="b4">Recolher</string>
+    <string name="hlf">Pesquisar</string>
+    <string name="i6c">999+</string>
+</resources>

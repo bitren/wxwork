@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.PhotoImageView android:id="@id/uj" android:layout_width="42.0dip" android:layout_height="42.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/dhs" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="16.0dip" android:layout_toRightOf="@id/uj">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0sp" android:textColor="@color/va" android:id="@id/en7" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="12.0sp" android:textColor="@color/wp" android:id="@id/emz" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="16.0sp" android:textColor="@color/qv" android:id="@id/ao3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginRight="16.0dip" android:layout_below="@id/dhs" android:layout_alignLeft="@id/dhs" />
+</merge>

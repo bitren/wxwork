@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="48.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="17.0sp" android:textColor="@color/aq3" android:id="@id/a6l" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="17.0sp" android:textColor="@color/aq3" android:gravity="right" android:id="@id/a6k" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+</merge>

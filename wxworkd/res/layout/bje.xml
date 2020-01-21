@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/at2" android:layout_width="fill_parent" android:layout_height="48.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textSize="@dimen/ano" android:textColor="@color/asq" android:id="@id/a2i" android:background="@null" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="76.0dip" android:layout_height="wrap_content" android:text="返回" android:drawableLeft="@drawable/cvm" android:drawablePadding="-10.0dip" android:layout_centerVertical="true" />
+    <TextView android:textSize="@dimen/anr" android:textColor="@color/asq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="无线投屏" android:layout_centerInParent="true" />
+</RelativeLayout>

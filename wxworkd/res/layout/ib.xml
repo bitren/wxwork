@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/ed8" android:background="@color/aj4" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/fe9" android:layout_width="fill_parent" android:layout_height="@dimen/alw" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/fe9">
+        <com.tencent.wework.filescan.api.ROICameraPreview android:id="@id/ecw" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:layout_gravity="center" android:id="@id/a8n" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="false" style="@style/a0e" />
+    </FrameLayout>
+    <com.tencent.wework.common.views.namecard.NameCardLightTip android:id="@id/cpy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="227.0dip" android:layout_below="@id/fe9" android:layout_centerHorizontal="true" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0sp" android:textColor="@color/atc" android:id="@id/ef1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="300.0dip" android:text="@string/e8k" android:layout_below="@id/fe9" android:layout_centerHorizontal="true" />
+    <com.tencent.wework.common.views.namecard.ScanBusinessCardTipsView android:id="@id/ef0" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="50.0dip" android:layout_marginTop="150.0dip" android:layout_below="@id/fe9" android:layout_centerHorizontal="true" />
+    <FrameLayout android:id="@id/a8h" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_below="@id/ef1" android:layout_centerHorizontal="true">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/avm" />
+        <ImageView android:layout_gravity="center" android:id="@id/a8g" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/avn" />
+        <ProgressBar android:layout_gravity="center" android:id="@id/ct3" android:visibility="gone" android:layout_width="64.0dip" android:layout_height="64.0dip" android:indeterminateDrawable="@drawable/ae7" style="?android:progressBarStyleSmall" />
+    </FrameLayout>
+</RelativeLayout>

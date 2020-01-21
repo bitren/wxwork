@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/a3a" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.BaseLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.tencent.wework.setting.views.CommonItemTextView android:id="@id/oz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/da7" app:gravityStyle="c6y" />
+        <com.tencent.wework.setting.views.CommonItemEditView android:id="@id/bh4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/das" app:inputLimit="32" />
+        <com.tencent.wework.setting.views.CommonItemTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/gpu" app:gravityStyle="c6y" />
+        <com.tencent.wework.setting.views.CommonItemEditView android:id="@id/bgc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/dap" android:minLines="5" app:inputLimit="120" />
+    </com.tencent.wework.common.views.BaseLinearLayout>
+</ScrollView>

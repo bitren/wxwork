@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="96px" height="96px" viewBox="0 0 96 96" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>actionbar_icon_photo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Actionbar" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="actionbar_icon_photo" fill="#FFFFFF">
+            <path d="M20.0013319,33 C17.2391726,33 15,35.2362844 15,38.0053221 L15,67.9946779 C15,70.759041 17.2337566,73 20.0013319,73 L75.9986681,73 C78.7608274,73 81,70.7637156 81,67.9946779 L81,38.0053221 C81,35.240959 78.7662434,33 75.9986681,33 L20.0013319,33 Z M41.2305346,24 L48,24 L48,33 L27.7405397,33 C33.1130019,33 35.9990545,24 41.2305346,24 Z M68.2594603,33 C62.8869981,33 60.0009455,24 54.7683002,24 L48,24 L48,33 L68.2594603,33 Z M48,36 C56.8369231,36 64,43.1630769 64,52 C64,60.8369231 56.8369231,68 48,68 C39.1630769,68 32,60.8369231 32,52 C32,43.1630769 39.1630769,36 48,36 Z M58,52 C58,57.523 53.523,62 48,62 C42.477,62 38,57.523 38,52 C38,46.477 42.477,42 48,42 C53.523,42 58,46.477 58,52 Z M18,27 L27,27 L27,30 L18,30 L18,27 Z" id="Fill-1"></path>
+        </g>
+    </g>
+</svg>

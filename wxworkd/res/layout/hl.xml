@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" android:layout_width="fill_parent" android:layout_height="@dimen/alo" android:layout_alignParentTop="true" />
+    <ImageView android:id="@id/cb1" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_marginTop="120.66998dip" android:src="@drawable/bv8" android:layout_below="@id/ff6" android:layout_centerHorizontal="true" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="16.0sp" android:textColor="@color/ahs" android:id="@id/f7r" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:text="@string/ays" android:layout_below="@id/cb1" android:layout_centerHorizontal="true" />
+</RelativeLayout>

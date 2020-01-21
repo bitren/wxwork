@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/abj" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ar3" android:scaleType="centerCrop" android:layout_toRightOf="@id/g04" android:layout_below="@id/g04" />
+    <com.tencent.wework.common.views.BaseRelativeLayout android:id="@id/g04" android:layout_width="fill_parent" android:layout_height="150.0dip" android:layout_marginLeft="@dimen/y5" android:layout_marginTop="@dimen/yd" android:layout_marginRight="@dimen/y5" android:layout_below="@id/a4i" android:layout_centerHorizontal="true">
+        <View android:id="@id/dah" android:background="@drawable/cg" android:layout_width="fill_parent" android:layout_height="33.0dip" android:layout_centerVertical="true" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerVertical="true">
+            <com.tencent.wework.picker.view.WheelView android:id="@id/ay6" android:layout_width="170.0dip" android:layout_height="fill_parent" android:layout_marginTop="@dimen/yd" android:layout_marginBottom="@dimen/yd" />
+            <com.tencent.wework.picker.view.WheelView android:id="@id/ic" android:layout_width="54.0dip" android:layout_height="fill_parent" android:layout_marginTop="@dimen/yd" android:layout_marginBottom="@dimen/yd" />
+            <com.tencent.wework.picker.view.WheelView android:id="@id/cap" android:layout_width="@dimen/yp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/yd" android:layout_marginBottom="@dimen/yd" />
+            <com.tencent.wework.picker.view.WheelView android:id="@id/dat" android:layout_width="@dimen/z0" android:layout_height="fill_parent" android:layout_marginTop="@dimen/yd" android:layout_marginBottom="@dimen/yd" />
+        </LinearLayout>
+    </com.tencent.wework.common.views.BaseRelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/bkd" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/y5" android:layout_marginTop="@dimen/yd" android:layout_marginRight="@dimen/y5" android:layout_below="@id/g04">
+        <TextView android:textSize="@dimen/a3f" android:textColor="@color/a4h" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/y3" android:layout_marginRight="@dimen/y3" android:text="1小时" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/a3f" android:textColor="@color/a4h" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/y3" android:layout_marginRight="@dimen/y3" android:text="1小时" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/a3f" android:textColor="@color/a4h" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/y3" android:layout_marginRight="@dimen/y3" android:text="1小时" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:id="@id/a4i" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/f_0" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+        <TextView android:textSize="13.0sp" android:textColor="#ff808080" android:ellipsize="end" android:gravity="center" android:id="@id/a4j" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ya" android:maxLines="1" android:includeFontPadding="false" />
+        <ImageView android:id="@id/a4h" android:layout_width="4.0dip" android:layout_height="8.0dip" android:layout_marginLeft="3.0dip" android:src="@drawable/c3h" android:adjustViewBounds="true" />
+    </LinearLayout>
+    <TextView android:textSize="17.0sp" android:textColor="#ff2cc84e" android:ellipsize="end" android:gravity="center" android:id="@id/f_0" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:maxLines="1" android:includeFontPadding="false" android:layout_centerHorizontal="true" />
+</merge>

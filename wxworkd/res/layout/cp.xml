@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#fff0f1f5" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" style="@style/a13" />
+    <GridView android:id="@id/a3m" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginTop="12.599976dip" android:layout_marginRight="10.0dip" android:listSelector="@null" android:horizontalSpacing="10.0dip" android:verticalSpacing="10.0dip" android:numColumns="3" style="@style/yb" />
+</LinearLayout>

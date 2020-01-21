@@ -1,0 +1,21 @@
+.class public interface abstract Lbca;
+.super Ljava/lang/Object;
+.source "LoaderErrorThrower.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lbca$a;
+    }
+.end annotation
+
+
+# virtual methods
+.method public abstract Ka()V
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+.end method

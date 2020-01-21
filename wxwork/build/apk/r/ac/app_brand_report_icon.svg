@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="47px" height="41px" viewBox="0 0 47 41" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>Fill 8</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M0.273755678,36.99819 C-0.982004908,39.2083286 0.0532752387,41 2.61425781,41 L43.3857422,41 C45.9341264,41 46.9811982,39.2069088 45.7262443,36.99819 L25.2737557,1.00180999 C24.0179951,-1.20832864 21.9811982,-1.20690877 20.7262443,1.00180999 L0.273755678,36.99819 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="44" height="41" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="尝试版" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="SLICE" transform="translate(-126.000000, -1631.000000)">
+            <g id="report_icon" transform="translate(127.000000, 1631.000000)">
+                <use id="Fill-8" stroke="#5F5F5F" mask="url(#mask-2)" stroke-width="6" xlink:href="#path-1"></use>
+                <path d="M22.2241302,14 C21.5480617,14 21.0415223,14.5480942 21.0935011,15.2342144 L22.120932,28.7963017 C22.1461905,29.1297151 22.4372559,29.4 22.7773348,29.4 L22.7226652,29.4 C23.0599279,29.4 23.353583,29.1327042 23.379068,28.7963017 L24.4064989,15.2342144 C24.4581381,14.5525766 23.953125,14 23.2758698,14 L22.2241302,14 Z M23,35 C24.1045695,35 25,34.1045695 25,33 C25,31.8954305 24.1045695,31 23,31 C21.8954305,31 21,31.8954305 21,33 C21,34.1045695 21.8954305,35 23,35 Z" id="Rectangle-3" fill="#5F5F5F"></path>
+            </g>
+        </g>
+    </g>
+</svg>

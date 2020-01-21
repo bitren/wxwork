@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:id="@id/czb" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.tencent.wework.msg.views.MessageItemTextView android:textSize="@dimen/a3f" android:textColor="@color/aax" android:ellipsize="end" android:autoLink="web" android:id="@id/fky" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:layout_alignParentTop="true" android:lineSpacingMultiplier="1.2" />
+    </RelativeLayout>
+</merge>

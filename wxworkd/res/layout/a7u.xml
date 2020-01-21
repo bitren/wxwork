@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/a3a" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" android:layout_width="fill_parent" android:layout_height="@dimen/alo" android:layout_alignParentTop="true" />
+    <LinearLayout android:orientation="vertical" android:id="@id/bal" android:background="@color/atc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/s8" android:layout_below="@id/ff6">
+        <View android:id="@id/ffb" android:background="@color/a47" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/a61" />
+        <com.tencent.wework.common.views.ClearableEditText android:textSize="@dimen/a3g" android:textColor="@color/a6_" android:textColorHint="@color/yp" android:gravity="center_vertical" android:id="@id/fm" android:background="@color/atc" android:layout_width="fill_parent" android:layout_height="46.0dip" android:layout_marginLeft="@dimen/ra" android:layout_marginRight="@dimen/ra" android:hint="@string/cwa" android:maxLines="1" android:lineSpacingExtra="5.0dip" android:inputType="text" />
+        <View android:id="@id/b5z" android:background="@color/a47" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/a61" />
+    </LinearLayout>
+    <com.tencent.wework.msg.views.MessageItemTextView android:textSize="12.0sp" android:textColor="@color/a4h" android:id="@id/b5d" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="6.0dip" android:layout_below="@id/bal" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="13.0sp" android:textColor="#ff888888" android:id="@id/aqd" android:paddingBottom="@dimen/rt" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ra" android:layout_marginTop="@dimen/rr" android:layout_marginRight="@dimen/ra" android:text="@string/cwb" android:layout_below="@id/bal" />
+    <android.support.v7.widget.RecyclerView android:id="@id/e6a" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/aqd" android:overScrollMode="never" />
+    <com.tencent.wework.common.views.BottomLoadListView android:id="@id/cwz" android:visibility="invisible" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@null" android:layout_below="@id/bal" />
+    <ImageView android:id="@id/es0" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="20.0dip" android:src="@drawable/b7g" android:scaleType="fitXY" android:layout_below="@id/bal" />
+</RelativeLayout>

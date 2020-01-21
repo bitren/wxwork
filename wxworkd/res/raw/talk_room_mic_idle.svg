@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="48px" height="52px" viewBox="0 0 48 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>talk_room_mic_idle</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="talk_room_mic_idle" sketch:type="MSLayerGroup" transform="translate(1.000000, 0.000000)" fill="#BAD0C2">
+            <path d="M31,6 C32.539343,3.77816425 34.441321,1.88908213 36,0 C43.2936123,6.99362319 47.3504909,16.770628 47,27 C46.814295,36.1839614 42.4336754,45.4083092 36,52 C33.6926701,50.0606763 31.8210428,48.131401 30,46 C35.0078676,41.2985507 38.3767968,34.676715 39,28 C39.520007,19.5841546 36.3028314,11.4550725 31,6 L31,6 Z" id="Shape" sketch:type="MSShapeGroup"></path>
+            <path d="M23,13 C24.9869677,11.3309228 26.5940739,9.67052358 28,8 C33.1588593,13.3760486 35.8373697,21.0098351 35,28 C34.1815632,34.0095458 31.3861724,39.031241 28,43 C26.1168121,41.2991033 24.538926,39.5982065 23,38 C29.6329657,31.4075788 29.8375064,19.693665 23,13 L23,13 Z" id="Shape" sketch:type="MSShapeGroup"></path>
+            <path d="M7,15 C13.8244863,12.1767006 21.4371869,17.1535256 22,24 C22.8040807,30.5480666 16.49841,36.8114857 10,36 C3.67754469,35.4251557 -1.11157231,29.0121327 0,23 C0.963711723,19.1582186 3.78729528,15.8669315 7,15 L7,15 Z" id="Shape" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

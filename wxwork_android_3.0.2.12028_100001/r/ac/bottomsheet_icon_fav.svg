@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="96px" height="96px" viewBox="0 0 96 96" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>Fav</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Buttonsheet" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Fav" fill="#7B8085">
+            <path d="M11,67.7532468 L11,67.7532468 L11,63.7012987 C11.0073317,66.4316795 12.6684209,69.0877244 15,70.7922078 L15,70.7922078 L43,87 C43.6260831,86.7778997 43.8112086,86.8919264 44,87 L44,53.5714286 L11,34.3246753 L11,67.7532468 Z M52,53.5714286 L52,87 C52.1887914,86.8929178 52.3739169,86.7794563 53,87 L81,70.7922078 L81,70.7922078 C83.3315791,69.1769667 84.9926683,66.5340871 85,63.7012987 L85,68.7662338 L85,68.7662338 L85,34.3246753 L52,53.5714286 Z M53,10.012987 C51.8053977,9.51058481 50.2668722,9 49,9 C46.9547187,9 45.4161932,9.51058481 44,10.012987 L16,27.2337662 L48,46.4805195 L81,27.2337662 L53,10.012987 Z" id="Page-1"></path>
+        </g>
+    </g>
+</svg>

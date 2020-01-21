@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ww="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.PhotoImageView android:id="@id/er2" android:layout_width="@dimen/ajj" android:layout_height="@dimen/ajj" android:layout_centerHorizontal="true" ww:maskType="dkj" />
+    <ViewStub android:id="@id/fyt" android:layout="@layout/an6" android:inflatedId="@id/er3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginBottom="8.0dip" android:layout_alignLeft="@id/er2" android:layout_alignBottom="@id/er2" />
+    <com.tencent.wework.common.views.CommonListCheckBox android:id="@id/er1" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@id/er2" android:layout_alignRight="@id/er2" />
+</merge>

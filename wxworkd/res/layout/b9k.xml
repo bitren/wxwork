@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/czb" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:paddingLeft="@dimen/aiv" android:paddingRight="@dimen/aiv" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@id/c6k" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="14.0dip" android:layout_alignParentTop="true">
+            <com.tencent.wework.common.views.MultiPhotoImageView android:id="@id/c6p" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginRight="10.0dip" />
+            <com.tencent.wework.msg.views.MessageItemTextView android:textSize="@dimen/a3g" android:layout_gravity="center_vertical" android:id="@id/c6w" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/dz_" />
+        </LinearLayout>
+        <ImageView android:id="@id/emd" android:layout_width="@dimen/aix" android:layout_height="@dimen/aix" android:src="@drawable/csi" android:scaleType="center" android:layout_below="@id/c6k" android:layout_alignParentLeft="true" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3g" android:textColor="@color/aat" android:ellipsize="end" android:id="@id/eme" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/aiy" android:layout_marginTop="@dimen/aiz" android:singleLine="true" android:layout_toRightOf="@id/emd" android:layout_alignParentTop="true" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3d" android:textColor="@color/aaz" android:ellipsize="end" android:id="@id/emf" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/aiy" android:layout_marginTop="@dimen/a2t" android:singleLine="true" android:layout_toRightOf="@id/emd" android:layout_below="@id/eme" />
+    </RelativeLayout>
+</RelativeLayout>

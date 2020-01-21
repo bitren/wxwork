@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.ConfigurableTextView android:id="@id/cdy" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="48.0dip">
+        <EditText android:id="@id/w0" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="10" android:layout_weight="1.0" android:inputType="number" />
+        <Button android:id="@id/a3b" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="set badge" android:layout_weight="1.0" />
+    </LinearLayout>
+    <CheckBox android:id="@id/bk0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="正常" />
+    <CheckBox android:id="@id/bjz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="厂商识别错误" />
+    <CheckBox android:id="@id/bjy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="角标设置不生效" />
+    <Button android:id="@id/en3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="发送到开发者" />
+</LinearLayout>

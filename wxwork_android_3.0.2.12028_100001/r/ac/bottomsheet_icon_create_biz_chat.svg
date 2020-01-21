@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="96px" height="96px" viewBox="0 0 96 96" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>actionbar_create_biz_chat_icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Buttonsheet" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="actionbar_create_biz_chat_icon" fill="#7C8085">
+            <path d="M81,60 L72,60 L72,68 L64,68 L64,77 L72,77 L72,85 L81,85 L81,77 L89,77 L89,68 L81,68 L81,60 Z M33,66 L27,69 L28,64 C20.1277444,59.6527451 15.2,52.2826144 15,44 C15.2,30.2966667 28.3154444,19.2352941 48,19 C67.6845556,19.2352941 80.8,30.2966667 81,44 C80.8,46.8294771 80.2036778,49.6001961 79,52 L88,52 C88.5977444,49.5443791 89,46.7846405 89,44 C89,25.7480392 72.6059222,11 48,11 C23.3940778,11 7,25.7480392 7,44 C7,53.6839869 11.7250222,62.435817 20,68 L15,81 L31,74 C36.0471333,75.9247712 41.7607111,76.8823529 48,77 C50.6836778,76.8823529 53.2648556,76.6961438 56,76 L56,68 C53.2962889,68.4288235 50.7123778,68.6470588 48,69 C42.5160222,68.6470588 37.5377111,67.7823529 33,66 L33,66 Z" id="Page-1"></path>
+        </g>
+    </g>
+</svg>

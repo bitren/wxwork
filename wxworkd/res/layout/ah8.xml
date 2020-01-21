@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/a3a" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" android:layout_width="fill_parent" android:layout_height="@dimen/alo" />
+    <com.tencent.wework.common.views.CommonItemView android:id="@id/c4b" android:layout_width="fill_parent" android:layout_height="@dimen/rx" android:layout_marginTop="@dimen/ajd" app:bottomLineType="g34" app:hasTopLine="true" />
+    <ViewStub android:id="@id/fx8" android:layout="@layout/yz" android:inflatedId="@id/c4v" android:layout_width="fill_parent" android:layout_height="@dimen/rx" />
+    <com.tencent.wework.common.views.CommonItemView android:id="@id/c4s" android:layout_width="fill_parent" android:layout_height="@dimen/rx" app:bottomLineType="g34" app:hasTopLine="false" />
+    <com.tencent.wework.msg.views.ConversationMemberInfoView android:id="@id/d2q" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ajd" />
+    <com.tencent.wework.common.views.BaseRelativeLayout android:id="@id/c4q" android:background="@drawable/kb" android:paddingTop="12.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ajd" app:topDividerSize="@dimen/t0">
+        <ImageView android:id="@id/c4k" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:src="@drawable/c3h" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <com.rockerhieu.emojicon.EmojiconTextView android:textSize="@dimen/a3f" android:textColor="@color/aq3" android:id="@id/c4p" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="@string/eoh" android:singleLine="true" android:layout_alignParentLeft="true" />
+        <com.rockerhieu.emojicon.EmojiconTextView android:textSize="@dimen/a3d" android:textColor="@color/a4t" android:id="@id/c4o" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="12.0dip" android:text="@string/bvr" android:singleLine="true" android:layout_toLeftOf="@id/c4k" android:layout_centerVertical="true" />
+        <com.rockerhieu.emojicon.EmojiconTextView android:textSize="@dimen/a3d" android:textColor="@color/a4h" android:id="@id/fjm" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:singleLine="true" android:layout_toLeftOf="@id/c4k" android:layout_below="@id/c4p" />
+        <View android:id="@id/c4l" android:background="@color/a4s" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/rw" android:layout_marginTop="12.0dip" android:layout_below="@id/fjm" />
+    </com.tencent.wework.common.views.BaseRelativeLayout>
+    <com.tencent.wework.common.views.ConfigurableTextView android:id="@id/cm5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="30.0dip" android:text="@string/eg5" style="@style/y2" />
+</LinearLayout>

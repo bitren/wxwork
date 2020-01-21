@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>multitaskBar_miniProgram_banIcon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="multitaskBar_miniProgram_banIcon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2">
+            <circle id="Oval-2" fill="#FFFFFF" cx="36" cy="36" r="36"></circle>
+            <path d="M23.4851896,27.7278303 C21.9146303,30.0991294 21,32.942753 21,36 C21,44.2842712 27.7157288,51 36,51 C39.057247,51 41.9008706,50.0853697 44.2721697,48.5148104 L23.4851896,27.7278303 Z M27.7278303,23.4851896 L48.5148104,44.2721697 C50.0853697,41.9008706 51,39.057247 51,36 C51,27.7157288 44.2842712,21 36,21 C32.942753,21 30.0991294,21.9146303 27.7278303,23.4851896 Z M36,57 C24.4020203,57 15,47.5979797 15,36 C15,24.4020203 24.4020203,15 36,15 C47.5979797,15 57,24.4020203 57,36 C57,47.5979797 47.5979797,57 36,57 Z" id="Combined-Shape" fill="#FA5151"></path>
+        </g>
+    </g>
+</svg>

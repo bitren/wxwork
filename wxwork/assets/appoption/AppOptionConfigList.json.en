@@ -1,0 +1,81 @@
+{
+	"lang":"en",
+	"config":[{
+		"val":1,
+		"text":"Obtain the information of allowed members accessing the app (without department, phone number and email)",
+		"type":1,
+		"priority":1,
+		"is_allow_disable":false,
+		"is_default_checked":true
+	},{
+		"val":2,
+		"text":"Obtain the information of allowed departments and members (without phone number and email)",
+		"type":1,
+		"priority":2,
+		"is_allow_disable":false,
+		"is_default_checked":true
+	},{
+		"val":3,
+		"text":"Get customer info added by allowed members(without avatar)",
+		"type":2,
+		"priority":1,
+		"is_allow_disable":false,
+		"is_default_checked":true
+	},{
+        "val":8,
+        "text":"Permissions to use Contact Parents, including the ability to view parent info (excluding phone number) and send notifications to parents",
+        "type":6,
+        "priority":1,
+        "is_allow_disable":false,
+        "is_default_checked":true
+     },{
+        "val":9,
+        "text":"Permissions to use or edit Contact Parents, including the ability to edit Education Contacts and send notifications to parents (a company can only authorize one app)",
+        "type":6,
+        "priority":2,
+        "is_allow_disable":false,
+        "is_default_checked":true
+     },{
+        "val":10,
+        "text":"Create approval application for authorized members and obtain related data",
+        "type":7,
+        "priority":1,
+        "is_allow_disable":false,
+        "is_default_checked":true
+       },{
+        "val":6,
+        "text":"Obtain files authorized by members",
+        "type":5,
+        "priority":1,
+        "is_allow_disable":false,
+        "is_default_checked":true
+	},{
+		"val":4,
+		"text":"Allow contacting you via company-paid call (your phone number is not made public)",
+		"type":3,
+		"priority":0,
+		"is_allow_disable":true,
+		"is_default_checked":true
+	},{
+		"val":5,
+		"text":"Provide exclusive customer service for you add $brand_customer_service$ to external contacts",
+		"type":3,
+		"priority":0,
+		"is_allow_disable":true,
+		"is_default_checked":true
+	},{
+         "val":7,
+         "text":"Provide exclusive customer service for you add $brand_customer_service$ to external contacts, and allow contacting you via company-paid call (your phone number is not made public)",
+         "type":3,
+         "priority":1,
+         "is_allow_disable":true,
+         "is_default_checked":true
+     },{
+         "val":11,
+         "text":"Write attendance machine punch data of allowed members",
+         "type":7,
+         "priority":1,
+         "is_allow_disable":false,
+         "is_default_checked":true
+     }]
+}

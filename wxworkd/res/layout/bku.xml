@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/afk" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.tencent.youtu.youtudemo.common.component.PreviewFrameLayout android:id="@id/g0k" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true">
+            <SurfaceView android:id="@id/g0g" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+        </com.tencent.youtu.youtudemo.common.component.PreviewFrameLayout>
+        <RelativeLayout android:id="@id/g0m" android:background="@mipmap/k" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="30.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+            <TextView android:textSize="20.0sp" android:textColor="@color/atc" android:id="@id/b42" android:paddingTop="50.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Current" android:layout_alignBottom="@id/g0l" android:layout_centerInParent="true" />
+            <TextView android:textSize="20.0sp" android:textColor="@color/atc" android:id="@id/b40" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Current" android:layout_alignBottom="@id/g0l" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/g0f" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="26.0dip">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/d" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="20.0sp" android:textColor="@color/atc" android:id="@id/b41" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Detect:blinking" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <Button android:textSize="18.0sp" android:textColor="@color/atc" android:gravity="center" android:id="@id/es1" android:background="@drawable/adl" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="52.0dip" android:text="SHAKE" android:layout_weight="1.0" />
+        <Button android:textSize="18.0sp" android:textColor="@color/atc" android:gravity="center" android:id="@id/y_" android:background="@drawable/adl" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="52.0dip" android:text="BLINK" android:layout_weight="1.0" />
+        <Button android:textSize="18.0sp" android:textColor="@color/atc" android:gravity="center" android:id="@id/dnl" android:background="@drawable/adl" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="52.0dip" android:text="MOUSE" android:layout_weight="1.0" />
+        <Button android:textSize="18.0sp" android:textColor="@color/atc" android:gravity="center" android:id="@id/dkc" android:background="@drawable/adl" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="52.0dip" android:text="NOD" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="60.0dip">
+        <Button android:textSize="18.0sp" android:textColor="@color/atc" android:gravity="center" android:id="@id/f2z" android:background="@drawable/adl" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="30.0dip" android:text="switch camera" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="90.0dip">
+        <Button android:textSize="18.0sp" android:textColor="@color/atc" android:gravity="center" android:id="@id/f3j" android:background="@drawable/adl" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="60.0dip" android:text="safety_recommand" android:layout_weight="1.0" />
+        <Button android:textSize="18.0sp" android:textColor="@color/atc" android:gravity="center" android:id="@id/f3h" android:background="@drawable/adl" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="60.0dip" android:text="safety_high" android:layout_weight="1.0" />
+        <Button android:textSize="18.0sp" android:textColor="@color/atc" android:gravity="center" android:id="@id/f3i" android:background="@drawable/adl" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="60.0dip" android:text="safety_low" android:layout_weight="1.0" />
+    </LinearLayout>
+    <com.tencent.youtu.ytagreflectlivecheck.ui.YTReflectLayout android:id="@id/g54" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+    <FrameLayout android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.tencent.youtu.youtudemo.common.component.DrawView android:id="@id/b_d" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true" />
+    </FrameLayout>
+</FrameLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.pb.emoji.ui.EmojiInputLayout android:id="@id/edh" android:background="@color/a5n" android:layout_width="fill_parent" android:layout_height="fill_parent" app:emojiButton="@id/bdl" app:inputText="@id/bb4" app:isEmojiPanelDrawTopLine="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@color/a4c" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" android:layout_width="fill_parent" android:layout_height="@dimen/alw" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <com.tencent.wework.common.views.SuperListView android:id="@id/e_h" android:background="@color/a3a" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@null" android:divider="@null" android:dividerHeight="0.0dip" style="@style/yb" />
+            <FrameLayout android:id="@id/dvb" android:background="@color/a3a" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:background="@color/al9" android:layout_width="fill_parent" android:layout_height="288.0dip" android:src="@drawable/bxj" android:scaleType="centerInside" />
+            </FrameLayout>
+        </RelativeLayout>
+        <com.tencent.wework.common.views.PostDetailEditor android:id="@id/bb0" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</com.tencent.pb.emoji.ui.EmojiInputLayout>

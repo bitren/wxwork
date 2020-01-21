@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/ed8" android:background="@drawable/kc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/a9v" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="4.0dip">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0sp" android:textColor="@color/w9" android:id="@id/fby" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/c3h" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <com.tencent.wework.common.views.DepartmentEditListView android:id="@id/dqr" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" />
+    </LinearLayout>
+    <View android:background="@color/a47" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/rw" android:layout_below="@id/a9v" />
+</RelativeLayout>

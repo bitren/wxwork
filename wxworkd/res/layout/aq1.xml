@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ww="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/aiy" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.tencent.wework.common.views.RoundPointView android:id="@id/edk" android:layout_width="@dimen/a88" android:layout_height="@dimen/a88" android:layout_marginLeft="@dimen/a85" android:layout_marginRight="@dimen/a85" android:layout_centerInParent="true" ww:pointColor="@color/a47" />
+        <View android:background="@color/a47" android:layout_width="@dimen/a84" android:layout_height="@dimen/sm" android:layout_toLeftOf="@id/edk" android:layout_centerVertical="true" />
+        <View android:background="@color/a47" android:layout_width="@dimen/a84" android:layout_height="@dimen/sm" android:layout_toRightOf="@id/edk" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/g31" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="16.5dip" android:layout_height="16.5dip" android:src="@drawable/crr" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="12.0sp" android:textColor="@color/a4f" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:text="@string/jcu" />
+    </LinearLayout>
+</merge>

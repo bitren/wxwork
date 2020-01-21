@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/ap4" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ww="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" style="@style/a13" />
+    <ScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:layout_below="@id/ff6">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:id="@id/b3p" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+                <com.tencent.wework.common.views.ConfigurableTextView android:textSize="23.0sp" android:textColor="@color/aq3" android:layout_gravity="center_horizontal" android:id="@id/df4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="44.0dip" android:text="@string/htj" />
+                <com.tencent.wework.common.views.MoreApplicationItemView android:id="@id/df_" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="55.0dip" ww:leftImage="@drawable/bsx" />
+                <com.tencent.wework.common.views.MoreApplicationItemView android:id="@id/df8" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="44.0dip" android:text="@string/htv" ww:leftImage="@drawable/ccs" ww:subText="@string/htw" />
+                <com.tencent.wework.common.views.MoreApplicationItemView android:id="@id/df7" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="44.0dip" android:text="@string/hto" ww:leftImage="@drawable/ccr" ww:subText="@string/htp" />
+                <com.tencent.wework.common.views.MoreApplicationItemView android:id="@id/df5" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="44.0dip" android:text="@string/htk" ww:leftImage="@drawable/ccq" ww:subText="@string/htl" />
+                <com.tencent.wework.common.views.MoreApplicationItemView android:id="@id/df6" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="44.0dip" android:text="@string/htm" ww:leftImage="@drawable/ccp" ww:subText="@string/htn" />
+                <com.tencent.wework.common.views.SuperListView android:id="@id/cs1" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@null" android:divider="@color/ar4" android:dividerHeight="27.0dip" android:layout_weight="1.0" style="@style/yb" />
+            </LinearLayout>
+            <RelativeLayout android:paddingBottom="50.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/b3p" android:layout_alignParentBottom="true">
+                <com.tencent.wework.common.views.MoreApplicationFooterView2 android:id="@id/df0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/atc" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/cir" android:layout_width="fill_parent" android:layout_height="66.0dip">
+        <com.tencent.wework.common.views.PhotoImageView android:id="@id/cjs" android:layout_width="44.0dip" android:layout_height="44.0dip" android:layout_marginLeft="16.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="12.0sp" android:textColor="@color/wm" android:id="@id/cka" android:background="@drawable/sz" android:paddingLeft="7.0dip" android:paddingTop="3.0dip" android:paddingRight="7.0dip" android:paddingBottom="3.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="20.0dip" android:text="@string/hhb" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_toLeftOf="@id/cka" android:layout_toRightOf="@id/cjs">
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="16.0sp" android:textColor="@color/a3c" android:id="@id/cko" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:layout_marginBottom="1.0dip" android:maxLines="1" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0sp" android:textColor="@color/a4h" android:id="@id/ckm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:layout_marginBottom="1.0dip" android:maxLines="1" android:drawableRight="@drawable/brm" android:drawablePadding="6.0dip" />
+        </LinearLayout>
+    </RelativeLayout>
+    <View android:id="@id/cj9" android:background="@color/a47" android:layout_width="fill_parent" android:layout_height="@dimen/rw" android:layout_marginLeft="70.0dip" />
+</LinearLayout>

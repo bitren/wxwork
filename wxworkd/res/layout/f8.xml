@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/kb" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/fe0" style="@style/a13" />
+    <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/zl" android:src="@drawable/bm4" />
+    <TextView android:textSize="@dimen/a3g" android:textColor="#ff1a1c1e" android:gravity="center" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ys" android:layout_marginTop="@dimen/ys" android:layout_marginRight="@dimen/ys" android:text="@string/ezs" android:lineSpacingExtra="@dimen/yc" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/t0" android:layout_width="fill_parent" android:layout_height="@dimen/zd" android:layout_marginLeft="@dimen/yx" android:layout_marginTop="@dimen/ys" android:layout_marginRight="@dimen/yx">
+        <TextView android:textSize="@dimen/a3i" android:textStyle="bold" android:textColor="#ff477cb8" android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/f7r" />
+    </LinearLayout>
+</LinearLayout>

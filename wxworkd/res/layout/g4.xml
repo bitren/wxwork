@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" android:layout_width="fill_parent" android:layout_height="@dimen/alw" />
+    <LinearLayout android:orientation="vertical" android:id="@id/c8f" android:background="@color/atc" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bdu" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/yp" android:paddingRight="@dimen/yp" android:paddingBottom="@dimen/yx" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/a3l" android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/xt" android:text="@string/f6c" />
+            <TextView android:textSize="@dimen/a3f" android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/yx" android:text="@string/f6w" />
+            <Button android:layout_gravity="center_horizontal" android:id="@id/exy" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/yz" android:text="@string/f_j" style="@style/xr" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>me_icons_cards</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="me_icons_cards" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon35" fill-rule="nonzero">
+            <g id="Group" transform="translate(9.000000, 10.000000)">
+                <path d="M54,3.06850341 C54,1.63698548 52.8663385,0.657452981 51.4678963,0.851681076 L2.53210375,7.64831892 C1.12786674,7.84335184 0,9.14995815 0,10.5685034 L3.6,11.1345564 L50.4,4.63455637 L50.4,14.4875973 L54,14.9612815 L54,3.06850341 Z" id="Combined-Shape" fill="#00C777"></path>
+                <path d="M3.6,11.7382224 L3.6,41.976163 L53.4,48.5287946 L53.4,18.290854 L3.6,11.7382224 Z M0,10.6389008 C0,8.97906848 1.35277618,7.81150539 2.9843135,8.02618135 L54.4772338,14.8015656 C55.8705191,14.9848926 57,16.2969301 57,17.7110354 L57,49.6281162 C57,51.2879486 55.6472238,52.4555117 54.0156865,52.2408357 L2.52276622,45.4654514 C1.12948091,45.2821244 0,43.9700869 0,42.5559817 L0,10.6389008 Z" id="Rectangle-7" fill="#1588F4"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center_vertical" android:id="@id/ed8" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.CommonItemView android:id="@id/aix" android:layout_width="fill_parent" android:layout_height="@dimen/rx" android:layout_marginTop="18.0dip" android:layout_marginBottom="8.0dip" app:bottomLineType="g34" app:hasBottomLine="true" app:hasTopLine="true" app:leftTitle="@string/alf" app:rightIconType="re" app:topLineType="g34" />
+</FrameLayout>

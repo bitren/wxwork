@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/bu0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" android:layout_width="fill_parent" android:layout_height="@dimen/alo" android:layout_alignParentTop="true" />
+    <LinearLayout android:orientation="vertical" android:id="@id/fg9" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/ff6">
+        <com.tencent.wework.common.views.SwitchTab android:id="@id/f3k" android:background="@color/a3v" android:layout_width="fill_parent" android:layout_height="@dimen/al3" />
+        <View android:background="@color/a47" android:layout_width="fill_parent" android:layout_height="@dimen/a7u" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/byi" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/fg9" />
+    <RelativeLayout android:id="@id/dha" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/fg9">
+        <ImageView android:background="@color/an8" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ListView android:background="@color/atc" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </RelativeLayout>
+</RelativeLayout>

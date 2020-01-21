@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.SpecialCustomerServiceScrollView android:id="@id/ex4" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.tencent.wework.common.views.CommonItemView android:id="@id/f1v" android:layout_width="fill_parent" android:layout_height="@dimen/rx" android:layout_marginTop="20.0dip" app:bottomLineType="g34" app:hasTopLine="true" app:topLineType="g34" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:text="@string/al6" style="@style/y7" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:text="@string/ari" style="@style/aj" />
+            <com.tencent.wework.common.views.CommonItemView android:id="@id/dia" android:layout_width="fill_parent" android:layout_height="@dimen/rx" app:hasTopLine="true" app:leftTitle="@string/arm" app:rightIconType="dkj" app:topLineType="g34" />
+            <com.tencent.wework.common.views.CommonItemView android:id="@id/bnr" android:layout_width="fill_parent" android:layout_height="@dimen/rx" app:hasTopLine="true" app:leftTitle="@string/agg" app:rightIconType="dkj" app:topLineType="g34" />
+            <com.tencent.wework.common.views.CommonItemView android:id="@id/bnu" android:layout_width="fill_parent" android:layout_height="@dimen/rx" app:hasTopLine="true" app:leftTitle="@string/agv" app:rightIconType="re" app:topLineType="g34" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:text="@string/add" style="@style/aj" />
+            <com.tencent.wework.common.views.CommonItemView android:id="@id/dtw" android:layout_width="fill_parent" android:layout_height="@dimen/rx" app:hasTopLine="true" app:leftTitle="@string/akf" app:rightIconType="dkj" app:topLineType="g34" />
+            <include android:layout_width="fill_parent" android:layout_height="@dimen/rx" android:layout_marginTop="@dimen/yp" layout="@layout/bdn" />
+        </LinearLayout>
+    </com.tencent.wework.common.views.SpecialCustomerServiceScrollView>
+</FrameLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/ed8" android:background="@color/a55" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/anw" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/yi" android:layout_alignParentTop="true">
+        <com.tencent.wework.docshare.views.DocPreviewViewV2 android:id="@id/b7s" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+            <com.tencent.wework.common.views.TopBarView android:id="@id/b9a" android:layout_width="fill_parent" android:layout_height="@dimen/alo" android:layout_alignParentTop="true" />
+            <View android:background="#ffe5e5e5" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="@dimen/z1" android:layout_marginBottom="@dimen/yc" android:layout_above="@id/b7v" />
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <FrameLayout android:layout_gravity="top" android:id="@id/b7v" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/z3">
+                    <com.tencent.wework.docshare.views.DocPreviewWebView android:id="@id/b9e" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                </FrameLayout>
+                <com.tencent.wework.docshare.view.DocPreviewToolBar android:id="@id/b7t" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/xm" android:layout_alignParentBottom="true" />
+                <com.tencent.wework.docshare.view.DocPreviewToolBarV2 android:id="@id/b7u" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/xm" android:layout_above="@id/b7t" android:layout_alignWithParentIfMissing="true" />
+                <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3b" android:textColor="@color/a40" android:id="@id/b7w" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/xt" android:layout_marginBottom="@dimen/xt" android:text="@string/cux" android:drawablePadding="@dimen/zk" android:layout_above="@id/b7t" android:layout_alignParentRight="true" android:layout_alignWithParentIfMissing="true" />
+            </RelativeLayout>
+        </com.tencent.wework.docshare.views.DocPreviewViewV2>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/t4" android:background="@color/p7" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="252.0dip" android:layout_alignParentBottom="true">
+        <RelativeLayout android:background="@color/a38" android:layout_width="fill_parent" android:layout_height="45.0dip">
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="16.0sp" android:textColor="@color/vm" android:id="@id/a8v" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/pv" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="16.0sp" android:textColor="@color/rx" android:id="@id/al2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:text="@string/t5" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <TimePicker android:id="@id/f9v" android:background="@color/a38" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+</RelativeLayout>

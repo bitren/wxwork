@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/sb" android:layout_width="fill_parent" android:layout_height="@dimen/vk"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.PhotoImageView android:id="@id/s8" android:layout_width="40.0dip" android:layout_height="@dimen/vj" android:layout_marginLeft="12.0dip" android:scaleType="centerCrop" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/duh" android:visibility="gone" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/bxh" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:contentDescription="@null" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:layout_toLeftOf="@id/b0j" android:layout_toRightOf="@id/s8" android:layout_centerVertical="true">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="16.0sp" android:gravity="left" android:id="@id/fbu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="13.0sp" android:textColor="@color/a4h" android:gravity="left" android:id="@id/f0y" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    </LinearLayout>
+    <ImageView android:id="@id/b0j" android:visibility="gone" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginRight="12.0dip" android:src="@drawable/c3e" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

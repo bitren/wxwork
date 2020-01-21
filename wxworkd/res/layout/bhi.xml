@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.wework.multitalk.view.InnerMarginLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/an6" android:minHeight="64.0dip" android:layout_above="@id/wi"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.ConfigurableTextView android:id="@id/fu9" android:minWidth="64.0dip" android:text="@string/imr" android:drawableTop="@drawable/ad8" style="@style/a18" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:id="@id/fu8" android:minWidth="64.0dip" android:text="@string/imq" style="@style/a18" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:id="@id/fsc" android:minWidth="64.0dip" android:text="@string/iml" style="@style/a18" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:id="@id/fsd" android:minWidth="64.0dip" android:text="@string/imm" android:drawableTop="@drawable/ac7" style="@style/a18" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:id="@id/fuw" android:minWidth="64.0dip" android:text="@string/imu" android:drawableTop="@drawable/ad_" style="@style/a18" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:id="@id/fuy" android:minWidth="64.0dip" android:text="@string/imv" android:drawableTop="@drawable/ad2" style="@style/a18" />
+</com.tencent.wework.multitalk.view.InnerMarginLayout>

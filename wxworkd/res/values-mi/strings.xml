@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bx9">Tē taea te tūhono ki te tūmau. Ngana anō ā muri ake.</string>
+    <string name="efe">Tē taea te whiwhi mōhiohio. Ngana anō ā muri ake.</string>
+    <string name="hms_abort">Whakamutu</string>
+    <string name="hms_abort_message">Me whakamutu te tikiake?</string>
+    <string name="hms_bindfaildlg_message">Kāore e taea e %1$s te whakamahi Huawei Mobile Services. Me whakarewa Pūwhakahaere Waea, haere rānei ki Ngā Tautuhinga, whakahohea ngā taupānga katoa mō %2$s (tae atu ki whakarewa-aunoa me te whakarewa tuarua), ka ngana anō.</string>
+    <string name="hms_cancel">Whakakore</string>
+    <string name="hms_check_failure">I rahua te tirotiro i ngā whakahōunga.</string>
+    <string name="hms_check_no_update">Kei te whakamahi kē koe i te putanga hōu rawa.</string>
+    <string name="hms_checking">Tirotiro whakahōu ana...</string>
+    <string name="hms_confirm">ĀE</string>
+    <string name="hms_download_failure">I rahua te tikiake i te mōkī Huawei Mobile Services.</string>
+    <string name="hms_download_no_space">He iti rawa te mokowā wātea. Tē taea te tikiake te whakaoti.</string>
+    <string name="hms_download_retry">I rahua te tikiake. Ngana anō?</string>
+    <string name="hms_downloading">"Tikiake ana i Huawei Mobile Services 
+: %d%%"</string>
+    <string name="hms_downloading_loading">Tikiake ana</string>
+    <string name="hms_downloading_new">Tikiake HMS ana</string>
+    <string name="hms_gamebox_name">HiGame</string>
+    <string name="hms_install">Tāuta</string>
+    <string name="hms_install_message">Me mātua tāuta Huawei Mobile Services hei whakamahi i tēnei āhuahira. Me tāuta?</string>
+    <string name="hms_retry">Ngana anō</string>
+    <string name="hms_update">Whakahōu</string>
+    <string name="hms_update_message">Whakahōutia ki te putanga hōu rawa o Huawei Mobile Services hei whakamahi i tēnei āhuahira. Me whakahōu ināianei?</string>
+    <string name="hms_update_message_new">"Me whai tēnei ratonga i te putanga hōu rawa o te taupānga e whai ake:
+
+%1$s"</string>
+    <string name="hms_update_title">Huawei Mobile Services</string>
+    <string name="gm_">Kāore he tūhononga Ipurangi. Tirohia ō tautuhinga whatunga.</string>
+    <string name="ibm">Whakakorea te tāutanga?</string>
+    <string name="ibn">I rahua te tāutanga.</string>
+    <string name="ibo">Āe</string>
+    <string name="ihq">Tikiake HiApp ana</string>
+    <string name="ihr">Tāuta</string>
+    <string name="ihs">Rahi</string>
+    <string name="iht">Putanga</string>
+    <string name="ihu">Whakakore</string>
+    <string name="ihv">Tirotiro whakahōu ana...</string>
+    <string name="ihw">E wātea ana he whakahōu. Me tikiake ka tāuta i te putanga hōu rawa.</string>
+    <string name="ihx">Ngā taipitopito</string>
+    <string name="ihy">Tāuta HiApp hei whakahōu. Me tāuta ināianei?</string>
+    <string name="ihz">Taupānga</string>
+    <string name="ii0">Ā muri ake</string>
+    <string name="ii1">Putaatu</string>
+    <string name="ii2">Whakahōu</string>
+    <string name="ii3">Putanga hōu</string>
+    <string name="ii4">Kei te whakamahi kē koe i te putanga hōu rawa.</string>
+    <string name="ii5">Whakahōu ana</string>
+</resources>

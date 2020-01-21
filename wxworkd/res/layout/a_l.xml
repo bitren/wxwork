@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.wework.common.views.BaseRelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/bhs" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    <com.tencent.wework.common.views.BaseLinearLayout android:orientation="vertical" android:background="@color/a3a" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/bhs">
+        <LinearLayout android:orientation="vertical" android:id="@id/fzv" android:background="#ffffffff" android:paddingLeft="@dimen/xx" android:paddingTop="@dimen/y1" android:paddingBottom="@dimen/y1" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/xx" android:layout_below="@id/ff6">
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="15.0sp" android:id="@id/fzt" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="15.0sp" android:textColor="#ff2f7dcd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/yc" />
+        </LinearLayout>
+        <com.tencent.wework.common.views.SuperListView android:id="@id/bht" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@null" android:divider="@null" />
+    </com.tencent.wework.common.views.BaseLinearLayout>
+    <com.tencent.wework.common.views.EmptyViewStub android:id="@id/bhn" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.tencent.wework.common.views.ContactIndexTitleView android:id="@id/bhr" android:visibility="gone" android:layout_width="@dimen/a65" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</com.tencent.wework.common.views.BaseRelativeLayout>

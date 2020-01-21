@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:width="1.0dip" android:color="#ff823839" />
+            <corners android:radius="4.0dip" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:width="1.0dip" android:color="#ffdc4646" />
+            <corners android:radius="4.0dip" />
+        </shape>
+    </item>
+</selector>

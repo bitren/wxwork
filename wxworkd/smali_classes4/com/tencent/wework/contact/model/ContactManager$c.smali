@@ -1,0 +1,27 @@
+.class public interface abstract Lcom/tencent/wework/contact/model/ContactManager$c;
+.super Ljava/lang/Object;
+.source "ContactManager.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/tencent/wework/contact/model/ContactManager;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "c"
+.end annotation
+
+
+# virtual methods
+.method public abstract c(JLjava/util/List;)V
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(J",
+            "Ljava/util/List<",
+            "Ljava/lang/String;",
+            ">;)V"
+        }
+    .end annotation
+.end method

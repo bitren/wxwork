@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ku" android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_marginTop="48.0dip" android:layout_marginBottom="24.0dip" android:scaleType="fitCenter" />
+    <TextView android:textSize="@dimen/p" android:textColor="@color/jf" android:gravity="center" android:id="@id/kv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/frn" />
+    <TextView android:textSize="@dimen/el" android:textColor="@color/aci" android:gravity="center" android:id="@id/kw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="24.0dip" />
+    <Button android:textSize="@dimen/el" android:gravity="center" android:id="@id/kt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="36.0dip" android:text="进入首页" style="@style/lo" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="wf" parent="@style/f6">
+        <item name="a36">aan</item>
+        <item name="a3h">bwc</item>
+    </style>
+</resources>

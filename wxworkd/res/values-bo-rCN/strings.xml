@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bx9">ཞབས་ཞུའི་ཡོ་ཆས་སྟེང་སྦྲེལ་མཐུད་མ་ཐུབ་པས། ཏོག་ཙམ་ནས་ཚོད་ལྟ་གནང་རོགས།</string>
+    <string name="efe">ཆ་འཕྲིན་བསྐྱར་སོན་མ་ཐུབ། རྗེས་སུ་ཡང་བསྐྱར་འབད་རྩོལ་གནང་རོགས།</string>
+    <string name="hms_abort">མཚམས་འཇོག</string>
+    <string name="hms_abort_message">ཕབ་ལེན་མཚམས་འཇོག་བྱེད་འདོད་དམ།</string>
+    <string name="hms_bindfaildlg_message">%1$s ཡིས་ཧུ་ཝཡེ་ཁ་པར་ཞབས་ཞུ་དག་བེད་སྤྱོད་བྱེད་ཐུབ་ཀྱི་མིན་འདུག ཁ་པར་སྟངས་འཛིན་ཡོ་ཆས་འགོ་འཛུགས་བྱེད་པའམ། ཡང་ན། སྒྲིག་བཀོད་སྟེང་བསྐྱོད། %2$s ཆེད་ཆོག་མཆན་ཆ་ཚང་ནུས་ལྡན་བཟོ་ (རང་འགུལ་འགོ་འཛུགས་དང་འགོ་འཛུགས་ཕལ་པ་འཚུད་པ་ཡིན།) བ་དང་། ཡང་བསྐྱར་འབད་རྩོལ་བྱ།</string>
+    <string name="hms_cancel">ཕྱིར་འཐེན།</string>
+    <string name="hms_check_failure">གསར་བསྐྱར་ལ་ཞིབ་དཔྱད་ཚད་ལེན་ལེགས་མི་འགྲུབ།</string>
+    <string name="hms_check_no_update">ཁྱེད་ཀྱིས་སྔ་ས་ནས་རིམ་པ་གསར་ཤོས་དེ་བེད་སྤྱོད་བྱེད་ཀྱི་འདུག</string>
+    <string name="hms_checking">གསར་བསྐྱར་ཡོད་མེད་ཞིབ་བཤེར་བྱེད་བཞིན།</string>
+    <string name="hms_confirm">ཆོག</string>
+    <string name="hms_download_failure">ཧྭ་ཝེའི་འཕོ་བ་ཞབས་ཞུའི་དོ་བོར་ཕབ་ལེན་ལེགས་མི་འགྲུབ།</string>
+    <string name="hms_download_no_space">བེད་སྤྱོད་ཆོག་པའི་བར་སྟོང་མི་འདང་། ཕབ་ལེན་པར་ལེགས་འགྲུབ་བྱེད་མི་ཐུབ།</string>
+    <string name="hms_download_retry">ཕབ་ལེན་ལེགས་མི་འགྲུབ། ཡང་བསྐྱར་གྱིས་ཚོད་ལྟ་བྱེད་འདོད་དམ།</string>
+    <string name="hms_downloading">གོ་རིམ་ཧྭ་ཝེའི་འཕོ་བ་ཞབས་ཞུ་ལ་ཕབ་ལེན་བྱེད་བཞིན། %d%%</string>
+    <string name="hms_downloading_loading">སྣོན་འཇུག་བྱེད་བཞིན་པ།</string>
+    <string name="hms_downloading_new">HMS ཕབ་ལེན་བཞིན་པ།</string>
+    <string name="hms_gamebox_name">HiGame</string>
+    <string name="hms_install">སྒྲིག་འཇུག</string>
+    <string name="hms_install_message">ཁྱད་ཆོས་འདི་བེད་སྤྱོད་བྱེད་པར་ཧུ་ཝཡེ་ཁ་པར་ཞབས་ཞུ་དག་སྒྲིག་འཇུག་བྱེད་དགོས་པ་ཡིན། སྒྲིག་འཇུག་བྱེད་འདོད་དམ།</string>
+    <string name="hms_retry">ཡང་བསྐྱར་བྱེད་རོགས།</string>
+    <string name="hms_update">གསར་བསྐྱར།</string>
+    <string name="hms_update_message">ཧྭ་ཝེའི་འཕོ་བའི་ཞབས་ཞུ་གསར་ཤོས་ལ་གསར་བསྐྱར་བྱས་ནས་ཁྱད་ཆོས་འདི་སྤྱོད་བྱེད། ད་ལྟར་གསར་བསྐྱར་བྱེད་འདོད་དམ།</string>
+    <string name="hms_update_message_new">"ཞབས་ཞུ་འདི་ལ་གཤམ་གྱི་ཉེར་སྤྱོད་
+
+%1$s ཡི་རིམ་པ་གསར་ཤོས་དེ་ལྡན་དགོས་འདུག"</string>
+    <string name="hms_update_title">ཧྭ་ཝེའི་འཕོ་བའི་ཞབས་ཞུ།</string>
+    <string name="gm_">དྲ་རྒྱའི་སྦྲེལ་མཐུད་མིན་འདུག ཁྱེད་ཀྱི་དྲ་ལམ་སྒྲིག་བཀོད་དག་ཞིབ་བཤེར་གནང་རོགས།</string>
+    <string name="ibm">སྒྲིག་འཇུག་ཕྱིར་འཐེན་བྱེད་དམ།</string>
+    <string name="ibn">སྒྲིག་འཇུག་མི་ཐུབ།</string>
+    <string name="ibo">ཡིན།</string>
+    <string name="ihq">HiApp ཕབ་ལེན་བཞིན་པ།</string>
+    <string name="ihr">སྒྲིག་འཇུག</string>
+    <string name="ihs">ཆ་ཚད།</string>
+    <string name="iht">རིམ་པ།</string>
+    <string name="ihu">ཕྱིར་འཐེན།</string>
+    <string name="ihv">གསར་སྒྱུར་དག་ཞིབ་བཤེར་བཞིན་པ།</string>
+    <string name="ihw">གསར་སྒྱུར་ཐོབ་རུང་འདུག རིམ་པ་གསར་ཤོས་ཕབ་ལེན་གནང་བ་དང་སྒྲིག་འཇུག་གནང་རོགས།</string>
+    <string name="ihx">ཞིབ་ཕྲ།</string>
+    <string name="ihy">གསར་སྒྱུར་བྱེད་པར་ HiApp སྒྲིག་འཇུག་བྱ། ད་ལྟ་སྒྲིག་འཇུག་བྱེད་དམ།</string>
+    <string name="ihz">ཉེར་སྤྱོད།</string>
+    <string name="ii0">རྗེས་མ།</string>
+    <string name="ii1">ཕྱིར་ཐོན།</string>
+    <string name="ii2">གསར་སྒྱུར།</string>
+    <string name="ii3">རིམ་པ་གསར་པ།</string>
+    <string name="ii4">ཁྱེད་ཀྱིས་སྔ་ས་ནས་རིམ་པ་གསར་ཤོས་དེ་བེད་སྤྱོད་བྱེད་ཀྱི་འདུག</string>
+    <string name="ii5">གསར་སྒྱུར་བཞིན་པ།</string>
+</resources>

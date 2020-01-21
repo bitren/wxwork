@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/atc" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.PhotoImageView android:id="@id/ect" android:layout_width="72.0dip" android:layout_height="72.0dip" android:layout_marginTop="90.0dip" android:src="@drawable/c2d" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" app:maskType="edm" />
+    <ImageView android:layout_width="19.0dip" android:layout_height="19.0dip" android:layout_marginRight="3.0dip" android:layout_marginBottom="3.0dip" android:src="@drawable/c2g" android:layout_alignRight="@id/ect" android:layout_alignBottom="@id/ect" />
+    <com.rockerhieu.emojicon.EmojiconEditText android:textSize="18.0sp" android:id="@id/ecv" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="42.0dip" android:layout_marginTop="50.0dip" android:layout_marginRight="42.0dip" android:minWidth="200.0dip" android:hint="@string/el_" android:layout_below="@id/ect" android:layout_centerHorizontal="true" />
+    <View android:background="@color/a45" android:layout_width="fill_parent" android:layout_height="@dimen/bj" android:layout_marginTop="10.0dip" android:layout_below="@id/ecv" android:layout_alignLeft="@id/ecv" android:layout_alignRight="@id/ecv" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:id="@id/ex" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginLeft="42.0dip" android:layout_marginTop="40.0dip" android:layout_marginRight="42.0dip" android:text="@string/bm2" android:layout_below="@id/ecv" android:layout_centerHorizontal="true" style="@style/xr" />
+</RelativeLayout>

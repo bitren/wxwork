@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="96px" height="96px" viewBox="0 0 96 96" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>icon share white</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Tabbar＋Share" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-211.000000, -317.000000)" fill="#FFFFFF">
+            <g id="ToolBar_Icon_Share" transform="translate(211.000000, 317.000000)">
+                <path d="M67,69 L21,69 L21,35 L30.521,35 C31.823,32.063 33.368,29.769 35.079,28 L17,28 C15.343,28 14,29.343 14,31 L14,73 C14,74.657 15.343,76 17,76 L71,76 C72.656,76 74,74.657 74,73 L74,51.22 L67,57.13 L67,69 L67,69 Z M59,17 L59,28.019 C57.325,28.008 55.583,28 54,28 C40.334,28 31.055,41.333 31.055,59 C35.721,48.16 40.284,43 59,43 L59,54 L73.452,41.848 L74,42.357 L74,41.386 L81,35.5 L59,17 L59,17 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

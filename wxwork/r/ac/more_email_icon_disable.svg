@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="96px" height="96px" viewBox="0 0 96 96" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>toolbar_icon_light_mail_disabled</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="toolbar_icon_light_mail_disabled" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-525" fill="#29AC45" opacity="0" x="0" y="0" width="96" height="96"></rect>
+        <g id="common_icons_email" opacity="0.2" transform="translate(12.000000, 12.000000)" fill="#000000" fill-rule="nonzero">
+            <g id="Pic" transform="translate(6.000000, 13.500000)">
+                <path d="M3.6,5.1 L3.6,39.9 L56.4,39.9 L56.4,5.1 L3.6,5.1 Z M0,4.5 C-2.02906125e-16,2.84314575 1.34314575,1.5 3,1.5 L57,1.5 C58.6568542,1.5 60,2.84314575 60,4.5 L60,40.5 C60,42.1568542 58.6568542,43.5 57,43.5 L3,43.5 C1.34314575,43.5 -2.74025825e-15,42.1568542 0,40.5 L0,4.5 Z" id="Rectangle-40"></path>
+                <path d="M2.5124738,6.52307259 L25.2530355,23.9973501 C28.0555122,26.1508262 31.9557362,26.1508262 34.7582128,23.9973501 L57.4987745,6.52307259 L55.3052721,3.66850661 L32.5647104,21.1427842 C31.0556845,22.3023482 28.9555639,22.3023482 27.446538,21.1427842 L4.70597626,3.66850661 L2.5124738,6.52307259 Z" id="Path-3"></path>
+            </g>
+        </g>
+    </g>
+</svg>

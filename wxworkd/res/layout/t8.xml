@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/jf" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" android:layout_width="fill_parent" android:layout_height="@dimen/alo" />
+    <GridView android:id="@id/gq" android:background="@color/jf" android:layout_width="fill_parent" android:layout_height="fill_parent" android:horizontalSpacing="4.0dip" android:verticalSpacing="4.0dip" android:numColumns="3" android:layout_below="@id/ff6" style="@style/yb" />
+    <View android:id="@id/erz" android:background="@color/f9" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/alo" android:layout_below="@id/ff6" />
+    <com.tencent.wework.common.views.SuperListView android:id="@id/gm" android:background="@color/atc" android:paddingLeft="15.0dip" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/a08" android:layout_below="@id/erz" style="@style/yb" />
+    <RelativeLayout android:id="@id/a08" android:background="@color/f9" android:clickable="true" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_alignParentBottom="true">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="18.0sp" android:textColor="@color/k6" android:ellipsize="end" android:id="@id/cdk" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:maxWidth="@dimen/apo" android:singleLine="true" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/cdj" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_toRightOf="@id/cdk" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</RelativeLayout>

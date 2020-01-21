@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a3">होम पेज पर जाएं</string>
+    <string name="a4">ऊपर जाएं</string>
+    <string name="abc_action_menu_overflow_description">ज़्यादा विकल्प</string>
+    <string name="a5">हो गया</string>
+    <string name="a6">सभी देखें</string>
+    <string name="a7">कोई एप्‍लिकेशन चुनें</string>
+    <string name="a8">बंद</string>
+    <string name="a9">चालू</string>
+    <string name="al">Alt+</string>
+    <string name="an">Ctrl+</string>
+    <string name="ao">delete</string>
+    <string name="ap">enter</string>
+    <string name="aq">Function+</string>
+    <string name="ar">Meta+</string>
+    <string name="as">Shift+</string>
+    <string name="at">space</string>
+    <string name="au">Sym+</string>
+    <string name="av">Menu+</string>
+    <string name="aw">खोजा जा रहा है…</string>
+    <string name="ax">क्‍वेरी साफ़ करें</string>
+    <string name="ay">सर्च क्वेरी</string>
+    <string name="az">सर्च करें</string>
+    <string name="b0">क्वेरी सबमिट करें</string>
+    <string name="b1">आवाज़ सर्च</string>
+    <string name="b2">इसके साथ शेयर करें</string>
+    <string name="b3">%s के साथ शेयर करें</string>
+    <string name="b4">छोटा करें</string>
+    <string name="ea">sound/after_upload_voice.mp3</string>
+    <string name="app_name">WeChat Work</string>
+    <string name="aug">http://weixin.qq.com/cgi-bin/readtemplate?t=weixin_msgtrans_agreement&amp;lang=en</string>
+    <string name="auh">https://support.weixin.qq.com/cgi-bin/mmsupport-bin/readtemplate?t=page/record_sync__course&amp;lang=zh_CN</string>
+    <string name="aui">https://weixin.qq.com/cgi-bin/readtemplate?t=weixin_chat_migration_faq&amp;lang=zh_CN</string>
+    <string name="b_g">https://weixin.qq.com/cgi-bin/readtemplate?lang=%s&amp;t=weixin_howToAdjustGroupNum&amp;pf=android</string>
+    <string name="b_l">https://weixin.qq.com/cgi-bin/readtemplate?lang=%s&amp;t=weixin_groupOwnerResponsibility</string>
+    <string name="bx9">सर्वर से कनेक्ट करने में असमर्थ। कृपया बाद में पुनः प्रयास करें।</string>
+    <string name="czd">https://weixin.qq.com/cgi-bin/readtemplate?t=emotion/wap/complain/msg_tmpl&amp;lang=</string>
+    <string name="d1t">https://weixin.qq.com/cgi-bin/readtemplate?t=weixin_emoji_agreement&amp;lang=</string>
+    <string name="e0p">file:///android_asset/doc/default/wx_feedback_index.html</string>
+    <string name="e6n">file:///android_asset/doc/default/wx_wifi_faq.html</string>
+    <string name="e6o">file:///android_asset/doc/default/wx_wifi_service_terms_chs.html</string>
+    <string name="ec3">https://search.weixin.qq.com/cgi-bin/h5/emoticon/tousu.html?lang=</string>
+    <string name="efe">जानकारी पुनः प्राप्त करने में असमर्थ। कृपया बाद में पुनः प्रयास करें।</string>
+    <string name="hms_abort">बंद करें</string>
+    <string name="hms_abort_message">डाउनलोड बंद करें?</string>
+    <string name="hms_bindfaildlg_message">हुअवी मोबाइल सेवाओं का उपयोग करने के लिए %1$s अक्षम है। कृपया फोन प्रबंधक को लांच करें या सेटिंग्स पर जाएं, %2$s के लिए सभी अनुमतियों को सक्षम करें (स्वतः-लांच तथा सहायक लांच सहित), और फिर कोशिश करें।</string>
+    <string name="hms_cancel">रद्द करें</string>
+    <string name="hms_check_failure">अद्यतन की जाँच करने में विफल रहा।</string>
+    <string name="hms_check_no_update">आप पहले से ही नवीनतम संस्करण का उपयोग कर रहे हैं।</string>
+    <string name="hms_checking">अद्यतन की जाँच कर रहा है…</string>
+    <string name="hms_confirm">ठीक</string>
+    <string name="hms_download_failure">हुअवी मोबाइल सेवाएँ पैकेज डाउनलोड करने में विफल रहा।</string>
+    <string name="hms_download_no_space">रिक्त स्थान पर्याप्त नहीं है। डाउनलोड पूर्ण नहीं किया जा सकता।</string>
+    <string name="hms_download_retry">डाउनलोड विफल रहा। पुन: प्रयास करें?</string>
+    <string name="hms_downloading">हुअवी मोबाइल सेवाएँ डाउनलोड की जा रही हैं | प्रगति: %d%%</string>
+    <string name="hms_downloading_loading">डाउनलोड हो रहा है</string>
+    <string name="hms_downloading_new">HMS डाउनलोड कर रहा है</string>
+    <string name="hms_gamebox_name">HiGame</string>
+    <string name="hms_install">स्थापित करें</string>
+    <string name="hms_install_message">इस सुविधा का उपयोग करने के लिए हुअवी मोबाइल सेवाएँ स्थापित होनी चाहिए। स्थापित करें?</string>
+    <string name="hms_retry">पुनः प्रयास करें</string>
+    <string name="hms_update">अद्यतन करें</string>
+    <string name="hms_update_message">इस सुविधा का उपयोग करने के लिए हुअवी मोबाइल सेवाओं के नवीनतम संस्करण पर अद्यतन करें। अभी अद्यतन करें?</string>
+    <string name="hms_update_message_new">"इस सेवा को निम्नलिखित ऐप के नवीनतम संस्करण की आवश्यकता है:
+
+%1$s"</string>
+    <string name="hms_update_title">हुअवी मोबाइल सेवाएँ</string>
+    <string name="fm_">https://support.weixin.qq.com/getpassword?lang=</string>
+    <string name="fma">https://support.weixin.qq.com/security/readtemplate?t=page/login_optimized__w_index&amp;lang=</string>
+    <string name="frk">sound/cashrecivedrevised.mp3</string>
+    <string name="g82">file:///android_asset/doc/default/mig_wifi_service_terms_chs.html</string>
+    <string name="gkv">file:///android_asset/doc/en/network_warning.htm</string>
+    <string name="gm_">कोई इंटरनेट कनेक्शन नहीं है। कृपया अपनी नेटवर्क सेटिंग्स जाँचें।</string>
+    <string name="gnh">file:///android_asset/doc/default/oauth_network_error.html</string>
+    <string name="gt5">sound/play_completed.mp3</string>
+    <string name="gzt">http://weixin.qq.com/cgi-bin/readtemplate?t=weixin_contract_agreement&amp;lang=en</string>
+    <string name="gzu">file:///android_asset/doc/en/qqsync_intro.htm</string>
+    <string name="gzv">file:///android_asset/doc/en/qqsync_privacy.htm</string>
+    <string name="gzw">\?hl=en</string>
+    <string name="h0b">sound/qrcode_completed.mp3</string>
+    <string name="hlf">सर्च</string>
+    <string name="i1b">sound/shake_match.mp3</string>
+    <string name="i1c">sound/shake_nomatch.mp3</string>
+    <string name="i1j">sound/shake_sound_male.mp3</string>
+    <string name="i1k">sound/shakelucky_ad_logo_clicked.mp3</string>
+    <string name="i1l">sound/shakelucky_firework_sound.mp3</string>
+    <string name="i6c">999+</string>
+    <string name="i90">sound/talkroom_begin.mp3</string>
+    <string name="i93">sound/talkroom_othersbegin.mp3</string>
+    <string name="i94">sound/talkroom_press.mp3</string>
+    <string name="i96">sound/talkroom_sasasa.mp3</string>
+    <string name="i97">sound/talkroom_up.mp3</string>
+    <string name="ibm">स्थापना रद्द करें?</string>
+    <string name="ibn">स्थापना विफल रही।</string>
+    <string name="ibo">हाँ</string>
+    <string name="ic3">sound/time_limit.mp3</string>
+    <string name="ihq">HiApp डाउनलोड कर रहा है</string>
+    <string name="ihr">स्थापित करें</string>
+    <string name="ihs">आकार</string>
+    <string name="iht">संस्करण</string>
+    <string name="ihu">रद्द करें</string>
+    <string name="ihv">अद्यतन की जाँच कर रहा है…</string>
+    <string name="ihw">अद्यतन उपलब्ध है। कृपया नवीनतम संस्करण डाउनलोड करके स्थापित करें।</string>
+    <string name="ihx">विवरण</string>
+    <string name="ihy">अद्यतन करने के लिए HiApp स्थापित करें। अभी स्थापित करें?</string>
+    <string name="ihz">ऐप</string>
+    <string name="ii0">बाद में</string>
+    <string name="ii1">बाहर निकलें</string>
+    <string name="ii2">अद्यतन करें</string>
+    <string name="ii3">नया संस्करण</string>
+    <string name="ii4">आप पहले से ही नवीनतम संस्करण का उपयोग कर रहे हैं।</string>
+    <string name="ii5">अद्यतन कर रहा है</string>
+    <string name="ii6">http://weixin.qq.com/agreement?lang=en</string>
+    <string name="ii7">http://support.wechat.com/getpassword?lang=en</string>
+    <string name="ii8">https://account.qq.com/cgi-bin/en/index</string>
+    <string name="ii9">http://open.weixin.qq.com/emoticon#wechat_redirect</string>
+    <string name="ii_">https://weixin.qq.com/cgi-bin/readtemplate?lang=en_US&amp;check=false&amp;t=weixin_agreement&amp;s=privacy</string>
+    <string name="iia">https://weixin.qq.com/cgi-bin/readtemplate?lang=en_US&amp;check=false&amp;t=weixin_agreement&amp;s=terms</string>
+    <string name="iib">https://weixin.qq.com/cgi-bin/readtemplate?t=weixin_small_pay</string>
+    <string name="iic">https://action.weixin.qq.com/payact/readtemplate?t=mobile/shuaka/help_tmpl</string>
+    <string name="iig">https://support.weixin.qq.com/cgi-bin/mmsupport-bin/readtemplate?t=page/payment_security__intro_new_editon</string>
+    <string name="iy8" formatted="false">https://weixin.qq.com/cgi-bin/readtemplate?t=weixin_business_bank&amp;lang=%s&amp;banktype=%s</string>
+    <string name="iy9">https://weixin.qq.com/cgi-bin/readtemplate?t=weixin_business_agreement&amp;lang=%s</string>
+    <string name="iy_">https://weixin.qq.com/cgi-bin/readtemplate?t=weixin_business_pay&amp;lang=%s</string>
+    <string name="iya" formatted="false">https://weixin.qq.com/cgi-bin/readtemplate?t=weixin_bank_wxcredit&amp;lang=%s&amp;banktype=%s</string>
+    <string name="iyb" formatted="false">https://weixin.qq.com/cgi-bin/readtemplate?t=weixin_person_pay&amp;lang=%s&amp;banktype=%s</string>
+    <string name="iyc">https://weixin.qq.com/cgi-bin/readtemplate?&amp;lang=en&amp;check=false&amp;t=weixin_agreement&amp;s=pay#point</string>
+    <string name="iyi">https://kf.qq.com/touch/sappfaq/1603017bqMvA1603013eamiI.html</string>
+    <string name="j1x" formatted="false">https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx10583a7e974992ec&amp;redirect_uri=https%3A%2F%2Fkf.qq.com%2Ftouch%2Fscene_product.html%3Fscene_id%3Dkf338&amp;response_type=code&amp;scope=snsapi_base&amp;state=123#wechat_redirect</string>
+    <string name="j1y" formatted="false">https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx10583a7e974992ec&amp;redirect_uri=https%3A%2F%2Fkf.qq.com%2Ftouch%2Fscene_product.html%3Fscene_id%3Dkf348&amp;response_type=code&amp;scope=snsapi_base&amp;state=123#wechat_redirect</string>
+    <string name="j1z" formatted="false">https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx10583a7e974992ec&amp;redirect_uri=https%3A%2F%2Fkf.qq.com%2Ftouch%2Fscene_product.html%3Fscene_id%3Dkf136&amp;response_type=code&amp;scope=snsapi_base&amp;state=123#wechat_redirect</string>
+    <string name="j20" formatted="false">https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx10583a7e974992ec&amp;redirect_uri=https%3A%2F%2Fkf.qq.com%2Ftouch%2Fscene_product.html%3Fscene_id%3Dkf350&amp;response_type=code&amp;scope=snsapi_base&amp;state=123#wechat_redirect</string>
+    <string name="j3r">https://weixin110.qq.com/?lang=</string>
+</resources>

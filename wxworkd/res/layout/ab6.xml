@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/a3b" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" style="@style/a13" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/ff6">
+        <com.tencent.pb.emoji.ui.EmojiGifView android:id="@id/blg" android:layout_width="wrap_content" android:layout_height="fill_parent" android:adjustViewBounds="true" android:minWidth="@dimen/vb" android:minHeight="@dimen/vb" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <ViewStub android:id="@id/fww" android:layout="@layout/ab4" android:inflatedId="@id/blf" android:layout_width="fill_parent" android:layout_height="@dimen/a23" android:layout_alignParentBottom="true" />
+    <ProgressBar android:id="@id/ctm" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="?android:progressBarStyle" />
+</RelativeLayout>

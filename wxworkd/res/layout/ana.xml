@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/ar4" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/fe9" android:layout_width="fill_parent" android:layout_alignParentTop="true" style="@style/a13" />
+    <ImageView android:id="@id/c5r" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="86.0dip" android:src="@drawable/blc" android:layout_below="@id/fe9" android:layout_centerHorizontal="true" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3i" android:textColor="@color/aq3" android:gravity="center_horizontal" android:id="@id/c5u" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="36.0dip" android:text="@string/fki" android:maxLines="999" android:layout_below="@id/c5r" android:layout_centerHorizontal="true" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a74" android:textColor="@color/a4h" android:id="@id/dwy" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="105.0dip" android:drawableLeft="@drawable/a_7" android:drawablePadding="6.0dip" android:layout_below="@id/c5u" android:layout_centerHorizontal="true" android:layout_alignWithParentIfMissing="true" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:enabled="true" android:id="@id/dj6" android:layout_width="fill_parent" android:layout_marginLeft="75.0dip" android:layout_marginTop="40.0dip" android:layout_marginRight="75.0dip" android:text="@string/fkj" android:layout_below="@id/dwy" style="@style/a0c" />
+</RelativeLayout>

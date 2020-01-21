@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/afk" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.tencent.youtu.youtudemo.common.component.PreviewFrameLayout android:id="@id/g0k" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true">
+            <SurfaceView android:id="@id/g0g" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+        </com.tencent.youtu.youtudemo.common.component.PreviewFrameLayout>
+        <RelativeLayout android:id="@id/vx" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/g0h" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@mipmap/f" android:scaleType="centerCrop" android:adjustViewBounds="true" />
+            <ImageView android:id="@id/g0i" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/g0f" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="26.0dip">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/d" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/g0m" android:background="@mipmap/k" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="100.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+            <TextView android:textSize="20.0sp" android:textColor="@color/atc" android:id="@id/g0l" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <Button android:textSize="18.0sp" android:textColor="@color/atc" android:gravity="center" android:id="@id/cpw" android:background="@drawable/adl" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="52.0dip" android:text="BEGIN" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        <Button android:textSize="18.0sp" android:textColor="@color/atc" android:gravity="center" android:id="@id/cpx" android:background="@drawable/ado" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="52.0dip" android:text="BEGIN" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        <com.tencent.youtu.ytagreflectoffline.ui.YTReflectLayout android:id="@id/g54" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.wework.common.views.KeyboardListenerRelativeLayout android:id="@id/cze" android:background="@color/atc" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.wedoc.views.DocPreviewView android:id="@id/b7s" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <com.tencent.wework.wedoc.view.DocTopbarView android:id="@id/b9a" android:layout_width="fill_parent" android:layout_height="@dimen/alo" android:layout_alignParentTop="true" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:id="@id/b7x" android:background="@color/a2j" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+                <ViewStub android:id="@id/fwi" android:layout="@layout/ap0" android:inflatedId="@id/b9_" android:layout_width="fill_parent" android:layout_height="300.0dip" />
+                <ViewStub android:id="@id/fwr" android:layout="@layout/ap6" android:inflatedId="@id/bkp" android:layout_width="fill_parent" android:layout_height="300.0dip" />
+            </LinearLayout>
+            <RelativeLayout android:id="@id/b79" android:background="#fffafafa" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+                <ViewStub android:id="@id/fvp" android:layout="@layout/a7h" android:inflatedId="@id/b7_" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <ViewStub android:id="@id/fvq" android:layout="@layout/a7i" android:inflatedId="@id/b7a" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <ViewStub android:id="@id/fvr" android:layout="@layout/a7j" android:inflatedId="@id/b7b" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </RelativeLayout>
+            <LinearLayout android:layout_gravity="top" android:orientation="vertical" android:id="@id/b7v" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/alw" android:layout_above="@id/b7x">
+                <com.tencent.wework.wedoc.views.DocPreviewWebView android:id="@id/b9e" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+                <View android:id="@id/a1l" android:background="@color/a02" android:layout_width="fill_parent" android:layout_height="@dimen/a61" />
+                <com.rockerhieu.emojicon.EmojiconEditText android:textSize="@dimen/a3e" android:gravity="center_vertical" android:id="@id/b9c" android:background="@color/a1x" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/yd" android:layout_marginTop="@dimen/y3" android:layout_marginRight="@dimen/yd" android:layout_marginBottom="@dimen/zf" android:minHeight="31.0dip" android:maxLines="1" android:inputType="text" android:imeOptions="actionSend" style="@style/za" />
+                <ViewStub android:id="@id/fwh" android:layout="@layout/aoy" android:layout_width="fill_parent" android:layout_height="@dimen/z0" />
+                <ViewStub android:id="@id/fwq" android:layout="@layout/ap5" android:layout_width="fill_parent" android:layout_height="@dimen/z0" />
+            </LinearLayout>
+        </RelativeLayout>
+    </com.tencent.wework.wedoc.views.DocPreviewView>
+</com.tencent.wework.common.views.KeyboardListenerRelativeLayout>

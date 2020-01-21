@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:id="@id/czb" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:pb="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/cqw" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.tencent.wework.common.views.PhotoImageView android:id="@id/dts" android:background="@color/aas" android:layout_width="@dimen/qr" android:layout_height="@dimen/qr" android:src="@drawable/cmm" android:scaleType="centerCrop" android:layout_alignParentLeft="true" android:layout_centerVertical="true" pb:maskType="dkj" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3u" android:textColor="@color/aax" android:ellipsize="end" android:id="@id/faj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/aiy" android:singleLine="true" android:layout_toRightOf="@id/dts" android:layout_alignParentTop="true" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3q" android:textColor="@color/aaq" android:ellipsize="end" android:id="@id/b39" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/aiy" android:layout_marginTop="@dimen/a2r" android:singleLine="true" android:layout_toRightOf="@id/dts" android:layout_below="@id/faj" />
+    </RelativeLayout>
+</merge>

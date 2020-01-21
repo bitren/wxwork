@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:id="@id/czb" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/ja" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.tencent.wework.common.views.codeview.SyntaxHighlightEditor android:textSize="15.0sp" android:textColor="@android:color/black" android:gravity="center|left|top" android:id="@id/f3w" android:background="@android:color/transparent" android:visibility="visible" android:scrollbars="none" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:ems="10" android:editable="false" />
+    </RelativeLayout>
+</merge>

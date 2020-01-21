@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="192px" height="405px" viewBox="0 0 192 405" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>EmoticonTipsMiddle</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="android" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-opacity="0.195623868">
+        <path d="M155.25,272.533231 C155.25,262.908763 158.098854,253.499638 163.437548,245.491596 L183.314376,215.676354 C188.488803,207.914713 191.25,198.7951 191.25,189.466769 L191.25,48 C191.25,21.9045456 170.095454,0.75 144,0.75 L48,0.75 C21.9045456,0.75 0.75,21.9045456 0.75,48 L0.75,189.466769 C0.75,198.7951 3.5111968,207.914713 8.68562359,215.676354 L28.5624518,245.491596 C33.9011462,253.499638 36.75,262.908763 36.75,272.533231 L36.75,381 C36.75,393.84062 47.1593796,404.25 60,404.25 L132,404.25 C144.84062,404.25 155.25,393.84062 155.25,381 L155.25,272.533231 Z" id="EmoticonTipsMiddle" stroke="#000000" stroke-width="1.5" fill="#FFFFFF"></path>
+    </g>
+</svg>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:insetLeft="@dimen/h8" android:insetRight="@dimen/h8" android:insetTop="@dimen/h9" android:insetBottom="@dimen/h7"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <selector>
+        <item android:state_enabled="false" android:drawable="@drawable/ah9" />
+        <item android:state_focused="false" android:state_pressed="false" android:drawable="@drawable/ah9" />
+        <item android:drawable="@drawable/ah8" />
+    </selector>
+</inset>

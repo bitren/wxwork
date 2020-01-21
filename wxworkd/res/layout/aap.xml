@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/ap4" android:background="@color/atc" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" style="@style/a13" />
+    <ScrollView android:background="@color/atc" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:layout_below="@id/ff6">
+        <LinearLayout android:orientation="vertical" android:id="@id/edh" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="23.0sp" android:textColor="@color/aq3" android:layout_gravity="center_horizontal" android:id="@id/dfj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="44.0dip" android:text="@string/htj" />
+            <android.support.v7.widget.RecyclerView android:layout_gravity="center_horizontal" android:id="@id/e6a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="34.0dip" android:overScrollMode="never" />
+            <com.tencent.wework.setting.views.MoreApplicationFooterView1 android:id="@id/df0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="44.0dip" android:layout_marginBottom="24.0dip" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

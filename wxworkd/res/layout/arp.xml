@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.wework.msg.views.MessageListDynamicExpressionContentView android:layout_width="wrap_content" android:layout_height="wrap_content" ww:layout_resource_id="@layout/aro"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ww="http://schemas.android.com/apk/res-auto">
+    <ViewStub android:id="@id/fy1" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout="@layout/yj" android:inflatedId="@id/d9l" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="@dimen/vd" android:minHeight="@dimen/a8r" />
+</com.tencent.wework.msg.views.MessageListDynamicExpressionContentView>

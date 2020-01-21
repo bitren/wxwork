@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="96px" height="96px" viewBox="0 0 96 96" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>ofm_myqrcode_icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="#f8f8f8ff" sketch:type="MSLayerGroup" transform="translate(20.000000, 20.000000)" fill="#F8F8F8">
+            <path d="M1,1 C2.69737006,-0.319796413 4.45565574,0.209211881 6,0 C21.3491845,0.0794551298 36.7341842,0.0295486869 52,0 C53.89745,-0.299833836 55.9554434,1.00771497 56,3 C56.0253753,19.3034169 55.9254727,35.6926928 56,52 C56.2551512,53.8386754 55.016359,56.0245776 53,56 C36.6842329,56.004615 20.3301781,55.9147834 4,56 C2.19785709,56.2741098 -0.0099902595,55.106299 3.55271368e-15,53 C-0.079922076,37.0900732 0.0699318165,21.0501424 3.55271368e-15,5 C0.0299707785,3.45313067 -0.229775968,1.49679811 1,1 L1,1 Z M5,5 L5,29 L29,29 L29,5 L5,5 L5,5 Z M35,5 L35,21 L51,21 L51,5 L35,5 L35,5 Z M41,27 L41,32 L32,32 L32,41 L41,41 L41,46 L36,46 L36,51 L51,51 L51,46 L46,46 L46,41 L51,41 L51,27 L41,27 L41,27 Z M10,34 L10,39 L15,39 L15,34 L10,34 L10,34 Z M20,34 L20,39 L15,39 L15,44 L25,44 L25,34 L20,34 L20,34 Z M5,39 L5,51 L14,51 L14,46 L10,46 L10,39 L5,39 L5,39 Z M25,44 L25,51 L32,51 L32,44 L25,44 L25,44 Z" id="Shape" sketch:type="MSShapeGroup"></path>
+            <path d="M9,9 L25,9 L25,25 L9,25 L9,9 L9,9 Z" id="Shape" sketch:type="MSShapeGroup"></path>
+            <path d="M41,32 L46,32 L46,41 L41,41 L41,32 L41,32 Z" id="Shape" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

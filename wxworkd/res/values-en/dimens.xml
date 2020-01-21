@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="os">8.0dip</dimen>
+    <dimen name="ot">88.0dip</dimen>
+    <dimen name="p1">98.0dip</dimen>
+    <dimen name="sa">14.0px</dimen>
+    <dimen name="ts">96.0dip</dimen>
+    <dimen name="zo">240.0dip</dimen>
+    <dimen name="zu">200.0dip</dimen>
+    <dimen name="a74">11.0sp</dimen>
+    <dimen name="a79">15.0sp</dimen>
+    <dimen name="a7s">10.0sp</dimen>
+    <dimen name="a80">6.0px</dimen>
+    <dimen name="abt">10.0sp</dimen>
+    <dimen name="ahc">9.0sp</dimen>
+    <dimen name="amx">106.0dip</dimen>
+    <dimen name="an7">195.0dip</dimen>
+</resources>

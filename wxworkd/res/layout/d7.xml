@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/atc" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" android:layout_width="fill_parent" android:layout_height="@dimen/alw" />
+    <LinearLayout android:orientation="vertical" android:id="@id/zk" android:background="@color/a4c" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <View android:background="@color/a45" android:layout_width="fill_parent" android:layout_height="@dimen/rw" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:id="@id/ey2" android:layout_width="fill_parent" android:layout_height="46.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="10.0dip" android:text="@string/hrj" style="@style/xr" />
+    </LinearLayout>
+    <com.tencent.wework.common.views.OfflineResourceRichWebView android:id="@id/g11" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/zk" android:layout_below="@id/ff6" />
+</RelativeLayout>

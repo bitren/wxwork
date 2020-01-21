@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/edh" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/fue" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.tencent.wework.multitalk.view.ShareDocOverlayView android:id="@id/fud" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignTop="@id/fui" android:layout_alignBottom="@id/fui" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/fuc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ProgressBar android:id="@id/feg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminateDrawable="@drawable/a1t" style="?android:progressBarStyle" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/iut" />
+    </LinearLayout>
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3d" android:textColor="@color/atc" android:id="@id/fuj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/iuu" android:drawableTop="@drawable/c3v" android:drawablePadding="16.0dip" android:layout_centerInParent="true" />
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout style="@style/lz"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@color/ah9" android:paddingLeft="@dimen/dl" android:paddingTop="@dimen/dp" android:paddingRight="@dimen/dl" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/d8" android:textColor="@color/aci" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ff" android:text="@string/hb6" />
+        <LinearLayout android:gravity="center_vertical" android:id="@id/arm" android:background="@drawable/id" android:paddingLeft="@dimen/ff" android:paddingRight="@dimen/ff" android:layout_width="fill_parent" android:layout_height="@dimen/fe" android:layout_marginBottom="@dimen/do">
+            <TextView android:textSize="@dimen/el" android:textColor="@color/jf" android:gravity="left" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/hba" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/el" android:textColor="@color/at5" android:id="@id/arp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/c9f" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/do">
+            <EditText android:textSize="@dimen/el" android:textColor="@color/aci" android:gravity="center" android:id="@id/arl" android:background="@drawable/cnw" android:layout_width="70.0dip" android:layout_height="fill_parent" android:text="@string/c9e" android:inputType="phone" />
+            <com.tencent.mm.ui.base.MMClearEditText android:textSize="@dimen/el" android:textColorHint="@color/ach" android:id="@id/e8t" android:background="@drawable/aky" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/hb_" android:inputType="phone">
+                <requestFocus />
+            </com.tencent.mm.ui.base.MMClearEditText>
+        </LinearLayout>
+        <Button android:textSize="@dimen/d8" android:textColor="@color/ad6" android:gravity="center" android:id="@id/cwa" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fr1" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/d8" android:gravity="center" android:id="@id/cw6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="33.0dip" android:text="@string/fr5" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/kt" />
+</RelativeLayout>

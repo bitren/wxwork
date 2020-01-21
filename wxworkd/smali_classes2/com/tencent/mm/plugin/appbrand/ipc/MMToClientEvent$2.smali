@@ -1,0 +1,83 @@
+.class final Lcom/tencent/mm/plugin/appbrand/ipc/MMToClientEvent$2;
+.super Ljava/lang/Object;
+.source "MMToClientEvent.java"
+
+# interfaces
+.implements Landroid/os/Parcelable$Creator;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/tencent/mm/plugin/appbrand/ipc/MMToClientEvent;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x8
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Landroid/os/Parcelable$Creator<",
+        "Lcom/tencent/mm/plugin/appbrand/ipc/MMToClientEvent;",
+        ">;"
+    }
+.end annotation
+
+
+# direct methods
+.method constructor <init>()V
+    .locals 0
+
+    .line 272
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public createFromParcel(Landroid/os/Parcel;)Lcom/tencent/mm/plugin/appbrand/ipc/MMToClientEvent;
+    .locals 2
+
+    .line 274
+    new-instance v0, Lcom/tencent/mm/plugin/appbrand/ipc/MMToClientEvent;
+
+    const/4 v1, 0x0
+
+    invoke-direct {v0, p1, v1}, Lcom/tencent/mm/plugin/appbrand/ipc/MMToClientEvent;-><init>(Landroid/os/Parcel;Lcom/tencent/mm/plugin/appbrand/ipc/MMToClientEvent$1;)V
+
+    return-object v0
+.end method
+
+.method public bridge synthetic createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
+    .locals 0
+
+    .line 272
+    invoke-virtual {p0, p1}, Lcom/tencent/mm/plugin/appbrand/ipc/MMToClientEvent$2;->createFromParcel(Landroid/os/Parcel;)Lcom/tencent/mm/plugin/appbrand/ipc/MMToClientEvent;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public newArray(I)[Lcom/tencent/mm/plugin/appbrand/ipc/MMToClientEvent;
+    .locals 0
+
+    .line 278
+    new-array p1, p1, [Lcom/tencent/mm/plugin/appbrand/ipc/MMToClientEvent;
+
+    return-object p1
+.end method
+
+.method public bridge synthetic newArray(I)[Ljava/lang/Object;
+    .locals 0
+
+    .line 272
+    invoke-virtual {p0, p1}, Lcom/tencent/mm/plugin/appbrand/ipc/MMToClientEvent$2;->newArray(I)[Lcom/tencent/mm/plugin/appbrand/ipc/MMToClientEvent;
+
+    move-result-object p1
+
+    return-object p1
+.end method

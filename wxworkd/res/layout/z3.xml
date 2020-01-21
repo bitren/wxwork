@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/edh" android:background="@color/atc" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a5n" android:textColor="@color/a4h" android:gravity="center_vertical" android:id="@id/cjl" android:background="@color/a3a" android:paddingLeft="@dimen/ty" android:paddingTop="@dimen/u6" android:paddingBottom="@dimen/u6" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View android:id="@id/b6z" android:background="@color/a47" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/a61" android:layout_below="@id/cjl" />
+    <RelativeLayout android:id="@id/cir" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/b6z" android:layout_centerVertical="true">
+        <FrameLayout android:id="@id/c6r" android:layout_width="@dimen/a3z" android:layout_height="@dimen/a3z" android:layout_marginLeft="@dimen/y5" android:layout_marginTop="@dimen/ua" android:layout_marginBottom="@dimen/ua" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+            <com.tencent.wework.common.views.MultiPhotoImageView android:id="@id/dgj" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentLeft="true" />
+            <com.tencent.wework.common.views.PhotoImageView android:id="@id/r" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ds" />
+        </FrameLayout>
+        <ImageView android:id="@id/cj8" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/ajb" android:src="@drawable/c3h" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <RelativeLayout android:id="@id/ebh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/ajb" android:layout_toLeftOf="@id/cj8" android:layout_centerVertical="true" android:layout_alignWithParentIfMissing="true">
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3d" android:textColor="@color/abh" android:gravity="center" android:id="@id/ce5" android:paddingLeft="@dimen/y1" android:paddingTop="8.0dip" android:paddingRight="@dimen/y1" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="50.0dip" android:text="邀请" android:height="30.0dip" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/cep" android:paddingRight="@dimen/a6e" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ty" android:layout_marginTop="@dimen/ua" android:layout_marginRight="12.0dip" android:layout_toLeftOf="@id/ebh" android:layout_toRightOf="@id/c6r" android:layout_centerVertical="true" android:layout_alignWithParentIfMissing="true">
+            <com.tencent.wework.common.views.CommonExternalContactDisplayView android:id="@id/fje" android:layout_width="wrap_content" android:layout_height="wrap_content" app:leftTextColor="@color/a5f" app:leftTextSize="@dimen/u9" app:rightTextSize="12.0sp" />
+            <com.rockerhieu.emojicon.EmojiconTextView android:textSize="@dimen/u2" android:textColor="@color/a4h" android:ellipsize="end" android:id="@id/fik" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:drawablePadding="5.0dip" />
+            <com.rockerhieu.emojicon.EmojiconTextView android:textSize="@dimen/u2" android:textColor="@color/a4h" android:ellipsize="end" android:id="@id/fil" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        </LinearLayout>
+    </RelativeLayout>
+    <View android:id="@id/b5z" android:background="@color/a47" android:layout_width="fill_parent" android:layout_height="@dimen/a61" android:layout_marginLeft="@dimen/ty" android:layout_below="@id/cir" />
+</RelativeLayout>

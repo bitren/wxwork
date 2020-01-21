@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.wework.common.views.BaseLinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.BaseRelativeLayout android:orientation="vertical" android:id="@id/d8a" android:background="@drawable/xv" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <FrameLayout android:id="@id/d8q" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip" android:layout_marginTop="7.0dip" android:layout_marginRight="7.0dip" layout="@layout/auq" />
+        </FrameLayout>
+        <com.tencent.wework.msg.views.MessageListPicTxtMessageContentView android:id="@id/d8f" android:addStatesFromChildren="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip" android:layout_marginRight="7.0dip" android:minWidth="@dimen/aan" android:layout_below="@id/d8q" />
+    </com.tencent.wework.common.views.BaseRelativeLayout>
+    <ViewStub android:id="@id/fz0" android:layout="@layout/bex" android:inflatedId="@id/f8s" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_below="@id/d8a" />
+</com.tencent.wework.common.views.BaseLinearLayout>

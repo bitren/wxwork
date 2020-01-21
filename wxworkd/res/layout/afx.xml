@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/ei1" android:layout_height="wrap_content" style="@style/ki">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/v1" android:layout_width="@dimen/ec" android:layout_height="@dimen/ec" android:layout_marginRight="@dimen/bx" />
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:background="@drawable/ahf" android:paddingLeft="@dimen/fk" android:paddingRight="@dimen/bx" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fby" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="{title}" android:singleLine="true" android:layout_weight="1.0" style="@style/j6" />
+                <TextView android:id="@id/cj7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/ek" android:text="" android:singleLine="true" style="@style/j5" />
+            </LinearLayout>
+            <TextView android:id="@id/b32" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="{desc}" android:singleLine="true" style="@style/j5" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

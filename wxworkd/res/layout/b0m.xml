@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.msg.views.MsgAttachmentGridView android:layout_gravity="center_vertical" android:id="@id/ss" android:background="@color/aep" android:paddingLeft="@dimen/aby" android:paddingTop="@dimen/abz" android:paddingRight="@dimen/aby" android:paddingBottom="@dimen/abz" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:verticalSpacing="10.0dip" android:numColumns="4" android:overScrollMode="never" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="12.0sp" android:textColor="@color/wz" android:id="@id/st" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:text="@string/dqv" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

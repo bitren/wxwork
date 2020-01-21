@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="108px" height="108px" viewBox="0 0 108 108" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>more_my_bank_card</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="模块/插件" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="more_my_bank_card" sketch:type="MSArtboardGroup" fill="#10AEFF">
+            <path d="M87.115,33.8768889 C87.115,30.6328462 84.483623,28 81.2381111,28 L26.8768889,28 C23.631377,28 21,30.6328462 21,33.8768889 L21,75.0165803 C21,78.2620922 23.631377,80.892 26.8768889,80.892 L81.2381111,80.892 C84.483623,80.892 87.115,78.2620922 87.115,75.0165803 L87.115,66.1997778 L72.4227778,66.1997778 C65.931754,66.1997778 60.669,60.9370238 60.669,54.446 C60.669,47.9549762 65.931754,42.6922222 72.4227778,42.6922222 L87.115,42.6922222 L87.115,33.8768889 L87.115,33.8768889 Z M66.5458889,54.446 C66.5458889,57.6929811 69.1772659,60.3228889 72.4227778,60.3228889 C75.6682897,60.3228889 78.2996667,57.6929811 78.2996667,54.446 C78.2996667,51.2004881 75.6682897,48.5691111 72.4227778,48.5691111 C69.1772659,48.5691111 66.5458889,51.2004881 66.5458889,54.446 L66.5458889,54.446 Z" id="Shape" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

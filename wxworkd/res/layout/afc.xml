@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.tencent.wework.common.views.PhotoImageView android:id="@id/fkl" android:visibility="gone" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginRight="10.0dip" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/fkq" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:src="@drawable/axp" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toLeftOf="@id/fkq" android:layout_toRightOf="@id/fkl" android:layout_centerVertical="true">
+            <com.tencent.wework.common.views.CommonExternalContactDisplayView android:ellipsize="middle" android:layout_gravity="center_vertical" android:id="@id/fks" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="200.0dip" android:singleLine="true" android:drawablePadding="8.0dip" app:leftTextColor="@color/qv" app:leftTextSize="@dimen/a3f" app:maxRightWidth="120.0dip" app:rightTextColor="@color/ajh" app:rightTextDrawablePadding="@dimen/aaw" app:rightTextSize="@dimen/a9n" app:space="@dimen/aaw" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3b" android:textColor="@color/xk" android:id="@id/fkj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+        </LinearLayout>
+        <View android:id="@id/fkp" android:background="@color/a47" android:layout_width="fill_parent" android:layout_height="@dimen/a61" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</RelativeLayout>

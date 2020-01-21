@@ -1,0 +1,89 @@
+.class Ledg$1;
+.super Ljava/lang/Object;
+.source "JSFuncShareAppMessageToAdmin.java"
+
+# interfaces
+.implements Lcom/tencent/wework/foundation/callback/ICommonResultCallback;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Ledg;->run(Lefb;Ljava/lang/String;Landroid/os/Bundle;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic gdi:Ledg;
+
+
+# direct methods
+.method constructor <init>(Ledg;)V
+    .locals 0
+
+    .line 104
+    iput-object p1, p0, Ledg$1;->gdi:Ledg;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public onResult(I)V
+    .locals 2
+
+    if-nez p1, :cond_0
+
+    .line 108
+    iget-object p1, p0, Ledg$1;->gdi:Ledg;
+
+    invoke-static {p1}, Ledg;->a(Ledg;)Ljava/lang/String;
+
+    move-result-object v0
+
+    const/4 v1, 0x0
+
+    invoke-virtual {p1, v0, v1}, Ledg;->notifySuccess(Ljava/lang/String;Ljava/util/Map;)V
+
+    goto :goto_0
+
+    :cond_0
+    const/4 v0, -0x1
+
+    if-ne p1, v0, :cond_1
+
+    .line 110
+    iget-object p1, p0, Ledg$1;->gdi:Ledg;
+
+    invoke-static {p1}, Ledg;->a(Ledg;)Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-virtual {p1, v0}, Ledg;->notifyCancel(Ljava/lang/String;)V
+
+    goto :goto_0
+
+    :cond_1
+    const/4 v0, -0x2
+
+    if-ne p1, v0, :cond_2
+
+    .line 112
+    iget-object p1, p0, Ledg$1;->gdi:Ledg;
+
+    invoke-static {p1}, Ledg;->a(Ledg;)Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-virtual {p1, v0}, Ledg;->notifyFail(Ljava/lang/String;)V
+
+    :cond_2
+    :goto_0
+    return-void
+.end method

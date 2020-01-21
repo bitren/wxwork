@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/czb" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:paddingLeft="@dimen/aiv" android:paddingRight="@dimen/aiv" android:paddingBottom="@dimen/aiv" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@id/c6k" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/faj">
+            <com.tencent.wework.common.views.MultiPhotoImageView android:id="@id/c6p" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginRight="10.0dip" />
+            <com.tencent.wework.msg.views.MessageItemTextView android:textSize="@dimen/a3g" android:textColor="@color/jf" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/c6w" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/dz_" android:singleLine="true" />
+        </LinearLayout>
+        <com.tencent.wework.msg.views.MessageItemTextView android:textSize="@dimen/a3f" android:textColor="@color/jf" android:ellipsize="end" android:id="@id/emg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="单人消息文本" android:maxLines="3" android:layout_below="@id/c6k" android:lineSpacingMultiplier="1.2" />
+    </RelativeLayout>
+</RelativeLayout>

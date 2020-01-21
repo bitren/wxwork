@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/c38" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:scaleType="centerCrop" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:contentDescription="@null" />
+    <FrameLayout android:id="@id/c36" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/c39" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/c36" android:layout_toRightOf="@id/c38" android:layout_centerVertical="true" android:layout_alignWithParentIfMissing="true">
+        <TextView android:textSize="@dimen/a6k" android:textColor="?vp" android:ellipsize="end" android:id="@id/c3_" android:layout_width="0.0dip" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/a6i" android:textColor="?vt" android:id="@id/c37" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:includeFontPadding="false" />
+    </LinearLayout>
+    <ImageView android:id="@id/c3a" android:visibility="gone" style="?m" />
+    <ViewStub android:id="@id/c3b" android:visibility="gone" android:layout="@layout/b57" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+</merge>

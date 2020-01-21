@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/lz"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/dcm" style="@style/kg">
+        <LinearLayout style="@style/im">
+            <EditText android:id="@id/djc" android:hint="@string/hbn" style="@style/jl" />
+            <View style="@style/kw" />
+            <TextView android:gravity="left" android:text="@string/hbo" style="@style/jm" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

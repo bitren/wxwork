@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewStub android:id="@id/fxq" android:layout="@layout/asz" android:inflatedId="@id/d6q" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" />
+    <RelativeLayout android:id="@id/d64" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/d6q">
+        <ViewStub android:id="@id/fxi" android:layout="@layout/z6" android:inflatedId="@id/d5p" android:layout_width="wrap_content" android:layout_height="@dimen/a9b" android:layout_marginLeft="@dimen/a_9" />
+        <com.tencent.wework.common.views.PhotoImageView android:id="@id/d8d" android:layout_width="@dimen/a9b" android:layout_height="@dimen/a9b" android:layout_marginLeft="@dimen/a98" android:layout_marginTop="2.0dip" android:layout_marginRight="@dimen/a9a" android:layout_toRightOf="@id/d5p" app:hasClickMask="true" />
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-2.0dip" android:layout_toRightOf="@id/d8d" android:layout_alignTop="@id/d8d">
+            <include android:id="@id/dad" android:visibility="gone" layout="@layout/at5" />
+            <com.tencent.wework.common.views.BaseRelativeLayout android:orientation="horizontal" android:id="@id/d5r" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginRight="4.0dip" android:layout_below="@id/dad">
+                <ViewStub android:id="@id/fxj" android:inflatedId="@id/d5q" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <ViewStub android:id="@id/fxn" android:layout="@layout/ast" android:inflatedId="@id/d6j" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/a_l" android:layout_marginTop="@dimen/zb" android:layout_below="@id/d5q" android:layout_alignLeft="@id/d5q" android:layout_alignRight="@id/d5q" />
+                <ViewStub android:id="@id/fxt" android:layout="@layout/at4" android:inflatedId="@id/d6v" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_toRightOf="@id/d5q" android:layout_centerVertical="true" />
+                <ViewStub android:id="@id/fxg" android:clickable="false" android:layout="@layout/aq6" android:inflatedId="@id/d4p" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginBottom="@dimen/a9h" android:layout_toRightOf="@id/d5q" android:layout_alignBottom="@id/d5q" />
+            </com.tencent.wework.common.views.BaseRelativeLayout>
+            <ViewStub android:id="@id/fxp" android:layout="@layout/asw" android:inflatedId="@id/d6p" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/a_l" android:layout_marginTop="@dimen/a_m" android:layout_below="@id/d5r" android:layout_alignLeft="@id/d5r" />
+        </RelativeLayout>
+    </RelativeLayout>
+</merge>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="96px" height="96px" viewBox="0 0 96 96" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+    <title>ofm_group_chat_icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="ofm_group_chat_icon" sketch:type="MSLayerGroup" transform="translate(17.000000, 20.000000)" fill="#45C01A">
+            <g id="OFM菜单" sketch:type="MSShapeGroup">
+                <g id="ofm_group_chat_icon">
+                    <path d="M30.9995,0 C13.8787761,0 0,11.7982107 0,26.3524706 C0,33.1885927 3.0619506,39.4157039 8.0828696,44.0987875 C6.8038903,48.1718602 4.4279286,56 4.4279286,56 L17.2507218,49.9728924 C21.3946549,51.7199236 26.0605797,52.7059412 31.0005,52.7059412 C48.1212239,52.7059412 62,40.9077305 62,26.3514706 C61.999,11.7982107 48.1202239,0 30.9995,0 L30.9995,0 L30.9995,0 Z" id="Path"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

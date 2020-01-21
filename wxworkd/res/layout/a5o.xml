@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.wework.common.views.BaseLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.recyclerview.SimpleHorizontalScrollBar android:id="@id/eus" android:background="@color/atc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="48.0dip" app:hasSelectBar="false" />
+    <com.tencent.wework.common.views.recyclerview.SimpleHorizontalScrollBar android:id="@id/eut" android:background="@color/atc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:minHeight="48.0dip" app:hasSelectBar="true" />
+    <com.tencent.wework.common.views.recyclerview.SimpleHorizontalScrollBar android:id="@id/euu" android:background="@color/atc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:minHeight="48.0dip" app:hasSelectBar="true" />
+</com.tencent.wework.common.views.BaseLinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.CommonItemView android:id="@id/dhf" android:layout_width="fill_parent" android:layout_height="@dimen/rx" />
+    <com.tencent.wework.common.views.CommonItemView android:id="@id/agi" android:layout_width="fill_parent" android:layout_height="@dimen/rx" />
+    <com.tencent.wework.common.views.CommonItemView android:id="@id/b2i" android:layout_width="fill_parent" android:layout_height="@dimen/rx" />
+    <TextView android:textSize="13.0sp" android:textColor="#ff888888" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/dg" android:background="@color/a1b" android:paddingLeft="16.0dip" android:layout_width="fill_parent" android:layout_height="30.0dip" android:text="@string/b0o" android:maxLines="1" android:includeFontPadding="false" />
+    <com.tencent.wework.common.views.BaseLinearLayout android:gravity="center_vertical" android:id="@id/di" android:background="@drawable/kb" android:paddingLeft="16.0dip" android:paddingRight="9.5dip" android:layout_width="fill_parent" android:layout_height="@dimen/z0" app:bottomDividerSize="@dimen/t0">
+        <ImageView android:id="@id/dh" android:background="@drawable/bav" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:scaleType="centerCrop" android:layout_centerInParent="true" />
+        <TextView android:textSize="17.0sp" android:textColor="@color/jf" android:ellipsize="end" android:gravity="center" android:id="@id/dj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:text="@string/b0l" android:maxLines="1" android:includeFontPadding="false" />
+    </com.tencent.wework.common.views.BaseLinearLayout>
+    <TextView android:textSize="13.0sp" android:textColor="#ff888888" android:ellipsize="end" android:gravity="center" android:id="@id/dl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="8.0dip" android:text="@string/b16" android:maxLines="1" android:includeFontPadding="false" />
+</LinearLayout>

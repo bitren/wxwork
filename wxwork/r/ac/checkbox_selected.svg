@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg height="60px"
+    version="1.1"
+    viewBox="0 0 60 60"
+    width="60px"
+    xmlns="http://www.w3.org/2000/svg">
+    <!-- Generator: Sketch 40.1 (33804) - http://www.bohemiancoding.com/sketch -->
+    <title>Checkbox_selected</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g
+        fill="none"
+        fill-rule="evenodd"
+        id="Symbols"
+        stroke="none"
+        stroke-width="1">
+        <g id="Checkbox_selected">
+            <rect
+                height="60"
+                id="bond"
+                width="60"
+                x="0"
+                y="0"></rect>
+            <g
+                id="big_selecter_selected_icon"
+                transform="translate(6.000000, 6.000000)">
+                <path
+                    d="M0,6.00638655 C0,2.68915086 2.68354127,0 6.00638655,0 L41.9936134,0 C45.3108491,0 48,2.68354127 48,6.00638655 L48,41.9936134 C48,45.3108491 45.3164587,48 41.9936134,48 L6.00638655,48 C2.68915086,48 0,45.3164587 0,41.9936134 L0,6.00638655 L0,6.00638655 Z"
+                    fill="#FFFFFF"
+                    id="Shape"></path>
+                <path
+                    d="M0,6.00638655 C0,2.68915086 2.68354127,0 6.00638655,0 L41.9936134,0 C45.3108491,0 48,2.68354127 48,6.00638655 L48,41.9936134 C48,45.3108491 45.3164587,48 41.9936134,48 L6.00638655,48 C2.68915086,48 0,45.3164587 0,41.9936134 L0,6.00638655 L0,6.00638655 Z M6,26.5769231 L10.2,22.5384615 L19,30.9230769 L37.8,13 L42,17.0384615 L19,39 L6,26.5769231 L6,26.5769231 Z"
+                    fill="#1AAD19"
+                    id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/fmw" android:background="@color/a3a" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" android:layout_width="fill_parent" android:layout_height="@dimen/alo" android:layout_alignParentTop="true" />
+    <RelativeLayout android:id="@id/bas" android:background="@color/atc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/s8" android:layout_below="@id/ff6">
+        <com.tencent.wework.common.views.ClearableEditText android:textSize="17.0sp" android:textColor="@color/jf" android:gravity="center|left" android:id="@id/bap" android:background="@color/atc" android:layout_width="fill_parent" android:layout_height="@dimen/rx" android:layout_marginLeft="12.5dip" android:layout_marginRight="6.0dip" android:singleLine="true" android:maxLength="50" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center|left|top" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.5dip" android:layout_marginTop="10.0dip" android:layout_marginRight="6.0dip" android:layout_below="@id/bas">
+        <ImageView android:id="@id/cb0" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:src="@drawable/b_h" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="12.0sp" android:textColor="@color/a4h" android:id="@id/bat" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="@string/flu" android:layout_weight="1.0" />
+    </LinearLayout>
+</RelativeLayout>

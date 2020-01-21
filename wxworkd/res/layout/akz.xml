@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/a3a" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:layout_marginTop="@dimen/ajd" style="@style/gf" />
+    <com.tencent.wework.common.views.ClearableEditText android:textSize="17.0sp" android:textColor="@color/amz" android:textColorHint="@color/ach" android:gravity="center_vertical" android:id="@id/cf9" android:background="@color/atc" android:layout_width="fill_parent" android:layout_height="@dimen/rx" android:maxLines="1" android:singleLine="true" />
+    <com.tencent.wework.common.views.ConfigurableEditText android:textSize="@dimen/s4" android:textColorHint="@color/a4_" android:gravity="center|left|top" android:id="@id/cf4" android:background="@drawable/kh" android:paddingLeft="@dimen/s2" android:paddingTop="12.0dip" android:paddingRight="@dimen/s2" android:paddingBottom="12.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="65.0dip" android:imeOptions="actionDone" />
+    <LinearLayout android:orientation="vertical" android:id="@id/cf5" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.tencent.wework.common.views.CommonItemView android:id="@id/cf7" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/rx" app:leftContent="@string/fzs" />
+        <com.tencent.wework.common.views.CommonItemView android:id="@id/cf6" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/rx" app:leftContent="@string/e0q" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/cf_" android:background="@drawable/kh" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.tencent.wework.common.views.InternationalPhoneNumberView android:id="@id/cfa" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <View style="@style/gf" />
+    <com.tencent.wework.setting.views.CommonItemTextView android:id="@id/cf8" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/fen" app:gravityStyle="bxb" />
+</LinearLayout>

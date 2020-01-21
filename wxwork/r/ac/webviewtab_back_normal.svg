@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>webviewtab_back_normal</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="#ffffffff" sketch:type="MSLayerGroup" transform="translate(3.000000, 4.000000)" fill="#FFFFFF">
+            <path d="M0,31.9949992 C10.5015674,21.3233318 21.0231378,10.6616659 31.5347067,0 C33.3649798,1.83028598 35.1852515,3.68057509 36.9955217,5.5308642 C29.674429,13.0220347 22.3233318,20.4932021 15.0022391,27.9943741 L67,27.9943741 L67,35.9956243 C49.667413,35.9956243 32.3348261,35.9856228 15.0022391,36.0056259 C22.3333333,43.4867948 29.6644275,50.9679637 37.0055232,58.4491327 C35.1852515,60.2994218 33.3649798,62.1497109 31.5347067,64 C21.0231378,53.3283326 10.5015674,42.6666667 0,31.9949992 L0,31.9949992 Z" id="Shape" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

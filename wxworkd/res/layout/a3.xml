@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minHeight="?s"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/ck" android:background="@color/ar4" android:paddingLeft="@dimen/bx" android:paddingRight="@dimen/bx" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    <TextView android:textSize="@dimen/r" android:textColor="@color/ey" android:gravity="center" android:id="@id/cj" android:background="@drawable/ak" android:paddingLeft="@dimen/bx" android:paddingRight="@dimen/bx" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="send" />
+    <Button android:id="@id/cg" android:visibility="gone" android:layout_marginRight="@dimen/bo" android:text="send" style="@style/kp" />
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageButton android:id="@id/ci" android:background="@drawable/ak" android:paddingLeft="@dimen/bx" android:paddingRight="@dimen/bx" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="56.0dip" />
+        <ImageView android:id="@id/b9k" android:visibility="gone" android:layout_marginTop="7.0dip" android:layout_marginRight="6.0dip" android:layout_alignTop="@id/ci" android:layout_alignRight="@id/ci" style="@style/tk" />
+    </RelativeLayout>
+</LinearLayout>

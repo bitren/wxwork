@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/aup" android:background="@drawable/m2" android:layout_width="@dimen/re" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ww="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/fb6" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <RelativeLayout android:gravity="center|left|top" android:id="@id/cbl" android:layout_width="45.0dip" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+            <ImageView android:id="@id/cbg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="12.0dip" android:layout_marginBottom="-12.0dip" android:src="@drawable/icon_dialog_warn" android:scaleType="fitStart" />
+        </RelativeLayout>
+        <com.rockerhieu.emojicon.EmojiconTextView android:textSize="@dimen/a3h" android:textColor="@color/jf" android:gravity="center_horizontal" android:id="@id/av0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/aiv" android:layout_marginTop="@dimen/aiv" android:layout_marginRight="@dimen/aiv" android:layout_below="@id/cbl" ww:configurable="false" />
+    </RelativeLayout>
+    <ViewStub android:id="@id/fy_" android:inflatedId="@id/dik" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/aiv" android:layout_marginRight="@dimen/aiv" android:layout_marginBottom="-20.0dip" />
+    <RelativeLayout android:gravity="center|left" android:id="@id/auh" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/aiv" android:layout_marginTop="6.0dip" android:layout_marginRight="@dimen/aiv" android:layout_weight="1.0">
+        <CheckBox android:id="@id/ach" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:layout_alignParentLeft="true" style="@style/xz" />
+        <com.tencent.wework.common.views.BaseScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/ach" android:layout_centerVertical="true" style="@style/yb">
+            <com.rockerhieu.emojicon.EmojiconTextView android:textSize="@dimen/a3f" android:textColor="@color/a5f" android:id="@id/auu" android:layout_width="fill_parent" android:layout_height="wrap_content" ww:configurable="false" />
+        </com.tencent.wework.common.views.BaseScrollView>
+        <com.tencent.wework.common.views.SuperListView android:id="@id/aj8" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scrollingCache="false" android:dividerHeight="0.0dip" style="@style/yb" />
+    </RelativeLayout>
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/ave" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" />
+    <View android:background="@color/a5e" android:layout_width="fill_parent" android:layout_height="@dimen/rw" android:layout_marginTop="32.0dip" android:layout_alignParentTop="true" />
+    <RelativeLayout android:id="@id/aug" android:paddingTop="14.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3g" android:textColor="@color/a6o" android:gravity="center" android:id="@id/auq" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_centerHorizontal="true" ww:configurable="false" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3e" android:textColor="@color/a7o" android:gravity="center" android:id="@id/auy" android:background="@drawable/mm" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="wrap_content" android:layout_height="36.0dip" android:layout_marginRight="16.0dip" android:singleLine="true" android:layout_alignParentRight="true" ww:configurable="false" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3e" android:textColor="@color/a7o" android:gravity="center" android:id="@id/auv" android:background="@drawable/mm" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="wrap_content" android:layout_height="36.0dip" android:layout_marginRight="15.0dip" android:singleLine="true" android:layout_toLeftOf="@id/auy" ww:configurable="false" />
+    </RelativeLayout>
+</LinearLayout>

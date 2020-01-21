@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a">
+        <item quantity="other">语音%d秒</item>
+        <item quantity="one">语音%d秒</item>
+    </plurals>
+    <plurals name="b">
+        <item quantity="other">%d条未读</item>
+        <item quantity="one">%d条未读</item>
+    </plurals>
+    <plurals name="c">
+        <item quantity="other">已添加%d个朋友</item>
+        <item quantity="one">已添加%d个朋友</item>
+    </plurals>
+    <plurals name="d">
+        <item quantity="other">已发送%d个邀请</item>
+        <item quantity="one">已发送%d个邀请</item>
+    </plurals>
+    <plurals name="e">
+        <item quantity="other">找到%d个联系人</item>
+        <item quantity="one">找到%d个联系人</item>
+    </plurals>
+    <plurals name="f">
+        <item quantity="other">找到%d个在微信的朋友</item>
+        <item quantity="one">找到%d个在微信的朋友</item>
+    </plurals>
+    <plurals name="g">
+        <item quantity="other">%d小时前</item>
+        <item quantity="one">%d小时前</item>
+    </plurals>
+    <plurals name="h">
+        <item quantity="other">%d分钟前</item>
+        <item quantity="one">%d分钟前</item>
+    </plurals>
+    <plurals name="i">
+        <item quantity="other">%d天前</item>
+        <item quantity="one">%d天前</item>
+    </plurals>
+    <plurals name="j">
+        <item quantity="other">邀请你%d个朋友加入微信</item>
+        <item quantity="one">邀请你%d个朋友加入微信</item>
+    </plurals>
+    <plurals name="k">
+        <item quantity="other">接收短信大约需要%d秒钟</item>
+        <item quantity="one">接收短信大约需要%d秒钟</item>
+    </plurals>
+    <plurals name="l">
+        <item quantity="other">你收到%d个打招呼消息</item>
+        <item quantity="one">你收到%d个打招呼消息</item>
+    </plurals>
+    <plurals name="m">
+        <item quantity="other">%d条未读</item>
+        <item quantity="one">%d条未读</item>
+    </plurals>
+    <plurals name="n">
+        <item quantity="other">标签%1$d之%2$d</item>
+        <item quantity="zero">标签%d之1</item>
+        <item quantity="one">标签%d之2</item>
+        <item quantity="two">标签%d之3</item>
+    </plurals>
+    <plurals name="o">
+        <item quantity="other">还可以拍摄%s秒</item>
+        <item quantity="one">还可以拍摄%s秒</item>
+    </plurals>
+</resources>

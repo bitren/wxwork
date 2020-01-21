@@ -1,0 +1,111 @@
+.class public Lcom/tencent/qmui/widget/QMUITabSegment$f;
+.super Ljava/lang/Object;
+.source "QMUITabSegment.java"
+
+# interfaces
+.implements Landroid/support/v4/view/ViewPager$e;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/tencent/qmui/widget/QMUITabSegment;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "f"
+.end annotation
+
+
+# instance fields
+.field private final dyV:Ljava/lang/ref/WeakReference;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/lang/ref/WeakReference<",
+            "Lcom/tencent/qmui/widget/QMUITabSegment;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+
+# direct methods
+.method public constructor <init>(Lcom/tencent/qmui/widget/QMUITabSegment;)V
+    .locals 1
+
+    .line 928
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 929
+    new-instance v0, Ljava/lang/ref/WeakReference;
+
+    invoke-direct {v0, p1}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
+
+    iput-object v0, p0, Lcom/tencent/qmui/widget/QMUITabSegment$f;->dyV:Ljava/lang/ref/WeakReference;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public onPageScrollStateChanged(I)V
+    .locals 0
+
+    return-void
+.end method
+
+.method public onPageScrolled(IFI)V
+    .locals 0
+
+    .line 940
+    iget-object p3, p0, Lcom/tencent/qmui/widget/QMUITabSegment$f;->dyV:Ljava/lang/ref/WeakReference;
+
+    invoke-virtual {p3}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
+
+    move-result-object p3
+
+    check-cast p3, Lcom/tencent/qmui/widget/QMUITabSegment;
+
+    if-eqz p3, :cond_0
+
+    .line 942
+    invoke-virtual {p3, p1, p2}, Lcom/tencent/qmui/widget/QMUITabSegment;->k(IF)V
+
+    :cond_0
+    return-void
+.end method
+
+.method public onPageSelected(I)V
+    .locals 2
+
+    .line 948
+    iget-object v0, p0, Lcom/tencent/qmui/widget/QMUITabSegment$f;->dyV:Ljava/lang/ref/WeakReference;
+
+    invoke-virtual {v0}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/tencent/qmui/widget/QMUITabSegment;
+
+    if-eqz v0, :cond_0
+
+    .line 949
+    invoke-virtual {v0}, Lcom/tencent/qmui/widget/QMUITabSegment;->getSelectedIndex()I
+
+    move-result v1
+
+    if-eq v1, p1, :cond_0
+
+    .line 950
+    invoke-static {v0}, Lcom/tencent/qmui/widget/QMUITabSegment;->h(Lcom/tencent/qmui/widget/QMUITabSegment;)I
+
+    move-result v1
+
+    if-ge p1, v1, :cond_0
+
+    .line 951
+    invoke-virtual {v0, p1}, Lcom/tencent/qmui/widget/QMUITabSegment;->pv(I)V
+
+    :cond_0
+    return-void
+.end method

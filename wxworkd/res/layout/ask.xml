@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.wework.common.views.BaseRelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/cz0" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <include android:id="@id/dad" android:visibility="gone" layout="@layout/at5" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:baselineAligned="false">
+            <com.tencent.wework.common.views.BaseLinearLayout android:orientation="horizontal" android:id="@id/d83" android:background="@drawable/xv" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" app:clipType="edj">
+                <View android:id="@id/cpk" android:background="#ff4e8bd9" android:layout_width="3.0dip" android:layout_height="fill_parent" android:layout_marginTop="1.0dip" android:layout_marginBottom="1.0dip" />
+                <com.tencent.wework.msg.views.MessageItemRobotAtSpanTextView android:autoLink="web" android:id="@id/d3w" android:background="@drawable/xv" android:paddingLeft="@dimen/aae" android:paddingTop="@dimen/aap" android:paddingRight="@dimen/aaf" android:paddingBottom="@dimen/aao" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/a9g" android:minWidth="@dimen/aan" android:minHeight="@dimen/a9b" android:singleLine="false" app:maxLevelIncrement="@dimen/aar" style="@style/ze" />
+            </com.tencent.wework.common.views.BaseLinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <ViewStub android:id="@id/fz0" android:layout="@layout/bex" android:inflatedId="@id/f8s" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_below="@id/cz0" />
+</com.tencent.wework.common.views.BaseRelativeLayout>

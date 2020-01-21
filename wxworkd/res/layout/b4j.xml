@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/atc" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ww="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" style="@style/a13" />
+    <com.tencent.wework.common.views.FooterScrollView android:scrollbars="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/ff6" android:layout_centerHorizontal="true">
+        <LinearLayout android:orientation="vertical" android:id="@id/b3p" android:paddingTop="41.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/abu" android:layout_marginRight="@dimen/abu">
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="23.0sp" android:textColor="@color/aq3" android:layout_gravity="center_horizontal" android:id="@id/df4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gwc" />
+            <com.tencent.wework.common.views.MoreApplicationItemView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="44.0dip" android:text="@string/gvr" ww:leftImage="@drawable/bfo" ww:subText="@string/gvq" />
+            <com.tencent.wework.common.views.MoreApplicationItemView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="44.0dip" android:text="@string/gvt" ww:leftImage="@drawable/bfp" ww:subText="@string/gvs" />
+            <com.tencent.wework.common.views.MoreApplicationItemView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="55.0dip" android:text="@string/gvv" ww:leftImage="@drawable/bfq" ww:subText="@string/gvu" />
+            <RelativeLayout android:paddingTop="44.0dip" android:paddingBottom="35.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <com.tencent.wework.common.views.MoreApplicationFooterView2 android:id="@id/df0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </com.tencent.wework.common.views.FooterScrollView>
+</RelativeLayout>

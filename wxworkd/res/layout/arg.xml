@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/jf" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minWidth="375.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <RelativeLayout android:orientation="vertical" android:id="@id/f89" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="11.0dip" android:layout_marginBottom="8.0dip">
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="13.0sp" android:textColor="#ff6f7986" android:layout_gravity="center_vertical" android:id="@id/aa3" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <LinearLayout android:id="@id/fbn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_below="@id/aa3">
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/b9d" android:layout_width="35.0dip" android:layout_height="40.0dip" android:src="@drawable/cu1" android:layout_marginEnd="16.0dip" />
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="16.0sp" android:textColor="#ff000000" android:ellipsize="end" android:id="@id/b9b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:layout_weight="1.0" />
+                    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="13.0sp" android:textColor="#ffbdbdbd" android:id="@id/u3" android:layout_width="160.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_marginEnd="16.0dip" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+    <include android:visibility="gone" layout="@layout/atr" />
+</LinearLayout>

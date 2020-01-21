@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" android:layout_width="fill_parent" android:layout_height="@dimen/alo" android:layout_alignParentTop="true" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="48.0dip">
+            <com.tencent.wework.common.views.ConfigurableTextView android:id="@id/dwk" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/am9" android:layout_weight="1.0" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="17.0sp" android:textColor="@color/ir" android:gravity="center" android:id="@id/aty" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/am9" android:layout_weight="1.0" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:id="@id/dj9" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/ajk" android:layout_weight="1.0" />
+        </LinearLayout>
+        <FrameLayout android:background="@color/ia" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <android.support.v7.widget.RecyclerView android:id="@id/cr7" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="16.0sp" android:textColor="@color/id" android:layout_gravity="center" android:id="@id/bek" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ag0" />
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <RelativeLayout android:background="@color/ie" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <RelativeLayout android:id="@id/w9" android:background="@color/if" android:layout_width="fill_parent" android:layout_height="47.0dip">
+                <com.tencent.wework.common.views.ConfigurableTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_below="@id/w9" android:layout_centerInParent="true">
+                <com.tencent.mail.calendar.view.NumberPicker android:id="@id/dlv" android:layout_width="wrap_content" android:layout_height="fill_parent" app:selectionDividerHeight="1.0dip" app:selectionDividersDistance="30.0dip" />
+                <com.tencent.mail.calendar.view.NumberPicker android:id="@id/dlx" android:layout_width="wrap_content" android:layout_height="fill_parent" app:selectionDividerHeight="1.0dip" app:selectionDividersDistance="30.0dip" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

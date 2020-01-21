@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.wework.common.views.KeyboardListenerRelativeLayout android:id="@id/cze" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/cs5" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/cs2" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ViewStub android:id="@id/fxm" android:layout="@layout/avx" android:inflatedId="@id/d69" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <ViewStub android:id="@id/fy4" android:layout="@layout/bfx" android:inflatedId="@id/d_e" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <ViewStub android:id="@id/fy3" android:layout="@layout/bfv" android:inflatedId="@id/d_a" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <com.tencent.wework.multitalk.view.VoipTopBanner android:id="@id/fv5" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/cs2" />
+        <ViewStub android:id="@id/fzd" android:layout="@layout/bft" android:inflatedId="@id/ffy" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/fv5" />
+        <ViewStub android:id="@id/fx9" android:layout="@layout/aku" android:inflatedId="@id/cce" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/d4_" android:background="@color/aep" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:splitMotionEvents="false">
+        <com.tencent.wework.msg.views.MyCustomerServiceHelpBar android:id="@id/dgu" android:background="@color/aep" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.tencent.wework.msg.views.MyToolPanelHelperBar android:id="@id/dh_" android:background="@color/aep" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.tencent.wework.msg.views.MessageEditBar android:id="@id/d3y" android:background="@color/aep" android:layout_width="fill_parent" android:layout_height="wrap_content" android:splitMotionEvents="false" />
+        <com.tencent.wework.msg.views.ExpressionSearchEditBar android:id="@id/bli" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.tencent.wework.common.views.BaseRelativeLayout android:layout_gravity="center_vertical" android:id="@id/d3s" android:background="@color/aep" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/d3u" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <android.support.v4.view.ViewPager android:id="@id/dfu" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <com.tencent.wework.msg.views.MsgPanelPageIndicatorView android:layout_gravity="center_horizontal" android:id="@id/dg1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="13.0dip" />
+            </LinearLayout>
+            <ViewStub android:id="@id/fvu" android:layout="@layout/apx" android:inflatedId="@id/r3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/aby" android:layout_marginTop="7.0dip" android:layout_marginRight="@dimen/aby" android:layout_alignLeft="@id/d3u" android:layout_alignTop="@id/d3u" android:layout_alignRight="@id/d3u" android:layout_alignBottom="@id/d3u" />
+            <ViewStub android:id="@id/fyz" android:layout="@layout/apz" android:inflatedId="@id/f0o" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/aby" android:layout_marginTop="@dimen/abz" android:layout_marginRight="@dimen/aby" android:layout_alignLeft="@id/d3u" android:layout_alignTop="@id/d3u" android:layout_alignRight="@id/d3u" android:layout_alignBottom="@id/d3u" />
+        </com.tencent.wework.common.views.BaseRelativeLayout>
+        <ViewStub android:id="@id/fws" android:background="@color/aep" android:inflatedId="@id/bl2" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ViewStub android:id="@id/fyw" android:background="@color/aep" android:inflatedId="@id/esx" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ViewStub android:id="@id/fxl" android:layout="@layout/arr" android:inflatedId="@id/d68" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ViewStub android:id="@id/fy0" android:layout="@layout/arr" android:inflatedId="@id/d9i" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ViewStub android:id="@id/fxz" android:inflatedId="@id/d9h" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/cs3" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/d4_" android:layout_below="@id/cs5">
+        <com.tencent.wework.common.views.WaterMaskImageView android:id="@id/apl" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+        <com.tencent.wework.common.views.SuperListView android:id="@id/d_j" android:background="@color/ar4" android:layout_width="fill_parent" android:layout_height="fill_parent" android:stackFromBottom="false" android:divider="@null" style="@style/yb" />
+    </FrameLayout>
+    <ViewStub android:id="@id/fxx" android:layout="@layout/avx" android:inflatedId="@id/d8r" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignTop="@id/cs3" />
+    <com.tencent.wework.common.views.TopTipsView android:id="@id/fr_" android:background="#bf000f20" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="43.0dip" android:layout_alignTop="@id/cs3" />
+    <com.tencent.wework.msg.views.MessageListTipView android:id="@id/d_h" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/aau" android:minWidth="@dimen/aav" android:layout_alignTop="@id/cs3" android:layout_alignParentRight="true" />
+    <com.tencent.wework.msg.views.MessageListTipView android:id="@id/d5c" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/aau" android:minWidth="@dimen/aav" android:layout_alignTop="@id/cs3" android:layout_alignParentRight="true" />
+    <com.tencent.wework.msg.views.MessageListTipView android:id="@id/d5a" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/aau" android:minWidth="@dimen/aav" android:layout_alignTop="@id/cs3" android:layout_alignParentRight="true" />
+    <com.tencent.wework.msg.views.MessageListTipView android:id="@id/d63" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/aau" android:minWidth="@dimen/aav" android:layout_alignTop="@id/cs3" android:layout_alignParentRight="true" />
+    <com.tencent.wework.msg.views.MessageListTipView android:id="@id/d8s" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/aau" android:minWidth="@dimen/aav" android:layout_alignTop="@id/cs3" android:layout_alignParentRight="true" />
+    <com.tencent.wework.msg.views.MessageListTipView android:id="@id/d5b" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/aau" android:minWidth="@dimen/aav" android:layout_alignTop="@id/cs3" android:layout_alignParentRight="true" />
+    <com.tencent.wework.msg.views.MessageListTipView android:id="@id/d6i" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/aau" android:minWidth="@dimen/aav" android:layout_alignTop="@id/cs3" android:layout_alignParentRight="true" />
+    <com.tencent.wework.common.views.TipsView android:id="@id/fra" android:background="@drawable/kt" android:visibility="gone" android:layout_width="135.0dip" android:layout_height="135.0dip" android:layout_centerInParent="true" />
+    <ViewStub android:id="@id/fxy" android:inflatedId="@id/d9g" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="80.0dip" android:layout_alignTop="@id/cs3" />
+    <com.tencent.wework.msg.views.NewAddPictureTipView android:id="@id/dij" android:background="@drawable/abf" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.5dip" android:layout_marginBottom="4.0dip" android:layout_above="@id/d4_" android:layout_alignParentRight="true" />
+    <ViewStub android:id="@id/fxv" android:background="@color/atc" android:layout="@layout/and" android:inflatedId="@id/d81" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <ViewStub android:id="@id/fwv" android:layout="@layout/ab0" android:inflatedId="@id/bl_" android:layout_width="@dimen/a21" android:layout_height="@dimen/a21" />
+    <ViewStub android:id="@id/fvt" android:layout="@layout/mn" android:inflatedId="@id/nt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="-4.0dip" android:layout_above="@id/d4_" />
+    <ViewStub android:id="@id/fy2" android:layout="@layout/avu" android:inflatedId="@id/d_7" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true" />
+    <ViewStub android:id="@id/fz2" android:layout="@layout/avv" android:inflatedId="@id/fdl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:layout_above="@id/d4_" android:layout_centerHorizontal="true" />
+</com.tencent.wework.common.views.KeyboardListenerRelativeLayout>

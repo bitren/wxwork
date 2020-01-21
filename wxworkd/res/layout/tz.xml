@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/lz"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout style="@style/im">
+        <EditText android:id="@id/xx" android:hint="@string/axv" android:inputType="number" style="@style/jl" />
+        <View style="@style/jh" />
+        <EditText android:id="@id/xw" android:hint="@string/axu" style="@style/jk" />
+    </LinearLayout>
+</LinearLayout>

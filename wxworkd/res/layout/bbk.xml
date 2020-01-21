@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ww="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" android:layout_width="fill_parent" android:layout_height="@dimen/alo" />
+        <EditText android:id="@id/f7q" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="http://wx.qq.com/" />
+        <EditText android:id="@id/azj" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="regex" />
+        <EditText android:id="@id/azl" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="replace_string, f.e. https://" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:id="@id/f7p" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>

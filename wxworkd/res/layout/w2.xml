@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/aa8" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/aeq" android:background="@color/a45" android:layout_width="fill_parent" android:layout_height="@dimen/sm" />
+    <View android:id="@id/aer" android:background="@color/a45" android:layout_width="@dimen/sm" android:layout_height="@dimen/w6" android:layout_below="@id/aeq" android:layout_centerHorizontal="true" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/pr" android:textColor="@color/a61" android:gravity="center" android:id="@id/aeo" android:layout_width="wrap_content" android:layout_height="@dimen/w6" android:text="@string/hcy" android:layout_toLeftOf="@id/aer" android:layout_below="@id/aeq" android:layout_alignParentLeft="true" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/pr" android:textColor="@color/a63" android:gravity="center" android:id="@id/aep" android:layout_width="wrap_content" android:layout_height="@dimen/w6" android:text="@string/bso" android:layout_toRightOf="@id/aer" android:layout_below="@id/aeq" android:layout_alignParentRight="true" />
+</RelativeLayout>

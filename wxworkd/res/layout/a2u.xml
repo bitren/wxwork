@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/fgf" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.tencent.wework.common.views.TopBarView android:id="@id/fe9" android:layout_width="fill_parent" style="@style/a13" />
+        <ViewStub android:layout="@layout/a2w" android:inflatedId="@id/av9" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <com.tencent.wework.msg.views.CustomDynamicExpressionSelectionIndicatorView android:id="@id/ava" android:background="@color/a3v" android:layout_width="fill_parent" android:layout_height="@dimen/vi" android:layout_alignParentBottom="true" />
+    <com.tencent.wework.common.views.SuperGridView android:id="@id/av1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="@drawable/abf" android:stretchMode="columnWidth" android:numColumns="5" android:layout_above="@id/ava" android:layout_below="@id/fgf" style="@style/yb" />
+</RelativeLayout>

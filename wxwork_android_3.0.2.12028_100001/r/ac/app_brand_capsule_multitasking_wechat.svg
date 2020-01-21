@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="150px" height="150px" viewBox="0 0 150 150" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>chat</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Titlebar替换" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Slice" transform="translate(-239.000000, -739.000000)">
+            <g id="chat" transform="translate(239.000000, 739.000000)">
+                <circle id="Oval" fill="#09BB07" cx="75" cy="75" r="75"></circle>
+                <path d="M40.3333333,110.27027 C37.6328685,110.707414 36.3161755,109.3305 37.1333333,107.076167 L41.4,94.2997543 C37.3804848,88.3085484 35,83.1695229 35,76.1998362 C35,56.08848 52.9088,40 75.5333333,40 C97.0912,40 115,56.08848 115,76.1998362 C115,95.7804752 97.0912,110.27027 75.5333333,110.27027 C67.6139528,110.27027 60.6954373,108.471994 55.2666667,104.946765 L40.3333333,110.27027 Z" id="Path-3" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

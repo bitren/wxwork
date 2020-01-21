@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/atc" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" android:layout_width="fill_parent" android:layout_height="@dimen/alo" />
+    <ScrollView android:id="@id/anw" android:background="@color/ar4" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.rockerhieu.emojicon.EmojiconTextView android:id="@id/f15" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="222ddddxxxhhxhxhxhhxhxh" style="@style/a0v" />
+            <com.rockerhieu.emojicon.EmojiconTextView android:textSize="14.0sp" android:textColor="@color/amd" android:id="@id/e_5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ahm" android:text="1015-09-15 20:20" android:singleLine="true" />
+            <com.tencent.wework.common.views.CommonItemView android:id="@id/e_0" android:clickable="true" android:layout_width="wrap_content" android:layout_height="@dimen/rx" android:layout_marginTop="@dimen/ahq" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

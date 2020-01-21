@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="12.0sp" android:textColor="@color/vm" android:id="@id/bma" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="40.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="40.0dip" android:text="@string/buv" android:drawableTop="@drawable/a9o" android:drawablePadding="6.0dip" android:layout_centerInParent="true" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="12.0sp" android:textColor="@color/vm" android:id="@id/bm8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/ieq" android:drawableTop="@drawable/b_x" android:drawablePadding="6.0dip" android:layout_toLeftOf="@id/bma" android:layout_centerVertical="true" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="12.0sp" android:textColor="@color/vm" android:id="@id/bm9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/bu7" android:drawableTop="@drawable/a7b" android:drawablePadding="6.0dip" android:layout_toRightOf="@id/bma" android:layout_centerVertical="true" />
+</RelativeLayout>

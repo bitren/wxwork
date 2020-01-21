@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/atc" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" style="@style/a13" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <com.tencent.wework.namecard.view.WwRecyclerView android:id="@id/eif" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <RelativeLayout android:id="@id/ben" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.tencent.wework.common.views.ConfigurableTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="没有搜索到结果" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/ct3" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ProgressBar android:layout_width="50.0dip" android:layout_height="50.0dip" />
+        </RelativeLayout>
+        <ScrollView android:id="@id/f6e" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:id="@id/f6f" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0sp" android:textColor="@color/ahf" android:id="@id/f6o" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="20.0dip" android:text="@string/giv" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+                <com.tencent.qmui.widget.QMUIFloatLayout android:id="@id/bwm" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="11.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="11.0dip" android:layout_marginBottom="12.0dip" android:layout_below="@id/f6o" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" />
+            </RelativeLayout>
+        </ScrollView>
+    </FrameLayout>
+</LinearLayout>

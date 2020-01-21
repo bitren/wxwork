@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.setting.views.EnterpriseAppFeatureTitleItem android:id="@id/bsz" android:background="@drawable/kb" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <RelativeLayout android:background="@drawable/kb" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.tencent.wework.setting.views.EnterpriseAppFeatureListItem android:id="@id/bsy" android:background="@drawable/aq9" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/auc" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/rh" android:background="@drawable/ak" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <ImageView android:id="@id/ri" android:background="@null" android:paddingLeft="@dimen/c7" android:paddingRight="@dimen/c7" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@raw/actionbar_icon_dark_back" android:contentDescription="@string/ga" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <TextView android:ellipsize="middle" android:gravity="center_vertical" android:id="@id/fb3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_name" android:singleLine="true" android:includeFontPadding="false" style="@style/if" />
+        <TextView android:textSize="@dimen/d8" android:textColor="#ff999999" android:ellipsize="end" android:id="@id/f0v" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_name" android:singleLine="true" />
+    </LinearLayout>
+    <com.tencent.mm.ui.widget.imageview.WeImageView android:id="@id/bxq" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/g" android:src="@raw/chat_force_notify_icon" />
+    <ImageView android:id="@id/dgn" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/g" android:src="@raw/chat_mute_notify_title_icon" />
+    <ImageView android:id="@id/dsp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/g" android:src="@raw/chat_phone_notify_title_icon" />
+    <ImageView android:id="@id/e0n" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/g" android:src="@raw/qq" />
+    <ImageView android:id="@id/e99" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/g" android:src="@raw/chat_reject_title_icon" />
+</LinearLayout>

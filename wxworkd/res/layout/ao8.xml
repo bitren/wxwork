@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/z1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0sp" android:textColor="@color/abs" android:id="@id/c6v" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="8.0dip" android:text="已停用" android:maxLines="1" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="96px" height="96px" viewBox="0 0 96 96" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>Browser</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Buttonsheet" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Browser" fill="#7B8085">
+            <path d="M68,68 L68,73 C62.7538167,77.3657778 55.7558033,80 48,80 C43.0300682,80 38.205287,78.816 34,77 L48,52 L44,48 L36,48 L28,40 L44,24 L38,18 C40.9525889,16.6164444 44.4703882,16 48,16 C52.4080325,16 56.4855834,16.8288889 60,18 L60,24 L64,28 L73,28 C75.2160077,30.4066667 76.8165124,33.0973333 78,36 L64,36 L56,44 L56,56 L68,68 Z M24,69 C19.0244444,63.3432056 16,55.9189416 16,48 C16,46.5016493 16.0831111,45.2410178 16,44 L24,52 L24,69 Z M48,8 C25.9084444,8 8,25.9084444 8,48 C8,70.0915556 25.9084444,88 48,88 C70.0915556,88 88,70.0915556 88,48 C88,25.9084444 70.0915556,8 48,8 L48,8 Z" id="Page-1"></path>
+        </g>
+    </g>
+</svg>

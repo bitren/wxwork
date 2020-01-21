@@ -1,0 +1,63 @@
+.class final Lcom/tencent/wework/homeschool/views/HomeSchoolStudentListCardItemView$b;
+.super Ljava/lang/Object;
+.source "HomeSchoolStudentListCardItemView.kt"
+
+# interfaces
+.implements Landroid/view/View$OnClickListener;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/tencent/wework/homeschool/views/HomeSchoolStudentListCardItemView;->setCardClickListener(Landroid/view/View$OnClickListener;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x18
+    name = null
+.end annotation
+
+.annotation runtime Lhmt;
+.end annotation
+
+
+# instance fields
+.field final synthetic hRj:Landroid/view/View$OnClickListener;
+
+.field final synthetic kmi:Lcom/tencent/wework/homeschool/views/HomeSchoolStudentListCardItemView;
+
+
+# direct methods
+.method constructor <init>(Lcom/tencent/wework/homeschool/views/HomeSchoolStudentListCardItemView;Landroid/view/View$OnClickListener;)V
+    .locals 0
+
+    iput-object p1, p0, Lcom/tencent/wework/homeschool/views/HomeSchoolStudentListCardItemView$b;->kmi:Lcom/tencent/wework/homeschool/views/HomeSchoolStudentListCardItemView;
+
+    iput-object p2, p0, Lcom/tencent/wework/homeschool/views/HomeSchoolStudentListCardItemView$b;->hRj:Landroid/view/View$OnClickListener;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final onClick(Landroid/view/View;)V
+    .locals 2
+
+    .line 86
+    iget-object p1, p0, Lcom/tencent/wework/homeschool/views/HomeSchoolStudentListCardItemView$b;->hRj:Landroid/view/View$OnClickListener;
+
+    iget-object v0, p0, Lcom/tencent/wework/homeschool/views/HomeSchoolStudentListCardItemView$b;->kmi:Lcom/tencent/wework/homeschool/views/HomeSchoolStudentListCardItemView;
+
+    const v1, 0x7f090524
+
+    invoke-virtual {v0, v1}, Lcom/tencent/wework/homeschool/views/HomeSchoolStudentListCardItemView;->_$_findCachedViewById(I)Landroid/view/View;
+
+    move-result-object v0
+
+    check-cast v0, Landroid/widget/LinearLayout;
+
+    invoke-interface {p1, v0}, Landroid/view/View$OnClickListener;->onClick(Landroid/view/View;)V
+
+    return-void
+.end method

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="480px" height="480px" viewBox="0 0 480 480" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3 (11970) - http://www.bohemiancoding.com/sketch -->
+    <title>download_image_icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="文件类型" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="download_image_icon" sketch:type="MSArtboardGroup">
+            <rect id="Path-2" fill="#D8D8D8" sketch:type="MSShapeGroup" x="0" y="0" width="480" height="480"></rect>
+            <path d="M377.600005,272.91429 L377.600005,137.6 L102.4,137.6 L102.4,269.625806 L188.8,188.8 L288,278.4 L278.4,252.8 L320,220.8 L377.600005,272.91429 Z M86.4,124.594027 C86.4,122.940472 87.7360486,121.6 89.3910159,121.6 L390.608984,121.6 C392.260877,121.6 393.6,122.946337 393.6,124.594027 L393.6,355.405973 C393.6,357.059528 392.263951,358.4 390.608984,358.4 L89.3910159,358.4 C87.7391234,358.4 86.4,357.053663 86.4,355.405973 L86.4,124.594027 Z" id="Rectangle-37" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

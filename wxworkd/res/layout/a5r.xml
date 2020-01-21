@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.BaseLinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.tencent.wework.common.views.ConfigurableEditText android:id="@id/b1_" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minLines="2" />
+        <com.tencent.wework.common.views.PhotoImageView android:id="@id/b1a" android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_marginTop="15.0dip" app:maskType="dkj" />
+        <com.tencent.wework.common.views.PhotoImageView android:id="@id/b1b" android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_marginTop="15.0dip" app:maskType="adm" />
+        <com.tencent.wework.common.views.PhotoImageView android:id="@id/b1c" android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_marginTop="15.0dip" app:maskType="edm" app:radius="10.0dip" />
+        <com.tencent.wework.common.views.BaseLinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip">
+            <com.tencent.wework.common.views.PhotoImageView android:id="@id/b1d" android:focusable="true" android:focusableInTouchMode="true" android:clickable="true" android:layout_width="64.0dip" android:layout_height="64.0dip" app:hasClickMask="true" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="带点击态" />
+        </com.tencent.wework.common.views.BaseLinearLayout>
+        <com.tencent.wework.common.views.PhotoImageView android:id="@id/b1e" android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_marginTop="15.0dip" />
+    </com.tencent.wework.common.views.BaseLinearLayout>
+</ScrollView>

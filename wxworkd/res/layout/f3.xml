@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/a3a" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.ConfigurableTextView android:textColor="@color/a4h" android:paddingLeft="@dimen/y5" android:paddingTop="16.0dip" android:paddingRight="@dimen/y5" android:paddingBottom="@dimen/zk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fb2" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.tencent.wework.common.views.CommonItemView android:id="@id/hk" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/rx" app:hasTopLine="true" app:topLineType="g34" />
+        <ImageView android:layout_gravity="center|right" android:id="@id/hl" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:src="@drawable/avf" android:foregroundGravity="right" />
+    </FrameLayout>
+    <FrameLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.tencent.wework.common.views.CommonItemView android:id="@id/dmt" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/rx" />
+        <ImageView android:layout_gravity="center|right" android:id="@id/dmu" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:src="@drawable/avf" android:foregroundGravity="right" />
+    </FrameLayout>
+    <com.tencent.wework.common.views.ConfigurableTextView android:textColor="@color/a4h" android:paddingLeft="@dimen/y5" android:paddingTop="@dimen/zk" android:paddingRight="@dimen/y5" android:paddingBottom="@dimen/zk" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/fb1" />
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/cub" android:background="@color/atc" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/a3a" android:layout_width="fill_parent" android:layout_height="10.0dip" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3f" android:textColor="@color/jf" android:gravity="center" android:layout_width="wrap_content" android:layout_height="@dimen/yg" android:layout_marginLeft="@dimen/y_" android:layout_marginTop="@dimen/y9" android:text="@string/j5f" />
+    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/f3l" android:layout_width="@dimen/y4" android:layout_height="@dimen/z6">
+        <RelativeLayout android:id="@id/f38" android:layout_width="fill_parent" android:layout_height="@dimen/z6" android:layout_weight="1.0">
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3e" android:textColor="#ff9a9a9a" android:gravity="center" android:id="@id/f3_" android:clickable="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/j6j" android:layout_centerHorizontal="true" />
+            <View android:id="@id/f39" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/f3e" android:layout_width="fill_parent" android:layout_height="@dimen/z6" android:layout_weight="1.0">
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3e" android:textColor="#ff9a9a9a" android:gravity="center" android:id="@id/f3g" android:clickable="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/j6m" android:layout_centerHorizontal="true" />
+            <View android:id="@id/f3f" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <View android:background="@color/a0e" android:layout_width="fill_parent" android:layout_height="1.0px" />
+</LinearLayout>

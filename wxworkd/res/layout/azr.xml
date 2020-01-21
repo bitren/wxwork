@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/ed8" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/b6z" android:background="@color/a47" android:layout_width="fill_parent" android:layout_height="@dimen/rw" />
+    <LinearLayout android:gravity="center_vertical" android:id="@id/fc0" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+        <com.tencent.wework.moments.views.MySpannableTextView android:textSize="@dimen/a3d" android:textColor="@color/aq3" android:textColorHighlight="@color/a40" android:id="@id/apc" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:drawablePadding="4.0dip" android:layout_weight="1.0" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3b" android:textColor="@color/vm" android:layout_gravity="top" android:id="@id/fbr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/yw" android:layout_marginRight="@dimen/yw" />
+    </LinearLayout>
+    <com.tencent.wework.common.views.PhotoImageView android:id="@id/bdr" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:adjustViewBounds="true" android:maxWidth="40.0dip" android:maxHeight="40.0dip" android:layout_below="@id/fc0" />
+</RelativeLayout>

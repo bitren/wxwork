@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/a4c" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.CommonItemView android:id="@id/esb" android:layout_width="wrap_content" android:layout_height="@dimen/rx" android:layout_marginTop="20.0dip" app:hasBottomLine="true" app:hasTopLine="true" app:leftContent="@string/emw" app:rightIconType="esq" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0sp" android:textColor="@color/a4h" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="3.0dip" android:layout_marginRight="16.0dip" android:text="@string/emv" />
+    <RelativeLayout android:id="@id/e_8" android:background="@drawable/kb" android:layout_width="fill_parent" android:layout_height="46.0dip" android:layout_marginTop="20.0dip">
+        <View android:background="@color/a45" android:layout_width="fill_parent" android:layout_height="@dimen/bj" android:layout_alignParentTop="true" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="17.0sp" android:textColor="#ffff3246" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/btt" android:layout_centerInParent="true" />
+        <View android:background="@color/a45" android:layout_width="fill_parent" android:layout_height="@dimen/bj" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.pb.emoji.ui.EmojiInputLayout android:orientation="vertical" android:id="@id/ajj" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.BaseRelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" style="@style/a13" />
+        <ViewStub android:id="@id/fvy" android:inflatedId="@id/wh" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/ff6" />
+        <ViewStub android:id="@id/fx_" android:background="@color/aep" android:inflatedId="@id/cfd" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_alignParentBottom="true" />
+    </com.tencent.wework.common.views.BaseRelativeLayout>
+</com.tencent.pb.emoji.ui.EmojiInputLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="?android:selectableItemBackground" android:paddingLeft="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <CheckBox android:id="@id/dkf" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    <LinearLayout android:orientation="vertical" android:id="@id/du9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="28.0dip" android:layout_toRightOf="@id/dkf" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:layout_alignWithParentIfMissing="true">
+        <View android:layout_gravity="center_horizontal" android:id="@id/ffm" android:background="@color/nv" android:layout_width="1.0dip" android:layout_height="8.0dip" />
+        <com.github.johnkil.print.PrintView android:layout_width="wrap_content" android:layout_height="wrap_content" app:iconColor="@color/nv" app:iconFont="fonts/material-icon-font.ttf" app:iconSize="16.0dip" app:iconText="@string/fby" />
+        <View android:layout_gravity="center_horizontal" android:id="@id/yr" android:background="@color/nv" android:layout_width="1.0dip" android:layout_height="8.0dip" />
+    </LinearLayout>
+    <TextView android:textSize="12.0sp" android:id="@id/dkg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_toRightOf="@id/du9" android:layout_centerVertical="true" />
+</RelativeLayout>

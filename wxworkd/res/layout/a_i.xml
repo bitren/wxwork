@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.BaseLinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/s2" android:layout_marginRight="@dimen/s2" app:bottomDividerSize="@dimen/t0" app:topDividerSize="@dimen/t0">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="16.0sp" android:textColor="@color/a3c" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/bhj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="250.0dip" android:minHeight="54.0dip" android:maxLines="1" android:singleLine="true" />
+        <com.tencent.wework.common.views.BaseLinearLayout android:gravity="center|right" android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.tencent.wework.common.views.PhotoImageView android:id="@id/bhk" android:layout_width="22.0dip" android:layout_height="22.0dip" app:maskType="adm" />
+            <com.tencent.wework.common.views.PhotoImageView android:id="@id/bhl" android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginLeft="-5.0dip" app:maskType="adm" />
+            <com.tencent.wework.common.views.PhotoImageView android:id="@id/bhm" android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginLeft="-5.0dip" app:maskType="adm" />
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:src="@drawable/c3h" android:scaleType="center" />
+        </com.tencent.wework.common.views.BaseLinearLayout>
+    </com.tencent.wework.common.views.BaseLinearLayout>
+</merge>

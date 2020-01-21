@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:background="@color/a5n" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ww="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.MiddleEllipsizeTextView android:id="@id/d_t" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ab4" android:layout_marginTop="@dimen/ab7" android:layout_marginRight="@dimen/ab6" ww:leftTextColor="@color/a4e" ww:rightTextColor="@color/a4h" ww:space="5.0dip" ww:txtSize="13.0sp" />
+    <ViewStub android:id="@id/fy8" android:inflatedId="@id/d_r" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ab4" android:layout_marginTop="@dimen/ab5" android:layout_marginRight="@dimen/ab6" />
+    <View android:background="@color/a45" android:layout_width="fill_parent" android:layout_height="@dimen/sm" android:layout_marginTop="@dimen/ab3" />
+</merge>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/ih" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.tencent.wework.common.views.TopBarView android:id="@id/fe0" style="@style/a13" />
+        <android.support.v7.widget.RecyclerView android:id="@id/e68" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <com.tencent.wework.common.views.EmptyView android:id="@id/be0" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/alo" android:layout_below="@id/f3k" app:desctext="@string/aqr" app:image="@drawable/auw" />
+    <View android:id="@id/bwr" android:background="#77000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include android:id="@id/bv6" layout="@layout/rn" />
+</FrameLayout>

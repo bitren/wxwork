@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.PhotoImageView android:id="@id/dtm" android:visibility="visible" android:layout_width="@dimen/yu" android:layout_height="@dimen/yu" android:layout_marginRight="12.0dip" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/rg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/c3h" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toLeftOf="@id/rg" android:layout_toRightOf="@id/dtm" android:layout_centerVertical="true">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3f" android:id="@id/fax" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3c" android:textColor="#ff9c9c9c" android:id="@id/b2k" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <View android:id="@id/yx" android:background="@color/a47" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/t0" android:layout_alignParentBottom="true" />
+</RelativeLayout>

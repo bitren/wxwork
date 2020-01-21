@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="180px" height="180px" viewBox="0 0 180 180" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>media_btn_play</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="1104" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="media_btn_play">
+            <circle id="Oval-2" fill-opacity="0.4" fill="#000000" cx="90" cy="90" r="90"></circle>
+            <path d="M69,59.6453511 C69,56.3337744 71.3158884,54.9970112 74.1914673,56.67054 L126.272236,86.9804938 C129.139405,88.6491277 129.147815,91.3496229 126.272236,93.0231516 L74.1914673,123.333105 C71.3242991,125.001739 69,123.658834 69,120.358294 L69,59.6453511 Z" id="Rectangle-98" fill="#FFFFFF" opacity="0.800000012"></path>
+            <path d="M90,174 C136.391919,174 174,136.391919 174,90 C174,43.608081 136.391919,6 90,6 C43.608081,6 6,43.608081 6,90 C6,136.391919 43.608081,174 90,174 Z M90,180 C40.2943725,180 0,139.705627 0,90 C0,40.2943725 40.2943725,0 90,0 C139.705627,0 180,40.2943725 180,90 C180,139.705627 139.705627,180 90,180 Z" id="Oval-2" fill-opacity="0.8" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

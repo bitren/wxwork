@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.rockerhieu.emojicon.EmojiconTextView android:id="@id/fs2" android:paddingTop="@dimen/aap" android:paddingBottom="@dimen/aao" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="8.0dip" android:minHeight="@dimen/ac6" style="@style/ze" />
+    <ProgressBar android:id="@id/frz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:indeterminate="false" android:indeterminateDrawable="@drawable/hc" android:indeterminateDuration="1000" android:layout_centerVertical="true" style="@android:style/Widget.ProgressBar.Small" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="11.0dip" android:textColor="@color/y7" android:id="@id/fs0" android:paddingBottom="6.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="2.0dip" android:layout_marginRight="10.0dip" android:drawableLeft="@drawable/c9a" android:drawablePadding="6.0dip" android:layout_below="@id/fs2" />
+</merge>

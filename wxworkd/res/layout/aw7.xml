@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="12.0sp" android:textColor="@color/aub" android:ellipsize="middle" android:id="@id/f7s" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:lines="1" />
+    <View android:id="@id/b5p" android:background="@color/aua" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="9.0dip" android:layout_below="@id/f7s" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="15.0sp" android:textColor="@color/au5" android:ellipsize="end" android:id="@id/f7t" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="" android:maxLines="1" android:lines="1" android:layout_below="@id/b5p" />
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:layout_below="@id/f7t">
+        <ImageView android:id="@id/bu2" android:layout_width="32.0dip" android:layout_height="32.0dip" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0sp" android:textColor="@color/au5" android:ellipsize="middle" android:id="@id/buv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="" android:maxLines="1" android:lines="1" android:layout_toRightOf="@id/bu2" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="12.0sp" android:textColor="@color/aub" android:id="@id/btx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="" android:layout_toRightOf="@id/bu2" android:layout_below="@id/buv" />
+    </RelativeLayout>
+</merge>

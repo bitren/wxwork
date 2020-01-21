@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:paddingTop="@dimen/g" android:paddingBottom="@dimen/g" android:layout_width="@dimen/iz" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/cbk" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/cb1" android:layout_width="@dimen/j1" android:layout_height="@dimen/j1" android:layout_marginLeft="@dimen/g" android:layout_marginTop="@dimen/ff" android:layout_marginRight="@dimen/g" android:layout_marginBottom="@dimen/ff" android:src="@drawable/aju" />
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/cbb" android:background="@drawable/bi" android:layout_width="@dimen/j1" android:layout_height="@dimen/j1" android:layout_marginLeft="@dimen/g" android:layout_marginTop="@dimen/ff" android:layout_marginRight="@dimen/g" android:layout_marginBottom="@dimen/ff" />
+        <TextView android:textSize="8.0dip" android:textColor="@color/atc" android:ellipsize="end" android:layout_gravity="bottom|center" android:id="@id/f7n" android:background="@drawable/bj" android:padding="1.0dip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="36.0dip" android:layout_marginBottom="@dimen/ff" android:text="@string/gtz" android:singleLine="true" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/g" android:layout_marginRight="@dimen/ff">
+            <ImageView android:id="@id/ez9" android:visibility="invisible" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@raw/app_brand_desktop_add_icon" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+    </FrameLayout>
+    <TextView android:textSize="12.0dip" android:textColor="@color/g_" android:ellipsize="end" android:gravity="center" android:id="@id/faj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ff" android:text="title" android:maxLines="1" android:layout_below="@id/cbk" android:layout_centerHorizontal="true" />
+</RelativeLayout>

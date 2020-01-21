@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0sp" android:textColor="@color/jf" android:ellipsize="end" android:id="@id/ekf" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/akq" android:maxLines="1" android:lines="1" android:singleLine="true" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0sp" android:textColor="@color/jf" android:ellipsize="end" android:id="@id/eke" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:lines="1" android:singleLine="true" />
+    <android.support.v7.widget.RecyclerView android:id="@id/ekd" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

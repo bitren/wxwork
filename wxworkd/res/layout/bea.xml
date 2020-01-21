@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/a47" android:layout_width="fill_parent" android:layout_height="@dimen/a61" />
+    <com.rockerhieu.emojicon.EmojiconTextView android:textSize="17.0sp" android:textColor="@color/jf" android:gravity="center" android:layout_gravity="center" android:id="@id/f73" android:layout_width="@dimen/a_h" android:layout_height="fill_parent" />
+</merge>

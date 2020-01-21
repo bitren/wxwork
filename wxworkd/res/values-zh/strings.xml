@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gmr">播放地址无效</string>
+    <string name="hds">重播</string>
+    <string name="icv">您当前正在使用移动网络，继续播放将消耗流量</string>
+    <string name="icw">停止播放</string>
+    <string name="icx">继续播放</string>
+</resources>

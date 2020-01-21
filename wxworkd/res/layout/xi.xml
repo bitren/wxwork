@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:id="@id/e2b" android:background="@color/a38" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="58.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:background="#ffd9d9d9" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:minHeight="58.0dip">
+        <RelativeLayout android:id="@id/co2" android:background="@drawable/i_" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="0.5dip" android:layout_marginTop="0.5dip" android:layout_weight="100.0">
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="16.0sp" android:textColor="#ff9b9b9b" android:id="@id/e2d" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="18.0dip" android:layout_alignParentLeft="true" />
+            <ImageView android:id="@id/fl4" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="18.0dip" android:src="@drawable/icon_bottombar_more" android:tint="#ffc7c7c7" android:layout_toRightOf="@id/e2d" />
+        </RelativeLayout>
+        <RelativeLayout android:background="#ffffffff" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="0.5dip" android:layout_marginTop="0.5dip" android:layout_marginRight="0.5dip" android:layout_weight="235.0">
+            <com.tencent.wework.common.views.ConfigurableEditText android:textSize="16.0sp" android:textColorHint="#ffcccccc" android:id="@id/e2c" android:background="@null" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/y3" android:layout_marginRight="@dimen/yd" android:hint="@string/bl2" android:maxLength="50" android:layout_centerVertical="true" android:imeOptions="actionNext" />
+        </RelativeLayout>
+    </LinearLayout>
+    <View android:id="@id/b5z" android:background="#ffd9d9d9" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+</RelativeLayout>

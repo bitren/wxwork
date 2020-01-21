@@ -1,0 +1,19 @@
+.class public interface abstract Lcom/tencent/mm/pluginsdk/ui/applet/IConfirmDialog$IIOnDialogClick;
+.super Ljava/lang/Object;
+.source "IConfirmDialog.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/tencent/mm/pluginsdk/ui/applet/IConfirmDialog;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "IIOnDialogClick"
+.end annotation
+
+
+# virtual methods
+.method public abstract onDialogClick(ZLjava/lang/String;IZ)V
+.end method

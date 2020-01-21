@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/wq" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <View android:background="#e5000000" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <TextView android:textSize="17.0sp" android:textColor="#ffffffff" android:id="@id/a8w" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginTop="54.0dip" android:text="@string/bmz" />
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/cb5" android:layout_width="88.0dip" android:layout_height="88.0dip" android:layout_marginTop="174.0dip" />
+    <TextView android:textSize="17.0sp" android:textColor="#ffffffff" android:layout_gravity="center_horizontal" android:id="@id/b2k" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="298.0dip" android:text="@string/bmz" />
+    <TextView android:textSize="17.0sp" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/eat" android:background="@drawable/qg" android:layout_width="232.0dip" android:layout_height="wrap_content" android:layout_marginBottom="180.0dip" android:minHeight="44.0dip" android:text="@string/fks" />
+    <TextView android:textSize="13.0sp" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/et5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="58.0dip" android:text="@string/ago" />
+</FrameLayout>

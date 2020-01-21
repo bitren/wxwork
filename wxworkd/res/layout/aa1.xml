@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/a4c" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" style="@style/a13" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a5n" android:textColor="@color/a4h" android:gravity="center_vertical" android:background="@color/a3a" android:paddingLeft="@dimen/ty" android:paddingTop="@dimen/u6" android:paddingBottom="@dimen/u6" android:layout_width="fill_parent" android:layout_height="@dimen/rx" android:text="@string/fyc" />
+    <com.tencent.wework.common.views.CommonItemView android:id="@id/cx9" android:clickable="false" android:layout_width="wrap_content" android:layout_height="@dimen/rx" />
+    <View android:background="@color/a4s" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/rw" android:layout_marginTop="@dimen/ajd" />
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/s4" android:textColor="@color/a3o" android:gravity="center" android:id="@id/cxg" android:background="@drawable/kb" android:layout_width="fill_parent" android:layout_height="@dimen/rx" android:text="@string/fye" />
+</LinearLayout>

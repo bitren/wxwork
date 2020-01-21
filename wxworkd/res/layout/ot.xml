@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/ffq" android:background="@color/ar4" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="20.0dip" android:layout_alignParentTop="true" />
+    <RelativeLayout android:background="@drawable/a5o" android:layout_width="fill_parent" android:layout_height="@dimen/rx" android:layout_below="@id/ffq">
+        <com.tencent.wework.common.views.PhotoImageView android:id="@id/cb1" android:visibility="gone" android:layout_width="29.0dip" android:layout_height="29.0dip" android:layout_marginLeft="15.0dip" android:layout_centerVertical="true" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="17.0sp" android:textColor="@color/a3c" android:id="@id/dhc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginRight="14.0dip" android:layout_toRightOf="@id/cb1" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/b3i" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="13.0dip" android:src="@drawable/c3h" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <View android:id="@id/ffb" android:background="@color/a45" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/rw" android:layout_alignParentTop="true" />
+        <View android:id="@id/a03" android:background="@color/a45" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/rw" android:layout_marginLeft="16.0dip" android:layout_alignParentBottom="true" />
+        <View android:id="@id/a01" android:background="@color/a45" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/rw" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</RelativeLayout>

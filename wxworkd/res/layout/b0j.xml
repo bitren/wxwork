@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_width="fill_parent" android:layout_height="23.0dip" />
+    <com.tencent.wework.common.views.BaseLinearLayout android:orientation="vertical" android:id="@id/bxe" android:background="@color/ag2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/abu" android:layout_marginRight="@dimen/abu">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="16.0sp" android:textColor="@color/ag3" android:gravity="center" android:id="@id/df3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/abv" android:text="@string/htt" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="19.0sp" android:textColor="@color/ag3" android:gravity="center" android:id="@id/df2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/abv" android:text="@string/hts" />
+    </com.tencent.wework.common.views.BaseLinearLayout>
+    <com.tencent.wework.common.views.BaseLinearLayout android:orientation="horizontal" android:id="@id/do1" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_below="@id/bxe">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/abt" android:textColor="@color/s7" android:gravity="right" android:id="@id/cpl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:text="@string/htq" android:singleLine="true" android:layout_weight="1.0" />
+        <View android:background="@color/s7" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/abt" android:textColor="@color/s7" android:gravity="left" android:id="@id/ec4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/htr" android:singleLine="true" android:layout_weight="1.0" />
+    </com.tencent.wework.common.views.BaseLinearLayout>
+</merge>

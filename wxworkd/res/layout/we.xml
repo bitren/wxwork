@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/czb" android:paddingLeft="@dimen/aiv" android:paddingRight="@dimen/aiv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/aiv" android:layout_marginBottom="14.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/bu4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+        <com.tencent.wework.common.views.PhotoImageView android:id="@id/r" android:duplicateParentState="true" android:layout_width="40.0dip" android:layout_height="40.0dip" android:scaleType="center" />
+        <ImageView android:id="@id/f9m" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ayg" android:layout_alignLeft="@id/r" android:layout_alignTop="@id/r" android:layout_alignRight="@id/r" android:layout_alignBottom="@id/r" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/aiy" android:layout_toRightOf="@id/bu4" android:layout_centerVertical="true">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3g" android:textColor="@color/aat" android:ellipsize="middle" android:id="@id/fje" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" app:maxLevelIncrement="@dimen/aar" />
+        <com.rockerhieu.emojicon.EmojiconTextView android:textSize="@dimen/a3d" android:textColor="@color/aaq" android:id="@id/fj5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:singleLine="true" app:configurable="false" />
+    </LinearLayout>
+</RelativeLayout>

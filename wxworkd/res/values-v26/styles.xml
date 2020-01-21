@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="w" parent="@android:style/Theme.Translucent.NoTitleBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowAnimationStyle">@style/e</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+    <style name="x" parent="@style/v">
+        <item name="android:windowBackground">@color/atc</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowAnimationStyle">@style/e</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+    <style name="a1" parent="@style/x">
+        <item name="android:windowBackground">@color/atc</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowAnimationStyle">@style/f</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+    <style name="a8" parent="@style/v">
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+    <style name="aa" parent="@android:style/Theme.Translucent.NoTitleBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+    <style name="c3" parent="@style/a20" />
+    <style name="c_" parent="@style/a21" />
+    <style name="f4" parent="@style/a22" />
+    <style name="ja" parent="@style/jl">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">@dimen/fe</item>
+        <item name="android:importantForAutofill">noExcludeDescendants</item>
+    </style>
+    <style name="w8" parent="@android:style/Widget">
+        <item name="android:background">?ez</item>
+        <item name="android:stateListAnimator">@animator/p</item>
+        <item name="android:touchscreenBlocksFocus">true</item>
+        <item name="android:keyboardNavigationCluster">true</item>
+    </style>
+    <style name="a20" parent="@style/a1v">
+        <item name="eu">?android:colorError</item>
+    </style>
+    <style name="a21" parent="@style/a1w">
+        <item name="eu">?android:colorError</item>
+    </style>
+    <style name="a22" parent="@style/dl">
+        <item name="android:touchscreenBlocksFocus">true</item>
+        <item name="android:keyboardNavigationCluster">true</item>
+    </style>
+</resources>

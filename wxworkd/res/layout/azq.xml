@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/anw" android:background="@color/a1b" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/fe0" android:visibility="gone" style="@style/a13" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <android.support.v4.widget.SwipeRefreshLayout android:id="@id/f2q" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <android.support.v7.widget.RecyclerView android:id="@id/e68" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </android.support.v4.widget.SwipeRefreshLayout>
+    </FrameLayout>
+    <LinearLayout android:gravity="center|left" android:orientation="horizontal" android:id="@id/fzv" android:background="#ffe4f3ff" android:paddingLeft="@dimen/xx" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/yx">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="15.0sp" android:id="@id/fzt" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:id="@id/fa8" android:background="#ffe5eff9" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="42.0dip">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0sp" android:textColor="@color/jk" android:ellipsize="middle" android:id="@id/fa_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:drawablePadding="8.0dip" android:drawableStart="@drawable/bsk" android:layout_marginStart="@dimen/y3" />
+    </LinearLayout>
+</LinearLayout>

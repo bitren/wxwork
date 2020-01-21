@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/ehk" android:background="@color/aos" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="14.0dip" />
+    <RelativeLayout android:id="@id/ehl" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="68.0dip">
+        <LinearLayout android:background="@drawable/if" style="@style/hd">
+            <ImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/ec" android:layout_height="@dimen/ec" android:layout_marginRight="10.0dip" android:src="@raw/search_add_icon_green" />
+            <TextView android:layout_gravity="center_vertical" android:id="@id/ehm" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="{tip}" android:layout_weight="1.0" style="@style/j6" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/ei8" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="68.0dip">
+        <View android:id="@id/ei7" android:background="@color/aos" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="14.0dip" />
+        <LinearLayout android:orientation="vertical" android:id="@id/enr" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/ei7" />
+        <LinearLayout android:id="@id/g18" android:background="@drawable/id" android:layout_height="68.0dip" android:layout_below="@id/enr" style="@style/hd">
+            <ImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/ec" android:layout_height="@dimen/ec" android:layout_marginRight="@dimen/f3" android:src="@raw/fts_addfriend_icon" />
+            <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:paddingLeft="@dimen/fk" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView android:id="@id/ei9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="{title}" android:singleLine="true" style="@style/j6" />
+                <TextView android:id="@id/c0_" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:layout_marginRight="20.0dip" android:text="@string/ecy" android:maxLines="2" android:singleLine="false" style="@style/j5" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/bxh" android:padding="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ProgressBar android:id="@id/bxl" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/a0x" />
+        <TextView android:textSize="14.0dip" android:layout_gravity="center" android:id="@id/fa2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/fkz" />
+    </LinearLayout>
+</LinearLayout>

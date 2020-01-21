@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="96px" height="96px" viewBox="0 0 96 96" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>btnsheet_icon_refresh</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Buttonsheet" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="btnsheet_icon_refresh" fill="#7C8085">
+            <path d="M47,87.9877441 C25.3706923,87.4570233 8,69.7570829 8,48 C8,34.3118384 14.8755278,22.2295423 25.3614205,15.0182748 L31.1398887,20.796743 C22.0513892,26.4415984 16,36.5141103 16,48 C16,65.3385547 29.7895976,79.4563763 47,79.9846721 L47,70 L65,88 L47,88 L47,87.9877441 Z M47,8.01225592 C47.3323437,8.00410116 47.6656929,8 48,8 C70.09139,8 88,25.90861 88,48 C88,62.0757148 80.7296267,74.4533429 69.7393094,81.5824551 L63.9212367,75.7643825 C73.5294774,70.2427295 80,59.8770005 80,48 C80,30.326888 65.673112,16 48,16 C47.6654427,16 47.3320845,16.0051341 47,16.0153279 L47,26 L29,8 L47,8 L47,8.01225592 Z" id="Combined-Shape"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/ap4" android:background="@color/a3a" android:descendantFocusability="afterDescendants" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/ff6" android:layout_width="fill_parent" android:layout_height="@dimen/alo" android:layout_alignParentTop="true" />
+    <LinearLayout android:gravity="center|left" android:orientation="horizontal" android:id="@id/fzv" android:background="#ffe4f3ff" android:paddingLeft="@dimen/xx" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/yx" android:layout_below="@id/ff6">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="15.0sp" android:id="@id/fzt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="企业未验证，仅支持体验，无法正式使用" />
+    </LinearLayout>
+    <com.tencent.wework.common.views.SwitchTab android:id="@id/bi7" android:background="#ffffffff" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_below="@id/fzv" />
+    <com.tencent.wework.common.views.WwWebView android:id="@id/g0v" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/fzv" />
+</RelativeLayout>

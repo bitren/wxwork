@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/f4n" android:layout_width="fill_parent" android:layout_height="44.0dip">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0sp" android:textColor="@drawable/dn" android:gravity="center" android:id="@id/f4p" android:background="@drawable/dm" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/aft" android:layout_weight="1.0" />
+        <View android:id="@id/b5t" android:background="#ffd9d9d9" android:layout_width="1.0px" android:layout_height="fill_parent" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0sp" android:textColor="@drawable/dn" android:gravity="center" android:id="@id/f4s" android:background="@drawable/dm" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/al2" android:layout_weight="1.0" />
+    </LinearLayout>
+    <View android:id="@id/f4o" android:background="@color/a47" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <FrameLayout android:id="@id/byi" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/atc" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/fgh" android:layout_width="fill_parent" android:layout_height="@dimen/alo" android:layout_alignParentTop="true" />
+    <LinearLayout android:orientation="vertical" android:id="@id/aoz" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:background="#fff1f1f1" android:layout_width="fill_parent" android:layout_height="@dimen/ys">
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="12.0sp" android:textColor="#ff9ca1a8" android:id="@id/avl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/y5" android:text="@string/cjm" android:layout_alignParentLeft="true" android:layout_centerInParent="true" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="12.0sp" android:textColor="#ff9ca1a8" android:id="@id/fgm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cd7" android:drawablePadding="@dimen/z4" android:layout_centerInParent="true" />
+            <com.tencent.wework.common.views.ConfigurableTextView android:textSize="12.0sp" android:textColor="#ff9ca1a8" android:id="@id/il" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/yl" android:text="@string/cjv" android:drawablePadding="@dimen/z4" android:layout_alignParentRight="true" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <android.support.v7.widget.RecyclerView android:id="@id/cr7" android:background="@color/atc" android:paddingBottom="20.0dip" android:clipToPadding="false" android:descendantFocusability="afterDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/ye" android:layout_weight="1.0" android:layout_below="@id/fgh" />
+    </LinearLayout>
+    <com.tencent.wework.common.views.EmptyViewStub android:id="@id/ben" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

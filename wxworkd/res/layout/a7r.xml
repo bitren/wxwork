@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/ed8" android:background="@drawable/kb" android:layout_width="fill_parent" android:layout_height="63.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ww="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/ffb" android:background="@color/a47" android:layout_width="fill_parent" android:layout_height="@dimen/a61" android:layout_alignParentTop="true" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3e" android:textColor="@color/a3b" android:ellipsize="middle" android:gravity="center" android:id="@id/fjk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ibc" android:singleLine="true" ww:maxLevelIncrement="@dimen/aar" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3c" android:textColor="@color/a4h" android:ellipsize="middle" android:gravity="center" android:id="@id/fhb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ibc" android:singleLine="true" ww:maxLevelIncrement="@dimen/aar" />
+    </LinearLayout>
+    <View android:id="@id/b5z" android:background="@color/a47" android:layout_width="fill_parent" android:layout_height="@dimen/a61" android:layout_alignParentBottom="true" />
+</RelativeLayout>

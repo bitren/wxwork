@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/edh" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:pb="http://schemas.android.com/apk/res-auto">
+    <com.tencent.wework.common.views.TopBarView android:id="@id/fe9" android:layout_width="fill_parent" style="@style/a13" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <android.support.v7.widget.RecyclerView android:id="@id/f62" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.tencent.wework.common.views.EmptyViewStub android:id="@id/cre" android:background="@color/a4y" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/ff6" pb:empty_desc="@string/ckz" pb:stubLayoutStyle="dkm" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="50.0dip">
+            <View android:id="@id/ffb" android:background="@color/a7h" android:layout_width="fill_parent" android:layout_height="@dimen/rw" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/b72" android:background="@drawable/kb" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_weight="1.0">
+                <ImageView android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/aph" />
+                <com.tencent.wework.common.views.ConfigurableTextView android:textSize="16.0sp" android:textColor="@color/op" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="8.0dip" android:text="@string/ckt" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ce7" android:background="@drawable/kb" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_weight="1.0">
+                <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0sp" android:textColor="@color/xa" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="8.0dip" android:text="@string/ckr" />
+            </LinearLayout>
+            <View android:id="@id/a01" android:background="@color/a7h" android:layout_width="fill_parent" android:layout_height="@dimen/rw" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

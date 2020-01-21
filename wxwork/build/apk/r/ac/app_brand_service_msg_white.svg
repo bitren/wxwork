@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="84px" height="80px" viewBox="0 0 84 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>Service_white@3x</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Slice" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="SLICE" transform="translate(-1250.000000, -215.000000)" fill="#FFFFFF">
+            <g id="Service54_black-+-Service54_white-+-Service54_black-Mask-Copy" transform="translate(1250.000000, 215.000000)">
+                <path d="M34,51 L34,64 C34,65.0442065 35.5038918,66.6265532 37,66 L61,66 L72,76 C72.0921054,76.4198616 72.862069,76.0905881 73,74 L73,66 L80,66 C81.4886099,66.6265532 83,65.0339442 83,64 L83,29 C83,27.5823467 81.4797958,26 80,26 L59,26 L59,46 C57.6551724,48.3625367 55.381589,50.7292063 53,51 L34,51 Z M52.02346,4 C53.6673577,4 55,5.33405674 55,6.97252967 L55,44.0274703 C55,45.6691531 53.6679688,47 52.0275897,47 L24,47 L13.6433875,55.6305104 C12.7357696,56.3868586 12,56.041158 12,54.8547491 L12,47 L2.96629286,47 C1.32805455,47 0,45.6659433 0,44.0274703 L0,6.97252967 C0,5.33084686 1.33230607,4 2.97653998,4 L52.02346,4 Z" id="Service54_black"></path>
+            </g>
+        </g>
+    </g>
+</svg>

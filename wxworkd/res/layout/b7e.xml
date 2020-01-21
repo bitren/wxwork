@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/atc" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/daj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="8.0dip" android:layout_centerVertical="true">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0sp" android:textColor="@color/a3c" android:ellipsize="end" android:id="@id/cqo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/ibc" android:maxLines="1" />
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="14.0sp" android:textColor="@color/a4h" android:ellipsize="end" android:id="@id/cqp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/ibc" android:maxLines="1" />
+    </LinearLayout>
+    <View android:id="@id/b5z" android:background="@color/a4s" android:layout_width="fill_parent" android:layout_height="@dimen/rw" android:layout_below="@id/daj" />
+</RelativeLayout>

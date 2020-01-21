@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/b1q" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="10.0dip" android:layout_below="@id/bud" android:layout_alignLeft="@id/bud">
+        <com.tencent.wework.common.views.ConfigurableTextView android:textSize="13.0sp" android:textColor="@color/wp" android:ellipsize="end" android:id="@id/b1z" android:layout_width="0.0dip" android:layout_height="wrap_content" android:lines="1" android:singleLine="true" android:layout_weight="1.0" />
+        <ImageView android:id="@id/b0j" android:layout_width="19.0dip" android:layout_height="19.0dip" android:layout_marginLeft="10.0dip" android:src="@drawable/aye" />
+        <View android:layout_width="30.0dip" android:layout_height="fill_parent" android:maxWidth="30.0dip" />
+        <ImageView android:id="@id/cq1" android:layout_width="19.0dip" android:layout_height="19.0dip" android:layout_marginRight="25.0dip" android:src="@drawable/ba9" />
+        <ImageView android:id="@id/agq" android:layout_width="19.0dip" android:layout_height="19.0dip" android:src="@drawable/ba5" />
+    </LinearLayout>
+</merge>

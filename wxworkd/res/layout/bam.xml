@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="22.0dip" android:layout_centerInParent="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.wework.common.views.ConfigurableTextView android:textSize="@dimen/a3f" android:textColor="@color/tm" android:ellipsize="end" android:layout_gravity="center" android:id="@id/cmm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="120.0dip" />
+</LinearLayout>
