@@ -55,7 +55,7 @@
 
     move-result-wide v0
 
-    const/4 p3, 0x1
+    const/4 p3, 0x0
 
     const-wide/16 v2, 0x1388
 
@@ -63,7 +63,6 @@
 
     if-lez v4, :cond_0
 
-    return p3
 
     :cond_0
     if-nez p1, :cond_2

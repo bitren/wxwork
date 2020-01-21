@@ -1699,13 +1699,6 @@
     :cond_0
 
 
-    .line 684
-    invoke-static {}, Lcom/tencent/wework/setting/api/ISetting$-CC;->get()Lcom/tencent/wework/setting/api/ISetting;
-
-    move-result-object p1
-
-    invoke-interface {p1, p0}, Lcom/tencent/wework/setting/api/ISetting;->startDebugActivity(Landroid/content/Context;)V
-
     return-void
 .end method
 
